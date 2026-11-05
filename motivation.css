@@ -18,3 +18,19 @@
 @media(max-width:390px){.mistake-grid{grid-template-columns:1fr}.guide-callout{padding:16px}}
 
 .guide-hero{position:relative;overflow:hidden}.guide-visual{max-width:360px;margin:22px 0 0 auto}.guide-visual svg{display:block;width:100%;height:auto}@media(min-width:760px){.guide-hero{padding-right:36%;min-height:275px}.guide-visual{position:absolute;right:4%;top:50%;transform:translateY(-50%);width:31%;margin:0}}
+/* Calm low-glare palette */
+:root{--bg:#f3f5f2;--surface:#fff;--text:#27332c;--muted:#68766d;--line:#e1e8e2;--mint:#668d75}
+body{background:var(--bg)!important;color:var(--text)!important}
+.hero{background:#eaf0eb!important;border-color:var(--line)!important}
+.hero em,.routine li b,article>b,small{color:#668d75!important}
+.grid article,.settings,.routine,.plan-preview,.guide-hero,.guide-callout,.guide-note,.phase-flow>div,.subject-guide-grid article,.guide-table,.mistake-grid>div,.final-checklist,.guide-end{background:#fff!important;border-color:var(--line)!important}
+.routine li,.guide-table th,.guide-table td{border-color:var(--line)!important;color:#4f5e54!important}
+.hero p,.intro p,article p,.tochigi-guide>p,.subject-guide-grid p,.subject-guide-grid li,.mistake-grid p,.final-checklist li,.guide-end p{color:#56645a!important}
+.guide-callout b,.guide-note b,.phase-flow b,.guide-table thead th,.subject-guide-grid li::marker,.final-checklist li::marker{color:#668d75!important}
+.guide-hero h2 em{color:#668d75!important}
+.cta{border-color:#8eaa96!important;color:#52775f!important}
+*{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+body.dark{background:#191f1b!important;color:#e7ece7!important}
+body.dark .hero{background:#29362d!important}
+body.dark .grid article,body.dark .settings,body.dark .routine,body.dark .plan-preview,body.dark .guide-hero,body.dark .guide-callout,body.dark .guide-note,body.dark .phase-flow>div,body.dark .subject-guide-grid article,body.dark .guide-table,body.dark .mistake-grid>div,body.dark .final-checklist,body.dark .guide-end{background:#242c26!important;border-color:#39453c!important}
+body.dark .routine li,body.dark .guide-table th,body.dark .guide-table td,body.dark .hero p,body.dark .intro p,body.dark article p,body.dark .tochigi-guide>p,body.dark .subject-guide-grid p,body.dark .subject-guide-grid li,body.dark .mistake-grid p,body.dark .final-checklist li,body.dark .guide-end p{color:#b6c1b8!important}
