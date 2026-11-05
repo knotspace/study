@@ -1,6 +1,6 @@
 const CACHE="study-shell-v18-calm-theme";
 const FILES=[
-  "./","./index.html","./styles.css","./app.js","./manifest.webmanifest",
+  "./","./index.html","./styles.css","./app.js","./questions.json","./manifest.webmanifest",
   "./assets/study-icon.svg","./motivation.html","./motivation.css",
   "./summary.html","./summary.css","./summary.js",
   "./public-exam.html","./public-exam.css","./public-exam.js",
