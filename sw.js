@@ -1,12 +1,5 @@
-const CACHE="study-shell-v18-calm-theme";
-const FILES=[
-  "./","./index.html","./styles.css","./app.js","./questions.json","./manifest.webmanifest",
-  "./assets/study-icon.svg","./motivation.html","./motivation.css",
-  "./summary.html","./summary.css","./summary.js",
-  "./public-exam.html","./public-exam.css","./public-exam.js",
-  "./private.html","./private.css","./private.js",
-  "./private-motivation.html","./private-motivation.css","./release-notes.html"
-];
+const CACHE="study-shell-v18-minimal-install";
+const FILES=["./","./index.html","./styles.css","./app.js","./questions.json","./manifest.webmanifest","./assets/study-icon.svg"];
 self.addEventListener("install",event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(FILES)).then(()=>self.skipWaiting())));
 self.addEventListener("activate",event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim())));
 self.addEventListener("notificationclick",event=>{event.notification.close();event.waitUntil(clients.matchAll({type:"window",includeUncontrolled:true}).then(list=>{for(const client of list){if("focus"in client)return client.focus()}return clients.openWindow("./#taskHub")}))});
