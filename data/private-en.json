@@ -1,1 +1,178 @@
-{"version":1,"subject":"英語","count":10,"questions":[{"id":"hidden-en-001","subject":"英語","topic":"文法・現在完了","level":"標準","prompt":"次の空所に入る最も適切な語を選びなさい。I have (　) in Sano for three years.","options":["live","lived","living","lives"],"correct":1,"explanation":"for three years は過去から現在まで続く期間を表すため、現在完了を使う。","takeaway":"現在完了の継続用法は have/has＋過去分詞＋for/since。"},{"id":"hidden-en-002","subject":"英語","topic":"文法・不定詞","level":"標準","prompt":"「私は将来、エンジニアになるために一生懸命勉強している。」に最も近い英文はどれか。","options":["I study hard become an engineer in the future.","I study hard to become an engineer in the future.","I study hard becoming an engineer in the future.","I study hard for become an engineer in the future."],"correct":1,"explanation":"目的「〜するために」は to＋動詞の原形で表す。","takeaway":"目的の不定詞は「〜するために」と訳す。"},{"id":"hidden-en-003","subject":"英語","topic":"文法・関係代名詞","level":"発展","prompt":"This is the book (　) I bought yesterday. 空所に入る語はどれか。","options":["who","which","where","when"],"correct":1,"explanation":"先行詞 the book は物なので、目的格の関係代名詞 which または that が使える。","takeaway":"関係代名詞は先行詞が人か物か、後ろの文に何が欠けているかを見る。"},{"id":"hidden-en-004","subject":"英語","topic":"文法・比較","level":"標準","prompt":"My brother is (　) than I am. He can run very fast.","options":["fast","faster","fastest","more fast"],"correct":1,"explanation":"than があるので比較級を使う。","takeaway":"than＝比較級、the＋最上級。"},{"id":"hidden-en-005","subject":"英語","topic":"文法・受動態","level":"標準","prompt":"The computer (　) by my father yesterday.","options":["repairs","repaired","was repaired","is repairing"],"correct":2,"explanation":"yesterday があるので過去形。コンピューターは修理される側なので受動態。","takeaway":"受動態＝be動詞＋過去分詞。時制はbe動詞で表す。"},{"id":"hidden-en-006","subject":"英語","topic":"読解・要旨","level":"標準","prompt":"次の英文の内容に合うものを選びなさい。Mika started using a bicycle to go to school. It takes ten minutes longer than the bus, but she enjoys seeing flowers along the river. She says this small change makes her mornings better.","options":["Mika stopped going to school.","The bus is always slower than the bicycle.","Mika enjoys her bicycle ride because of the scenery.","Mika dislikes spending time in the morning."],"correct":2,"explanation":"英文では、バスより10分長くかかるが、川沿いの花を見ることを楽しんでいると述べている。","takeaway":"読解では、本文に書かれた事実と選択肢の言い換えが一致するか確認する。"},{"id":"hidden-en-007","subject":"英語","topic":"文法・接続詞","level":"標準","prompt":"I stayed home (　) it was raining heavily.","options":["because","but","or","if"],"correct":0,"explanation":"家にいた理由が後ろに続くので because が適切。","takeaway":"because＝理由、although＝譲歩、but＝逆接。"},{"id":"hidden-en-008","subject":"英語","topic":"文法・間接疑問文","level":"発展","prompt":"Do you know (　)? 空所に入る最も適切な語順はどれか。","options":["where is the station","where the station is","where does the station","where the station does"],"correct":1,"explanation":"間接疑問文では疑問詞の後ろは主語＋動詞の語順になる。","takeaway":"間接疑問文は疑問詞＋主語＋動詞。"},{"id":"hidden-en-009","subject":"英語","topic":"文法・助動詞","level":"標準","prompt":"You (　) wear a helmet when you ride a bicycle. It is important for safety.","options":["should","may not","could not","would"],"correct":0,"explanation":"安全のためにヘルメットを着用すべきだという助言なので should。","takeaway":"助動詞は文脈で意味を判断する。should＝〜すべき。"},{"id":"hidden-en-010","subject":"英語","topic":"文法・分詞","level":"発展","prompt":"Look at the boy (　) under the tree. He is my brother.","options":["sit","sits","sitting","sat"],"correct":2,"explanation":"木の下に座っている少年を説明する現在分詞 sitting が適切。","takeaway":"現在分詞は「〜している」、過去分詞は「〜された」の意味になることが多い。"}]}
+{
+  "version": 2,
+  "subject": "英語",
+  "count": 10,
+  "questions": [
+    {
+      "id": "hidden-en-001",
+      "subject": "英語",
+      "topic": "文法・現在完了",
+      "level": "標準",
+      "prompt": "次の空所に入る最も適切な語を選びなさい。I have (　) in Sano for three years.",
+      "options": [
+        "live",
+        "lived",
+        "living",
+        "lives"
+      ],
+      "correct": 1,
+      "explanation": "for three years は過去から現在まで続く期間を表すため、現在完了を使う。",
+      "takeaway": "現在完了の継続用法は have/has＋過去分詞＋for/since。",
+      "sourceLabel": "高専入試の出題傾向をもとにした類題（年度・大問未照合）"
+    },
+    {
+      "id": "hidden-en-002",
+      "subject": "英語",
+      "topic": "文法・不定詞",
+      "level": "標準",
+      "prompt": "「私は将来、エンジニアになるために一生懸命勉強している。」に最も近い英文はどれか。",
+      "options": [
+        "I study hard become an engineer in the future.",
+        "I study hard to become an engineer in the future.",
+        "I study hard becoming an engineer in the future.",
+        "I study hard for become an engineer in the future."
+      ],
+      "correct": 1,
+      "explanation": "目的「〜するために」は to＋動詞の原形で表す。",
+      "takeaway": "目的の不定詞は「〜するために」と訳す。",
+      "sourceLabel": "高専入試の出題傾向をもとにした類題（年度・大問未照合）"
+    },
+    {
+      "id": "hidden-en-003",
+      "subject": "英語",
+      "topic": "文法・関係代名詞",
+      "level": "発展",
+      "prompt": "This is the book (　) I bought yesterday. 空所に入る語はどれか。",
+      "options": [
+        "who",
+        "which",
+        "where",
+        "when"
+      ],
+      "correct": 1,
+      "explanation": "先行詞 the book は物なので、目的格の関係代名詞 which または that が使える。",
+      "takeaway": "関係代名詞は先行詞が人か物か、後ろの文に何が欠けているかを見る。",
+      "sourceLabel": "高専入試の出題傾向をもとにした類題（年度・大問未照合）"
+    },
+    {
+      "id": "hidden-en-004",
+      "subject": "英語",
+      "topic": "文法・比較",
+      "level": "標準",
+      "prompt": "My brother is (　) than I am. He can run very fast.",
+      "options": [
+        "fast",
+        "faster",
+        "fastest",
+        "more fast"
+      ],
+      "correct": 1,
+      "explanation": "than があるので比較級を使う。",
+      "takeaway": "than＝比較級、the＋最上級。",
+      "sourceLabel": "高専入試の出題傾向をもとにした類題（年度・大問未照合）"
+    },
+    {
+      "id": "hidden-en-005",
+      "subject": "英語",
+      "topic": "文法・受動態",
+      "level": "標準",
+      "prompt": "The computer (　) by my father yesterday.",
+      "options": [
+        "repairs",
+        "repaired",
+        "was repaired",
+        "is repairing"
+      ],
+      "correct": 2,
+      "explanation": "yesterday があるので過去形。コンピューターは修理される側なので受動態。",
+      "takeaway": "受動態＝be動詞＋過去分詞。時制はbe動詞で表す。",
+      "sourceLabel": "高専入試の出題傾向をもとにした類題（年度・大問未照合）"
+    },
+    {
+      "id": "hidden-en-006",
+      "subject": "英語",
+      "topic": "読解・要旨",
+      "level": "標準",
+      "prompt": "次の英文の内容に合うものを選びなさい。Mika started using a bicycle to go to school. It takes ten minutes longer than the bus, but she enjoys seeing flowers along the river. She says this small change makes her mornings better.",
+      "options": [
+        "Mika stopped going to school.",
+        "The bus is always slower than the bicycle.",
+        "Mika enjoys her bicycle ride because of the scenery.",
+        "Mika dislikes spending time in the morning."
+      ],
+      "correct": 2,
+      "explanation": "英文では、バスより10分長くかかるが、川沿いの花を見ることを楽しんでいると述べている。",
+      "takeaway": "読解では、本文に書かれた事実と選択肢の言い換えが一致するか確認する。",
+      "sourceLabel": "高専入試の出題傾向をもとにした類題（年度・大問未照合）"
+    },
+    {
+      "id": "hidden-en-007",
+      "subject": "英語",
+      "topic": "文法・接続詞",
+      "level": "標準",
+      "prompt": "I stayed home (　) it was raining heavily.",
+      "options": [
+        "because",
+        "but",
+        "or",
+        "if"
+      ],
+      "correct": 0,
+      "explanation": "家にいた理由が後ろに続くので because が適切。",
+      "takeaway": "because＝理由、although＝譲歩、but＝逆接。",
+      "sourceLabel": "高専入試の出題傾向をもとにした類題（年度・大問未照合）"
+    },
+    {
+      "id": "hidden-en-008",
+      "subject": "英語",
+      "topic": "文法・間接疑問文",
+      "level": "発展",
+      "prompt": "Do you know (　)? 空所に入る最も適切な語順はどれか。",
+      "options": [
+        "where is the station",
+        "where the station is",
+        "where does the station",
+        "where the station does"
+      ],
+      "correct": 1,
+      "explanation": "間接疑問文では疑問詞の後ろは主語＋動詞の語順になる。",
+      "takeaway": "間接疑問文は疑問詞＋主語＋動詞。",
+      "sourceLabel": "高専入試の出題傾向をもとにした類題（年度・大問未照合）"
+    },
+    {
+      "id": "hidden-en-009",
+      "subject": "英語",
+      "topic": "文法・助動詞",
+      "level": "標準",
+      "prompt": "You (　) wear a helmet when you ride a bicycle. It is important for safety.",
+      "options": [
+        "should",
+        "may not",
+        "could not",
+        "would"
+      ],
+      "correct": 0,
+      "explanation": "安全のためにヘルメットを着用すべきだという助言なので should。",
+      "takeaway": "助動詞は文脈で意味を判断する。should＝〜すべき。",
+      "sourceLabel": "高専入試の出題傾向をもとにした類題（年度・大問未照合）"
+    },
+    {
+      "id": "hidden-en-010",
+      "subject": "英語",
+      "topic": "文法・分詞",
+      "level": "発展",
+      "prompt": "Look at the boy (　) under the tree. He is my brother.",
+      "options": [
+        "sit",
+        "sits",
+        "sitting",
+        "sat"
+      ],
+      "correct": 2,
+      "explanation": "木の下に座っている少年を説明する現在分詞 sitting が適切。",
+      "takeaway": "現在分詞は「〜している」、過去分詞は「〜された」の意味になることが多い。",
+      "sourceLabel": "高専入試の出題傾向をもとにした類題（年度・大問未照合）"
+    }
+  ],
+  "updatedAt": "2026-11-05"
+}
