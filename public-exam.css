@@ -45,3 +45,11 @@ body.dark .quick-icon,body.dark .library-symbol,body.dark .question-tags span{ba
 body.dark .answer-choice:hover:not(:disabled),body.dark .choice:hover{background:#2c3930!important;border-color:#799681!important}
 body.dark .answer-choice.is-correct,body.dark .choice.correct{background:#293d30!important;color:#d4e6d7!important;border-color:#799681!important}
 body.dark .answer-choice.is-wrong,body.dark .choice.incorrect{background:#402e30!important;color:#f0d7d8!important;border-color:#a8797c!important}
+
+
+/* Enforce full black canvas on the entire public-exam page */
+:root{color-scheme:dark!important;background:#08090c!important;--bg:#08090c;--surface:#111419;--text:#edf0f3;--muted:#929aa5;--line:#2a3038}
+html,body{min-height:100%;background:#08090c!important;color:#edf0f3!important}
+body{margin:0!important}
+.exam-app{min-height:100vh;background:#08090c!important;color:#edf0f3!important}
+.exam-header{background:#08090c!important}
