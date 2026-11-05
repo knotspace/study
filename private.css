@@ -23,3 +23,31 @@ body:before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;bac
 .app-header{border-bottom:1px solid #1b3b54}.brand{color:#e6f5ff}.brand>span:last-child{color:#61dced}
 .mode-label{color:#6d95ad;font-family:ui-monospace,monospace}
 .quiet-button,.secondary{color:#9ab8cc}.quiet-button:hover,.secondary:hover{color:#54d9ee}
+
+.hero{position:relative;overflow:hidden;margin:28px 0 17px;padding:34px 38px;border:1px solid #24506b;border-radius:17px;background:linear-gradient(115deg,#102c43 0%,#0b1d30 60%,#102b42 100%);box-shadow:0 12px 35px #0004}
+.hero:before{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(90deg,transparent 49.8%,#3b83a322 50%,transparent 50.2%),linear-gradient(transparent 49.8%,#3b83a322 50%,transparent 50.2%);background-size:28px 28px;opacity:.32}
+.hero:after{content:"";position:absolute;width:210px;height:210px;right:65px;top:-120px;border:1px solid #4edcf244;transform:rotate(45deg);box-shadow:0 0 0 24px #4edcf20a,0 0 0 48px #4edcf208}
+.hero>div:first-child{position:relative;z-index:1}.hero h1{color:#f3f9ff}.hero h1 em{color:#5bdcf0;text-shadow:0 0 22px #42cce344}.hero p{color:#9bb7c9}
+.hero-tags{display:flex;gap:7px;margin-top:17px}.hero-tags span{border:1px solid #2a5e7a;background:#092034;color:#7bdfee;border-radius:5px;padding:5px 9px;font:9px ui-monospace,monospace;letter-spacing:1.2px}
+.hero-mark{position:relative;z-index:1;width:106px;height:106px;border-radius:16px;border:1px solid #3f9db7;background:linear-gradient(145deg,#10344b,#0b2033);color:#5de0f0;display:flex;flex-direction:column;align-items:center;justify-content:center;font:900 14px ui-monospace,monospace;transform:none;box-shadow:0 0 35px #16bde722,inset 0 0 22px #19b5d211}
+.hero-mark:before,.hero-mark:after{content:"";position:absolute;background:#4dd9ec}.hero-mark:before{width:14px;height:1px;top:12px;left:12px}.hero-mark:after{width:1px;height:14px;top:12px;left:12px}
+.hero-mark span{font-size:11px;letter-spacing:2px}.hero-mark b{font-size:32px;margin-top:3px}
+.overview>div{background:linear-gradient(145deg,#102438,#0b1a29);border:1px solid #1b3d55;border-radius:12px;box-shadow:inset 0 1px #ffffff08}
+.overview strong{color:#5cdef0;font:800 26px ui-monospace,monospace}.overview span{color:#8daabd}
+.mock-panel{position:relative;overflow:hidden;background:linear-gradient(110deg,#102c43,#0a1b2b);border:1px solid #24506a;border-radius:14px}
+.mock-panel:after{content:"50";position:absolute;right:175px;bottom:-32px;color:#54cde9;opacity:.07;font:bold 100px ui-monospace,monospace;pointer-events:none}
+.mock-panel .eyebrow{color:#58d9f1}.mock-panel h2{color:#edf8ff}.mock-panel p{color:#97b2c5}.mock-panel .primary{position:relative;z-index:1}
+.section-title h2{color:#e6f3fc}.section-title>span{color:#7192a8;font:10px ui-monospace,monospace}
+.subject-grid{gap:11px}
+.subject-card{position:relative;overflow:hidden;background:linear-gradient(155deg,#102438,#0b1928);border:1px solid #1d3e57;border-radius:13px;box-shadow:0 5px 16px #0003;transition:transform .16s,border-color .16s,box-shadow .16s}
+.subject-card:before{content:"";position:absolute;left:0;top:0;bottom:0;width:2px;background:linear-gradient(#4bdbed,#327fff);opacity:.55}
+.subject-card:hover{transform:translateY(-3px);border-color:#3f9eb9;box-shadow:0 12px 28px #0005,0 0 18px #28c2e411}
+.subject-icon{background:#10364a;color:#62dff0;border:1px solid #245b74;border-radius:9px}
+.subject-code{font:9px ui-monospace,monospace;letter-spacing:1.2px;color:#4e9fba}
+.subject-card b{color:#edf7ff;font-size:14px}.subject-card strong{color:#5bd9ee;font:800 21px ui-monospace,monospace}
+.subject-card small{color:#8baabd;line-height:1.6}
+.subject-card select{width:100%;min-height:40px;border:1px solid #294a62;border-radius:8px;background:#081827;color:#dceefa;padding:0 9px;font-size:11px}
+.subject-card select:focus{outline:2px solid #41cfe7;outline-offset:2px}.subject-card .primary{border-radius:8px;padding:12px 10px;font-size:11px}
+.review-card{background:linear-gradient(120deg,#102438,#0b1928);border:1px solid #1c4059;border-radius:12px;color:#e2f1fb}
+.review-card:hover{border-color:#3d9eb9;background:#102a40}.review-symbol{background:#10364a;color:#63d9eb;border:1px solid #275b73;border-radius:9px}
+.review-card b{color:#eaf7ff}.review-card small{color:#8baabd}.review-card>strong{color:#55cfe5}
