@@ -176,3 +176,5 @@ body,body.dark{background:#08090c;color:#edf0f3;--bg:#08090c;--surface:#111419;-
 footer{border-color:#252b31;color:#929aa5}.small-brand{color:#e5e9ec}.practice-dialog::backdrop{background:#000c}
 
 .quote-heading{font-size:18px;margin:12px 0 0;position:relative}.quote-source{display:block;color:var(--muted);font-size:10px;line-height:1.7;margin-top:8px;position:relative}.quote-caption{display:block;font-weight:800;margin-top:10px;position:relative}
+
+.motivation-panel{background:linear-gradient(135deg,#fff8ed,#fff2df);border-color:#f3e7d2;position:relative;overflow:hidden}.motivation-mark{position:absolute;right:22px;top:15px;font-size:52px;color:#f0dfbd}.motivation-panel p{font-size:18px;font-weight:800;line-height:1.75;margin:23px 0 8px;max-width:340px;position:relative}.motivation-panel .text-button{color:#bd8135}body.dark .motivation-panel{background:linear-gradient(135deg,#332b20,#2b251e);border-color:#51402b}body.dark .motivation-mark{color:#5a472c}body.dark .motivation-panel .text-button{color:#e6b96f}
