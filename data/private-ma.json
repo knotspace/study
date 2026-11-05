@@ -1,7 +1,7 @@
 {
-  "version": 4,
+  "version": 5,
   "subject": "数学",
-  "count": 34,
+  "count": 36,
   "questions": [
     {
       "id": "hidden-ma-001",
@@ -580,6 +580,46 @@
       "explanation": "面積比は相似比の2乗なので4：9。大きい面積は20×9/4=45cm²。",
       "takeaway": "長さの比と面積の比を混同しない。面積比は相似比の2乗。",
       "sourceLabel": "オリジナル類題"
+    },
+    {
+      "id": "hidden-ma-r6-q1-a",
+      "subject": "数学",
+      "topic": "方程式・二次方程式",
+      "level": "高専入試発展",
+      "prompt": "二次方程式 x²−6x＋2＝0 の解として正しいものはどれか。",
+      "options": [
+        "x＝3±√7",
+        "x＝−3±√7",
+        "x＝6±√2",
+        "x＝3±√2"
+      ],
+      "correct": 0,
+      "explanation": "解の公式より x=(6±√(36−8))/2=(6±√28)/2=3±√7。",
+      "takeaway": "解の公式を使い、根号の中を簡単にしてから約分する。",
+      "sourceYear": 2024,
+      "sourceBigQuestion": 1,
+      "sourceSubQuestion": "2",
+      "sourceLabel": "令和6年度 過去問 大問1 改"
+    },
+    {
+      "id": "hidden-ma-r6-q1-b",
+      "subject": "数学",
+      "topic": "関数・反比例",
+      "level": "高専入試標準",
+      "prompt": "yはxに反比例し、x＝5のときy＝4である。xの変域が 2≦x≦10 のとき、yの変域はどれか。",
+      "options": [
+        "2≦y≦10",
+        "2≦y≦10?",
+        "2≦y≦10",
+        "2≦y≦10"
+      ],
+      "correct": 0,
+      "explanation": "反比例の式は y=20/x。xが2のときy=10、xが10のときy=2なので、2≦y≦10。",
+      "takeaway": "反比例ではxが正の範囲で増えるとyは減る。端の値を代入して範囲を決める。",
+      "sourceYear": 2024,
+      "sourceBigQuestion": 1,
+      "sourceSubQuestion": "3",
+      "sourceLabel": "令和6年度 過去問 大問1 改"
     }
   ],
   "updatedAt": "2026-11-05"
