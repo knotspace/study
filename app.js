@@ -17,7 +17,7 @@ function answer(i){if(state.selected!==null)return;state.selected=i;const q=stat
 function next(){if(state.selected===null)return;if(state.index===state.pool.length-1){finish();return}state.index++;render()}
 function previous(){if(state.index===0)return;state.index--;render()}
 function finish(){$("quizView").hidden=true;$("resultView").hidden=false;document.body.classList.remove("in-quiz");const total=state.pool.length,rate=Math.round(state.score/total*100);$("resultScore").textContent=state.score;$("resultTotal").textContent=total;$("resultRate").textContent=rate+"%";$("resultMessage").textContent=rate===100?"全問正解！すばらしい！":rate>=80?"かなり定着しているね。この調子！":rate>=60?"あと一歩。間違えた問題を復習しよう。":"間違えた問題は伸びしろ。解説を読み直して再挑戦！";$("resultWrong").textContent=(total-state.score)+"問"}
-function backToSetup(){$("resultView").hidden=true;$("setupView").hidden=false;document.body.classList.remove("in-quiz")}
+function backToSetup(){$("quizView").hidden=true;$("resultView").hidden=true;$("setupView").hidden=false;document.body.classList.remove("in-quiz");window.scrollTo({top:document.getElementById("practice").offsetTop-18,behavior:"smooth"})}
 function showWrong(){$("subjectFilter").value="all";topics();$("topicFilter").value="all";$("levelFilter").value="all";$("amountFilter").value="wrong";start("wrong")}
 function showBookmarks(){$("subjectFilter").value="all";topics();$("topicFilter").value="all";$("levelFilter").value="all";$("amountFilter").value="bookmarks";start("bookmarks")}
 function toggleBookmark(){const id=state.pool[state.index].id,a=state.progress.bookmarks;if(a.includes(id))state.progress.bookmarks=a.filter(x=>x!==id);else a.push(id);save();$("bookmarkButton").textContent=state.progress.bookmarks.includes(id)?"★ 保存済み":"☆ あとで復習";stats()}
