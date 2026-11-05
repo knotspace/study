@@ -1,7 +1,7 @@
 {
-  "version": 2,
+  "version": 3,
   "subject": "英語",
-  "count": 10,
+  "count": 12,
   "questions": [
     {
       "id": "hidden-en-001",
@@ -172,6 +172,40 @@
       "explanation": "木の下に座っている少年を説明する現在分詞 sitting が適切。",
       "takeaway": "現在分詞は「〜している」、過去分詞は「〜された」の意味になることが多い。",
       "sourceLabel": "高専入試の出題傾向をもとにした類題（年度・大問未照合）"
+    },
+    {
+      "id": "hidden-en-011",
+      "subject": "英語",
+      "topic": "文法・分詞",
+      "level": "発展",
+      "prompt": "次の空所に入る最も適切な語を選びなさい。The boy (　) by the window is my brother.",
+      "options": [
+        "stand",
+        "standing",
+        "stood",
+        "stands"
+      ],
+      "correct": 1,
+      "explanation": "名詞 the boy を後ろから説明する現在分詞 standing が適切。「窓のそばに立っている少年」。",
+      "takeaway": "現在分詞は「〜している」、過去分詞は「〜された」という意味で名詞を説明する。",
+      "sourceLabel": "高専入試の英語文法を意識した類題（年度・大問照合待ち）"
+    },
+    {
+      "id": "hidden-en-012",
+      "subject": "英語",
+      "topic": "文法・関係代名詞",
+      "level": "発展",
+      "prompt": "次の2文を1文にするとき、空所に入る語を選びなさい。I know a girl. She can speak French. → I know a girl (　) can speak French.",
+      "options": [
+        "which",
+        "who",
+        "whose",
+        "where"
+      ],
+      "correct": 1,
+      "explanation": "先行詞 a girl は人で、関係代名詞は主格なので who を用いる。",
+      "takeaway": "先行詞が人か物か、関係代名詞が主語か目的語かを確認する。",
+      "sourceLabel": "高専入試の英語文法を意識した類題（年度・大問照合待ち）"
     }
   ],
   "updatedAt": "2026-11-05"
