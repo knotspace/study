@@ -174,3 +174,5 @@ body,body.dark{background:#08090c;color:#edf0f3;--bg:#08090c;--surface:#111419;-
 .answer-choice.is-correct,.answer-choice.correct,.choice.correct{background:#17271e;border-color:#56bd87;color:#c5f2d6}.answer-choice.is-wrong,.answer-choice.wrong,.choice.incorrect{background:#2b191d;border-color:#bb6873;color:#ffd7dc}.explanation-box{background:#151b18;border-color:#35443a;color:#dce7df}.explanation-box small{color:#9aa79e}
 .result-card{background:#111419;border-color:#303740;color:#edf0f3;box-shadow:0 20px 70px #0009}.result-rate{color:#8be0b4}.subject-choice{background:#111419;border-color:#303740;color:#abb4ad}.subject-choice.is-active{background:#70d5a3;border-color:#70d5a3;color:#07100b}
 footer{border-color:#252b31;color:#929aa5}.small-brand{color:#e5e9ec}.practice-dialog::backdrop{background:#000c}
+
+.quote-heading{font-size:18px;margin:12px 0 0;position:relative}.quote-source{display:block;color:var(--muted);font-size:10px;line-height:1.7;margin-top:8px;position:relative}.quote-caption{display:block;font-weight:800;margin-top:10px;position:relative}
