@@ -1,4 +1,4 @@
-const CACHE="study-shell-v17-performance-seo";
+const CACHE="study-shell-v18-calm-theme";
 const FILES=[
   "./","./index.html","./styles.css","./app.js","./manifest.webmanifest",
   "./assets/study-icon.svg","./motivation.html","./motivation.css",
