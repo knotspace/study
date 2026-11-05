@@ -1,12 +1,12 @@
 (()=>{"use strict";
-const $=id=>document.getElementById(id),ORDER=["国語","数学","英語","理科","社会"],FIELD={"国語":"LANGUAGE","数学":"MATHEMATICS","英語":"ENGLISH","理科":"SCIENCE","社会":"SOCIAL SCIENCE"},CODE={"国語":"ja","数学":"ma","英語":"en","理科":"sc","社会":"so"},ICON={"国語":"文","数学":"＋","英語":"A","理科":"⚗","社会":"地"},KEY="study-personal-progress-v1",PASS_HASH="ec75fe4dffda898804f2008985146cb372314d5293fa848216d188745920cba5";
+const $=id=>document.getElementById(id),ORDER=["国語","数学","英語","理科","社会"],FIELD={"国語":"LANGUAGE","数学":"MATHEMATICS","英語":"ENGLISH","理科":"SCIENCE","社会":"SOCIAL SCIENCE"},CODE={"国語":"ja","数学":"ma","英語":"en","理科":"sc","社会":"so"},ICON={"国語":"文","数学":"＋","英語":"A","理科":"⚗","社会":"地"},KEY="study-personal-progress-v1",AUTH_KEY="study-private-auth-v1",PASS_HASH="ec75fe4dffda898804f2008985146cb372314d5293fa848216d188745920cba5";
 const state={sets:{},bank:[],pool:[],index:0,answers:{},lastPool:[],progress:load()};
 function load(){try{return Object.assign({wrong:[],bookmarks:[],answered:0,correct:0},JSON.parse(localStorage.getItem(KEY)||"{}"))}catch{return{wrong:[],bookmarks:[],answered:0,correct:0}}}
 function save(){try{localStorage.setItem(KEY,JSON.stringify(state.progress))}catch{}}
 function shuffle(a){const b=[...a];for(let i=b.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[b[i],b[j]]=[b[j],b[i]]}return b}
 function esc(s){return String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
-function showLock(){sessionStorage.removeItem("study-personal-open-v1");$("privateApp").hidden=true;$("privateLock").hidden=false;$("passcode").value="";$("lockError").textContent=""}
-function unlock(){sessionStorage.setItem("study-personal-open-v1","1");$("privateLock").hidden=true;$("privateApp").hidden=false;renderHome()}
+function showLock(){localStorage.removeItem(AUTH_KEY);$("privateApp").hidden=true;$("privateLock").hidden=false;$("passcode").value="";$("lockError").textContent=""}
+function unlock(){localStorage.setItem(AUTH_KEY,"1");$("privateLock").hidden=true;$("privateApp").hidden=false;renderHome()}
 async function checkPass(value){const bytes=new TextEncoder().encode(value),hash=await crypto.subtle.digest("SHA-256",bytes);return [...new Uint8Array(hash)].map(x=>x.toString(16).padStart(2,"0")).join("")===PASS_HASH}
 $("unlockForm").addEventListener("submit",async e=>{e.preventDefault();const input=$("passcode"),btn=e.submitter;btn.disabled=true;try{if(await checkPass(input.value))unlock();else $("lockError").textContent="パスコードが違います。もう一度入力してください。"}catch{$("lockError").textContent="このブラウザーでは解除できません。HTTPSで開いてください。"}finally{btn.disabled=false}});
 function lock(){showLock();$("homeScreen").hidden=false;$("sessionScreen").hidden=true;$("resultScreen").hidden=true}
@@ -26,5 +26,5 @@ $("mockButton").addEventListener("click",()=>{const pool=[];for(const s of ORDER
 function review(type){const ids=state.progress[type],pool=state.bank.filter(q=>ids.includes(q.id));start(shuffle(pool))}
 $("wrongButton").addEventListener("click",()=>review("wrong"));$("savedButton").addEventListener("click",()=>review("bookmarks"));
 async function init(){try{const results=await Promise.all(ORDER.map(async s=>{const r=await fetch("./data/private-"+CODE[s]+".json");if(!r.ok)throw Error("データを読み込めません: "+s);return r.json()}));ORDER.forEach((s,i)=>{const rows=results[i].questions||[];state.sets[s]=(s==="国語"||s==="英語")?rows.filter(q=>String(q.topic||"").includes("文法")):rows;});state.bank=ORDER.flatMap(s=>state.sets[s]);$("loadStatus").textContent="読み込み完了";renderHome()}catch(e){$("loadStatus").textContent="読み込みエラー："+e.message;console.error(e)}}
-if(sessionStorage.getItem("study-personal-open-v1")==="1")unlock();init();
+if(localStorage.getItem(AUTH_KEY)==="1")unlock();init();
 })();
