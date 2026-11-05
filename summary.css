@@ -23,3 +23,36 @@
 @media(max-width:760px){.summary-hero{padding:24px 20px}.resource-card{padding:15px}.table-scroll th,.table-scroll td{padding:8px 7px}}
 
 :root{color-scheme:dark} .summary-hero,.summary-end{background:#151a17!important;border-color:#354139!important;color:#edf0f3}.summary-hero h1,.summary-end h2,.knowledge-card h3,.resource-card h4,.summary-section-heading h2{color:#f0f2f4}.summary-hero p,.summary-end p,.knowledge-card>p,.resource-note,.term-answer p{color:#a5aea8}.summary-controls{background:#08090c}.summary-stats div,.knowledge-card,.resource-card,.term-card,.summary-search{background:#111419;border-color:#303740;color:#edf0f3}.subject-tabs button{background:#111419;border-color:#303740;color:#aab3bb}.subject-tabs button.active,.summary-end a{background:#70d5a3;border-color:#70d5a3;color:#07100b}.summary-search input{background:transparent;color:#edf0f3}.formula-box,.worked-example,.error-box,.question-patterns{background:#191e22;border-color:#303840;color:#e0e6e2}.table-scroll th{background:#1c2821;color:#a9e8c2;border-color:#39483e}.table-scroll td{color:#e0e5e2;border-color:#2b3138}.table-scroll tbody tr:nth-child(even){background:#171b1f}.resource-card figure{background:#171c19}.resource-card figcaption,.term-card summary small{color:#a0a9b1}.knowledge-meta,.resource-meta,.term-card summary>span,.term-card summary>strong{color:#8be0b4}
+
+/* Calm, low-glare theme + lightweight rendering */
+:root{
+ color-scheme:light;
+ --bg:#f3f5f2;--surface:#ffffff;--text:#27332c;--muted:#68766d;--line:#e1e8e2;
+ --accent:#668d75;--study-green:#668d75;--study-deep:#4e765d;--study-soft:#eaf1eb;
+ --shadow:none;
+}
+body{background:var(--bg);color:var(--text)}
+.panel,.subject-card,.quick-card,.exam-entry,.private-entry,.foundation-card,.task-panel,.reminder-panel,.reward-panel{box-shadow:none!important}
+.primary-button,.brand-mark{background:#668d75!important;box-shadow:none!important}
+.brand-dot,.eyebrow,.text-button,.topnav a.active:after,.quiz-progress i,.progress-track span{color:#668d75}
+.topnav a.active:after,.quiz-progress i,.progress-track span{background:#668d75!important}
+.welcome,.quote-panel,.bank-summary{background:#eaf0eb!important;border-color:#e1e8e2!important}
+.welcome h1 span,.bank-summary strong,.stats strong{color:#52775f!important}
+.quick-icon,.library-symbol,.question-tags span{background:#edf3ee!important;color:#52775f!important}
+.answer-choice:hover:not(:disabled),.choice:hover{border-color:#9bb3a1!important;background:#f7faf7!important}
+.answer-choice.is-correct,.choice.correct{background:#eaf3ec!important;color:#315d3f!important;border-color:#91b39a!important}
+.answer-choice.is-wrong,.choice.incorrect{background:#f8eded!important;color:#81464a!important;border-color:#c99497!important}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:2px solid #668d75!important;outline-offset:3px}
+*{scroll-behavior:auto!important;animation:none!important;transition:none!important}
+.practice-dialog::backdrop{backdrop-filter:none!important;background:#202a2380!important}
+body.dark,:root:has(body.dark){
+ color-scheme:dark;--bg:#191f1b;--surface:#242c26;--text:#e7ece7;--muted:#a5b0a7;--line:#39453c;
+ --accent:#9ab6a0;--study-green:#9ab6a0;--study-deep:#7f9e87;--study-soft:#29372d;--shadow:none;
+}
+body.dark{background:var(--bg);color:var(--text)}
+body.dark .welcome,body.dark .quote-panel,body.dark .bank-summary{background:#29362d!important;border-color:#3b4a3e!important}
+body.dark .welcome h1 span,body.dark .bank-summary strong,body.dark .stats strong{color:#b4cbb8!important}
+body.dark .quick-icon,body.dark .library-symbol,body.dark .question-tags span{background:#314136!important;color:#b4cbb8!important}
+body.dark .answer-choice:hover:not(:disabled),body.dark .choice:hover{background:#2c3930!important;border-color:#799681!important}
+body.dark .answer-choice.is-correct,body.dark .choice.correct{background:#293d30!important;color:#d4e6d7!important;border-color:#799681!important}
+body.dark .answer-choice.is-wrong,body.dark .choice.incorrect{background:#402e30!important;color:#f0d7d8!important;border-color:#a8797c!important}
