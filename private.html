@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow,noarchive"><meta name="theme-color" content="#f4faf6">
+<title>Personal Study</title><link rel="icon" href="./assets/icon.svg"><link rel="stylesheet" href="./private.css">
+</head>
+<body>
+<section class="lock-screen" id="privateLock"><form class="lock-card" id="unlockForm">
+<div class="lock-mark">S</div><span class="eyebrow">PERSONAL SPACE</span><h1>個人用の演習ページ</h1>
+<p>続けるにはパスコードを入力してください。</p><label for="passcode">パスコード</label>
+<input id="passcode" type="password" autocomplete="current-password" required>
+<button class="primary" type="submit">ロックを解除する <span>→</span></button><p class="lock-error" id="lockError" aria-live="polite"></p>
+<a class="back-link" href="./">Studyに戻る</a></form></section>
+<div class="private-app" id="privateApp" hidden>
+<header class="app-header"><a class="brand" href="./"><span class="brand-mark">S</span> study<span>.</span></a><div class="header-right"><span class="mode-label">PERSONAL MODE</span><button class="quiet-button" id="lockButton">ロックする</button></div></header>
+<main class="home-screen" id="homeScreen">
+<section class="hero"><div><span class="eyebrow">YOUR OWN PACE</span><h1>一問ずつ、<br><em>着実に。</em></h1><p>自分のペースで取り組める演習スペース。</p></div><div class="hero-mark" aria-hidden="true">✓</div></section>
+<section class="overview"><div><strong id="totalCount">267</strong><span>収録問題</span></div><div><strong id="wrongCount">0</strong><span>苦手問題</span></div><div><strong id="bookmarkCount">0</strong><span>保存した問題</span></div></section>
+<section class="mock-panel"><div><span class="eyebrow">MIXED PRACTICE</span><h2>5教科 模試モード</h2><p>全教科から50問。教科ごとにまとまった順番で出題。</p></div><button class="primary" id="mockButton">50問に挑戦 <span>→</span></button></section>
+<div class="section-title"><div><span class="eyebrow">SUBJECTS</span><h2>教科を選ぶ</h2></div><span id="loadStatus">問題データを確認中…</span></div>
+<section class="subject-grid" id="subjectGrid"></section>
+<section class="review-actions"><button class="review-card" id="wrongButton"><span class="review-symbol">↻</span><span><b>苦手問題を復習</b><small>間違えた問題にもう一度挑戦</small></span><strong>→</strong></button><button class="review-card" id="savedButton"><span class="review-symbol">☆</span><span><b>保存した問題</b><small>あとで見直したい問題を確認</small></span><strong>→</strong></button></section>
+</main>
+<section class="session-screen" id="sessionScreen" hidden><header class="session-header"><button class="quiet-button" id="exitSession">← 問題一覧</button><div class="session-position"><strong id="questionNumber">01</strong><span> / </span><span id="questionTotal">10</span></div><button class="quiet-button" id="sessionLock">ロック</button></header><div class="session-progress"><span id="sessionProgress"></span></div>
+<main class="question-wrap"><div class="question-meta"><span id="questionSubject">理科</span><span id="questionTopic">物理</span><span id="questionLevel">標準</span></div><div class="question-label">QUESTION</div><h1 id="questionPrompt"></h1><div class="answer-list" id="answerList"></div><section class="explanation" id="explanation" hidden></section></main>
+<footer class="session-footer"><button class="secondary" id="previousButton" disabled>前の問題</button><button class="primary" id="nextButton" disabled>次の問題へ →</button></footer></section>
+<section class="result-screen" id="resultScreen" hidden><div class="result-card"><span class="eyebrow">SESSION COMPLETE</span><h1>おつかれさま！</h1><div class="result-number"><strong id="scoreNumber">0</strong><span> / <span id="scoreTotal">0</span>問正解</span></div><div class="result-rate" id="scoreRate">0%</div><p id="resultMessage"></p><div class="result-subjects" id="resultSubjects"></div><div class="result-actions"><button class="secondary" id="resultHome">一覧に戻る</button><button class="primary" id="resultRetry">もう一度解く →</button></div></div></section>
+</div><script src="./private.js" defer></script></body></html>
