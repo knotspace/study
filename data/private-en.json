@@ -1,7 +1,7 @@
 {
-  "version": 4,
+  "version": 5,
   "subject": "英語",
-  "count": 12,
+  "count": 13,
   "questions": [
     {
       "id": "hidden-en-001",
@@ -206,6 +206,26 @@
       "explanation": "先行詞 a girl は人で、関係代名詞は主格なので who を用いる。",
       "takeaway": "先行詞が人か物か、関係代名詞が主語か目的語かを確認する。",
       "sourceLabel": "オリジナル類題"
+    },
+    {
+      "id": "hidden-en-r6-q1-a",
+      "subject": "英語",
+      "topic": "文法・前置詞",
+      "level": "高専入試標準",
+      "prompt": "次の2文の意味がほぼ同じになるように、空所に入る語の組み合わせとして正しいものを選びなさい。Ms. Sato was born ( A ) July 8. / July 8 ( B ) Ms. Sato's birthday.",
+      "options": [
+        "A in・B is",
+        "A on・B is",
+        "A at・B are",
+        "A on・B are"
+      ],
+      "correct": 1,
+      "explanation": "具体的な日付には前置詞 on を使う。July 8 は単数の日付なので、2文目は is となる。",
+      "takeaway": "月だけなら in、日付なら on、時刻なら at を使う。",
+      "sourceYear": 2024,
+      "sourceBigQuestion": 1,
+      "sourceSubQuestion": "1",
+      "sourceLabel": "令和6年度 過去問 大問1 改"
     }
   ],
   "updatedAt": "2026-11-05"
