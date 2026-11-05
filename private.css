@@ -110,3 +110,5 @@ body:before{background:radial-gradient(ellipse at 80% 0%,#1a282155,transparent 4
 .answer-choice.correct{background:#17271e;border-color:#56bd87;color:#c5f2d6}.answer-choice.correct .choice-letter{background:#244b35;color:#c5f2d6}.answer-choice.wrong{background:#2b191d;border-color:#bb6873;color:#ffd7dc}.answer-choice.wrong .choice-letter{background:#48272e;color:#ffd7dc}
 .explanation{background:#151b18;border-color:#35443a;color:#dce7df}.explanation strong{color:#8be0b4}.explanation p{color:#c1ccc5}
 .result-card{background:#111419;border-color:#303740;box-shadow:0 20px 70px #0009}.result-card h1{color:#edf0f3}.result-number>span,.result-card>p{color:#a4adb5}.result-number strong,.result-rate{color:#8be0b4}.result-subjects span{background:#1b2921;color:#a8e5bf;border-color:#3a5141}.result-actions .secondary{color:#a4ada7}
+
+.question-source{display:inline-flex;align-items:center;margin:0 0 12px;padding:6px 10px;border:1px solid #28516d;border-radius:7px;background:#10263a;color:#8edff0;font-size:10px;font-weight:850;letter-spacing:.02em;font-family:ui-monospace,monospace}
