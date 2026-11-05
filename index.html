@@ -16,7 +16,7 @@
 <article class="panel task-panel"><div class="panel-heading"><div><span class="eyebrow">MY TASKS</span><h2>自分のタスク</h2></div><span class="panel-icon">＋</span></div>
 <form id="taskForm" class="task-form">
 <label>タスク名<input id="taskTitle" maxlength="70" required placeholder="例：英単語を30個覚える"></label>
-<div class="task-time-grid"><label>開始予定<input id="taskStart" type="datetime-local" required></label><label>終了期限<input id="taskEnd" type="datetime-local" required></label></div>
+<div class="task-time-grid"><label>開始予定<input id="taskStart" type="datetime-local" required></label><label>終了期限<input id="taskEnd" type="datetime-local" required></label></div><label class="repeat-daily-option"><input type="checkbox" id="taskRepeatDaily"> 毎日くり返す <small>完了状態は日付ごとにリセットされます</small></label>
 <label>教科・カテゴリー<select id="taskCategory"><option>理科</option><option>社会</option><option>数学</option><option>英語</option><option>国語</option><option>その他</option></select></label>
 <button class="primary-button" type="submit">タスクを保存 <span>＋</span></button>
 </form>
