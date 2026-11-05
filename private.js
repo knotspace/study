@@ -25,6 +25,6 @@ $("bookmarkQuestion").addEventListener("click",toggleBookmark);$("nextButton").a
 $("mockButton").addEventListener("click",()=>{const pool=[];for(const s of ORDER)pool.push(...shuffle(state.sets[s]||[]).slice(0,10));start(pool)});
 function review(type){const ids=state.progress[type],pool=state.bank.filter(q=>ids.includes(q.id));start(shuffle(pool))}
 $("wrongButton").addEventListener("click",()=>review("wrong"));$("savedButton").addEventListener("click",()=>review("bookmarks"));
-async function init(){try{const results=await Promise.all(ORDER.map(async s=>{const r=await fetch("./data/private-"+CODE[s]+".json");if(!r.ok)throw Error("データを読み込めません: "+s);return r.json()}));ORDER.forEach((s,i)=>{state.sets[s]=results[i].questions||[]});state.bank=ORDER.flatMap(s=>state.sets[s]);$("loadStatus").textContent="読み込み完了";renderHome()}catch(e){$("loadStatus").textContent="読み込みエラー："+e.message;console.error(e)}}
+async function init(){try{const results=await Promise.all(ORDER.map(async s=>{const r=await fetch("./data/private-"+CODE[s]+".json");if(!r.ok)throw Error("データを読み込めません: "+s);return r.json()}));ORDER.forEach((s,i)=>{const rows=results[i].questions||[];state.sets[s]=(s==="国語"||s==="英語")?rows.filter(q=>String(q.topic||"").includes("文法")):rows;});state.bank=ORDER.flatMap(s=>state.sets[s]);$("loadStatus").textContent="読み込み完了";renderHome()}catch(e){$("loadStatus").textContent="読み込みエラー："+e.message;console.error(e)}}
 if(sessionStorage.getItem("study-personal-open-v1")==="1")unlock();init();
 })();
