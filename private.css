@@ -2,3 +2,24 @@
 @media(max-width:700px){.private-app{padding:0 15px 35px}.app-header{height:60px}.hero{padding:23px 20px;margin-top:18px}.hero h1{font-size:29px}.hero-mark{width:68px;height:68px;border-radius:22px;font-size:36px}.overview{gap:7px}.overview>div{padding:12px}.overview strong{font-size:21px}.overview span{font-size:9px}.mock-panel{align-items:flex-start;flex-direction:column;padding:17px}.mock-panel .primary{width:100%}.subject-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.subject-card{padding:14px 12px}.subject-card:last-child{grid-column:span 2}.review-actions{grid-template-columns:1fr}.mode-label{display:none}.question-wrap{padding-top:23px}.question-wrap h1{font-size:18px}.answer-choice{min-height:58px;padding:11px;font-size:12px}.session-header{height:56px;flex-basis:56px;padding:0 10px}.session-footer{padding:10px 12px}.session-footer .primary{min-width:135px}.lock-card{padding:27px 22px}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
 .session-actions{display:flex;align-items:center;gap:6px}.session-actions button{white-space:nowrap}
+
+/* ENGINEERING LAB / deep navy technical theme */
+:root{color-scheme:dark;background:#07111f;color:#e4f1fb;--green:#48d8ee;--deep:#53baff;--muted:#91aabd;--line:#1d3a52;--surface:#0c1b2b}
+html,body{background:#07111f;color:#e4f1fb}
+body{position:relative;isolation:isolate}
+body:before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(ellipse at 80% 0%,#10345255,transparent 45%),linear-gradient(#17324a33 1px,transparent 1px),linear-gradient(90deg,#17324a33 1px,transparent 1px);background-size:auto,36px 36px,36px 36px;mask-image:linear-gradient(to bottom,#000 0%,#000a 55%,transparent 100%)}
+.eyebrow{color:#58d9f1;letter-spacing:1.8px}
+.lock-screen{background:radial-gradient(circle at 50% 15%,#12405a77,transparent 40%),linear-gradient(135deg,#06101d,#0a1d2e 55%,#07111f)}
+.lock-card{position:relative;overflow:hidden;background:linear-gradient(145deg,#10263a,#0b1b2b);border:1px solid #28516d;border-radius:18px;box-shadow:0 24px 80px #0009,0 0 0 1px #46c9e411 inset}
+.lock-card:before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:linear-gradient(#65e7f2,#267bff)}
+.lock-mark,.brand-mark{background:linear-gradient(145deg,#4be0ed,#318bff);color:#04121f;box-shadow:0 0 25px #32c8ed33}
+.lock-mark{border-radius:13px}
+.lock-card h1{color:#f1f8ff}.lock-card>p{color:#9cb7c9}.lock-card label{color:#c7dceb}
+.lock-card input{background:#071725;color:#e9f8ff;border:1px solid #29506a;border-radius:10px}
+.lock-card input:focus{outline:2px solid #42d5ec;outline-offset:2px}
+.primary{background:linear-gradient(110deg,#41d7e8,#438eff);color:#051522;box-shadow:0 7px 22px #168fc533;border:1px solid #78ebf4;font-weight:900}
+.primary:hover:not(:disabled){filter:brightness(1.08);transform:translateY(-1px)}
+.lock-error{color:#ff8793!important}.back-link{color:#8fb0c7}
+.app-header{border-bottom:1px solid #1b3b54}.brand{color:#e6f5ff}.brand>span:last-child{color:#61dced}
+.mode-label{color:#6d95ad;font-family:ui-monospace,monospace}
+.quiet-button,.secondary{color:#9ab8cc}.quiet-button:hover,.secondary:hover{color:#54d9ee}
