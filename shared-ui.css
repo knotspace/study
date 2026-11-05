@@ -79,3 +79,10 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
  .session-footer .primary,.quiz-footer .primary{min-width:130px}
 }
 @media(max-width:420px){.subject-panels{grid-template-columns:1fr!important}}
+
+/* Match answer-state class names used by the original Study engine. */
+.answer-choice.is-correct{background:#17271e!important;border:2px solid #56bd87!important;color:#c5f2d6!important}
+.answer-choice.is-wrong{background:#2b191d!important;border:2px solid #bb6873!important;color:#ffd7dc!important}
+.answer-choice.is-muted{opacity:.4!important}
+.answer-choice.is-correct .choice-letter{background:#244b35!important;color:#c5f2d6!important}
+.answer-choice.is-wrong .choice-letter{background:#48272e!important;color:#ffd7dc!important}
