@@ -141,3 +141,15 @@ body.dark .subject-choice.is-active{background:#31b982;border-color:#31b982;colo
 .exam-entry>span:nth-child(2){display:grid;gap:4px;flex:1}
 .exam-entry b{font-size:12px}.exam-entry small{font-size:10px;color:var(--muted)}.exam-entry>strong{font-size:11px;color:#218d65;white-space:nowrap}
 body.dark .exam-entry{background:#203b32;border-color:#315447}body.dark .exam-entry-icon{background:#294d3d;color:#91e0b5}
+
+/* Discreet personal study lab entry */
+.private-entry{display:flex;align-items:center;gap:14px;margin:-20px 0 34px;padding:16px 19px;border:1px solid #234b68;border-radius:15px;background:linear-gradient(110deg,#0b1b2b,#102b40 65%,#0b2033);color:#e8f6ff;text-decoration:none;box-shadow:0 8px 24px #06132120;transition:transform .16s,border-color .16s,box-shadow .16s}
+.private-entry:hover{transform:translateY(-2px);border-color:#46b9d7;box-shadow:0 12px 28px #05152130,0 0 20px #31b9dd19}
+.private-entry-mark{width:42px;height:42px;flex:0 0 42px;border:1px solid #2b6986;border-radius:12px;display:grid;place-items:center;background:#0d3045;color:#65dff0;font-size:22px}
+.private-entry-copy{display:grid;gap:3px;min-width:0;flex:1}
+.private-entry-copy small{font:9px ui-monospace,monospace;letter-spacing:1.4px;color:#65cfe3}
+.private-entry-copy b{font-size:13px;color:#f0f8ff}
+.private-entry-copy em{font-style:normal;font-size:10px;color:#9bb7ca}
+.private-entry>strong{font-size:11px;color:#65d9eb;white-space:nowrap}
+.private-entry>strong span{padding-left:8px}
+@media(max-width:700px){.private-entry{margin:-13px 0 26px;padding:13px;gap:10px}.private-entry-mark{width:36px;height:36px;flex-basis:36px}.private-entry-copy em{font-size:9px}.private-entry>strong{font-size:10px}}
