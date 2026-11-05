@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "subject": "英語",
   "count": 12,
   "questions": [
@@ -18,7 +18,7 @@
       "correct": 1,
       "explanation": "for three years は過去から現在まで続く期間を表すため、現在完了を使う。",
       "takeaway": "現在完了の継続用法は have/has＋過去分詞＋for/since。",
-      "sourceLabel": "高専入試の出題傾向をもとにした類題（年度・大問未照合）"
+      "sourceLabel": "オリジナル類題"
     },
     {
       "id": "hidden-en-002",
@@ -35,7 +35,7 @@
       "correct": 1,
       "explanation": "目的「〜するために」は to＋動詞の原形で表す。",
       "takeaway": "目的の不定詞は「〜するために」と訳す。",
-      "sourceLabel": "高専入試の出題傾向をもとにした類題（年度・大問未照合）"
+      "sourceLabel": "オリジナル類題"
     },
     {
       "id": "hidden-en-003",
@@ -52,7 +52,7 @@
       "correct": 1,
       "explanation": "先行詞 the book は物なので、目的格の関係代名詞 which または that が使える。",
       "takeaway": "関係代名詞は先行詞が人か物か、後ろの文に何が欠けているかを見る。",
-      "sourceLabel": "高専入試の出題傾向をもとにした類題（年度・大問未照合）"
+      "sourceLabel": "オリジナル類題"
     },
     {
       "id": "hidden-en-004",
@@ -69,7 +69,7 @@
       "correct": 1,
       "explanation": "than があるので比較級を使う。",
       "takeaway": "than＝比較級、the＋最上級。",
-      "sourceLabel": "高専入試の出題傾向をもとにした類題（年度・大問未照合）"
+      "sourceLabel": "オリジナル類題"
     },
     {
       "id": "hidden-en-005",
@@ -86,7 +86,7 @@
       "correct": 2,
       "explanation": "yesterday があるので過去形。コンピューターは修理される側なので受動態。",
       "takeaway": "受動態＝be動詞＋過去分詞。時制はbe動詞で表す。",
-      "sourceLabel": "高専入試の出題傾向をもとにした類題（年度・大問未照合）"
+      "sourceLabel": "オリジナル類題"
     },
     {
       "id": "hidden-en-006",
@@ -103,7 +103,7 @@
       "correct": 2,
       "explanation": "英文では、バスより10分長くかかるが、川沿いの花を見ることを楽しんでいると述べている。",
       "takeaway": "読解では、本文に書かれた事実と選択肢の言い換えが一致するか確認する。",
-      "sourceLabel": "高専入試の出題傾向をもとにした類題（年度・大問未照合）"
+      "sourceLabel": "オリジナル類題"
     },
     {
       "id": "hidden-en-007",
@@ -120,7 +120,7 @@
       "correct": 0,
       "explanation": "家にいた理由が後ろに続くので because が適切。",
       "takeaway": "because＝理由、although＝譲歩、but＝逆接。",
-      "sourceLabel": "高専入試の出題傾向をもとにした類題（年度・大問未照合）"
+      "sourceLabel": "オリジナル類題"
     },
     {
       "id": "hidden-en-008",
@@ -137,7 +137,7 @@
       "correct": 1,
       "explanation": "間接疑問文では疑問詞の後ろは主語＋動詞の語順になる。",
       "takeaway": "間接疑問文は疑問詞＋主語＋動詞。",
-      "sourceLabel": "高専入試の出題傾向をもとにした類題（年度・大問未照合）"
+      "sourceLabel": "オリジナル類題"
     },
     {
       "id": "hidden-en-009",
@@ -154,7 +154,7 @@
       "correct": 0,
       "explanation": "安全のためにヘルメットを着用すべきだという助言なので should。",
       "takeaway": "助動詞は文脈で意味を判断する。should＝〜すべき。",
-      "sourceLabel": "高専入試の出題傾向をもとにした類題（年度・大問未照合）"
+      "sourceLabel": "オリジナル類題"
     },
     {
       "id": "hidden-en-010",
@@ -171,7 +171,7 @@
       "correct": 2,
       "explanation": "木の下に座っている少年を説明する現在分詞 sitting が適切。",
       "takeaway": "現在分詞は「〜している」、過去分詞は「〜された」の意味になることが多い。",
-      "sourceLabel": "高専入試の出題傾向をもとにした類題（年度・大問未照合）"
+      "sourceLabel": "オリジナル類題"
     },
     {
       "id": "hidden-en-011",
@@ -188,7 +188,7 @@
       "correct": 1,
       "explanation": "名詞 the boy を後ろから説明する現在分詞 standing が適切。「窓のそばに立っている少年」。",
       "takeaway": "現在分詞は「〜している」、過去分詞は「〜された」という意味で名詞を説明する。",
-      "sourceLabel": "高専入試の英語文法を意識した類題（年度・大問照合待ち）"
+      "sourceLabel": "オリジナル類題"
     },
     {
       "id": "hidden-en-012",
@@ -205,7 +205,7 @@
       "correct": 1,
       "explanation": "先行詞 a girl は人で、関係代名詞は主格なので who を用いる。",
       "takeaway": "先行詞が人か物か、関係代名詞が主語か目的語かを確認する。",
-      "sourceLabel": "高専入試の英語文法を意識した類題（年度・大問照合待ち）"
+      "sourceLabel": "オリジナル類題"
     }
   ],
   "updatedAt": "2026-11-05"
