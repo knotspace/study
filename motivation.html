@@ -50,4 +50,6 @@ const preview=()=>{$("planPreview").textContent=methods[$("startMethod").value]+
 $("startMethod").addEventListener("change",preview);$("targetMinutes").addEventListener("change",preview);$("targetQuestions").addEventListener("change",preview);
 $("motivationSettings").addEventListener("submit",e=>{e.preventDefault();data={reason:$("studyReason").value.trim(),minutes:$("targetMinutes").value,questions:$("targetQuestions").value,method:$("startMethod").value};localStorage.setItem(key,JSON.stringify(data));$("saveStatus").textContent="設定を保存しました。この端末で次回も利用できます。";preview()});preview();
 })();
-</script></body></html>
+</script>
+<footer class="knot-home-link" style="padding:18px 16px 24px;text-align:center;font-size:12px;opacity:.68"><a href="https://knotspace.github.io/" style="color:inherit;text-decoration:none;border-bottom:1px solid currentColor;padding-bottom:2px">← KNOT トップへ</a></footer>
+</body></html>
