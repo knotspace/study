@@ -25,6 +25,21 @@
     {
       "name": "がくらくぷらす 理科（テーマ粒度の補助確認）",
       "url": "https://gakurakuplus.com/rika"
+    },
+    {
+      "name": "進研ゼミ 高校入試情報・栃木県の出題傾向",
+      "url": "https://czemi.benesse.ne.jp/open/nyushi/exam/09/",
+      "use": "理科の電池・中和・前線、社会の資料読解・地形図などの重点設定。本文や画像は転載せず、KNOT独自の解説・図解に再構成。"
+    },
+    {
+      "name": "新学社 栃木県入試・理科の出題内容別傾向分析",
+      "url": "https://www.sing.co.jp/assets/pdf/exam/totigi04.pdf",
+      "use": "実験・観察、短文記述、作図・グラフなどの出題形式を確認。"
+    },
+    {
+      "name": "新学社 栃木県入試・社会の出題内容別傾向分析",
+      "url": "https://www.sing.co.jp/assets/pdf/exam-s/totigi02.pdf",
+      "use": "地理・歴史・公民の資料活用、並べ替え、複数資料を使う記述の重点設定。"
     }
   ],
   "stats": {
