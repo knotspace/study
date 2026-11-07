@@ -316,6 +316,7 @@ body.dark .answer-choice.is-correct,body.dark .choice.correct{background:#293d30
 body.dark .answer-choice.is-wrong,body.dark .choice.incorrect{background:#402e30!important;color:#f0d7d8!important;border-color:#a8797c!important}
 
 /* S専用入口 */
+.home-feature-links .s-entry{grid-column:1/-1;min-height:74px;margin:0}
 .s-entry{display:flex;align-items:center;gap:14px;padding:17px 19px;border:1px solid #303a34;border-radius:15px;background:#111419;color:#edf0f3;min-width:0}
 .s-entry-mark{width:38px;height:38px;flex:0 0 38px;display:grid;place-items:center;border-radius:11px;background:#1b2921;color:#8be0b4;font-weight:900}
 .s-entry>span:nth-child(2){display:grid;gap:4px;min-width:0}.s-entry b{font-size:12px}.s-entry small{font-size:10px;color:#a0aaa3}.s-entry strong{margin-left:auto;white-space:nowrap;font-size:11px;color:#8be0b4}
