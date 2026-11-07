@@ -1,0 +1,19 @@
+{
+  "name": "Study S専用",
+  "short_name": "S専用",
+  "description": "S専用の学習スペース",
+  "start_url": "./s-exclusive.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#08090c",
+  "theme_color": "#08090c",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "./assets/study-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
