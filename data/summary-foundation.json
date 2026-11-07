@@ -1,22 +1,6 @@
 {
   "questions": [
     {
-      "id": "fb-001",
-      "subject": "science",
-      "topic": "物理",
-      "term": "力",
-      "prompt": "物体の形や運動の状態を変化させるはたらきは何か。",
-      "options": [
-        "力",
-        "圧力",
-        "仕事",
-        "エネルギー"
-      ],
-      "correct": 0,
-      "explanation": "力は物体の運動の状態や形を変えるはたらき。単位はN（ニュートン）。",
-      "link": "/study/summary/physics/"
-    },
-    {
       "id": "fb-002",
       "subject": "science",
       "topic": "物理",
@@ -30,7 +14,8 @@
       ],
       "correct": 1,
       "explanation": "圧力＝面を垂直に押す力÷力を受ける面積。単位はPa。",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-003",
@@ -46,7 +31,8 @@
       ],
       "correct": 2,
       "explanation": "浮力は液体や気体の中の物体にはたらく、上向きの力。",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-004",
@@ -62,7 +48,8 @@
       ],
       "correct": 0,
       "explanation": "仕事〔J〕＝力〔N〕×力の向きに動いた距離〔m〕。",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-005",
@@ -78,7 +65,8 @@
       ],
       "correct": 1,
       "explanation": "仕事率は仕事をする速さ。仕事率〔W〕＝仕事〔J〕÷時間〔s〕。",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-006",
@@ -94,7 +82,8 @@
       ],
       "correct": 2,
       "explanation": "オームの法則は V＝RI。電圧V、電流I、抵抗Rの関係を表す。",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-007",
@@ -110,7 +99,8 @@
       ],
       "correct": 1,
       "explanation": "光が空気と水など異なる物質の境界を通るとき、進む向きが変わる現象。",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-008",
@@ -126,7 +116,8 @@
       ],
       "correct": 1,
       "explanation": "直列回路では電流の通り道が1本で、回路のどこでも電流は等しい。",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-009",
@@ -142,7 +133,8 @@
       ],
       "correct": 1,
       "explanation": "原子は物質を構成する基本粒子。原子核と電子からできている。",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-010",
@@ -158,7 +150,8 @@
       ],
       "correct": 0,
       "explanation": "水分子H₂Oのように、複数の原子が結びついた粒子を分子という。",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-011",
@@ -174,7 +167,8 @@
       ],
       "correct": 2,
       "explanation": "水や二酸化炭素のように、複数の元素からできた純物質を化合物という。",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-012",
@@ -190,7 +184,8 @@
       ],
       "correct": 1,
       "explanation": "化学変化では原子の組み合わせが変わり、新しい物質ができる。",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-013",
@@ -206,7 +201,8 @@
       ],
       "correct": 1,
       "explanation": "化学変化の前後で原子の種類と数は変わらないため、全体の質量は保存される。",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-014",
@@ -222,7 +218,8 @@
       ],
       "correct": 2,
       "explanation": "中学理科では、物質が酸素と結びつく反応を酸化という。",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-015",
@@ -238,7 +235,8 @@
       ],
       "correct": 1,
       "explanation": "電子を失うと陽イオン、電子を受け取ると陰イオンになる。",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-016",
@@ -254,7 +252,8 @@
       ],
       "correct": 1,
       "explanation": "中和では酸とアルカリが反応し、塩と水ができる。",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-017",
@@ -270,7 +269,8 @@
       ],
       "correct": 2,
       "explanation": "細胞は生物の体をつくる基本単位。植物細胞には細胞壁や葉緑体などがある。",
-      "link": "/study/summary/biology/"
+      "link": "/study/summary/biology/",
+      "priority": "A"
     },
     {
       "id": "fb-018",
@@ -286,7 +286,8 @@
       ],
       "correct": 2,
       "explanation": "光合成では光エネルギーを利用してデンプンなどの養分をつくり、酸素を放出する。",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-019",
@@ -302,7 +303,8 @@
       ],
       "correct": 0,
       "explanation": "蒸散は主に葉の気孔から水蒸気が出ていく現象。",
-      "link": "/study/summary/biology/"
+      "link": "/study/summary/biology/",
+      "priority": "A"
     },
     {
       "id": "fb-020",
@@ -318,7 +320,8 @@
       ],
       "correct": 1,
       "explanation": "消化酵素などのはたらきで、栄養分を吸収できる形に分解する。",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-021",
@@ -334,7 +337,8 @@
       ],
       "correct": 1,
       "explanation": "肺胞の壁は薄く、周囲を毛細血管が取り囲み、気体交換が行われる。",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-022",
@@ -350,7 +354,8 @@
       ],
       "correct": 0,
       "explanation": "反射は脳で意識して判断する前に起こる、すばやい反応。",
-      "link": "/study/summary/biology/"
+      "link": "/study/summary/biology/",
+      "priority": "A"
     },
     {
       "id": "fb-023",
@@ -366,7 +371,8 @@
       ],
       "correct": 1,
       "explanation": "遺伝子はDNAの一部で、親から子へ受け継がれる形質の情報を担う。",
-      "link": "/study/summary/biology/"
+      "link": "/study/summary/biology/",
+      "priority": "A"
     },
     {
       "id": "fb-024",
@@ -382,7 +388,8 @@
       ],
       "correct": 0,
       "explanation": "食物連鎖では、生物を通じて物質やエネルギーが移動する。",
-      "link": "/study/summary/biology/"
+      "link": "/study/summary/biology/",
+      "priority": "A"
     },
     {
       "id": "fb-025",
@@ -398,7 +405,8 @@
       ],
       "correct": 1,
       "explanation": "震源は地下で地震が発生した場所。震源の真上の地表の点が震央。",
-      "link": "/study/summary/earth/"
+      "link": "/study/summary/earth/",
+      "priority": "A"
     },
     {
       "id": "fb-026",
@@ -414,7 +422,8 @@
       ],
       "correct": 0,
       "explanation": "震央は震源の真上にあたる地表の地点。",
-      "link": "/study/summary/earth/"
+      "link": "/study/summary/earth/",
+      "priority": "A"
     },
     {
       "id": "fb-027",
@@ -430,7 +439,8 @@
       ],
       "correct": 1,
       "explanation": "P波は速く伝わり、先に到着して初期微動を起こす。",
-      "link": "/study/summary/earth/"
+      "link": "/study/summary/earth/",
+      "priority": "A"
     },
     {
       "id": "fb-028",
@@ -446,7 +456,8 @@
       ],
       "correct": 1,
       "explanation": "前線付近では雲や雨が発生しやすく、温帯低気圧の発達にも関係する。",
-      "link": "/study/summary/earth/"
+      "link": "/study/summary/earth/",
+      "priority": "A"
     },
     {
       "id": "fb-029",
@@ -462,7 +473,8 @@
       ],
       "correct": 1,
       "explanation": "湿度〔％〕＝空気中の水蒸気量÷飽和水蒸気量×100。",
-      "link": "/study/summary/earth/"
+      "link": "/study/summary/earth/",
+      "priority": "A"
     },
     {
       "id": "fb-030",
@@ -478,7 +490,8 @@
       ],
       "correct": 1,
       "explanation": "地球の公転周期は約1年。季節の変化に関係する。",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-031",
@@ -494,7 +507,8 @@
       ],
       "correct": 1,
       "explanation": "地球は約24時間で1回自転し、昼と夜の変化に関係する。",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-032",
@@ -510,7 +524,8 @@
       ],
       "correct": 1,
       "explanation": "日食は太陽—月—地球の順にほぼ一直線に並んだときに起こる。",
-      "link": "/study/summary/earth/"
+      "link": "/study/summary/earth/",
+      "priority": "A"
     },
     {
       "id": "fb-033",
@@ -526,7 +541,8 @@
       ],
       "correct": 1,
       "explanation": "緯度は赤道を基準に南北の位置を表し、北緯・南緯で示す。",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-034",
@@ -542,7 +558,8 @@
       ],
       "correct": 1,
       "explanation": "経度は本初子午線を基準に東西の位置を表し、東経・西経で示す。",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-035",
@@ -558,7 +575,8 @@
       ],
       "correct": 1,
       "explanation": "地球は24時間で360度自転するため、経度15度でおよそ1時間の時差が生じる。",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-036",
@@ -574,7 +592,8 @@
       ],
       "correct": 2,
       "explanation": "モンスーンは季節によって風向きが変わり、アジアの降水や農業に大きく関係する。",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-037",
@@ -590,7 +609,8 @@
       ],
       "correct": 1,
       "explanation": "促成栽培は温室などで生育を早め、通常より早く出荷する方法。",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-038",
@@ -606,7 +626,8 @@
       ],
       "correct": 0,
       "explanation": "工業地域には工場や関連産業が集まり、交通・港湾などと結びつく。",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-039",
@@ -622,7 +643,8 @@
       ],
       "correct": 1,
       "explanation": "人口密度＝人口÷面積。一般に1平方キロメートルあたりの人口で表す。",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-040",
@@ -638,7 +660,8 @@
       ],
       "correct": 1,
       "explanation": "縮尺を使うと、地図上の長さから実際の距離を求められる。",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-041",
@@ -654,7 +677,8 @@
       ],
       "correct": 1,
       "explanation": "縄文時代は土器や弓矢などを使い、狩り・採集・漁労を中心に生活した。",
-      "link": "/study/summary/history/"
+      "link": "/study/summary/history/",
+      "priority": "A"
     },
     {
       "id": "fb-042",
@@ -670,7 +694,8 @@
       ],
       "correct": 1,
       "explanation": "弥生時代には大陸から稲作や金属器が伝わり、むらやくにが発達した。",
-      "link": "/study/summary/history/"
+      "link": "/study/summary/history/",
+      "priority": "A"
     },
     {
       "id": "fb-043",
@@ -686,7 +711,8 @@
       ],
       "correct": 1,
       "explanation": "大化の改新は645年に始まり、豪族中心の政治から天皇中心の国家づくりを目指した。",
-      "link": "/study/summary/history/"
+      "link": "/study/summary/history/",
+      "priority": "A"
     },
     {
       "id": "fb-044",
@@ -702,7 +728,8 @@
       ],
       "correct": 1,
       "explanation": "794年、桓武天皇は都を平安京に移した。",
-      "link": "/study/summary/history/"
+      "link": "/study/summary/history/",
+      "priority": "A"
     },
     {
       "id": "fb-045",
@@ -718,7 +745,8 @@
       ],
       "correct": 1,
       "explanation": "源頼朝は鎌倉を本拠地として武士の政権を築いた。",
-      "link": "/study/summary/history/"
+      "link": "/study/summary/history/",
+      "priority": "A"
     },
     {
       "id": "fb-046",
@@ -734,7 +762,8 @@
       ],
       "correct": 1,
       "explanation": "足利尊氏が京都に開いた武家政権が室町幕府。",
-      "link": "/study/summary/history/"
+      "link": "/study/summary/history/",
+      "priority": "A"
     },
     {
       "id": "fb-047",
@@ -750,7 +779,8 @@
       ],
       "correct": 1,
       "explanation": "徳川家康は1603年に征夷大将軍となり、江戸幕府を開いた。",
-      "link": "/study/summary/history/"
+      "link": "/study/summary/history/",
+      "priority": "A"
     },
     {
       "id": "fb-048",
@@ -766,7 +796,8 @@
       ],
       "correct": 1,
       "explanation": "明治維新では廃藩置県、徴兵令、地租改正など近代国家づくりの改革が進められた。",
-      "link": "/study/summary/history/"
+      "link": "/study/summary/history/",
+      "priority": "A"
     },
     {
       "id": "fb-049",
@@ -782,7 +813,8 @@
       ],
       "correct": 1,
       "explanation": "日本国憲法は国の基本原則や統治のしくみ、国民の権利・義務を定める最高法規。",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-050",
@@ -798,7 +830,8 @@
       ],
       "correct": 1,
       "explanation": "国民主権は日本国憲法の三つの基本原則の一つ。",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-051",
@@ -814,7 +847,8 @@
       ],
       "correct": 1,
       "explanation": "基本的人権は侵すことのできない永久の権利として憲法で保障される。",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-052",
@@ -830,7 +864,8 @@
       ],
       "correct": 1,
       "explanation": "国会・内閣・裁判所が権力を分担し、互いに抑制と均衡を保つ。",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-053",
@@ -846,7 +881,8 @@
       ],
       "correct": 2,
       "explanation": "国会は国権の最高機関であり、国の唯一の立法機関と定められている。",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-054",
@@ -862,7 +898,8 @@
       ],
       "correct": 1,
       "explanation": "内閣は行政権を担い、内閣総理大臣と国務大臣で構成される。",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-055",
@@ -878,7 +915,8 @@
       ],
       "correct": 1,
       "explanation": "裁判員制度では、選ばれた国民が裁判官と一緒に有罪・無罪や刑の内容を判断する。",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-056",
@@ -894,7 +932,8 @@
       ],
       "correct": 0,
       "explanation": "一般に需要が供給を上回ると価格は上がり、供給が需要を上回ると価格は下がる方向に働く。",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-057",
@@ -910,7 +949,8 @@
       ],
       "correct": 1,
       "explanation": "エネルギーは移り変わったり形を変えたりするが、全体の量は保存される。",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-058",
@@ -926,7 +966,8 @@
       ],
       "correct": 1,
       "explanation": "熱量の単位はJ（ジュール）。水の温度変化などから求められる。",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-059",
@@ -942,7 +983,8 @@
       ],
       "correct": 1,
       "explanation": "並列回路では各枝にかかる電圧が等しく、全体の電流は枝の電流の和になる。",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-060",
@@ -958,7 +1000,8 @@
       ],
       "correct": 1,
       "explanation": "磁界の向きは方位磁針のN極が指す向きで表す。",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-061",
@@ -974,7 +1017,8 @@
       ],
       "correct": 1,
       "explanation": "磁石を動かすなどしてコイルを貫く磁界を変化させると誘導電流が流れる。",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-062",
@@ -990,7 +1034,8 @@
       ],
       "correct": 1,
       "explanation": "共鳴では外から加える振動数が固有振動数と一致し、振幅が大きくなる。",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-063",
@@ -1006,7 +1051,8 @@
       ],
       "correct": 0,
       "explanation": "力がつり合う条件は、二力なら大きさが等しく、同一直線上で向きが反対であること。",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-064",
@@ -1022,7 +1068,8 @@
       ],
       "correct": 1,
       "explanation": "蒸留は沸点の違いなどを利用して液体を分離する方法。",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-065",
@@ -1038,7 +1085,8 @@
       ],
       "correct": 1,
       "explanation": "飽和水溶液には、その温度で溶ける限度まで溶質が溶けている。",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-066",
@@ -1054,7 +1102,8 @@
       ],
       "correct": 1,
       "explanation": "溶解度は通常、一定温度で水100gに溶ける溶質の質量で表す。",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-067",
@@ -1070,7 +1119,8 @@
       ],
       "correct": 1,
       "explanation": "質量パーセント濃度＝溶質の質量÷溶液の質量×100。",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-068",
@@ -1086,7 +1136,8 @@
       ],
       "correct": 1,
       "explanation": "電気エネルギーによって化合物を分解する反応。水の電気分解では水素と酸素が発生する。",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-069",
@@ -1102,7 +1153,8 @@
       ],
       "correct": 1,
       "explanation": "発熱反応では反応の前後で周囲の温度が上がる。",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-070",
@@ -1118,7 +1170,8 @@
       ],
       "correct": 1,
       "explanation": "化学反応式では、反応の前後で原子の種類と数が等しくなるように係数をつける。",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-071",
@@ -1134,7 +1187,8 @@
       ],
       "correct": 1,
       "explanation": "葉緑体には緑色の色素クロロフィルが含まれ、光合成の場となる。",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-072",
@@ -1150,7 +1204,8 @@
       ],
       "correct": 1,
       "explanation": "気孔は主に葉の表皮にあり、二酸化炭素や酸素、水蒸気の出入りに関係する。",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-073",
@@ -1166,7 +1221,8 @@
       ],
       "correct": 1,
       "explanation": "道管は水や無機養分を根から茎・葉へ運ぶ。",
-      "link": "/study/summary/biology/"
+      "link": "/study/summary/biology/",
+      "priority": "A"
     },
     {
       "id": "fb-074",
@@ -1182,7 +1238,8 @@
       ],
       "correct": 1,
       "explanation": "師管は光合成でつくられた養分などを運ぶ。",
-      "link": "/study/summary/biology/"
+      "link": "/study/summary/biology/",
+      "priority": "A"
     },
     {
       "id": "fb-075",
@@ -1198,7 +1255,8 @@
       ],
       "correct": 1,
       "explanation": "腎臓は血液から不要物や余分な水分などを取り除き、尿をつくる。",
-      "link": "/study/summary/biology/"
+      "link": "/study/summary/biology/",
+      "priority": "A"
     },
     {
       "id": "fb-076",
@@ -1214,7 +1272,8 @@
       ],
       "correct": 1,
       "explanation": "心臓は収縮と拡張を繰り返し、血液を循環させる。",
-      "link": "/study/summary/biology/"
+      "link": "/study/summary/biology/",
+      "priority": "A"
     },
     {
       "id": "fb-077",
@@ -1230,7 +1289,8 @@
       ],
       "correct": 2,
       "explanation": "菌類や細菌類などの分解者は、有機物を分解して物質を自然界に戻す。",
-      "link": "/study/summary/biology/"
+      "link": "/study/summary/biology/",
+      "priority": "A"
     },
     {
       "id": "fb-078",
@@ -1246,7 +1306,8 @@
       ],
       "correct": 1,
       "explanation": "地層は堆積物が積み重なってできる。一般に下の層ほど古い。",
-      "link": "/study/summary/earth/"
+      "link": "/study/summary/earth/",
+      "priority": "A"
     },
     {
       "id": "fb-079",
@@ -1262,7 +1323,8 @@
       ],
       "correct": 1,
       "explanation": "化石は地層ができた時代や環境を推定する手がかりになる。",
-      "link": "/study/summary/biology/"
+      "link": "/study/summary/biology/",
+      "priority": "A"
     },
     {
       "id": "fb-080",
@@ -1278,7 +1340,8 @@
       ],
       "correct": 2,
       "explanation": "火成岩には、地下深くでゆっくり冷えた深成岩と、地表付近で急に冷えた火山岩がある。",
-      "link": "/study/summary/earth/"
+      "link": "/study/summary/earth/",
+      "priority": "A"
     },
     {
       "id": "fb-081",
@@ -1294,7 +1357,8 @@
       ],
       "correct": 1,
       "explanation": "震度は地点ごとの揺れの強さを表す。地震そのものの規模を表すマグニチュードとは異なる。",
-      "link": "/study/summary/earth/"
+      "link": "/study/summary/earth/",
+      "priority": "A"
     },
     {
       "id": "fb-082",
@@ -1310,7 +1374,8 @@
       ],
       "correct": 1,
       "explanation": "マグニチュードは地震の規模を表し、震度は各地点での揺れの強さを表す。",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-083",
@@ -1326,7 +1391,8 @@
       ],
       "correct": 2,
       "explanation": "積乱雲は縦に大きく発達し、雷雨や突風、ひょうなどをもたらすことがある。",
-      "link": "/study/summary/earth/"
+      "link": "/study/summary/earth/",
+      "priority": "A"
     },
     {
       "id": "fb-084",
@@ -1342,7 +1408,8 @@
       ],
       "correct": 1,
       "explanation": "地軸が傾いたまま地球が公転するため、季節によって太陽の高さや昼の長さが変わる。",
-      "link": "/study/summary/earth/"
+      "link": "/study/summary/earth/",
+      "priority": "A"
     },
     {
       "id": "fb-085",
@@ -1358,7 +1425,8 @@
       ],
       "correct": 1,
       "explanation": "等高線の間隔が狭い場所ほど、一般に傾斜が急である。",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-086",
@@ -1374,7 +1442,8 @@
       ],
       "correct": 1,
       "explanation": "扇状地は水はけがよく、果樹園などに利用されることが多い。",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-087",
@@ -1390,7 +1459,8 @@
       ],
       "correct": 1,
       "explanation": "三角州は河口付近にできる低く平らな地形で、水田などに利用される。",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-088",
@@ -1406,7 +1476,8 @@
       ],
       "correct": 1,
       "explanation": "稲作は水田で稲を育てる農業で、アジアの季節風地域などで盛ん。",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-089",
@@ -1422,7 +1493,8 @@
       ],
       "correct": 0,
       "explanation": "酪農は乳牛などを飼育し、生乳や乳製品を生産する農業。",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-090",
@@ -1438,7 +1510,8 @@
       ],
       "correct": 1,
       "explanation": "輸出は外国へ売ること、輸入は外国から買うこと。",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-091",
@@ -1454,7 +1527,8 @@
       ],
       "correct": 1,
       "explanation": "人口ピラミッドの形から、年齢構成や少子高齢化の進み方などを読み取れる。",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-092",
@@ -1470,7 +1544,8 @@
       ],
       "correct": 0,
       "explanation": "飛鳥時代には仏教が広まり、中央集権国家への改革が進められた。",
-      "link": "/study/summary/history/"
+      "link": "/study/summary/history/",
+      "priority": "A"
     },
     {
       "id": "fb-093",
@@ -1486,7 +1561,8 @@
       ],
       "correct": 1,
       "explanation": "710年に平城京へ遷都し、奈良時代が始まった。",
-      "link": "/study/summary/history/"
+      "link": "/study/summary/history/",
+      "priority": "A"
     },
     {
       "id": "fb-094",
@@ -1502,7 +1578,8 @@
       ],
       "correct": 1,
       "explanation": "藤原氏は摂政・関白の地位を利用して、平安時代に政治の実権を握った。",
-      "link": "/study/summary/history/"
+      "link": "/study/summary/history/",
+      "priority": "A"
     },
     {
       "id": "fb-095",
@@ -1518,7 +1595,8 @@
       ],
       "correct": 1,
       "explanation": "応仁の乱で京都が荒廃し、各地の守護大名らが争う戦国時代へ向かった。",
-      "link": "/study/summary/history/"
+      "link": "/study/summary/history/",
+      "priority": "A"
     },
     {
       "id": "fb-096",
@@ -1534,7 +1612,8 @@
       ],
       "correct": 1,
       "explanation": "楽市・楽座は商売の自由を広げ、城下町や商工業の発展を促した。",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-097",
@@ -1550,7 +1629,8 @@
       ],
       "correct": 1,
       "explanation": "参勤交代は大名の経済力を弱め、幕府への服従を示させる目的もあった。",
-      "link": "/study/summary/history/"
+      "link": "/study/summary/history/",
+      "priority": "A"
     },
     {
       "id": "fb-098",
@@ -1566,7 +1646,8 @@
       ],
       "correct": 1,
       "explanation": "日清戦争は1894年に始まり、下関条約が結ばれた。",
-      "link": "/study/summary/history/"
+      "link": "/study/summary/history/",
+      "priority": "A"
     },
     {
       "id": "fb-099",
@@ -1582,7 +1663,8 @@
       ],
       "correct": 1,
       "explanation": "平和主義は日本国憲法の三つの基本原則の一つで、第9条に関係する。",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-100",
@@ -1598,7 +1680,8 @@
       ],
       "correct": 1,
       "explanation": "平等権は、性別や身分などによって不合理な差別を受けない権利。",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-101",
@@ -1614,7 +1697,8 @@
       ],
       "correct": 1,
       "explanation": "生存権は社会権の一つで、日本国憲法第25条に定められている。",
-      "link": "/study/summary/history/"
+      "link": "/study/summary/history/",
+      "priority": "A"
     },
     {
       "id": "fb-102",
@@ -1630,7 +1714,8 @@
       ],
       "correct": 1,
       "explanation": "衆議院の任期は4年だが、解散がある。参議院の任期は6年で解散はない。",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-103",
@@ -1646,7 +1731,8 @@
       ],
       "correct": 1,
       "explanation": "裁判所は具体的な裁判で、法律などが憲法に違反するかを判断できる。",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-104",
@@ -1662,7 +1748,8 @@
       ],
       "correct": 1,
       "explanation": "地方自治は住民に身近な行政を、地方公共団体と住民が担うしくみ。",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-105",
@@ -1678,7 +1765,8 @@
       ],
       "correct": 1,
       "explanation": "累進課税は所得が高いほど税率が高くなるしくみで、所得税などに採用されている。",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-108",
@@ -1694,7 +1782,8 @@
       ],
       "correct": 0,
       "explanation": "電力の単位はワット（W）。",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-109",
@@ -1710,7 +1799,8 @@
       ],
       "correct": 3,
       "explanation": "電力量は電力×時間で求め、単位にはWhやJを使う。",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-114",
@@ -1726,7 +1816,8 @@
       ],
       "correct": 2,
       "explanation": "外から力を受けない、または力がつり合うと運動の状態は変わらない。",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-115",
@@ -1742,7 +1833,8 @@
       ],
       "correct": 1,
       "explanation": "反射では入射角と反射角が等しい。",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-118",
@@ -1758,23 +1850,8 @@
       ],
       "correct": 2,
       "explanation": "還元は酸化と反対向きの変化として説明できる。",
-      "link": "/study/summary/chemistry/"
-    },
-    {
-      "id": "fb-120",
-      "subject": "science",
-      "topic": "化学",
-      "term": "塩",
-      "prompt": "酸の陰イオンとアルカリの陽イオンなどからできる、中和で生じる物質は何か。",
-      "options": [
-        "塩",
-        "酸",
-        "アルカリ",
-        "単体"
-      ],
-      "correct": 0,
-      "explanation": "塩（えん）は食塩だけでなく、さまざまな化合物を含む。",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-121",
@@ -1790,7 +1867,8 @@
       ],
       "correct": 3,
       "explanation": "塩化ナトリウムなどの電解質は水溶液中で電離する。",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-122",
@@ -1806,7 +1884,8 @@
       ],
       "correct": 2,
       "explanation": "塩化ナトリウムや塩酸などは電解質。",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-126",
@@ -1822,7 +1901,8 @@
       ],
       "correct": 2,
       "explanation": "アミラーゼやペプシンなどが消化酵素にあたる。",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-127",
@@ -1838,7 +1918,8 @@
       ],
       "correct": 1,
       "explanation": "柔毛があることで小腸の表面積が大きくなる。",
-      "link": "/study/summary/biology/"
+      "link": "/study/summary/biology/",
+      "priority": "A"
     },
     {
       "id": "fb-129",
@@ -1854,7 +1935,8 @@
       ],
       "correct": 3,
       "explanation": "動脈は心臓から出る血液が流れる血管。",
-      "link": "/study/summary/biology/"
+      "link": "/study/summary/biology/",
+      "priority": "A"
     },
     {
       "id": "fb-130",
@@ -1870,7 +1952,8 @@
       ],
       "correct": 2,
       "explanation": "静脈には血液の逆流を防ぐ弁があるものが多い。",
-      "link": "/study/summary/biology/"
+      "link": "/study/summary/biology/",
+      "priority": "A"
     },
     {
       "id": "fb-133",
@@ -1886,7 +1969,8 @@
       ],
       "correct": 3,
       "explanation": "受粉の後、花粉管が伸びて受精につながる。",
-      "link": "/study/summary/biology/"
+      "link": "/study/summary/biology/",
+      "priority": "A"
     },
     {
       "id": "fb-135",
@@ -1902,7 +1986,8 @@
       ],
       "correct": 1,
       "explanation": "生態系では生物どうしや環境との間に関係がある。",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-138",
@@ -1918,7 +2003,8 @@
       ],
       "correct": 2,
       "explanation": "初期微動継続時間は震源から遠いほど長くなる。",
-      "link": "/study/summary/earth/"
+      "link": "/study/summary/earth/",
+      "priority": "A"
     },
     {
       "id": "fb-141",
@@ -1934,7 +2020,8 @@
       ],
       "correct": 3,
       "explanation": "寒冷前線付近では短時間に強い雨が降ることがある。",
-      "link": "/study/summary/earth/"
+      "link": "/study/summary/earth/",
+      "priority": "A"
     },
     {
       "id": "fb-142",
@@ -1950,7 +2037,8 @@
       ],
       "correct": 2,
       "explanation": "温暖前線では広い範囲で比較的長く雨が降ることがある。",
-      "link": "/study/summary/earth/"
+      "link": "/study/summary/earth/",
+      "priority": "A"
     },
     {
       "id": "fb-143",
@@ -1966,7 +2054,8 @@
       ],
       "correct": 1,
       "explanation": "日周運動は地球の自転によって起こる。",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-144",
@@ -1982,7 +2071,8 @@
       ],
       "correct": 0,
       "explanation": "年周運動は地球の公転によって起こる。",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-148",
@@ -1998,7 +2088,8 @@
       ],
       "correct": 0,
       "explanation": "日本では冬に北西、夏に南東寄りの季節風が吹く。",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-149",
@@ -2014,7 +2105,8 @@
       ],
       "correct": 3,
       "explanation": "偏西風は日本付近の天気の変化にも関係する。",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-151",
@@ -2030,7 +2122,8 @@
       ],
       "correct": 1,
       "explanation": "高冷地の気候を利用して、夏に高原野菜などを出荷する。",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-152",
@@ -2046,7 +2139,8 @@
       ],
       "correct": 0,
       "explanation": "排他的経済水域では資源の探査・利用などの権利が認められる。",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-155",
@@ -2062,7 +2156,8 @@
       ],
       "correct": 1,
       "explanation": "地形図では等高線や地図記号を使って地表の様子を表す。",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-157",
@@ -2078,7 +2173,8 @@
       ],
       "correct": 3,
       "explanation": "墾田永年私財法により荘園が広がるきっかけとなった。",
-      "link": "/study/summary/history/"
+      "link": "/study/summary/history/",
+      "priority": "A"
     },
     {
       "id": "fb-159",
@@ -2094,7 +2190,8 @@
       ],
       "correct": 1,
       "explanation": "幕府側が勝利し、朝廷を監視するため六波羅探題が置かれた。",
-      "link": "/study/summary/history/"
+      "link": "/study/summary/history/",
+      "priority": "A"
     },
     {
       "id": "fb-160",
@@ -2110,7 +2207,8 @@
       ],
       "correct": 0,
       "explanation": "御成敗式目は武士社会の慣習や道理をもとに定められた。",
-      "link": "/study/summary/history/"
+      "link": "/study/summary/history/",
+      "priority": "A"
     },
     {
       "id": "fb-163",
@@ -2126,7 +2224,8 @@
       ],
       "correct": 1,
       "explanation": "大政奉還によって江戸幕府の政治は終わりに向かった。",
-      "link": "/study/summary/history/"
+      "link": "/study/summary/history/",
+      "priority": "A"
     },
     {
       "id": "fb-164",
@@ -2142,7 +2241,8 @@
       ],
       "correct": 0,
       "explanation": "不平等条約の一つで、関税自主権の回復などが課題となった。",
-      "link": "/study/summary/history/"
+      "link": "/study/summary/history/",
+      "priority": "A"
     },
     {
       "id": "fb-165",
@@ -2158,7 +2258,8 @@
       ],
       "correct": 3,
       "explanation": "1952年に発効し、日本は独立を回復した。",
-      "link": "/study/summary/history/"
+      "link": "/study/summary/history/",
+      "priority": "A"
     },
     {
       "id": "fb-168",
@@ -2174,7 +2275,8 @@
       ],
       "correct": 0,
       "explanation": "可決された場合、内閣は10日以内に衆議院を解散しない限り総辞職する。",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-169",
@@ -2190,7 +2292,8 @@
       ],
       "correct": 3,
       "explanation": "小選挙区制では各選挙区で最も得票数の多い候補者が当選する。",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-170",
@@ -2206,7 +2309,8 @@
       ],
       "correct": 2,
       "explanation": "比例代表制は得票数を議席に反映させる制度。",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-171",
@@ -2222,7 +2326,8 @@
       ],
       "correct": 0,
       "explanation": "化学式 H₂O の下付きの数字は、その元素の原子の数を表す。Hには数字がないので1個、Oには2が付いていないため1個。したがって水素原子2個と酸素原子1個からできている。",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-172",
@@ -2238,7 +2343,8 @@
       ],
       "correct": 0,
       "explanation": "供給量は価格や生産条件などの影響を受ける。",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-173",
@@ -2254,7 +2360,8 @@
       ],
       "correct": 3,
       "explanation": "所得税や法人税は直接税に分類される。",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-174",
@@ -2270,7 +2377,8 @@
       ],
       "correct": 2,
       "explanation": "消費税は事業者が納めるが、負担するのは消費者である。",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-175",
@@ -2286,7 +2394,8 @@
       ],
       "correct": 1,
       "explanation": "国際連合は1945年に発足した。",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-repaired-001",
@@ -2302,7 +2411,8 @@
       ],
       "correct": 1,
       "explanation": "化学変化では原子の組み合わせが変わり、新しい物質ができる。（確認ポイント：化学変化）",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-145",
@@ -2318,7 +2428,8 @@
       ],
       "correct": 1,
       "explanation": "日本国憲法は国の基本原則や統治のしくみ、国民の権利・義務を定める最高法規。（確認ポイント：日本国憲法）",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-146",
@@ -2334,7 +2445,8 @@
       ],
       "correct": 1,
       "explanation": "扇状地は水はけがよく、果樹園などに利用されることが多い。（確認ポイント：扇状地）",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-147",
@@ -2350,7 +2462,8 @@
       ],
       "correct": 1,
       "explanation": "日周運動は地球の自転によって起こる。（確認ポイント：日周運動）",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-repaired-002",
@@ -2366,7 +2479,8 @@
       ],
       "correct": 2,
       "explanation": "細胞は生物の体をつくる基本単位。植物細胞には細胞壁や葉緑体などがある。（確認ポイント：細胞）",
-      "link": "/study/summary/biology/"
+      "link": "/study/summary/biology/",
+      "priority": "A"
     },
     {
       "id": "fb-repaired-003",
@@ -2382,7 +2496,8 @@
       ],
       "correct": 1,
       "explanation": "内閣は行政権を担い、内閣総理大臣と国務大臣で構成される。（確認ポイント：内閣）",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-150",
@@ -2398,7 +2513,8 @@
       ],
       "correct": 1,
       "explanation": "人口ピラミッドの形から、年齢構成や少子高齢化の進み方などを読み取れる。（確認ポイント：人口ピラミッド）",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-repaired-004",
@@ -2414,7 +2530,8 @@
       ],
       "correct": 0,
       "explanation": "排他的経済水域では資源の探査・利用などの権利が認められる。（確認ポイント：排他的経済水域）",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-repaired-005",
@@ -2430,7 +2547,8 @@
       ],
       "correct": 0,
       "explanation": "反射は脳で意識して判断する前に起こる、すばやい反応。（確認ポイント：反射）",
-      "link": "/study/summary/biology/"
+      "link": "/study/summary/biology/",
+      "priority": "A"
     },
     {
       "id": "fb-153",
@@ -2446,7 +2564,8 @@
       ],
       "correct": 1,
       "explanation": "並列回路では各枝にかかる電圧が等しく、全体の電流は枝の電流の和になる。（確認ポイント：並列回路）",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-154",
@@ -2462,7 +2581,8 @@
       ],
       "correct": 1,
       "explanation": "楽市・楽座は商売の自由を広げ、城下町や商工業の発展を促した。（確認ポイント：楽市・楽座）",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-repaired-006",
@@ -2478,7 +2598,8 @@
       ],
       "correct": 1,
       "explanation": "大政奉還によって江戸幕府の政治は終わりに向かった。（確認ポイント：大政奉還）",
-      "link": "/study/summary/history/"
+      "link": "/study/summary/history/",
+      "priority": "A"
     },
     {
       "id": "fb-156",
@@ -2494,7 +2615,8 @@
       ],
       "correct": 1,
       "explanation": "P波は速く伝わり、先に到着して初期微動を起こす。（確認ポイント：初期微動）",
-      "link": "/study/summary/earth/"
+      "link": "/study/summary/earth/",
+      "priority": "A"
     },
     {
       "id": "fb-repaired-007",
@@ -2510,7 +2632,8 @@
       ],
       "correct": 1,
       "explanation": "蒸留は沸点の違いなどを利用して液体を分離する方法。（確認ポイント：蒸留）",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-158",
@@ -2526,7 +2649,8 @@
       ],
       "correct": 1,
       "explanation": "生存権は社会権の一つで、日本国憲法第25条に定められている。（確認ポイント：生存権）",
-      "link": "/study/summary/history/"
+      "link": "/study/summary/history/",
+      "priority": "A"
     },
     {
       "id": "fb-repaired-008",
@@ -2542,7 +2666,8 @@
       ],
       "correct": 2,
       "explanation": "比例代表制は得票数を議席に反映させる制度。（確認ポイント：比例代表制）",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-repaired-009",
@@ -2558,7 +2683,8 @@
       ],
       "correct": 1,
       "explanation": "日食は太陽—月—地球の順にほぼ一直線に並んだときに起こる。（確認ポイント：日食）",
-      "link": "/study/summary/earth/"
+      "link": "/study/summary/earth/",
+      "priority": "A"
     },
     {
       "id": "fb-161",
@@ -2574,7 +2700,8 @@
       ],
       "correct": 1,
       "explanation": "発熱反応では反応の前後で周囲の温度が上がる。（確認ポイント：発熱反応）",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-162",
@@ -2590,7 +2717,8 @@
       ],
       "correct": 0,
       "explanation": "電力の単位はワット（W）。（確認ポイント：電力）",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-repaired-010",
@@ -2606,7 +2734,8 @@
       ],
       "correct": 1,
       "explanation": "国際連合は1945年に発足した。（確認ポイント：国際連合）",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-repaired-011",
@@ -2622,7 +2751,8 @@
       ],
       "correct": 1,
       "explanation": "促成栽培は温室などで生育を早め、通常より早く出荷する方法。（確認ポイント：促成栽培）",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-repaired-012",
@@ -2638,23 +2768,8 @@
       ],
       "correct": 1,
       "explanation": "師管は光合成でつくられた養分などを運ぶ。（確認ポイント：師管）",
-      "link": "/study/summary/biology/"
-    },
-    {
-      "id": "fb-166",
-      "subject": "science",
-      "topic": "化学",
-      "term": "塩",
-      "prompt": "塩について正しい説明を選べ。酸の陰イオンとアルカリの陽イオンなどからできる、中和で生じる物質は何か。",
-      "options": [
-        "塩",
-        "酸",
-        "アルカリ",
-        "単体"
-      ],
-      "correct": 0,
-      "explanation": "塩（えん）は食塩だけでなく、さまざまな化合物を含む。（確認ポイント：塩）",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/biology/",
+      "priority": "A"
     },
     {
       "id": "fb-167",
@@ -2670,7 +2785,8 @@
       ],
       "correct": 1,
       "explanation": "仕事率は仕事をする速さ。仕事率〔W〕＝仕事〔J〕÷時間〔s〕。（確認ポイント：仕事率）",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-repaired-013",
@@ -2686,7 +2802,8 @@
       ],
       "correct": 1,
       "explanation": "弥生時代には大陸から稲作や金属器が伝わり、むらやくにが発達した。（確認ポイント：弥生時代）",
-      "link": "/study/summary/history/"
+      "link": "/study/summary/history/",
+      "priority": "A"
     },
     {
       "id": "fb-repaired-014",
@@ -2702,7 +2819,8 @@
       ],
       "correct": 1,
       "explanation": "化石は地層ができた時代や環境を推定する手がかりになる。（確認ポイント：化石）",
-      "link": "/study/summary/biology/"
+      "link": "/study/summary/biology/",
+      "priority": "A"
     },
     {
       "id": "fb-repaired-015",
@@ -2718,7 +2836,8 @@
       ],
       "correct": 3,
       "explanation": "動脈は心臓から出る血液が流れる血管。（確認ポイント：動脈）",
-      "link": "/study/summary/biology/"
+      "link": "/study/summary/biology/",
+      "priority": "A"
     },
     {
       "id": "fb-repaired-016",
@@ -2734,7 +2853,8 @@
       ],
       "correct": 0,
       "explanation": "化学式 H₂O の下付きの数字は、その元素の原子の数を表す。Hには数字がないので1個、Oには2が付いていないため1個。したがって水素原子2個と酸素原子1個からできている。",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-repaired-017",
@@ -2750,7 +2870,8 @@
       ],
       "correct": 1,
       "explanation": "徳川家康は1603年に征夷大将軍となり、江戸幕府を開いた。（確認ポイント：江戸幕府）",
-      "link": "/study/summary/history/"
+      "link": "/study/summary/history/",
+      "priority": "A"
     },
     {
       "id": "fb-repaired-018",
@@ -2766,7 +2887,8 @@
       ],
       "correct": 1,
       "explanation": "地軸が傾いたまま地球が公転するため、季節によって太陽の高さや昼の長さが変わる。（確認ポイント：季節）",
-      "link": "/study/summary/earth/"
+      "link": "/study/summary/earth/",
+      "priority": "A"
     },
     {
       "id": "fb-repaired-019",
@@ -2782,7 +2904,8 @@
       ],
       "correct": 3,
       "explanation": "寒冷前線付近では短時間に強い雨が降ることがある。（確認ポイント：寒冷前線）",
-      "link": "/study/summary/earth/"
+      "link": "/study/summary/earth/",
+      "priority": "A"
     },
     {
       "id": "fb-repaired-020",
@@ -2798,7 +2921,8 @@
       ],
       "correct": 1,
       "explanation": "電子を失うと陽イオン、電子を受け取ると陰イオンになる。（確認ポイント：イオン）",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-176",
@@ -2814,7 +2938,8 @@
       ],
       "correct": 1,
       "explanation": "国会・内閣・裁判所が権力を分担し、互いに抑制と均衡を保つ。（確認ポイント：三権分立）",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-177",
@@ -2830,7 +2955,8 @@
       ],
       "correct": 0,
       "explanation": "酪農は乳牛などを飼育し、生乳や乳製品を生産する農業。（確認ポイント：酪農）",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-178",
@@ -2846,7 +2972,8 @@
       ],
       "correct": 3,
       "explanation": "偏西風は日本付近の天気の変化にも関係する。（確認ポイント：偏西風）",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-179",
@@ -2862,7 +2989,8 @@
       ],
       "correct": 1,
       "explanation": "消化酵素などのはたらきで、栄養分を吸収できる形に分解する。（確認ポイント：消化）",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-180",
@@ -2878,7 +3006,8 @@
       ],
       "correct": 1,
       "explanation": "エネルギーは移り変わったり形を変えたりするが、全体の量は保存される。（確認ポイント：エネルギー保存の法則）",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-181",
@@ -2894,7 +3023,8 @@
       ],
       "correct": 1,
       "explanation": "藤原氏は摂政・関白の地位を利用して、平安時代に政治の実権を握った。（確認ポイント：摂関政治）",
-      "link": "/study/summary/history/"
+      "link": "/study/summary/history/",
+      "priority": "A"
     },
     {
       "id": "fb-182",
@@ -2910,7 +3040,8 @@
       ],
       "correct": 1,
       "explanation": "幕府側が勝利し、朝廷を監視するため六波羅探題が置かれた。（確認ポイント：承久の乱）",
-      "link": "/study/summary/history/"
+      "link": "/study/summary/history/",
+      "priority": "A"
     },
     {
       "id": "fb-183",
@@ -2926,7 +3057,8 @@
       ],
       "correct": 1,
       "explanation": "震源は地下で地震が発生した場所。震源の真上の地表の点が震央。（確認ポイント：震源）",
-      "link": "/study/summary/earth/"
+      "link": "/study/summary/earth/",
+      "priority": "A"
     },
     {
       "id": "fb-184",
@@ -2942,7 +3074,8 @@
       ],
       "correct": 1,
       "explanation": "共鳴では外から加える振動数が固有振動数と一致し、振幅が大きくなる。（確認ポイント：共鳴）",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-185",
@@ -2958,7 +3091,8 @@
       ],
       "correct": 1,
       "explanation": "平和主義は日本国憲法の三つの基本原則の一つで、第9条に関係する。（確認ポイント：平和主義）",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-186",
@@ -2974,7 +3108,8 @@
       ],
       "correct": 0,
       "explanation": "可決された場合、内閣は10日以内に衆議院を解散しない限り総辞職する。（確認ポイント：内閣不信任決議）",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-187",
@@ -2990,7 +3125,8 @@
       ],
       "correct": 1,
       "explanation": "地球の公転周期は約1年。季節の変化に関係する。（確認ポイント：公転）",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-188",
@@ -3006,7 +3142,8 @@
       ],
       "correct": 1,
       "explanation": "質量パーセント濃度＝溶質の質量÷溶液の質量×100。（確認ポイント：質量パーセント濃度）",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-189",
@@ -3022,7 +3159,8 @@
       ],
       "correct": 1,
       "explanation": "地方自治は住民に身近な行政を、地方公共団体と住民が担うしくみ。（確認ポイント：地方自治）",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-190",
@@ -3038,7 +3176,8 @@
       ],
       "correct": 3,
       "explanation": "所得税や法人税は直接税に分類される。（確認ポイント：直接税）",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-191",
@@ -3054,7 +3193,8 @@
       ],
       "correct": 1,
       "explanation": "地球は24時間で360度自転するため、経度15度でおよそ1時間の時差が生じる。（確認ポイント：時差）",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-192",
@@ -3070,7 +3210,8 @@
       ],
       "correct": 1,
       "explanation": "気孔は主に葉の表皮にあり、二酸化炭素や酸素、水蒸気の出入りに関係する。（確認ポイント：気孔）",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-193",
@@ -3086,7 +3227,8 @@
       ],
       "correct": 1,
       "explanation": "反射では入射角と反射角が等しい。（確認ポイント：反射）",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-194",
@@ -3102,7 +3244,8 @@
       ],
       "correct": 2,
       "explanation": "浮力は液体や気体の中の物体にはたらく、上向きの力。（確認ポイント：浮力）",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-195",
@@ -3118,7 +3261,8 @@
       ],
       "correct": 1,
       "explanation": "縮尺を使うと、地図上の長さから実際の距離を求められる。（確認ポイント：縮尺）",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-196",
@@ -3134,7 +3278,8 @@
       ],
       "correct": 2,
       "explanation": "菌類や細菌類などの分解者は、有機物を分解して物質を自然界に戻す。（確認ポイント：分解者）",
-      "link": "/study/summary/biology/"
+      "link": "/study/summary/biology/",
+      "priority": "A"
     },
     {
       "id": "fb-197",
@@ -3150,7 +3295,8 @@
       ],
       "correct": 2,
       "explanation": "アミラーゼやペプシンなどが消化酵素にあたる。（確認ポイント：消化酵素）",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-198",
@@ -3166,7 +3312,8 @@
       ],
       "correct": 1,
       "explanation": "直列回路では電流の通り道が1本で、回路のどこでも電流は等しい。（確認ポイント：直列回路）",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-199",
@@ -3182,7 +3329,8 @@
       ],
       "correct": 1,
       "explanation": "源頼朝は鎌倉を本拠地として武士の政権を築いた。（確認ポイント：鎌倉幕府）",
-      "link": "/study/summary/history/"
+      "link": "/study/summary/history/",
+      "priority": "A"
     },
     {
       "id": "fb-200",
@@ -3198,7 +3346,8 @@
       ],
       "correct": 1,
       "explanation": "マグニチュードは地震の規模を表し、震度は各地点での揺れの強さを表す。（確認ポイント：マグニチュード）",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-201",
@@ -3214,7 +3363,8 @@
       ],
       "correct": 1,
       "explanation": "生態系では生物どうしや環境との間に関係がある。（確認ポイント：生態系）",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-202",
@@ -3230,7 +3380,8 @@
       ],
       "correct": 1,
       "explanation": "化学変化の前後で原子の種類と数は変わらないため、全体の質量は保存される。（確認ポイント：質量保存の法則）",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-203",
@@ -3246,7 +3397,8 @@
       ],
       "correct": 1,
       "explanation": "国民主権は日本国憲法の三つの基本原則の一つ。（確認ポイント：国民主権）",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-204",
@@ -3262,7 +3414,8 @@
       ],
       "correct": 1,
       "explanation": "三角州は河口付近にできる低く平らな地形で、水田などに利用される。（確認ポイント：三角州）",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-205",
@@ -3278,7 +3431,8 @@
       ],
       "correct": 0,
       "explanation": "年周運動は地球の公転によって起こる。（確認ポイント：年周運動）",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-206",
@@ -3294,7 +3448,8 @@
       ],
       "correct": 2,
       "explanation": "光合成では光エネルギーを利用してデンプンなどの養分をつくり、酸素を放出する。（確認ポイント：光合成）",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-207",
@@ -3310,7 +3465,8 @@
       ],
       "correct": 1,
       "explanation": "裁判員制度では、選ばれた国民が裁判官と一緒に有罪・無罪や刑の内容を判断する。（確認ポイント：裁判員制度）",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-208",
@@ -3326,7 +3482,8 @@
       ],
       "correct": 0,
       "explanation": "飛鳥時代には仏教が広まり、中央集権国家への改革が進められた。（確認ポイント：飛鳥時代）",
-      "link": "/study/summary/history/"
+      "link": "/study/summary/history/",
+      "priority": "A"
     },
     {
       "id": "fb-209",
@@ -3342,7 +3499,8 @@
       ],
       "correct": 1,
       "explanation": "地形図では等高線や地図記号を使って地表の様子を表す。（確認ポイント：地形図）",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-210",
@@ -3358,7 +3516,8 @@
       ],
       "correct": 1,
       "explanation": "遺伝子はDNAの一部で、親から子へ受け継がれる形質の情報を担う。（確認ポイント：遺伝子）",
-      "link": "/study/summary/biology/"
+      "link": "/study/summary/biology/",
+      "priority": "A"
     },
     {
       "id": "fb-211",
@@ -3374,7 +3533,8 @@
       ],
       "correct": 1,
       "explanation": "磁界の向きは方位磁針のN極が指す向きで表す。（確認ポイント：磁界）",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-212",
@@ -3390,7 +3550,8 @@
       ],
       "correct": 1,
       "explanation": "参勤交代は大名の経済力を弱め、幕府への服従を示させる目的もあった。（確認ポイント：参勤交代）",
-      "link": "/study/summary/history/"
+      "link": "/study/summary/history/",
+      "priority": "A"
     },
     {
       "id": "fb-213",
@@ -3406,7 +3567,8 @@
       ],
       "correct": 0,
       "explanation": "不平等条約の一つで、関税自主権の回復などが課題となった。（確認ポイント：日米修好通商条約）",
-      "link": "/study/summary/history/"
+      "link": "/study/summary/history/",
+      "priority": "A"
     },
     {
       "id": "fb-214",
@@ -3422,7 +3584,8 @@
       ],
       "correct": 1,
       "explanation": "前線付近では雲や雨が発生しやすく、温帯低気圧の発達にも関係する。（確認ポイント：前線）",
-      "link": "/study/summary/earth/"
+      "link": "/study/summary/earth/",
+      "priority": "A"
     },
     {
       "id": "fb-215",
@@ -3438,7 +3601,8 @@
       ],
       "correct": 1,
       "explanation": "飽和水溶液には、その温度で溶ける限度まで溶質が溶けている。（確認ポイント：飽和水溶液）",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-216",
@@ -3454,7 +3618,8 @@
       ],
       "correct": 1,
       "explanation": "衆議院の任期は4年だが、解散がある。参議院の任期は6年で解散はない。（確認ポイント：衆議院）",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-217",
@@ -3470,7 +3635,8 @@
       ],
       "correct": 1,
       "explanation": "需要と供給の関係によって市場価格が変化する。（確認ポイント：需要）",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-218",
@@ -3486,7 +3652,8 @@
       ],
       "correct": 1,
       "explanation": "緯度は赤道を基準に南北の位置を表し、北緯・南緯で示す。（確認ポイント：緯度）",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-219",
@@ -3502,7 +3669,8 @@
       ],
       "correct": 1,
       "explanation": "化学反応式では、反応の前後で原子の種類と数が等しくなるように係数をつける。（確認ポイント：化学反応式）",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-220",
@@ -3518,23 +3686,8 @@
       ],
       "correct": 3,
       "explanation": "電力量は電力×時間で求め、単位にはWhやJを使う。（確認ポイント：電力量）",
-      "link": "/study/summary/physics/"
-    },
-    {
-      "id": "fb-221",
-      "subject": "science",
-      "topic": "物理",
-      "term": "力",
-      "prompt": "確認問題：物体の形や運動の状態を変化させるはたらきは何か。",
-      "options": [
-        "力",
-        "圧力",
-        "仕事",
-        "エネルギー"
-      ],
-      "correct": 0,
-      "explanation": "力は物体の運動の状態や形を変えるはたらき。単位はN（ニュートン）。（確認ポイント：力）",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-222",
@@ -3550,7 +3703,8 @@
       ],
       "correct": 0,
       "explanation": "工業地域には工場や関連産業が集まり、交通・港湾などと結びつく。（確認ポイント：工業地域）",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-223",
@@ -3566,7 +3720,8 @@
       ],
       "correct": 1,
       "explanation": "腎臓は血液から不要物や余分な水分などを取り除き、尿をつくる。（確認ポイント：腎臓）",
-      "link": "/study/summary/biology/"
+      "link": "/study/summary/biology/",
+      "priority": "A"
     },
     {
       "id": "fb-224",
@@ -3582,7 +3737,8 @@
       ],
       "correct": 3,
       "explanation": "塩化ナトリウムなどの電解質は水溶液中で電離する。（確認ポイント：電離）",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-225",
@@ -3598,7 +3754,8 @@
       ],
       "correct": 2,
       "explanation": "オームの法則は V＝RI。電圧V、電流I、抵抗Rの関係を表す。（確認ポイント：オームの法則）",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-226",
@@ -3614,7 +3771,8 @@
       ],
       "correct": 1,
       "explanation": "大化の改新は645年に始まり、豪族中心の政治から天皇中心の国家づくりを目指した。（確認ポイント：大化の改新）",
-      "link": "/study/summary/history/"
+      "link": "/study/summary/history/",
+      "priority": "A"
     },
     {
       "id": "fb-227",
@@ -3630,7 +3788,8 @@
       ],
       "correct": 2,
       "explanation": "火成岩には、地下深くでゆっくり冷えた深成岩と、地表付近で急に冷えた火山岩がある。（確認ポイント：火成岩）",
-      "link": "/study/summary/earth/"
+      "link": "/study/summary/earth/",
+      "priority": "A"
     },
     {
       "id": "fb-228",
@@ -3646,7 +3805,8 @@
       ],
       "correct": 2,
       "explanation": "静脈には血液の逆流を防ぐ弁があるものが多い。（確認ポイント：静脈）",
-      "link": "/study/summary/biology/"
+      "link": "/study/summary/biology/",
+      "priority": "A"
     },
     {
       "id": "fb-229",
@@ -3662,7 +3822,8 @@
       ],
       "correct": 2,
       "explanation": "水や二酸化炭素のように、複数の元素からできた純物質を化合物という。（確認ポイント：化合物）",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-230",
@@ -3678,7 +3839,8 @@
       ],
       "correct": 1,
       "explanation": "明治維新では廃藩置県、徴兵令、地租改正など近代国家づくりの改革が進められた。（確認ポイント：明治維新）",
-      "link": "/study/summary/history/"
+      "link": "/study/summary/history/",
+      "priority": "A"
     },
     {
       "id": "fb-231",
@@ -3694,7 +3856,8 @@
       ],
       "correct": 1,
       "explanation": "等高線の間隔が狭い場所ほど、一般に傾斜が急である。（確認ポイント：等高線）",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-232",
@@ -3710,7 +3873,8 @@
       ],
       "correct": 2,
       "explanation": "温暖前線では広い範囲で比較的長く雨が降ることがある。（確認ポイント：温暖前線）",
-      "link": "/study/summary/earth/"
+      "link": "/study/summary/earth/",
+      "priority": "A"
     },
     {
       "id": "fb-233",
@@ -3726,7 +3890,8 @@
       ],
       "correct": 1,
       "explanation": "中和では酸とアルカリが反応し、塩と水ができる。（確認ポイント：中和）",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-234",
@@ -3742,7 +3907,8 @@
       ],
       "correct": 2,
       "explanation": "国会は国権の最高機関であり、国の唯一の立法機関と定められている。（確認ポイント：国会）",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-235",
@@ -3758,7 +3924,8 @@
       ],
       "correct": 1,
       "explanation": "輸出は外国へ売ること、輸入は外国から買うこと。（確認ポイント：貿易）",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-236",
@@ -3774,7 +3941,8 @@
       ],
       "correct": 1,
       "explanation": "高冷地の気候を利用して、夏に高原野菜などを出荷する。（確認ポイント：抑制栽培）",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-237",
@@ -3790,7 +3958,8 @@
       ],
       "correct": 1,
       "explanation": "肺胞の壁は薄く、周囲を毛細血管が取り囲み、気体交換が行われる。（確認ポイント：肺胞）",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-238",
@@ -3806,7 +3975,8 @@
       ],
       "correct": 1,
       "explanation": "熱量の単位はJ（ジュール）。水の温度変化などから求められる。（確認ポイント：熱量）",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-239",
@@ -3822,7 +3992,8 @@
       ],
       "correct": 1,
       "explanation": "応仁の乱で京都が荒廃し、各地の守護大名らが争う戦国時代へ向かった。（確認ポイント：応仁の乱）",
-      "link": "/study/summary/history/"
+      "link": "/study/summary/history/",
+      "priority": "A"
     },
     {
       "id": "fb-240",
@@ -3838,7 +4009,8 @@
       ],
       "correct": 0,
       "explanation": "御成敗式目は武士社会の慣習や道理をもとに定められた。（確認ポイント：御成敗式目）",
-      "link": "/study/summary/history/"
+      "link": "/study/summary/history/",
+      "priority": "A"
     },
     {
       "id": "fb-241",
@@ -3854,7 +4026,8 @@
       ],
       "correct": 0,
       "explanation": "震央は震源の真上にあたる地表の地点。（確認ポイント：震央）",
-      "link": "/study/summary/earth/"
+      "link": "/study/summary/earth/",
+      "priority": "A"
     },
     {
       "id": "fb-242",
@@ -3870,7 +4043,8 @@
       ],
       "correct": 0,
       "explanation": "力がつり合う条件は、二力なら大きさが等しく、同一直線上で向きが反対であること。（確認ポイント：力のつり合い）",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-243",
@@ -3886,7 +4060,8 @@
       ],
       "correct": 1,
       "explanation": "平等権は、性別や身分などによって不合理な差別を受けない権利。（確認ポイント：法の下の平等）",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-244",
@@ -3902,7 +4077,8 @@
       ],
       "correct": 3,
       "explanation": "小選挙区制では各選挙区で最も得票数の多い候補者が当選する。（確認ポイント：小選挙区制）",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-245",
@@ -3918,7 +4094,8 @@
       ],
       "correct": 1,
       "explanation": "地球は約24時間で1回自転し、昼と夜の変化に関係する。（確認ポイント：自転）",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-246",
@@ -3934,7 +4111,8 @@
       ],
       "correct": 1,
       "explanation": "電気エネルギーによって化合物を分解する反応。水の電気分解では水素と酸素が発生する。（確認ポイント：電気分解）",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-247",
@@ -3950,7 +4128,8 @@
       ],
       "correct": 1,
       "explanation": "累進課税は所得が高いほど税率が高くなるしくみで、所得税などに採用されている。（確認ポイント：累進課税）",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-248",
@@ -3966,7 +4145,8 @@
       ],
       "correct": 2,
       "explanation": "消費税は事業者が納めるが、負担するのは消費者である。（確認ポイント：間接税）",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-249",
@@ -3982,7 +4162,8 @@
       ],
       "correct": 2,
       "explanation": "モンスーンは季節によって風向きが変わり、アジアの降水や農業に大きく関係する。（確認ポイント：モンスーン）",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-250",
@@ -3998,7 +4179,8 @@
       ],
       "correct": 1,
       "explanation": "道管は水や無機養分を根から茎・葉へ運ぶ。（確認ポイント：道管）",
-      "link": "/study/summary/biology/"
+      "link": "/study/summary/biology/",
+      "priority": "A"
     },
     {
       "id": "fb-251",
@@ -4014,7 +4196,8 @@
       ],
       "correct": 2,
       "explanation": "還元は酸化と反対向きの変化として説明できる。（確認ポイント：還元）",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-252",
@@ -4030,7 +4213,8 @@
       ],
       "correct": 0,
       "explanation": "仕事〔J〕＝力〔N〕×力の向きに動いた距離〔m〕。（確認ポイント：仕事）",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-253",
@@ -4046,7 +4230,8 @@
       ],
       "correct": 1,
       "explanation": "縄文時代は土器や弓矢などを使い、狩り・採集・漁労を中心に生活した。（確認ポイント：縄文時代）",
-      "link": "/study/summary/history/"
+      "link": "/study/summary/history/",
+      "priority": "A"
     },
     {
       "id": "fb-254",
@@ -4062,7 +4247,8 @@
       ],
       "correct": 1,
       "explanation": "地層は堆積物が積み重なってできる。一般に下の層ほど古い。（確認ポイント：地層）",
-      "link": "/study/summary/earth/"
+      "link": "/study/summary/earth/",
+      "priority": "A"
     },
     {
       "id": "fb-255",
@@ -4078,7 +4264,8 @@
       ],
       "correct": 1,
       "explanation": "柔毛があることで小腸の表面積が大きくなる。（確認ポイント：柔毛）",
-      "link": "/study/summary/biology/"
+      "link": "/study/summary/biology/",
+      "priority": "A"
     },
     {
       "id": "fb-256",
@@ -4094,7 +4281,8 @@
       ],
       "correct": 1,
       "explanation": "原子は物質を構成する基本粒子。原子核と電子からできている。（確認ポイント：原子）",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-257",
@@ -4110,7 +4298,8 @@
       ],
       "correct": 1,
       "explanation": "足利尊氏が京都に開いた武家政権が室町幕府。（確認ポイント：室町幕府）",
-      "link": "/study/summary/history/"
+      "link": "/study/summary/history/",
+      "priority": "A"
     },
     {
       "id": "fb-258",
@@ -4126,7 +4315,8 @@
       ],
       "correct": 2,
       "explanation": "積乱雲は縦に大きく発達し、雷雨や突風、ひょうなどをもたらすことがある。（確認ポイント：積乱雲）",
-      "link": "/study/summary/earth/"
+      "link": "/study/summary/earth/",
+      "priority": "A"
     },
     {
       "id": "fb-259",
@@ -4142,7 +4332,8 @@
       ],
       "correct": 2,
       "explanation": "初期微動継続時間は震源から遠いほど長くなる。（確認ポイント：初期微動継続時間）",
-      "link": "/study/summary/earth/"
+      "link": "/study/summary/earth/",
+      "priority": "A"
     },
     {
       "id": "fb-260",
@@ -4158,7 +4349,8 @@
       ],
       "correct": 2,
       "explanation": "中学理科では、物質が酸素と結びつく反応を酸化という。（確認ポイント：酸化）",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-261",
@@ -4174,7 +4366,8 @@
       ],
       "correct": 1,
       "explanation": "基本的人権は侵すことのできない永久の権利として憲法で保障される。（確認ポイント：基本的人権）",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-262",
@@ -4190,7 +4383,8 @@
       ],
       "correct": 1,
       "explanation": "稲作は水田で稲を育てる農業で、アジアの季節風地域などで盛ん。（確認ポイント：稲作）",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-263",
@@ -4206,7 +4400,8 @@
       ],
       "correct": 0,
       "explanation": "日本では冬に北西、夏に南東寄りの季節風が吹く。（確認ポイント：季節風）",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-264",
@@ -4222,7 +4417,8 @@
       ],
       "correct": 0,
       "explanation": "蒸散は主に葉の気孔から水蒸気が出ていく現象。（確認ポイント：蒸散）",
-      "link": "/study/summary/biology/"
+      "link": "/study/summary/biology/",
+      "priority": "A"
     },
     {
       "id": "fb-265",
@@ -4238,7 +4434,8 @@
       ],
       "correct": 0,
       "explanation": "一般に需要が供給を上回ると価格は上がり、供給が需要を上回ると価格は下がる方向に働く。（確認ポイント：需要と供給）",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-266",
@@ -4254,7 +4451,8 @@
       ],
       "correct": 1,
       "explanation": "710年に平城京へ遷都し、奈良時代が始まった。（確認ポイント：奈良時代）",
-      "link": "/study/summary/history/"
+      "link": "/study/summary/history/",
+      "priority": "A"
     },
     {
       "id": "fb-267",
@@ -4270,7 +4468,8 @@
       ],
       "correct": 3,
       "explanation": "墾田永年私財法により荘園が広がるきっかけとなった。（確認ポイント：墾田永年私財法）",
-      "link": "/study/summary/history/"
+      "link": "/study/summary/history/",
+      "priority": "A"
     },
     {
       "id": "fb-268",
@@ -4286,7 +4485,8 @@
       ],
       "correct": 0,
       "explanation": "食物連鎖では、生物を通じて物質やエネルギーが移動する。（確認ポイント：食物連鎖）",
-      "link": "/study/summary/biology/"
+      "link": "/study/summary/biology/",
+      "priority": "A"
     },
     {
       "id": "fb-269",
@@ -4302,7 +4502,8 @@
       ],
       "correct": 1,
       "explanation": "磁石を動かすなどしてコイルを貫く磁界を変化させると誘導電流が流れる。（確認ポイント：電磁誘導）",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-270",
@@ -4318,7 +4519,8 @@
       ],
       "correct": 1,
       "explanation": "日清戦争は1894年に始まり、下関条約が結ばれた。（確認ポイント：日清戦争）",
-      "link": "/study/summary/history/"
+      "link": "/study/summary/history/",
+      "priority": "A"
     },
     {
       "id": "fb-271",
@@ -4334,7 +4536,8 @@
       ],
       "correct": 3,
       "explanation": "1952年に発効し、日本は独立を回復した。（確認ポイント：サンフランシスコ平和条約）",
-      "link": "/study/summary/history/"
+      "link": "/study/summary/history/",
+      "priority": "A"
     },
     {
       "id": "fb-272",
@@ -4350,7 +4553,8 @@
       ],
       "correct": 1,
       "explanation": "湿度〔％〕＝空気中の水蒸気量÷飽和水蒸気量×100。（確認ポイント：湿度）",
-      "link": "/study/summary/earth/"
+      "link": "/study/summary/earth/",
+      "priority": "A"
     },
     {
       "id": "fb-273",
@@ -4366,7 +4570,8 @@
       ],
       "correct": 1,
       "explanation": "溶解度は通常、一定温度で水100gに溶ける溶質の質量で表す。（確認ポイント：溶解度）",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-274",
@@ -4382,7 +4587,8 @@
       ],
       "correct": 1,
       "explanation": "裁判所は具体的な裁判で、法律などが憲法に違反するかを判断できる。（確認ポイント：違憲審査制）",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-275",
@@ -4398,7 +4604,8 @@
       ],
       "correct": 0,
       "explanation": "供給量は価格や生産条件などの影響を受ける。（確認ポイント：供給）",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-276",
@@ -4414,7 +4621,8 @@
       ],
       "correct": 1,
       "explanation": "経度は本初子午線を基準に東西の位置を表し、東経・西経で示す。（確認ポイント：経度）",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-277",
@@ -4430,7 +4638,8 @@
       ],
       "correct": 1,
       "explanation": "葉緑体には緑色の色素クロロフィルが含まれ、光合成の場となる。（確認ポイント：葉緑体）",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-278",
@@ -4446,7 +4655,8 @@
       ],
       "correct": 2,
       "explanation": "外から力を受けない、または力がつり合うと運動の状態は変わらない。（確認ポイント：慣性）",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-279",
@@ -4462,7 +4672,8 @@
       ],
       "correct": 1,
       "explanation": "圧力＝面を垂直に押す力÷力を受ける面積。単位はPa。（確認ポイント：圧力）",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-280",
@@ -4478,7 +4689,8 @@
       ],
       "correct": 1,
       "explanation": "人口密度＝人口÷面積。一般に1平方キロメートルあたりの人口で表す。（確認ポイント：人口密度）",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-281",
@@ -4494,7 +4706,8 @@
       ],
       "correct": 1,
       "explanation": "心臓は収縮と拡張を繰り返し、血液を循環させる。（確認ポイント：心臓）",
-      "link": "/study/summary/biology/"
+      "link": "/study/summary/biology/",
+      "priority": "A"
     },
     {
       "id": "fb-282",
@@ -4510,7 +4723,8 @@
       ],
       "correct": 2,
       "explanation": "塩化ナトリウムや塩酸などは電解質。（確認ポイント：電解質）",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-283",
@@ -4526,7 +4740,8 @@
       ],
       "correct": 1,
       "explanation": "光が空気と水など異なる物質の境界を通るとき、進む向きが変わる現象。（確認ポイント：屈折）",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-284",
@@ -4542,7 +4757,8 @@
       ],
       "correct": 1,
       "explanation": "794年、桓武天皇は都を平安京に移した。（確認ポイント：平安京）",
-      "link": "/study/summary/history/"
+      "link": "/study/summary/history/",
+      "priority": "A"
     },
     {
       "id": "fb-285",
@@ -4558,7 +4774,8 @@
       ],
       "correct": 1,
       "explanation": "震度は地点ごとの揺れの強さを表す。地震そのものの規模を表すマグニチュードとは異なる。（確認ポイント：震度）",
-      "link": "/study/summary/earth/"
+      "link": "/study/summary/earth/",
+      "priority": "A"
     },
     {
       "id": "fb-286",
@@ -4574,7 +4791,8 @@
       ],
       "correct": 3,
       "explanation": "受粉の後、花粉管が伸びて受精につながる。（確認ポイント：受粉）",
-      "link": "/study/summary/biology/"
+      "link": "/study/summary/biology/",
+      "priority": "A"
     },
     {
       "id": "fb-287",
@@ -4590,7 +4808,8 @@
       ],
       "correct": 1,
       "explanation": "化学変化では原子の組み合わせが変わり、新しい物質ができる。（確認ポイント：化学変化）",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-288",
@@ -4606,7 +4825,8 @@
       ],
       "correct": 1,
       "explanation": "日本国憲法は国の基本原則や統治のしくみ、国民の権利・義務を定める最高法規。（確認ポイント：日本国憲法）",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-289",
@@ -4622,7 +4842,8 @@
       ],
       "correct": 1,
       "explanation": "扇状地は水はけがよく、果樹園などに利用されることが多い。（確認ポイント：扇状地）",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-290",
@@ -4638,7 +4859,8 @@
       ],
       "correct": 1,
       "explanation": "日周運動は地球の自転によって起こる。（確認ポイント：日周運動）",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-291",
@@ -4654,7 +4876,8 @@
       ],
       "correct": 2,
       "explanation": "細胞は生物の体をつくる基本単位。植物細胞には細胞壁や葉緑体などがある。（確認ポイント：細胞）",
-      "link": "/study/summary/biology/"
+      "link": "/study/summary/biology/",
+      "priority": "A"
     },
     {
       "id": "fb-292",
@@ -4670,7 +4893,8 @@
       ],
       "correct": 1,
       "explanation": "内閣は行政権を担い、内閣総理大臣と国務大臣で構成される。（確認ポイント：内閣）",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-293",
@@ -4686,7 +4910,8 @@
       ],
       "correct": 1,
       "explanation": "人口ピラミッドの形から、年齢構成や少子高齢化の進み方などを読み取れる。（確認ポイント：人口ピラミッド）",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-294",
@@ -4702,7 +4927,8 @@
       ],
       "correct": 0,
       "explanation": "排他的経済水域では資源の探査・利用などの権利が認められる。（確認ポイント：排他的経済水域）",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-295",
@@ -4718,7 +4944,8 @@
       ],
       "correct": 0,
       "explanation": "反射は脳で意識して判断する前に起こる、すばやい反応。（確認ポイント：反射）",
-      "link": "/study/summary/biology/"
+      "link": "/study/summary/biology/",
+      "priority": "A"
     },
     {
       "id": "fb-296",
@@ -4734,7 +4961,8 @@
       ],
       "correct": 1,
       "explanation": "並列回路では各枝にかかる電圧が等しく、全体の電流は枝の電流の和になる。（確認ポイント：並列回路）",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-297",
@@ -4750,7 +4978,8 @@
       ],
       "correct": 1,
       "explanation": "楽市・楽座は商売の自由を広げ、城下町や商工業の発展を促した。（確認ポイント：楽市・楽座）",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-298",
@@ -4766,7 +4995,8 @@
       ],
       "correct": 1,
       "explanation": "大政奉還によって江戸幕府の政治は終わりに向かった。（確認ポイント：大政奉還）",
-      "link": "/study/summary/history/"
+      "link": "/study/summary/history/",
+      "priority": "A"
     },
     {
       "id": "fb-299",
@@ -4782,7 +5012,8 @@
       ],
       "correct": 1,
       "explanation": "P波は速く伝わり、先に到着して初期微動を起こす。（確認ポイント：初期微動）",
-      "link": "/study/summary/earth/"
+      "link": "/study/summary/earth/",
+      "priority": "A"
     },
     {
       "id": "fb-300",
@@ -4798,7 +5029,8 @@
       ],
       "correct": 1,
       "explanation": "蒸留は沸点の違いなどを利用して液体を分離する方法。（確認ポイント：蒸留）",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-301",
@@ -4814,7 +5046,8 @@
       ],
       "correct": 1,
       "explanation": "生存権は社会権の一つで、日本国憲法第25条に定められている。（確認ポイント：生存権）",
-      "link": "/study/summary/history/"
+      "link": "/study/summary/history/",
+      "priority": "A"
     },
     {
       "id": "fb-302",
@@ -4830,7 +5063,8 @@
       ],
       "correct": 2,
       "explanation": "比例代表制は得票数を議席に反映させる制度。（確認ポイント：比例代表制）",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-303",
@@ -4846,7 +5080,8 @@
       ],
       "correct": 1,
       "explanation": "日食は太陽—月—地球の順にほぼ一直線に並んだときに起こる。（確認ポイント：日食）",
-      "link": "/study/summary/earth/"
+      "link": "/study/summary/earth/",
+      "priority": "A"
     },
     {
       "id": "fb-304",
@@ -4862,7 +5097,8 @@
       ],
       "correct": 1,
       "explanation": "発熱反応では反応の前後で周囲の温度が上がる。（確認ポイント：発熱反応）",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-305",
@@ -4878,7 +5114,8 @@
       ],
       "correct": 0,
       "explanation": "電力の単位はワット（W）。（確認ポイント：電力）",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-306",
@@ -4894,7 +5131,8 @@
       ],
       "correct": 1,
       "explanation": "国際連合は1945年に発足した。（確認ポイント：国際連合）",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-307",
@@ -4910,7 +5148,8 @@
       ],
       "correct": 1,
       "explanation": "促成栽培は温室などで生育を早め、通常より早く出荷する方法。（確認ポイント：促成栽培）",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-308",
@@ -4926,23 +5165,8 @@
       ],
       "correct": 1,
       "explanation": "師管は光合成でつくられた養分などを運ぶ。（確認ポイント：師管）",
-      "link": "/study/summary/biology/"
-    },
-    {
-      "id": "fb-309",
-      "subject": "science",
-      "topic": "化学",
-      "term": "塩",
-      "prompt": "確認問題：酸の陰イオンとアルカリの陽イオンなどからできる、中和で生じる物質は何か。",
-      "options": [
-        "塩",
-        "酸",
-        "アルカリ",
-        "単体"
-      ],
-      "correct": 0,
-      "explanation": "塩（えん）は食塩だけでなく、さまざまな化合物を含む。（確認ポイント：塩）",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/biology/",
+      "priority": "A"
     },
     {
       "id": "fb-310",
@@ -4958,7 +5182,8 @@
       ],
       "correct": 1,
       "explanation": "仕事率は仕事をする速さ。仕事率〔W〕＝仕事〔J〕÷時間〔s〕。（確認ポイント：仕事率）",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-311",
@@ -4974,7 +5199,8 @@
       ],
       "correct": 1,
       "explanation": "弥生時代には大陸から稲作や金属器が伝わり、むらやくにが発達した。（確認ポイント：弥生時代）",
-      "link": "/study/summary/history/"
+      "link": "/study/summary/history/",
+      "priority": "A"
     },
     {
       "id": "fb-312",
@@ -4990,7 +5216,8 @@
       ],
       "correct": 1,
       "explanation": "化石は地層ができた時代や環境を推定する手がかりになる。（確認ポイント：化石）",
-      "link": "/study/summary/biology/"
+      "link": "/study/summary/biology/",
+      "priority": "A"
     },
     {
       "id": "fb-313",
@@ -5006,7 +5233,8 @@
       ],
       "correct": 3,
       "explanation": "動脈は心臓から出る血液が流れる血管。（確認ポイント：動脈）",
-      "link": "/study/summary/biology/"
+      "link": "/study/summary/biology/",
+      "priority": "A"
     },
     {
       "id": "fb-314",
@@ -5022,7 +5250,8 @@
       ],
       "correct": 0,
       "explanation": "分子は、複数の原子が化学的に結びついてできた粒子。O₂は酸素原子2個、H₂Oは水素原子2個と酸素原子1個からできている。異なる種類の原子が結びついた分子もある。",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-315",
@@ -5038,7 +5267,8 @@
       ],
       "correct": 1,
       "explanation": "徳川家康は1603年に征夷大将軍となり、江戸幕府を開いた。（確認ポイント：江戸幕府）",
-      "link": "/study/summary/history/"
+      "link": "/study/summary/history/",
+      "priority": "A"
     },
     {
       "id": "fb-316",
@@ -5054,7 +5284,8 @@
       ],
       "correct": 1,
       "explanation": "地軸が傾いたまま地球が公転するため、季節によって太陽の高さや昼の長さが変わる。（確認ポイント：季節）",
-      "link": "/study/summary/earth/"
+      "link": "/study/summary/earth/",
+      "priority": "A"
     },
     {
       "id": "fb-317",
@@ -5070,7 +5301,8 @@
       ],
       "correct": 3,
       "explanation": "寒冷前線付近では短時間に強い雨が降ることがある。（確認ポイント：寒冷前線）",
-      "link": "/study/summary/earth/"
+      "link": "/study/summary/earth/",
+      "priority": "A"
     },
     {
       "id": "fb-318",
@@ -5086,7 +5318,8 @@
       ],
       "correct": 1,
       "explanation": "電子を失うと陽イオン、電子を受け取ると陰イオンになる。（確認ポイント：イオン）",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-319",
@@ -5102,7 +5335,8 @@
       ],
       "correct": 1,
       "explanation": "国会・内閣・裁判所が権力を分担し、互いに抑制と均衡を保つ。（確認ポイント：三権分立）",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-320",
@@ -5118,7 +5352,8 @@
       ],
       "correct": 0,
       "explanation": "酪農は乳牛などを飼育し、生乳や乳製品を生産する農業。（確認ポイント：酪農）",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-321",
@@ -5134,7 +5369,8 @@
       ],
       "correct": 3,
       "explanation": "偏西風は日本付近の天気の変化にも関係する。（確認ポイント：偏西風）",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-322",
@@ -5150,7 +5386,8 @@
       ],
       "correct": 1,
       "explanation": "消化酵素などのはたらきで、栄養分を吸収できる形に分解する。（確認ポイント：消化）",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-323",
@@ -5166,7 +5403,8 @@
       ],
       "correct": 1,
       "explanation": "エネルギーは移り変わったり形を変えたりするが、全体の量は保存される。（確認ポイント：エネルギー保存の法則）",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-324",
@@ -5182,7 +5420,8 @@
       ],
       "correct": 1,
       "explanation": "藤原氏は摂政・関白の地位を利用して、平安時代に政治の実権を握った。（確認ポイント：摂関政治）",
-      "link": "/study/summary/history/"
+      "link": "/study/summary/history/",
+      "priority": "A"
     },
     {
       "id": "fb-325",
@@ -5198,7 +5437,8 @@
       ],
       "correct": 1,
       "explanation": "幕府側が勝利し、朝廷を監視するため六波羅探題が置かれた。（確認ポイント：承久の乱）",
-      "link": "/study/summary/history/"
+      "link": "/study/summary/history/",
+      "priority": "A"
     },
     {
       "id": "fb-326",
@@ -5214,7 +5454,8 @@
       ],
       "correct": 1,
       "explanation": "震源は地下で地震が発生した場所。震源の真上の地表の点が震央。（確認ポイント：震源）",
-      "link": "/study/summary/earth/"
+      "link": "/study/summary/earth/",
+      "priority": "A"
     },
     {
       "id": "fb-327",
@@ -5230,7 +5471,8 @@
       ],
       "correct": 1,
       "explanation": "共鳴では外から加える振動数が固有振動数と一致し、振幅が大きくなる。（確認ポイント：共鳴）",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-328",
@@ -5246,7 +5488,8 @@
       ],
       "correct": 1,
       "explanation": "平和主義は日本国憲法の三つの基本原則の一つで、第9条に関係する。（確認ポイント：平和主義）",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-329",
@@ -5262,7 +5505,8 @@
       ],
       "correct": 0,
       "explanation": "可決された場合、内閣は10日以内に衆議院を解散しない限り総辞職する。（確認ポイント：内閣不信任決議）",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-330",
@@ -5278,7 +5522,8 @@
       ],
       "correct": 1,
       "explanation": "地球の公転周期は約1年。季節の変化に関係する。（確認ポイント：公転）",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-331",
@@ -5294,7 +5539,8 @@
       ],
       "correct": 1,
       "explanation": "質量パーセント濃度＝溶質の質量÷溶液の質量×100。（確認ポイント：質量パーセント濃度）",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-332",
@@ -5310,7 +5556,8 @@
       ],
       "correct": 1,
       "explanation": "地方自治は住民に身近な行政を、地方公共団体と住民が担うしくみ。（確認ポイント：地方自治）",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-333",
@@ -5326,7 +5573,8 @@
       ],
       "correct": 3,
       "explanation": "所得税や法人税は直接税に分類される。（確認ポイント：直接税）",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-334",
@@ -5342,7 +5590,8 @@
       ],
       "correct": 1,
       "explanation": "地球は24時間で360度自転するため、経度15度でおよそ1時間の時差が生じる。（確認ポイント：時差）",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-335",
@@ -5358,7 +5607,8 @@
       ],
       "correct": 1,
       "explanation": "気孔は主に葉の表皮にあり、二酸化炭素や酸素、水蒸気の出入りに関係する。（確認ポイント：気孔）",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-336",
@@ -5374,7 +5624,8 @@
       ],
       "correct": 1,
       "explanation": "反射では入射角と反射角が等しい。（確認ポイント：反射）",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-337",
@@ -5390,7 +5641,8 @@
       ],
       "correct": 2,
       "explanation": "浮力は液体や気体の中の物体にはたらく、上向きの力。（確認ポイント：浮力）",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-338",
@@ -5406,7 +5658,8 @@
       ],
       "correct": 1,
       "explanation": "縮尺を使うと、地図上の長さから実際の距離を求められる。（確認ポイント：縮尺）",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-339",
@@ -5422,7 +5675,8 @@
       ],
       "correct": 2,
       "explanation": "菌類や細菌類などの分解者は、有機物を分解して物質を自然界に戻す。（確認ポイント：分解者）",
-      "link": "/study/summary/biology/"
+      "link": "/study/summary/biology/",
+      "priority": "A"
     },
     {
       "id": "fb-340",
@@ -5438,7 +5692,8 @@
       ],
       "correct": 2,
       "explanation": "アミラーゼやペプシンなどが消化酵素にあたる。（確認ポイント：消化酵素）",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-341",
@@ -5454,7 +5709,8 @@
       ],
       "correct": 1,
       "explanation": "直列回路では電流の通り道が1本で、回路のどこでも電流は等しい。（確認ポイント：直列回路）",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-342",
@@ -5470,7 +5726,8 @@
       ],
       "correct": 1,
       "explanation": "源頼朝は鎌倉を本拠地として武士の政権を築いた。（確認ポイント：鎌倉幕府）",
-      "link": "/study/summary/history/"
+      "link": "/study/summary/history/",
+      "priority": "A"
     },
     {
       "id": "fb-343",
@@ -5486,7 +5743,8 @@
       ],
       "correct": 1,
       "explanation": "マグニチュードは地震の規模を表し、震度は各地点での揺れの強さを表す。（確認ポイント：マグニチュード）",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-add-001",
@@ -5502,7 +5760,8 @@
       ],
       "correct": 2,
       "explanation": "作用・反作用：物体Aが物体Bを押すと、BもAを反対向きに同じ大きさで押す。この法則は何か。",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-add-002",
@@ -5518,7 +5777,8 @@
       ],
       "correct": 3,
       "explanation": "合力：複数の力を合わせて、同じはたらきをする1つの力にしたものは何か。",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-add-003",
@@ -5534,7 +5794,8 @@
       ],
       "correct": 1,
       "explanation": "摩擦力：接触している面に沿って、物体の運動を妨げる向きにはたらく力は何か。",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-add-004",
@@ -5550,7 +5811,8 @@
       ],
       "correct": 2,
       "explanation": "圧力の単位：圧力を表すSI単位は何か。",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-add-005",
@@ -5566,7 +5828,8 @@
       ],
       "correct": 3,
       "explanation": "電気量：電流と時間の積で表される電気の量は何か。",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-add-006",
@@ -5582,7 +5845,8 @@
       ],
       "correct": 1,
       "explanation": "直列回路の電流：直列回路の各部分を流れる電流の大きさはどうなるか。",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-add-007",
@@ -5598,7 +5862,8 @@
       ],
       "correct": 2,
       "explanation": "並列回路の電圧：並列回路で各枝分かれした部分にかかる電圧はどうなるか。",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-add-008",
@@ -5614,7 +5879,8 @@
       ],
       "correct": 3,
       "explanation": "運動エネルギー：運動している物体がもつエネルギーは何か。",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-add-009",
@@ -5630,7 +5896,8 @@
       ],
       "correct": 1,
       "explanation": "位置エネルギー：高い位置にある物体が位置によってもつエネルギーは何か。",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-add-010",
@@ -5646,7 +5913,8 @@
       ],
       "correct": 2,
       "explanation": "音の振幅：音の波形の振れ幅が大きいほど、音はどう聞こえるか。",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-add-011",
@@ -5662,7 +5930,8 @@
       ],
       "correct": 3,
       "explanation": "音の振動数：音の振動数が大きいほど、音の高さはどうなるか。",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-add-012",
@@ -5678,7 +5947,8 @@
       ],
       "correct": 1,
       "explanation": "光の反射：光が物体の表面ではね返る現象は何か。",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-add-013",
@@ -5694,7 +5964,8 @@
       ],
       "correct": 2,
       "explanation": "光の屈折：光が異なる物質の境界で進む向きを変える現象は何か。",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-add-014",
@@ -5710,7 +5981,8 @@
       ],
       "correct": 3,
       "explanation": "溶質：水溶液の中で、溶媒に溶けている物質は何か。",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-add-015",
@@ -5726,7 +5998,8 @@
       ],
       "correct": 1,
       "explanation": "溶媒：水溶液で、溶質を溶かしている液体は何か。",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-add-016",
@@ -5742,7 +6015,8 @@
       ],
       "correct": 2,
       "explanation": "再結晶：温度による溶解度の差を利用して、溶質を結晶として取り出す方法は何か。",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-add-017",
@@ -5758,7 +6032,8 @@
       ],
       "correct": 3,
       "explanation": "触媒：化学反応を速めるが、反応の前後でそれ自体は変化しない物質は何か。",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-add-018",
@@ -5774,7 +6049,8 @@
       ],
       "correct": 1,
       "explanation": "陽イオン：原子が電子を失うなどして、正の電荷をもつようになった粒子は何か。",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-add-019",
@@ -5790,7 +6066,8 @@
       ],
       "correct": 2,
       "explanation": "陰イオン：原子や原子団が電子を受け取り、負の電荷をもつ粒子は何か。",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-add-020",
@@ -5806,7 +6083,8 @@
       ],
       "correct": 3,
       "explanation": "中和でできる水：水素イオンと水酸化物イオンが結びつくと何ができるか。",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-add-021",
@@ -5822,7 +6100,8 @@
       ],
       "correct": 1,
       "explanation": "吸熱反応：化学変化の際に周囲から熱を吸収する反応は何か。",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-add-022",
@@ -5838,7 +6117,8 @@
       ],
       "correct": 2,
       "explanation": "タンパク質：アミノ酸が多数つながってできている栄養素は何か。",
-      "link": "/study/summary/biology/"
+      "link": "/study/summary/biology/",
+      "priority": "A"
     },
     {
       "id": "fb-add-023",
@@ -5854,7 +6134,8 @@
       ],
       "correct": 3,
       "explanation": "脂肪の消化：脂肪を分解する消化酵素は何か。",
-      "link": "/study/summary/biology/"
+      "link": "/study/summary/biology/",
+      "priority": "A"
     },
     {
       "id": "fb-add-024",
@@ -5870,7 +6151,8 @@
       ],
       "correct": 1,
       "explanation": "小腸の柔毛：小腸の内壁に多数あり、養分を吸収する表面積を大きくする突起は何か。",
-      "link": "/study/summary/biology/"
+      "link": "/study/summary/biology/",
+      "priority": "A"
     },
     {
       "id": "fb-add-025",
@@ -5886,7 +6168,8 @@
       ],
       "correct": 2,
       "explanation": "肝臓：胆汁をつくり、養分の貯蔵や有害物質の分解にも関わる器官は何か。",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-add-026",
@@ -5902,7 +6185,8 @@
       ],
       "correct": 3,
       "explanation": "すい臓：消化液を分泌し、血糖量を調節するホルモンも分泌する器官は何か。",
-      "link": "/study/summary/biology/"
+      "link": "/study/summary/biology/",
+      "priority": "A"
     },
     {
       "id": "fb-add-027",
@@ -5918,7 +6202,8 @@
       ],
       "correct": 1,
       "explanation": "毛細血管：血液と組織の間で物質交換が行われる、非常に細い血管は何か。",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-add-028",
@@ -5934,7 +6219,8 @@
       ],
       "correct": 2,
       "explanation": "白血球：体内に侵入した細菌などを取り込んで体を守る血球は何か。",
-      "link": "/study/summary/biology/"
+      "link": "/study/summary/biology/",
+      "priority": "A"
     },
     {
       "id": "fb-add-029",
@@ -5950,7 +6236,8 @@
       ],
       "correct": 3,
       "explanation": "血小板：出血したとき血液を固めるはたらきに関わる成分は何か。",
-      "link": "/study/summary/biology/"
+      "link": "/study/summary/biology/",
+      "priority": "A"
     },
     {
       "id": "fb-add-030",
@@ -5966,7 +6253,8 @@
       ],
       "correct": 1,
       "explanation": "神経細胞：刺激や命令を電気信号として伝える細胞は何か。",
-      "link": "/study/summary/biology/"
+      "link": "/study/summary/biology/",
+      "priority": "A"
     },
     {
       "id": "fb-add-031",
@@ -5982,7 +6270,8 @@
       ],
       "correct": 2,
       "explanation": "自律神経：心拍や消化など、意思とは無関係な体のはたらきを調節する神経は何か。",
-      "link": "/study/summary/biology/"
+      "link": "/study/summary/biology/",
+      "priority": "A"
     },
     {
       "id": "fb-add-032",
@@ -5998,7 +6287,8 @@
       ],
       "correct": 3,
       "explanation": "個体群：同じ地域に生息する、同じ種類の生物の集まりは何か。",
-      "link": "/study/summary/biology/"
+      "link": "/study/summary/biology/",
+      "priority": "A"
     },
     {
       "id": "fb-add-033",
@@ -6014,7 +6304,8 @@
       ],
       "correct": 1,
       "explanation": "食物網：複数の食物連鎖が複雑につながった関係は何か。",
-      "link": "/study/summary/biology/"
+      "link": "/study/summary/biology/",
+      "priority": "A"
     },
     {
       "id": "fb-add-034",
@@ -6030,7 +6321,8 @@
       ],
       "correct": 2,
       "explanation": "遷移：ある場所の植生が時間とともに移り変わる現象は何か。",
-      "link": "/study/summary/biology/"
+      "link": "/study/summary/biology/",
+      "priority": "A"
     },
     {
       "id": "fb-add-035",
@@ -6046,7 +6338,8 @@
       ],
       "correct": 3,
       "explanation": "裸子植物：胚珠が子房に包まれず、むき出しになっている植物のグループは何か。",
-      "link": "/study/summary/biology/"
+      "link": "/study/summary/biology/",
+      "priority": "A"
     },
     {
       "id": "fb-add-036",
@@ -6062,7 +6355,8 @@
       ],
       "correct": 1,
       "explanation": "被子植物：胚珠が子房に包まれている植物のグループは何か。",
-      "link": "/study/summary/biology/"
+      "link": "/study/summary/biology/",
+      "priority": "A"
     },
     {
       "id": "fb-add-037",
@@ -6078,7 +6372,8 @@
       ],
       "correct": 2,
       "explanation": "減数分裂：生殖細胞がつくられるとき、染色体数が半分になる細胞分裂は何か。",
-      "link": "/study/summary/biology/"
+      "link": "/study/summary/biology/",
+      "priority": "A"
     },
     {
       "id": "fb-add-038",
@@ -6094,7 +6389,8 @@
       ],
       "correct": 3,
       "explanation": "受精：精子と卵が合体して新しい個体のもとになる細胞をつくることは何か。",
-      "link": "/study/summary/biology/"
+      "link": "/study/summary/biology/",
+      "priority": "A"
     },
     {
       "id": "fb-add-039",
@@ -6110,7 +6406,8 @@
       ],
       "correct": 1,
       "explanation": "染色体：細胞の核内にあり、遺伝情報を担うDNAなどからできている構造は何か。",
-      "link": "/study/summary/biology/"
+      "link": "/study/summary/biology/",
+      "priority": "A"
     },
     {
       "id": "fb-add-040",
@@ -6126,7 +6423,8 @@
       ],
       "correct": 2,
       "explanation": "DNA：遺伝情報を記録している物質は何か。",
-      "link": "/study/summary/chemistry/"
+      "link": "/study/summary/chemistry/",
+      "priority": "A"
     },
     {
       "id": "fb-add-041",
@@ -6142,7 +6440,8 @@
       ],
       "correct": 3,
       "explanation": "プレート：地球表面をおおう、十数枚ほどに分かれた硬い岩盤は何か。",
-      "link": "/study/summary/earth/"
+      "link": "/study/summary/earth/",
+      "priority": "A"
     },
     {
       "id": "fb-add-042",
@@ -6158,7 +6457,8 @@
       ],
       "correct": 1,
       "explanation": "海溝：海洋プレートが別のプレートの下へ沈み込む場所にできる深い溝は何か。",
-      "link": "/study/summary/earth/"
+      "link": "/study/summary/earth/",
+      "priority": "A"
     },
     {
       "id": "fb-add-043",
@@ -6174,7 +6474,8 @@
       ],
       "correct": 2,
       "explanation": "海嶺：海底でプレートが互いに離れ、新しい海洋地殻がつくられる場所は何か。",
-      "link": "/study/summary/earth/"
+      "link": "/study/summary/earth/",
+      "priority": "A"
     },
     {
       "id": "fb-add-044",
@@ -6190,7 +6491,8 @@
       ],
       "correct": 3,
       "explanation": "深成岩：マグマが地下深くでゆっくり冷え固まってできた岩石は何か。",
-      "link": "/study/summary/earth/"
+      "link": "/study/summary/earth/",
+      "priority": "A"
     },
     {
       "id": "fb-add-045",
@@ -6206,7 +6508,8 @@
       ],
       "correct": 1,
       "explanation": "火山岩：マグマが地表や地表近くで急に冷え固まってできた岩石は何か。",
-      "link": "/study/summary/earth/"
+      "link": "/study/summary/earth/",
+      "priority": "A"
     },
     {
       "id": "fb-add-046",
@@ -6222,7 +6525,8 @@
       ],
       "correct": 2,
       "explanation": "示準化石：地層ができた地質時代を知る手がかりとなる化石は何か。",
-      "link": "/study/summary/earth/"
+      "link": "/study/summary/earth/",
+      "priority": "A"
     },
     {
       "id": "fb-add-047",
@@ -6238,7 +6542,8 @@
       ],
       "correct": 3,
       "explanation": "示相化石：地層が堆積した当時の環境を知る手がかりとなる化石は何か。",
-      "link": "/study/summary/earth/"
+      "link": "/study/summary/earth/",
+      "priority": "A"
     },
     {
       "id": "fb-add-048",
@@ -6254,7 +6559,8 @@
       ],
       "correct": 1,
       "explanation": "露点：空気を冷やしたとき、水蒸気が水滴になり始める温度は何か。",
-      "link": "/study/summary/earth/"
+      "link": "/study/summary/earth/",
+      "priority": "A"
     },
     {
       "id": "fb-add-049",
@@ -6270,7 +6576,8 @@
       ],
       "correct": 2,
       "explanation": "高気圧：周囲より気圧が高く、中心付近で下降気流が生じやすい領域は何か。",
-      "link": "/study/summary/earth/"
+      "link": "/study/summary/earth/",
+      "priority": "A"
     },
     {
       "id": "fb-add-050",
@@ -6286,7 +6593,8 @@
       ],
       "correct": 3,
       "explanation": "低気圧：周囲より気圧が低く、中心付近で上昇気流が生じやすい領域は何か。",
-      "link": "/study/summary/earth/"
+      "link": "/study/summary/earth/",
+      "priority": "A"
     },
     {
       "id": "fb-add-051",
@@ -6302,7 +6610,8 @@
       ],
       "correct": 1,
       "explanation": "春分：太陽がほぼ真東から昇り真西に沈み、昼夜の長さがほぼ等しくなる春の日は何か。",
-      "link": "/study/summary/earth/"
+      "link": "/study/summary/earth/",
+      "priority": "A"
     },
     {
       "id": "fb-add-052",
@@ -6318,7 +6627,8 @@
       ],
       "correct": 2,
       "explanation": "季節風気候：夏と冬で風向きが変わり、降水量にも季節差が生じやすい気候の特徴に関係する風は何か。",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-add-053",
@@ -6334,7 +6644,8 @@
       ],
       "correct": 3,
       "explanation": "プランテーション：熱帯・亜熱帯地域で、輸出向け作物を大規模に栽培する農園は何か。",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-add-054",
@@ -6350,7 +6661,8 @@
       ],
       "correct": 1,
       "explanation": "企業的農業：大規模な土地と機械を利用し、市場向けに効率よく生産する農業は何か。",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-add-055",
@@ -6366,7 +6678,8 @@
       ],
       "correct": 2,
       "explanation": "過疎：人口が減少し、地域社会の維持が難しくなる状態は何か。",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-add-056",
@@ -6382,7 +6695,8 @@
       ],
       "correct": 3,
       "explanation": "過密：人口や都市機能が狭い地域に集中しすぎた状態は何か。",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-add-057",
@@ -6398,7 +6712,8 @@
       ],
       "correct": 1,
       "explanation": "少子高齢化：出生率の低下と高齢者の割合の上昇が同時に進む現象は何か。",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-add-058",
@@ -6414,7 +6729,8 @@
       ],
       "correct": 2,
       "explanation": "立法：国会が法律を制定するはたらきを何というか。",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-add-059",
@@ -6430,7 +6746,8 @@
       ],
       "correct": 3,
       "explanation": "行政：法律や予算に基づいて国の政治を実際に行うはたらきは何か。",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-add-060",
@@ -6446,7 +6763,8 @@
       ],
       "correct": 1,
       "explanation": "司法：法律に基づいて争いを解決し、法を適用するはたらきは何か。",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-add-061",
@@ -6462,7 +6780,8 @@
       ],
       "correct": 2,
       "explanation": "国政調査権：国会が国の政治全般について調査する権限は何か。",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-add-062",
@@ -6478,7 +6797,8 @@
       ],
       "correct": 3,
       "explanation": "条例：地方公共団体が、その地域の事務について制定する決まりは何か。",
-      "link": "/study/summary/geography/"
+      "link": "/study/summary/geography/",
+      "priority": "A"
     },
     {
       "id": "fb-add-063",
@@ -6494,7 +6814,8 @@
       ],
       "correct": 1,
       "explanation": "直接請求：住民が一定数の署名を集め、条例制定・改廃などを求める制度は何か。",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-add-064",
@@ -6510,7 +6831,8 @@
       ],
       "correct": 2,
       "explanation": "請願権：国や地方公共団体に意見や希望を述べ、対応を求める権利は何か。",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-add-065",
@@ -6526,7 +6848,8 @@
       ],
       "correct": 3,
       "explanation": "表現の自由：意見や考えを発表し、伝えることを保障する自由は何か。",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-add-066",
@@ -6542,7 +6865,8 @@
       ],
       "correct": 1,
       "explanation": "信教の自由：宗教を信じるかどうか、どの宗教を信じるかを自分で決める自由は何か。",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-add-067",
@@ -6558,7 +6882,8 @@
       ],
       "correct": 2,
       "explanation": "職業選択の自由：どのような職業に就くかを自分で決める自由は何か。",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-add-068",
@@ -6574,7 +6899,8 @@
       ],
       "correct": 3,
       "explanation": "団結権：労働者が労働組合をつくり、加入する権利は何か。",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-add-069",
@@ -6590,7 +6916,8 @@
       ],
       "correct": 1,
       "explanation": "団体交渉権：労働者が使用者と労働条件について交渉する権利は何か。",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-add-070",
@@ -6606,7 +6933,8 @@
       ],
       "correct": 2,
       "explanation": "団体行動権：労働者が要求実現のためにストライキなどを行う権利は何か。",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-add-071",
@@ -6622,7 +6950,8 @@
       ],
       "correct": 3,
       "explanation": "市場：売り手と買い手が商品やサービスを取引する場や仕組みは何か。",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-add-072",
@@ -6638,7 +6967,8 @@
       ],
       "correct": 1,
       "explanation": "独占禁止法：企業の不公正な競争や市場の独占を防ぐための法律は何か。",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-add-073",
@@ -6654,7 +6984,8 @@
       ],
       "correct": 2,
       "explanation": "消費者契約法：不当な勧誘などによる消費者契約の取消しを認める場合がある法律は何か。",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-add-074",
@@ -6670,7 +7001,8 @@
       ],
       "correct": 3,
       "explanation": "社会保障：病気・失業・老後などの生活上のリスクを社会全体で支える制度は何か。",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-add-075",
@@ -6686,7 +7018,8 @@
       ],
       "correct": 1,
       "explanation": "地方交付税：地方公共団体間の財政力の差を調整するため、国から配分される財源は何か。",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-add-076",
@@ -6702,7 +7035,8 @@
       ],
       "correct": 2,
       "explanation": "国債：国が資金を調達するために発行する債券は何か。",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-add-077",
@@ -6718,7 +7052,8 @@
       ],
       "correct": 3,
       "explanation": "為替相場：異なる通貨を交換するときの比率や価格は何か。",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-add-078",
@@ -6734,7 +7069,8 @@
       ],
       "correct": 1,
       "explanation": "円高：外国通貨に対して円の価値が上がることは何か。",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-add-079",
@@ -6750,7 +7086,8 @@
       ],
       "correct": 2,
       "explanation": "円安：外国通貨に対して円の価値が下がることは何か。",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-add-080",
@@ -6766,7 +7103,8 @@
       ],
       "correct": 3,
       "explanation": "国際連合総会：原則としてすべての加盟国が参加し、各国が1票をもつ国連の機関は何か。",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-add-081",
@@ -6782,7 +7120,8 @@
       ],
       "correct": 1,
       "explanation": "安全保障理事会：国際平和と安全の維持について主要な責任を負う国連の機関は何か。",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-add-082",
@@ -6798,7 +7137,8 @@
       ],
       "correct": 2,
       "explanation": "UNESCO：教育・科学・文化を通じて国際協力を進める国連の専門機関は何か。",
-      "link": "/study/summary/physics/"
+      "link": "/study/summary/physics/",
+      "priority": "A"
     },
     {
       "id": "fb-add-083",
@@ -6814,7 +7154,8 @@
       ],
       "correct": 3,
       "explanation": "UNICEF：子どもの権利や健康、教育などを支援する国連機関は何か。",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-add-084",
@@ -6830,7 +7171,8 @@
       ],
       "correct": 1,
       "explanation": "持続可能な開発目標：2030年までの達成を目指し、貧困や環境などの課題に取り組む国際目標は何か。",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "fb-add-085",
@@ -6846,7 +7188,8 @@
       ],
       "correct": 2,
       "explanation": "ODA：政府または政府機関が開発途上国の経済・社会発展のために行う援助は何か。",
-      "link": "/study/summary/civics/"
+      "link": "/study/summary/civics/",
+      "priority": "A"
     },
     {
       "id": "pe-up-001",
@@ -6867,7 +7210,8 @@
       "sourceNote": "令和6年度栃木県立入試・理科大問3の電気器具の消費電力と使用時間の資料形式を参考にしたオリジナル類題。",
       "sourceRef": "令和6年度 理科 大問3",
       "level": "標準",
-      "questionType": "application"
+      "questionType": "application",
+      "priority": "A"
     },
     {
       "id": "pe-up-002",
@@ -6888,7 +7232,8 @@
       "sourceNote": "令和6年度栃木県立入試・理科大問8の浮力の測定とグラフを参考にしたオリジナル類題。",
       "sourceRef": "令和6年度 理科 大問8",
       "level": "標準",
-      "questionType": "application"
+      "questionType": "application",
+      "priority": "A"
     },
     {
       "id": "pe-up-003",
@@ -6909,7 +7254,8 @@
       "sourceNote": "令和7年度栃木県立入試・理科大問2の凸レンズの実験条件を参考にしたオリジナル類題。",
       "sourceRef": "令和7年度 理科 大問2",
       "level": "標準",
-      "questionType": "application"
+      "questionType": "application",
+      "priority": "A"
     },
     {
       "id": "pe-up-004",
@@ -6930,7 +7276,8 @@
       "sourceNote": "令和7年度栃木県立入試・理科大問3のP波・S波と緊急地震速報の設定を参考にしたオリジナル類題。",
       "sourceRef": "令和7年度 理科 大問3",
       "level": "標準",
-      "questionType": "application"
+      "questionType": "application",
+      "priority": "A"
     },
     {
       "id": "pe-up-005",
@@ -6951,7 +7298,8 @@
       "sourceNote": "令和7年度栃木県立入試・理科大問4の酸・アルカリ・中和実験を参考にしたオリジナル類題。",
       "sourceRef": "令和7年度 理科 大問4",
       "level": "標準",
-      "questionType": "application"
+      "questionType": "application",
+      "priority": "A"
     },
     {
       "id": "pe-up-006",
@@ -6972,7 +7320,8 @@
       "sourceNote": "令和6年度栃木県立入試・理科大問5のダニエル電池と電極の観察を参考にしたオリジナル類題。",
       "sourceRef": "令和6年度 理科 大問5",
       "level": "標準",
-      "questionType": "application"
+      "questionType": "application",
+      "priority": "A"
     },
     {
       "id": "pe-up-007",
@@ -6993,7 +7342,8 @@
       "sourceNote": "令和7年度栃木県立入試・理科大問1のタマネギの根の成長と細胞観察を参考にしたオリジナル類題。",
       "sourceRef": "令和7年度 理科 大問1",
       "level": "標準",
-      "questionType": "application"
+      "questionType": "application",
+      "priority": "A"
     },
     {
       "id": "pe-up-008",
@@ -7014,7 +7364,8 @@
       "sourceNote": "令和6年度栃木県立入試・理科大問6の地層・化石・堆積環境を参考にしたオリジナル類題。",
       "sourceRef": "令和6年度 理科 大問6",
       "level": "標準",
-      "questionType": "application"
+      "questionType": "application",
+      "priority": "A"
     },
     {
       "id": "pe-up-009",
@@ -7035,7 +7386,8 @@
       "sourceNote": "令和7年度栃木県立入試・社会大問1の小田原・金沢・姫路の雨温図比較を参考にしたオリジナル類題。",
       "sourceRef": "令和7年度 社会 大問1",
       "level": "標準",
-      "questionType": "application"
+      "questionType": "application",
+      "priority": "A"
     },
     {
       "id": "pe-up-010",
@@ -7056,7 +7408,8 @@
       "sourceNote": "令和7年度栃木県立入試・社会大問1の輸送機関別割合の統計を参考にしたオリジナル類題。",
       "sourceRef": "令和7年度 社会 大問1",
       "level": "標準",
-      "questionType": "application"
+      "questionType": "application",
+      "priority": "A"
     },
     {
       "id": "pe-up-011",
@@ -7077,7 +7430,8 @@
       "sourceNote": "令和7年度栃木県立入試・社会大問3の徳川家光と参勤交代を参考にしたオリジナル類題。",
       "sourceRef": "令和7年度 社会 大問3",
       "level": "標準",
-      "questionType": "application"
+      "questionType": "application",
+      "priority": "A"
     },
     {
       "id": "pe-up-012",
@@ -7098,7 +7452,8 @@
       "sourceNote": "令和7年度栃木県立入試・社会大問4の日清戦争と国際関係を参考にしたオリジナル類題。",
       "sourceRef": "令和7年度 社会 大問4",
       "level": "標準",
-      "questionType": "application"
+      "questionType": "application",
+      "priority": "A"
     },
     {
       "id": "pe-up-013",
@@ -7119,7 +7474,8 @@
       "sourceNote": "令和6年度栃木県立入試・社会大問5の衆議院の優越を参考にしたオリジナル類題。",
       "sourceRef": "令和6年度 社会 大問5",
       "level": "標準",
-      "questionType": "application"
+      "questionType": "application",
+      "priority": "A"
     },
     {
       "id": "pe-up-014",
@@ -7140,7 +7496,8 @@
       "sourceNote": "令和7年度栃木県立入試・社会大問6のODA実績・技術協力の資料を参考にしたオリジナル類題。",
       "sourceRef": "令和7年度 社会 大問6",
       "level": "標準",
-      "questionType": "application"
+      "questionType": "application",
+      "priority": "A"
     },
     {
       "id": "app-001",
@@ -7159,7 +7516,8 @@
       "explanation": "並列回路では各抵抗に電源と同じ6.0 Vがかかる。6 Ωには6.0÷6＝1.0 A、3 Ωには6.0÷3＝2.0 Aが流れる。分岐前の電流は和なので1.0＋2.0＝3.0 A。",
       "link": "/study/summary/physics/",
       "questionType": "application",
-      "sourceNote": "KNOTオリジナル問題。基礎知識を使って条件・資料・計算結果を判断する練習。"
+      "sourceNote": "KNOTオリジナル問題。基礎知識を使って条件・資料・計算結果を判断する練習。",
+      "priority": "A"
     },
     {
       "id": "app-002",
@@ -7178,7 +7536,8 @@
       "explanation": "密閉容器では気体を含めて外へ出入りしないため、反応前後で全体の質量は保存される。反応前は12.0＋8.0＝20.0 g。未反応物が残っていても全体の質量は20.0 gのまま。",
       "link": "/study/summary/chemistry/",
       "questionType": "application",
-      "sourceNote": "KNOTオリジナル問題。基礎知識を使って条件・資料・計算結果を判断する練習。"
+      "sourceNote": "KNOTオリジナル問題。基礎知識を使って条件・資料・計算結果を判断する練習。",
+      "priority": "A"
     },
     {
       "id": "app-003",
@@ -7197,7 +7556,8 @@
       "explanation": "中性点を過ぎると水酸化ナトリウムが過剰になり、水酸化物イオンが残るためアルカリ性を示す。水酸化ナトリウム由来のナトリウムイオンも水溶液中に存在する。塩酸由来の塩化物イオンも残るが、アルカリ性の原因ではない。",
       "link": "/study/summary/chemistry/",
       "questionType": "application",
-      "sourceNote": "KNOTオリジナル問題。基礎知識を使って条件・資料・計算結果を判断する練習。"
+      "sourceNote": "KNOTオリジナル問題。基礎知識を使って条件・資料・計算結果を判断する練習。",
+      "priority": "A"
     },
     {
       "id": "app-004",
@@ -7216,7 +7576,8 @@
       "explanation": "ヨウ素液で青紫色になるのはデンプンがある部分。ふ入りの葉では葉緑体のある緑色部分、アルミニウムはくでおおわず光が当たった部分が青紫色になる。光と葉緑体の両方が光合成に必要だと判断できる。",
       "link": "/study/summary/biology/",
       "questionType": "application",
-      "sourceNote": "KNOTオリジナル問題。基礎知識を使って条件・資料・計算結果を判断する練習。"
+      "sourceNote": "KNOTオリジナル問題。基礎知識を使って条件・資料・計算結果を判断する練習。",
+      "priority": "A"
     },
     {
       "id": "app-005",
@@ -7235,7 +7596,8 @@
       "explanation": "全身から戻った血液は大静脈を通って右心房、右心室へ進み、肺動脈で肺へ送られる。肺で二酸化炭素を放出し酸素を受け取った血液は肺静脈で左心房へ戻る。",
       "link": "/study/summary/biology/",
       "questionType": "application",
-      "sourceNote": "KNOTオリジナル問題。基礎知識を使って条件・資料・計算結果を判断する練習。"
+      "sourceNote": "KNOTオリジナル問題。基礎知識を使って条件・資料・計算結果を判断する練習。",
+      "priority": "A"
     },
     {
       "id": "app-006",
@@ -7254,7 +7616,8 @@
       "explanation": "到着時刻の差は12秒。震源距離をx kmとすると、S波とP波の到着時間の差は x/3−x/6＝12。x/6＝12よりx＝72 km。",
       "link": "/study/summary/earth/",
       "questionType": "application",
-      "sourceNote": "KNOTオリジナル問題。基礎知識を使って条件・資料・計算結果を判断する練習。"
+      "sourceNote": "KNOTオリジナル問題。基礎知識を使って条件・資料・計算結果を判断する練習。",
+      "priority": "A"
     },
     {
       "id": "app-007",
@@ -7273,7 +7636,8 @@
       "explanation": "湿度＝実際の水蒸気量÷その気温での飽和水蒸気量×100。9.0÷17.3×100≒52.0％。小数の割り算では、最後に百分率へ直すことを忘れない。",
       "link": "/study/summary/earth/",
       "questionType": "application",
-      "sourceNote": "KNOTオリジナル問題。基礎知識を使って条件・資料・計算結果を判断する練習。"
+      "sourceNote": "KNOTオリジナル問題。基礎知識を使って条件・資料・計算結果を判断する練習。",
+      "priority": "A"
     },
     {
       "id": "app-008",
@@ -7292,7 +7656,8 @@
       "explanation": "夏に高温となり、梅雨・台風などの影響で夏に降水量が多く、冬の寒さが比較的穏やかな特徴は温暖湿潤気候に当てはまる。地中海性気候は夏に乾燥し、冬に雨が多い。",
       "link": "/study/summary/geography/",
       "questionType": "application",
-      "sourceNote": "KNOTオリジナル問題。基礎知識を使って条件・資料・計算結果を判断する練習。"
+      "sourceNote": "KNOTオリジナル問題。基礎知識を使って条件・資料・計算結果を判断する練習。",
+      "priority": "A"
     },
     {
       "id": "app-009",
@@ -7311,7 +7676,8 @@
       "explanation": "人口密度＝人口÷面積。240,000÷300＝800。人口を「万人」のまま計算せず、人に直してから割ると単位の誤りを防げる。",
       "link": "/study/summary/geography/",
       "questionType": "application",
-      "sourceNote": "KNOTオリジナル問題。基礎知識を使って条件・資料・計算結果を判断する練習。"
+      "sourceNote": "KNOTオリジナル問題。基礎知識を使って条件・資料・計算結果を判断する練習。",
+      "priority": "A"
     },
     {
       "id": "app-010",
@@ -7330,7 +7696,8 @@
       "explanation": "殖産興業は、欧米の技術や制度を取り入れて産業を発展させ、近代国家の基盤をつくる政策。富岡製糸場などの官営工場は、技術の導入・模範の提示・人材育成などの役割を担った。",
       "link": "/study/summary/history/",
       "questionType": "application",
-      "sourceNote": "KNOTオリジナル問題。基礎知識を使って条件・資料・計算結果を判断する練習。"
+      "sourceNote": "KNOTオリジナル問題。基礎知識を使って条件・資料・計算結果を判断する練習。",
+      "priority": "A"
     },
     {
       "id": "app-011",
@@ -7349,7 +7716,8 @@
       "explanation": "農地改革では、政府が地主の小作地などを買い上げて小作人に売り渡し、自作農を増やした。地主制を弱め、農村の民主化を進める戦後改革の一つ。",
       "link": "/study/summary/history/",
       "questionType": "application",
-      "sourceNote": "KNOTオリジナル問題。基礎知識を使って条件・資料・計算結果を判断する練習。"
+      "sourceNote": "KNOTオリジナル問題。基礎知識を使って条件・資料・計算結果を判断する練習。",
+      "priority": "A"
     },
     {
       "id": "app-012",
@@ -7368,7 +7736,8 @@
       "explanation": "一般に価格が上がると、消費者は購入を控えるため需要量は減り、企業は販売による利益を見込んで供給量を増やす。需要曲線は右下がり、供給曲線は右上がりになる。",
       "link": "/study/summary/civics/",
       "questionType": "application",
-      "sourceNote": "KNOTオリジナル問題。基礎知識を使って条件・資料・計算結果を判断する練習。"
+      "sourceNote": "KNOTオリジナル問題。基礎知識を使って条件・資料・計算結果を判断する練習。",
+      "priority": "A"
     },
     {
       "id": "app-013",
@@ -7387,7 +7756,8 @@
       "explanation": "小選挙区制は1つの選挙区から原則1人を選ぶ制度。大政党に有利になりやすく、死票が多くなりやすい。一方、比例代表制は政党の得票に応じて議席を配分する。",
       "link": "/study/summary/civics/",
       "questionType": "application",
-      "sourceNote": "KNOTオリジナル問題。基礎知識を使って条件・資料・計算結果を判断する練習。"
+      "sourceNote": "KNOTオリジナル問題。基礎知識を使って条件・資料・計算結果を判断する練習。",
+      "priority": "A"
     }
   ]
 }
