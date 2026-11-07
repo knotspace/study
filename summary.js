@@ -13,9 +13,9 @@ function draw(){
  mods.forEach(m=>{
   const e=document.createElement("article");e.className="knowledge-card";
   const points=m.corePoints||m.relationships||m.questions||[],errors=m.errors||m.commonErrors||[];
-  const terms=(m.keyTerms||[]).filter(t=>t.term&&t.definition);
+  const terms=(m.keyTerms||[]).filter(t=>t.term&&t.definition).map(t=>[t.term,t.definition]).concat((m.terms||[]).filter(t=>Array.isArray(t)&&t[0]&&t[1]));
   e.innerHTML='<div class="knowledge-meta"><span>'+esc(m.grade?m.grade+"年":m.field)+'・'+esc(m.field)+'</span><b class="priority priority-'+esc(m.priority||"B")+'">'+(labels[m.priority]||"基礎・補強")+'</b></div><h3>'+esc(m.title)+'</h3><p>'+esc(m.explanation)+'</p>'+
-  (terms.length?'<div class="keyterm-list">'+terms.map(t=>'<span><b>'+esc(t.term)+'</b><span>'+esc(t.definition)+'</span></span>').join("")+'</div>':"")+
+  (terms.length?'<div class="keyterm-list">'+terms.map(t=>'<span><b>'+esc(t[0])+'</b><span>'+esc(t[1])+'</span></span>').join("")+'</div>':"")+
   (points.length?'<div class="core-points"><b>ここは必ず押さえる</b><ol>'+points.map(t=>'<li>'+esc(t)+'</li>').join("")+'</ol></div>':"")+
   (m.formula?'<div class="formula-box"><b>公式・関係</b><p>'+esc(m.formula)+'</p></div>':"")+
   (m.example?'<div class="worked-example"><b>入試での考え方</b><p>'+esc(m.example.q||"")+'</p><small>'+(m.example.work||[]).map(esc).join(" → ")+'</small><strong>'+esc(m.example.a||"")+'</strong></div>':"")+
