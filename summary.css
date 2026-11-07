@@ -69,3 +69,7 @@ body.dark .answer-choice.is-wrong,body.dark .choice.incorrect{background:#402e30
 .term-more{display:block;margin:14px auto;padding:11px 18px;border:1px solid var(--line);border-radius:9px;background:var(--surface);color:var(--text);font-size:11px;cursor:pointer}
 .dark .priority-S{background:#294235;color:#b9e3c6}.dark .priority-A{background:#2b3942;color:#c2d3df}.dark .priority-B{background:#383832;color:#d6d3c7}
 @media(max-width:760px){.keyterm-list>span{grid-template-columns:1fr;gap:2px}}
+
+.priority-guide{display:flex;flex-wrap:wrap;gap:8px 18px;padding:12px 2px;color:var(--muted);font-size:10px}
+.priority-guide>span{display:flex;align-items:center;gap:7px}
+@media(max-width:600px){.priority-guide{gap:8px 12px}.priority-guide>span{font-size:9px}}
