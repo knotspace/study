@@ -56,3 +56,20 @@ body.dark .quick-icon,body.dark .library-symbol,body.dark .question-tags span{ba
 body.dark .answer-choice:hover:not(:disabled),body.dark .choice:hover{background:#2c3930!important;border-color:#799681!important}
 body.dark .answer-choice.is-correct,body.dark .choice.correct{background:#293d30!important;color:#d4e6d7!important;border-color:#799681!important}
 body.dark .answer-choice.is-wrong,body.dark .choice.incorrect{background:#402e30!important;color:#f0d7d8!important;border-color:#a8797c!important}
+
+/* High-yield order and focused reading */
+.knowledge-card{display:flex;flex-direction:column;gap:2px}
+.knowledge-meta{align-items:center}
+.priority{display:inline-flex;align-items:center;border-radius:5px;padding:4px 7px;font-size:9px;white-space:nowrap;font-weight:800}
+.priority-S{background:#e7f2e9;color:#315f42}.priority-A{background:#edf1f4;color:#4e6574}.priority-B{background:#f1f0ec;color:#77746b}
+.core-points,.keyterm-list,.diagram-caption{margin-top:11px;padding:12px;border-radius:9px;background:var(--bg);font-size:10px;line-height:1.8}
+.core-points>b,.diagram-caption>b{color:var(--accent)}.core-points ol{padding-left:19px;margin:7px 0 0}.core-points li{padding:2px 0}
+.keyterm-list{display:grid;gap:6px}.keyterm-list>span{display:grid;grid-template-columns:minmax(80px,auto) 1fr;gap:8px}.keyterm-list b{color:var(--accent)}
+.diagram-caption p{margin:5px 0 0;color:var(--muted)}.source-note{display:block;margin-top:9px;color:var(--muted);font-size:9px}
+.term-more{display:block;margin:14px auto;padding:11px 18px;border:1px solid var(--line);border-radius:9px;background:var(--surface);color:var(--text);font-size:11px;cursor:pointer}
+.dark .priority-S{background:#294235;color:#b9e3c6}.dark .priority-A{background:#2b3942;color:#c2d3df}.dark .priority-B{background:#383832;color:#d6d3c7}
+@media(max-width:760px){.keyterm-list>span{grid-template-columns:1fr;gap:2px}}
+
+.priority-guide{display:flex;flex-wrap:wrap;gap:8px 18px;padding:12px 2px;color:var(--muted);font-size:10px}
+.priority-guide>span{display:flex;align-items:center;gap:7px}
+@media(max-width:600px){.priority-guide{gap:8px 12px}.priority-guide>span{font-size:9px}}
