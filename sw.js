@@ -1,4 +1,4 @@
-const CACHE="study-shell-v19-s-exclusive-pwa";
+const CACHE="study-shell-v20-s-exclusive-install-choice-v2";
 const FILES=["./","./index.html","./styles.css","./app.js","./questions.json","./manifest.webmanifest","./assets/study-icon.svg","./s-exclusive.html","./s-exclusive.css","./s-exclusive.js","./s-exclusive.webmanifest","./data/s-exclusive-beta.json"];
 self.addEventListener("install",event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(FILES)).then(()=>self.skipWaiting())));
 self.addEventListener("activate",event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim())));
