@@ -1,0 +1,382 @@
+{
+  "version": 1,
+  "updatedAt": "2026-11-07",
+  "grade": "中学2年生",
+  "questions": [
+    {
+      "id": "s-001",
+      "subject": "国語",
+      "topic": "文法・品詞",
+      "level": "中2範囲",
+      "prompt": "「静かな町を歩く。」の「静かな」の品詞はどれか。",
+      "options": [
+        "形容詞",
+        "形容動詞",
+        "副詞",
+        "連体詞"
+      ],
+      "correct": 1,
+      "explanation": "「静かだ」と言い切れる語で、名詞を修飾するとき「静かな」となるため形容動詞。"
+    },
+    {
+      "id": "s-002",
+      "subject": "国語",
+      "topic": "文法・活用",
+      "level": "中2範囲",
+      "prompt": "動詞「走る」の活用の種類はどれか。",
+      "options": [
+        "五段活用",
+        "上一段活用",
+        "下一段活用",
+        "カ行変格活用"
+      ],
+      "correct": 0,
+      "explanation": "「走ら・走り・走る・走る・走れ・走れ」と活用する五段活用。"
+    },
+    {
+      "id": "s-003",
+      "subject": "国語",
+      "topic": "文法・助詞",
+      "level": "中2範囲",
+      "prompt": "「雨が降ったので、試合は中止になった。」の「ので」のはたらきに最も近いものはどれか。",
+      "options": [
+        "逆接",
+        "原因・理由",
+        "並立",
+        "例示"
+      ],
+      "correct": 1,
+      "explanation": "前の内容が後ろの内容の原因・理由を表している。"
+    },
+    {
+      "id": "s-004",
+      "subject": "国語",
+      "topic": "文法・敬語",
+      "level": "中2範囲",
+      "prompt": "先生が「おっしゃった」の敬語の種類はどれか。",
+      "options": [
+        "尊敬語",
+        "謙譲語",
+        "丁寧語",
+        "美化語"
+      ],
+      "correct": 0,
+      "explanation": "相手である先生の動作を高めて表す尊敬語。"
+    },
+    {
+      "id": "s-005",
+      "subject": "国語",
+      "topic": "読解・指示語",
+      "level": "中2範囲",
+      "prompt": "「このような考え」とあるとき、指示内容を正確に捉える方法として最も適切なものはどれか。",
+      "options": [
+        "指示語だけを読む",
+        "直前だけを必ず答えにする",
+        "前後の文脈から具体的な内容を探す",
+        "自分の経験で決める"
+      ],
+      "correct": 2,
+      "explanation": "指示語の前後を読み、何をまとめて指しているかを文脈から確認する。"
+    },
+    {
+      "id": "s-006",
+      "subject": "数学",
+      "topic": "連立方程式",
+      "level": "中2範囲",
+      "prompt": "x＋y＝7、x－y＝1 の解はどれか。",
+      "options": [
+        "x＝3、y＝4",
+        "x＝4、y＝3",
+        "x＝5、y＝2",
+        "x＝2、y＝5"
+      ],
+      "correct": 1,
+      "explanation": "2つの式を加えると2x＝8よりx＝4。x＋y＝7に代入してy＝3。"
+    },
+    {
+      "id": "s-007",
+      "subject": "数学",
+      "topic": "連立方程式",
+      "level": "中2範囲",
+      "prompt": "2x＋y＝9、x＋y＝5 の解として正しいものはどれか。",
+      "options": [
+        "x＝4、y＝1",
+        "x＝3、y＝2",
+        "x＝2、y＝3",
+        "x＝1、y＝4"
+      ],
+      "correct": 0,
+      "explanation": "上の式から下の式を引くとx＝4。x＋y＝5よりy＝1。"
+    },
+    {
+      "id": "s-008",
+      "subject": "数学",
+      "topic": "一次関数",
+      "level": "中2範囲",
+      "prompt": "一次関数 y＝3x－2 の傾きはいくつか。",
+      "options": [
+        "－2",
+        "2",
+        "3",
+        "－3"
+      ],
+      "correct": 2,
+      "explanation": "y＝ax＋b の傾きはxの係数aなので3。"
+    },
+    {
+      "id": "s-009",
+      "subject": "数学",
+      "topic": "一次関数",
+      "level": "中2範囲",
+      "prompt": "y＝－2x＋5 で、xが1から3まで増加するとき、yの変化量はいくつか。",
+      "options": [
+        "－4",
+        "－2",
+        "2",
+        "4"
+      ],
+      "correct": 0,
+      "explanation": "xの増加量は2。傾き－2なのでyの変化量は－2×2＝－4。"
+    },
+    {
+      "id": "s-010",
+      "subject": "数学",
+      "topic": "図形・角度",
+      "level": "中2範囲",
+      "prompt": "平行な2直線に1本の直線が交わるとき、錯角の大きさの関係はどれか。",
+      "options": [
+        "和が180°",
+        "等しい",
+        "一方が必ず90°",
+        "差が180°"
+      ],
+      "correct": 1,
+      "explanation": "平行線では錯角は等しい。"
+    },
+    {
+      "id": "s-011",
+      "subject": "理科",
+      "topic": "化学変化",
+      "level": "中2範囲",
+      "prompt": "酸化銅と炭素を混ぜて加熱すると、銅ができる。このとき酸化銅から取り除かれるものは何か。",
+      "options": [
+        "酸素",
+        "水素",
+        "窒素",
+        "二酸化炭素"
+      ],
+      "correct": 0,
+      "explanation": "炭素が酸化銅から酸素をうばう還元が起こり、銅ができる。"
+    },
+    {
+      "id": "s-012",
+      "subject": "理科",
+      "topic": "化学変化",
+      "level": "中2範囲",
+      "prompt": "鉄と硫黄を混ぜて加熱してできる物質はどれか。",
+      "options": [
+        "酸化鉄",
+        "硫化鉄",
+        "塩化鉄",
+        "炭酸鉄"
+      ],
+      "correct": 1,
+      "explanation": "鉄と硫黄が化合して硫化鉄ができる。磁石への反応など、混合物とは性質が異なる。"
+    },
+    {
+      "id": "s-013",
+      "subject": "理科",
+      "topic": "電流・回路",
+      "level": "中2範囲",
+      "prompt": "抵抗10Ωに2Aの電流が流れた。電圧は何Vか。",
+      "options": [
+        "5V",
+        "10V",
+        "12V",
+        "20V"
+      ],
+      "correct": 3,
+      "explanation": "オームの法則 V＝RI より10×2＝20V。"
+    },
+    {
+      "id": "s-014",
+      "subject": "理科",
+      "topic": "電流・回路",
+      "level": "中2範囲",
+      "prompt": "直列回路で、回路の途中の電流の大きさはどうなるか。",
+      "options": [
+        "場所によって異なる",
+        "どこでも等しい",
+        "電池に近いほど大きい",
+        "抵抗の直前で0になる"
+      ],
+      "correct": 1,
+      "explanation": "直列回路では電流の通り道が1本なので、回路のどの場所でも電流は等しい。"
+    },
+    {
+      "id": "s-015",
+      "subject": "理科",
+      "topic": "気象",
+      "level": "中2範囲",
+      "prompt": "湿度を求める式として正しいものはどれか。",
+      "options": [
+        "空気中の水蒸気量÷飽和水蒸気量×100",
+        "飽和水蒸気量÷空気中の水蒸気量×100",
+        "気温÷水蒸気量×100",
+        "水蒸気量＋気温"
+      ],
+      "correct": 0,
+      "explanation": "湿度（％）＝実際の水蒸気量÷その気温での飽和水蒸気量×100。"
+    },
+    {
+      "id": "s-016",
+      "subject": "社会",
+      "topic": "地理・日本の地域",
+      "level": "中2範囲",
+      "prompt": "日本で、冬に日本海側で雪が多くなりやすい主な理由はどれか。",
+      "options": [
+        "太平洋から乾いた風が吹くため",
+        "季節風が日本海で水蒸気を含み山地に雪を降らせるため",
+        "赤道から暖流が流れ込むため",
+        "一年中高気圧におおわれるため"
+      ],
+      "correct": 1,
+      "explanation": "冬の北西の季節風が日本海で水蒸気を含み、山地にぶつかって雪を降らせる。"
+    },
+    {
+      "id": "s-017",
+      "subject": "社会",
+      "topic": "地理・人口",
+      "level": "中2範囲",
+      "prompt": "人口ピラミッドで、年少人口の割合が小さく高齢者の割合が大きい形から読み取れる課題はどれか。",
+      "options": [
+        "少子高齢化",
+        "人口の急増",
+        "出生率の急上昇",
+        "若年人口の増加"
+      ],
+      "correct": 0,
+      "explanation": "年少人口が少なく高齢者の割合が高いことは、少子高齢化が進んでいることを示す。"
+    },
+    {
+      "id": "s-018",
+      "subject": "社会",
+      "topic": "歴史・鎌倉時代",
+      "level": "中2範囲",
+      "prompt": "鎌倉幕府で、将軍と主従関係を結んだ武士を何というか。",
+      "options": [
+        "大名",
+        "御家人",
+        "公家",
+        "守護"
+      ],
+      "correct": 1,
+      "explanation": "将軍に忠誠を誓い、土地を守るなどの奉公をした武士を御家人という。"
+    },
+    {
+      "id": "s-019",
+      "subject": "社会",
+      "topic": "歴史・室町時代",
+      "level": "中2範囲",
+      "prompt": "室町幕府を開いた人物は誰か。",
+      "options": [
+        "源頼朝",
+        "北条時宗",
+        "足利尊氏",
+        "徳川家康"
+      ],
+      "correct": 2,
+      "explanation": "足利尊氏が京都に室町幕府を開いた。"
+    },
+    {
+      "id": "s-020",
+      "subject": "社会",
+      "topic": "歴史・江戸時代",
+      "level": "中2範囲",
+      "prompt": "江戸幕府が大名を統制するために定めた制度はどれか。",
+      "options": [
+        "班田収授法",
+        "参勤交代",
+        "墾田永年私財法",
+        "徴兵令"
+      ],
+      "correct": 1,
+      "explanation": "参勤交代によって大名に江戸と領地を往復させ、経済的負担も与えた。"
+    },
+    {
+      "id": "s-021",
+      "subject": "英語",
+      "topic": "過去進行形",
+      "level": "中2範囲",
+      "prompt": "「私はそのとき本を読んでいました。」に合う英文はどれか。",
+      "options": [
+        "I read a book then.",
+        "I am reading a book then.",
+        "I was reading a book then.",
+        "I will read a book then."
+      ],
+      "correct": 2,
+      "explanation": "過去のある時点で進行中だった動作は was/were＋動詞ing で表す。"
+    },
+    {
+      "id": "s-022",
+      "subject": "英語",
+      "topic": "不定詞",
+      "level": "中2範囲",
+      "prompt": "「私は医者になるために勉強しています。」に合う英文はどれか。",
+      "options": [
+        "I study to become a doctor.",
+        "I study become a doctor.",
+        "I study becoming doctor.",
+        "I to study a doctor."
+      ],
+      "correct": 0,
+      "explanation": "目的「〜するために」は to＋動詞の原形で表す。"
+    },
+    {
+      "id": "s-023",
+      "subject": "英語",
+      "topic": "比較",
+      "level": "中2範囲",
+      "prompt": "「この本はあの本よりおもしろい。」に合う英文はどれか。",
+      "options": [
+        "This book is interesting than that one.",
+        "This book is more interesting than that one.",
+        "This book is most interesting that one.",
+        "This book more interesting is that one."
+      ],
+      "correct": 1,
+      "explanation": "長めの形容詞の比較級は more＋形容詞＋than。"
+    },
+    {
+      "id": "s-024",
+      "subject": "英語",
+      "topic": "助動詞",
+      "level": "中2範囲",
+      "prompt": "「あなたはここで走ってはいけません。」に合う英文はどれか。",
+      "options": [
+        "You don't have run here.",
+        "You must not run here.",
+        "You can run here.",
+        "You should running here."
+      ],
+      "correct": 1,
+      "explanation": "must not は「〜してはいけない」という禁止を表す。"
+    },
+    {
+      "id": "s-025",
+      "subject": "英語",
+      "topic": "There is / are",
+      "level": "中2範囲",
+      "prompt": "「机の上に本が3冊あります。」に合う英文はどれか。",
+      "options": [
+        "There is three books on the desk.",
+        "There are three books on the desk.",
+        "There have three books on the desk.",
+        "Three books is on the desk."
+      ],
+      "correct": 1,
+      "explanation": "複数のものがある場合は There are を使う。"
+    }
+  ]
+}
