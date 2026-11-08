@@ -19499,7 +19499,12 @@
       "correct": 0,
       "explanation": "電流が流れるには、電源から出て電源へ戻る一続きの回路が必要。導線が切れていると回路が開いた状態になり、電流が流れない。",
       "sourceNote": "KNOTオリジナル問題。公立高校入試の基礎〜標準レベルを想定。",
-      "sourceRef": ""
+      "sourceRef": "",
+      "status": "review",
+      "verification": {
+        "answer_status": "independent_check_pending",
+        "notes": "オリジナル問題。正答・解説の独立監査待ち。"
+      }
     },
     {
       "id": "sci-20261109-002",
@@ -19516,7 +19521,12 @@
       "correct": 3,
       "explanation": "直列回路では電流の通り道が1本で分かれないため、回路のどの場所でも電流の大きさは同じになる。",
       "sourceNote": "KNOTオリジナル問題。公立高校入試の基礎〜標準レベルを想定。",
-      "sourceRef": ""
+      "sourceRef": "",
+      "status": "review",
+      "verification": {
+        "answer_status": "independent_check_pending",
+        "notes": "オリジナル問題。正答・解説の独立監査待ち。"
+      }
     },
     {
       "id": "sci-20261109-003",
@@ -19533,7 +19543,12 @@
       "correct": 1,
       "explanation": "並列回路では、各枝の両端は電源の同じ2点につながっている。そのため、各枝に加わる電圧は等しく、理想的には電源の電圧と等しい。",
       "sourceNote": "KNOTオリジナル問題。公立高校入試の基礎〜標準レベルを想定。",
-      "sourceRef": ""
+      "sourceRef": "",
+      "status": "review",
+      "verification": {
+        "answer_status": "independent_check_pending",
+        "notes": "オリジナル問題。正答・解説の独立監査待ち。"
+      }
     },
     {
       "id": "sci-20261109-004",
@@ -19550,7 +19565,12 @@
       "correct": 1,
       "explanation": "密度は質量を体積で割って求める。72÷24＝3なので、密度は3g/cm³。単位も忘れずに付ける。",
       "sourceNote": "KNOTオリジナル問題。計算手順を確認する練習。",
-      "sourceRef": ""
+      "sourceRef": "",
+      "status": "review",
+      "verification": {
+        "answer_status": "independent_check_pending",
+        "notes": "オリジナル問題。正答・解説の独立監査待ち。"
+      }
     },
     {
       "id": "sci-20261109-005",
@@ -19567,7 +19587,12 @@
       "correct": 0,
       "explanation": "塩酸は酸性の水溶液。BTB溶液は酸性で黄色、中性で緑色、アルカリ性で青色を示す。",
       "sourceNote": "KNOTオリジナル問題。公立高校入試の基礎〜標準レベルを想定。",
-      "sourceRef": ""
+      "sourceRef": "",
+      "status": "review",
+      "verification": {
+        "answer_status": "independent_check_pending",
+        "notes": "オリジナル問題。正答・解説の独立監査待ち。"
+      }
     },
     {
       "id": "sci-20261109-006",
@@ -19584,7 +19609,12 @@
       "correct": 2,
       "explanation": "二酸化炭素を石灰水に通すと、炭酸カルシウムができて白くにごる。この反応は二酸化炭素を確かめる方法として使われる。",
       "sourceNote": "KNOTオリジナル問題。公立高校入試の基礎〜標準レベルを想定。",
-      "sourceRef": ""
+      "sourceRef": "",
+      "status": "review",
+      "verification": {
+        "answer_status": "independent_check_pending",
+        "notes": "オリジナル問題。正答・解説の独立監査待ち。"
+      }
     },
     {
       "id": "sci-20261109-007",
@@ -19601,7 +19631,12 @@
       "correct": 3,
       "explanation": "光合成では、植物は光エネルギーを利用して二酸化炭素と水から養分をつくり、酸素を放出する。",
       "sourceNote": "KNOTオリジナル問題。公立高校入試の基礎〜標準レベルを想定。",
-      "sourceRef": ""
+      "sourceRef": "",
+      "status": "review",
+      "verification": {
+        "answer_status": "independent_check_pending",
+        "notes": "オリジナル問題。正答・解説の独立監査待ち。"
+      }
     },
     {
       "id": "sci-20261109-008",
@@ -19618,7 +19653,12 @@
       "correct": 3,
       "explanation": "植物も生きているため、昼も夜も呼吸を行い、酸素を取り入れて二酸化炭素を放出する。光が必要なのは光合成である。",
       "sourceNote": "KNOTオリジナル問題。公立高校入試の基礎〜標準レベルを想定。",
-      "sourceRef": ""
+      "sourceRef": "",
+      "status": "review",
+      "verification": {
+        "answer_status": "independent_check_pending",
+        "notes": "オリジナル問題。正答・解説の独立監査待ち。"
+      }
     },
     {
       "id": "sci-20261109-009",
@@ -19635,7 +19675,12 @@
       "correct": 1,
       "explanation": "P波はS波より速く伝わるため、震源から離れた地点でも先に到着する。P波による小さな揺れを初期微動、S波による大きな揺れを主要動という。",
       "sourceNote": "KNOTオリジナル問題。公立高校入試の基礎〜標準レベルを想定。",
-      "sourceRef": ""
+      "sourceRef": "",
+      "status": "review",
+      "verification": {
+        "answer_status": "independent_check_pending",
+        "notes": "オリジナル問題。正答・解説の独立監査待ち。"
+      }
     },
     {
       "id": "sci-20261109-010",
@@ -19652,7 +19697,12 @@
       "correct": 0,
       "explanation": "寒冷前線では寒気が暖気の下にもぐり込んで暖気を急に押し上げるため、積乱雲が発達して短時間に強い雨が降ることがある。通過後は気温が下がりやすい。",
       "sourceNote": "KNOTオリジナル問題。公立高校入試の標準レベルを想定。",
-      "sourceRef": ""
+      "sourceRef": "",
+      "status": "review",
+      "verification": {
+        "answer_status": "independent_check_pending",
+        "notes": "オリジナル問題。正答・解説の独立監査待ち。"
+      }
     },
     {
       "id": "sci-20261109-011",
@@ -19669,7 +19719,12 @@
       "correct": 2,
       "explanation": "地球が西から東へ自転しているため、太陽は東から昇り、西へ沈むように見える。これは太陽の日周運動である。",
       "sourceNote": "KNOTオリジナル問題。公立高校入試の基礎〜標準レベルを想定。",
-      "sourceRef": ""
+      "sourceRef": "",
+      "status": "review",
+      "verification": {
+        "answer_status": "independent_check_pending",
+        "notes": "オリジナル問題。正答・解説の独立監査待ち。"
+      }
     },
     {
       "id": "sci-20261109-012",
@@ -19686,7 +19741,12 @@
       "correct": 2,
       "explanation": "丸形の純系をAA、しわ形の純系をaaとすると、子はすべてAaになる。丸形が顕性なので、子の形はすべて丸形になる。",
       "sourceNote": "KNOTオリジナル問題。公立高校入試の標準レベルを想定。",
-      "sourceRef": ""
+      "sourceRef": "",
+      "status": "review",
+      "verification": {
+        "answer_status": "independent_check_pending",
+        "notes": "オリジナル問題。正答・解説の独立監査待ち。"
+      }
     },
     {
       "id": "sci-20261109-013",
@@ -19703,7 +19763,12 @@
       "correct": 1,
       "explanation": "同じ大きさの力なら、質量が小さい物体ほど運動の状態を変えやすく、加速度は大きくなる。力と質量の関係を考える問題である。",
       "sourceNote": "KNOTオリジナル問題。公立高校入試の応用レベルを想定。",
-      "sourceRef": ""
+      "sourceRef": "",
+      "status": "review",
+      "verification": {
+        "answer_status": "independent_check_pending",
+        "notes": "オリジナル問題。正答・解説の独立監査待ち。"
+      }
     },
     {
       "id": "soc-20261109-001",
@@ -19720,7 +19785,12 @@
       "correct": 0,
       "explanation": "関東平野は日本で最も広い平野で、東京都・埼玉県・千葉県・茨城県・栃木県・群馬県などに広がる。",
       "sourceNote": "KNOTオリジナル問題。公立高校入試の基礎〜標準レベルを想定。",
-      "sourceRef": ""
+      "sourceRef": "",
+      "status": "review",
+      "verification": {
+        "answer_status": "independent_check_pending",
+        "notes": "オリジナル問題。正答・解説の独立監査待ち。"
+      }
     },
     {
       "id": "soc-20261109-002",
@@ -19737,7 +19807,12 @@
       "correct": 1,
       "explanation": "瀬戸内海沿岸は中国山地と四国山地にはさまれており、季節風による湿った空気が山地で雨を降らせたあとに届くことが多いため、降水量が比較的少ない。",
       "sourceNote": "KNOTオリジナル問題。公立高校入試の基礎〜標準レベルを想定。",
-      "sourceRef": ""
+      "sourceRef": "",
+      "status": "review",
+      "verification": {
+        "answer_status": "independent_check_pending",
+        "notes": "オリジナル問題。正答・解説の独立監査待ち。"
+      }
     },
     {
       "id": "soc-20261109-003",
@@ -19754,7 +19829,12 @@
       "correct": 1,
       "explanation": "地図上1cmは実際の25,000cm、つまり250m。4cmでは250×4＝1,000mとなるので、1kmである。",
       "sourceNote": "KNOTオリジナル問題。計算過程を確認する練習。",
-      "sourceRef": ""
+      "sourceRef": "",
+      "status": "review",
+      "verification": {
+        "answer_status": "independent_check_pending",
+        "notes": "オリジナル問題。正答・解説の独立監査待ち。"
+      }
     },
     {
       "id": "soc-20261109-004",
@@ -19771,7 +19851,12 @@
       "correct": 3,
       "explanation": "北海道には広い土地を利用できる地域があり、牧草などの飼料作物を生産しながら乳牛を飼育する大規模な酪農が行われている。",
       "sourceNote": "KNOTオリジナル問題。公立高校入試の標準レベルを想定。",
-      "sourceRef": ""
+      "sourceRef": "",
+      "status": "review",
+      "verification": {
+        "answer_status": "independent_check_pending",
+        "notes": "オリジナル問題。正答・解説の独立監査待ち。"
+      }
     },
     {
       "id": "soc-20261109-005",
@@ -19788,7 +19873,12 @@
       "correct": 2,
       "explanation": "1868年ごろから進められた政治・社会の大きな改革を明治維新という。新政府は中央集権化や身分制度の改革などを進めた。",
       "sourceNote": "KNOTオリジナル問題。公立高校入試の基礎〜標準レベルを想定。",
-      "sourceRef": ""
+      "sourceRef": "",
+      "status": "review",
+      "verification": {
+        "answer_status": "independent_check_pending",
+        "notes": "オリジナル問題。正答・解説の独立監査待ち。"
+      }
     },
     {
       "id": "soc-20261109-006",
@@ -19805,7 +19895,12 @@
       "correct": 0,
       "explanation": "参勤交代は大名に江戸と領地を定期的に往復させる制度。大名の経済力を弱め、幕府への統制を強める目的があった。",
       "sourceNote": "KNOTオリジナル問題。公立高校入試の基礎〜標準レベルを想定。",
-      "sourceRef": ""
+      "sourceRef": "",
+      "status": "review",
+      "verification": {
+        "answer_status": "independent_check_pending",
+        "notes": "オリジナル問題。正答・解説の独立監査待ち。"
+      }
     },
     {
       "id": "soc-20261109-007",
@@ -19822,7 +19917,12 @@
       "correct": 1,
       "explanation": "国民主権は、国の政治のあり方を最終的に決める権利が国民にあるという原理。日本国憲法の基本原理の一つである。",
       "sourceNote": "KNOTオリジナル問題。公立高校入試の基礎〜標準レベルを想定。",
-      "sourceRef": ""
+      "sourceRef": "",
+      "status": "review",
+      "verification": {
+        "answer_status": "independent_check_pending",
+        "notes": "オリジナル問題。正答・解説の独立監査待ち。"
+      }
     },
     {
       "id": "soc-20261109-008",
@@ -19839,7 +19939,12 @@
       "correct": 3,
       "explanation": "日本国憲法第41条は、国会を国権の最高機関であり、国の唯一の立法機関と定めている。",
       "sourceNote": "KNOTオリジナル問題。公立高校入試の基礎〜標準レベルを想定。",
-      "sourceRef": ""
+      "sourceRef": "",
+      "status": "review",
+      "verification": {
+        "answer_status": "independent_check_pending",
+        "notes": "オリジナル問題。正答・解説の独立監査待ち。"
+      }
     },
     {
       "id": "soc-20261109-009",
@@ -19856,7 +19961,12 @@
       "correct": 2,
       "explanation": "知事や市町村長は、地方公共団体の住民による直接選挙で選ばれる。地方自治では、住民が地域の政治に参加することが重要である。",
       "sourceNote": "KNOTオリジナル問題。公立高校入試の基礎〜標準レベルを想定。",
-      "sourceRef": ""
+      "sourceRef": "",
+      "status": "review",
+      "verification": {
+        "answer_status": "independent_check_pending",
+        "notes": "オリジナル問題。正答・解説の独立監査待ち。"
+      }
     },
     {
       "id": "soc-20261109-010",
@@ -19873,7 +19983,12 @@
       "correct": 0,
       "explanation": "秘密選挙は、投票内容を他人に知られないようにする原則。自由な意思で投票できるようにするために重要である。",
       "sourceNote": "KNOTオリジナル問題。公立高校入試の基礎〜標準レベルを想定。",
-      "sourceRef": ""
+      "sourceRef": "",
+      "status": "review",
+      "verification": {
+        "answer_status": "independent_check_pending",
+        "notes": "オリジナル問題。正答・解説の独立監査待ち。"
+      }
     },
     {
       "id": "soc-20261109-011",
@@ -19890,7 +20005,12 @@
       "correct": 1,
       "explanation": "一般に価格が上がると、消費者は購入を控えるため需要量が減り、企業は販売を増やそうとするため供給量が増える。",
       "sourceNote": "KNOTオリジナル問題。公立高校入試の標準レベルを想定。",
-      "sourceRef": ""
+      "sourceRef": "",
+      "status": "review",
+      "verification": {
+        "answer_status": "independent_check_pending",
+        "notes": "オリジナル問題。正答・解説の独立監査待ち。"
+      }
     },
     {
       "id": "soc-20261109-012",
@@ -19907,7 +20027,12 @@
       "correct": 3,
       "explanation": "貿易収支は輸出額から輸入額を引いて求める。12兆円−9兆円＝3兆円で、輸出額が輸入額を上回るため3兆円の貿易黒字となる。",
       "sourceNote": "KNOTオリジナル問題。資料の数値を読み取る練習。",
-      "sourceRef": ""
+      "sourceRef": "",
+      "status": "review",
+      "verification": {
+        "answer_status": "independent_check_pending",
+        "notes": "オリジナル問題。正答・解説の独立監査待ち。"
+      }
     }
   ]
 }
