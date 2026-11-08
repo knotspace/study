@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow"><meta name="theme-color" content="#090b10">
+<title>N専用｜数学ベータ</title>
+<style>
+:root{color-scheme:dark;--bg:#090b10;--panel:#141923;--line:#293241;--muted:#9aa6b7;--accent:#8ca9ff;--good:#54c99a;--bad:#ff7885}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 50% -20%,#1b2740 0,transparent 55%),var(--bg);color:#f2f5fa;font-family:system-ui,-apple-system,"Hiragino Kaku Gothic ProN",Meiryo,sans-serif;min-height:100vh}
+.wrap{width:min(760px,100%);margin:auto;padding:28px 18px 60px}.top{display:flex;align-items:center;justify-content:space-between;margin-bottom:34px}.brand{font-size:13px;letter-spacing:.18em;color:#b9c8e8}.beta{font-size:11px;border:1px solid #52658a;color:#c6d6ff;border-radius:99px;padding:5px 10px}
+h1{font-size:clamp(30px,7vw,48px);letter-spacing:-.04em;margin:8px 0}.sub,.muted{color:var(--muted);line-height:1.7}.panel{background:linear-gradient(145deg,#171f2c,#111720);border:1px solid var(--line);border-radius:22px;padding:22px;margin-top:22px;box-shadow:0 18px 55px #0003}
+label{display:block;color:#cbd4e2;font-size:13px;margin:18px 0 8px}input{width:100%;padding:15px;border-radius:12px;border:1px solid #3a4658;background:#0c1119;color:white;font-size:16px;outline:none}input:focus{border-color:var(--accent)}
+button{border:0;border-radius:12px;padding:14px 18px;font-weight:700;font-size:15px;cursor:pointer}.primary{background:#dce6ff;color:#10182a;width:100%;margin-top:14px}.secondary{background:#242f42;color:#e8eefb}.error{color:var(--bad);font-size:13px;min-height:20px}
+.hidden{display:none!important}.eyebrow{font-size:11px;letter-spacing:.16em;color:#9db4ed;font-weight:700}.stats{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}.stat{background:#0c121c;border:1px solid var(--line);border-radius:12px;padding:10px 14px;font-size:12px;color:var(--muted)}.stat b{color:white;font-size:17px;margin-right:5px}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0}.filters button{padding:9px 12px;background:#202a3a;color:#d8e1f1;font-size:12px}.filters button.active{background:#dce6ff;color:#10182a}
+.qmeta{display:flex;justify-content:space-between;color:var(--muted);font-size:12px}.qtext{font-size:clamp(19px,4vw,24px);line-height:1.65;margin:22px 0}.choices{display:grid;gap:10px}.choice{background:#1d2736;color:#f1f4fa;text-align:left;border:1px solid #354257;line-height:1.5}.choice:disabled{cursor:default;opacity:1}.choice.correct{border-color:var(--good);background:#15352d}.choice.wrong{border-color:var(--bad);background:#3a2028}.explain{margin-top:18px;padding:16px;border-radius:14px;background:#0c131d;border:1px solid var(--line);line-height:1.7;color:#d5deec}.actions{display:flex;justify-content:space-between;gap:10px;margin-top:20px}.actions button{flex:1}.result{text-align:center;padding:30px 10px}.score{font-size:54px;font-weight:800}.foot{margin-top:34px;text-align:center;color:#657184;font-size:11px}
+</style></head>
+<body><main class="wrap">
+<header class="top"><span class="brand">N / MATH LAB</span><span class="beta">BETA VERSION</span></header>
+<section id="gate">
+<span class="eyebrow">PRIVATE LEARNING SPACE</span><h1>N専用</h1><p class="sub">中学数学に集中するためのベータ版。パスワードを入力して開始。</p>
+<div class="panel"><label for="pass">アクセスパスワード</label><input id="pass" type="password" autocomplete="current-password" placeholder="パスワードを入力"><button class="primary" id="enter">入室する →</button><p class="error" id="gateError" aria-live="polite"></p></div>
+</section>
+<section id="app" class="hidden">
+<span class="eyebrow">JUNIOR HIGH MATHEMATICS</span><h1>数学演習</h1><p class="sub">中学数学の基礎〜入試標準。まずはベータ版の収録問題から。</p>
+<div class="stats"><span class="stat"><b id="total">0</b>問収録</span><span class="stat"><b id="done">0</b>問解答</span><span class="stat"><b id="rate">—</b>正答率</span></div>
+<div class="filters" id="filters"></div>
+<div class="panel" id="quiz"><div class="qmeta"><span id="topic"></span><span id="counter"></span></div><div class="qtext" id="question"></div><div class="choices" id="choices"></div><div class="explain hidden" id="explain"></div><div class="actions"><button class="secondary" id="prev">← 前へ</button><button class="primary" id="next">次の問題 →</button></div></div>
+<div class="panel result hidden" id="finish"><span class="eyebrow">SESSION COMPLETE</span><h2>演習終了！</h2><div class="score" id="score">0/0</div><p class="muted" id="message"></p><button class="primary" id="again">もう一度解く</button></div>
+</section><footer class="foot">N MATH LAB · BETA · 学習記録はこの端末内に保存されます</footer>
+</main>
+<script>
+const PASS='nakamura';
+const bank=[
+{t:'正負の数',q:'(-8)+(+13) の値は？',c:['-21','-5','5','21'],a:2,e:'異符号の加法は絶対値の差を求め、大きい方の符号をつける。13−8=5。'},
+{t:'文字式',q:'3a−2(a−4) を簡単にすると？',c:['a−8','a+8','5a−8','5a+8'],a:1,e:'かっこを外すと 3a−2a+8。よって a+8。'},
+{t:'一次方程式',q:'5x−7=2x+8 の解は？',c:['x=3','x=4','x=5','x=6'],a:2,e:'5x−2x=8+7 より 3x=15。x=5。'},
+{t:'比例・反比例',q:'y は x に比例し、x=4 のとき y=10。x=−2 のとき y は？',c:['−5','−2','5','20'],a:0,e:'比例の式は y=ax。10=4a より a=5/2。x=−2 を代入して y=−5。'},
+{t:'一次関数',q:'直線 y=−3x+4 の傾きは？',c:['−3','−1','3','4'],a:0,e:'一次関数 y=ax+b の傾きは x の係数 a。'},
+{t:'連立方程式',q:'x+y=7、x−y=1 のとき、x の値は？',c:['2','3','4','6'],a:2,e:'2式を足して 2x=8。したがって x=4。'},
+{t:'平方根',q:'√72 を簡単にすると？',c:['2√6','3√8','6√2','12√2'],a:2,e:'72=36×2 なので √72=6√2。'},
+{t:'式の展開',q:'(x+5)(x−2) を展開すると？',c:['x²+3x−10','x²−3x−10','x²+7x+10','x²−7x−10'],a:0,e:'x²−2x+5x−10=x²+3x−10。'},
+{t:'因数分解',q:'x²−9 を因数分解すると？',c:['(x−9)(x+1)','(x−3)²','(x−3)(x+3)','(x−1)(x+9)'],a:2,e:'平方の差 a²−b²=(a−b)(a+b) を使う。'},
+{t:'二次方程式',q:'x²−5x+6=0 の解の組は？',c:['1と6','−2と−3','2と3','−1と−6'],a:2,e:'(x−2)(x−3)=0 より x=2,3。'},
+{t:'平面図形',q:'三角形の内角の和は？',c:['90°','180°','270°','360°'],a:1,e:'三角形の内角の和は常に180°。'},
+{t:'円',q:'半径 6 cm の円の面積は？',c:['6π cm²','12π cm²','24π cm²','36π cm²'],a:3,e:'円の面積は πr²。π×6²=36π cm²。'},
+{t:'相似',q:'相似比が 2:3 の2つの図形で、小さい方の面積が 12 cm²。大きい方の面積は？',c:['18 cm²','24 cm²','27 cm²','36 cm²'],a:2,e:'面積比は相似比の2乗で4:9。12×9/4=27 cm²。'},
+{t:'三平方の定理',q:'直角をはさむ2辺が 6 cm、8 cm の直角三角形。斜辺は？',c:['9 cm','10 cm','12 cm','14 cm'],a:1,e:'斜辺²=6²+8²=100。斜辺は10 cm。'},
+{t:'確率',q:'1個のさいころを投げるとき、3の倍数が出る確率は？',c:['1/6','1/3','1/2','2/3'],a:1,e:'3の倍数は3と6の2通り。2/6=1/3。'},
+{t:'データの活用',q:'4、6、8、10、12 の中央値は？',c:['6','7','8','10'],a:2,e:'小さい順に並んだ5個のデータの中央、3番目は8。'}
+];
+let list=[...bank],idx=0,answers={},filter='すべて';
+const $=id=>document.getElementById(id);
+function enter(){if($('pass').value!==PASS){$('gateError').textContent='パスワードが違います。';return;}$('gate').classList.add('hidden');$('app').classList.remove('hidden');init();}
+$('enter').addEventListener('click',enter);$('pass').addEventListener('keydown',e=>{if(e.key==='Enter')enter()});
+function init(){ $('total').textContent=bank.length;const topics=['すべて',...new Set(bank.map(x=>x.t))];$('filters').innerHTML=topics.map(t=>'<button type="button" class="'+(t==='すべて'?'active':'')+'" data-t="'+t+'">'+t+'</button>').join('');$('filters').addEventListener('click',e=>{const b=e.target.closest('button[data-t]');if(!b)return;filter=b.dataset.t;list=filter==='すべて'?[...bank]:bank.filter(x=>x.t===filter);idx=0;answers={};$('finish').classList.add('hidden');$('quiz').classList.remove('hidden');document.querySelectorAll('[data-t]').forEach(x=>x.classList.toggle('active',x===b));render()});$('again').onclick=()=>{idx=0;answers={};$('finish').classList.add('hidden');$('quiz').classList.remove('hidden');render()};$('prev').onclick=()=>{if(idx>0){idx--;render()}};$('next').onclick=()=>{if(idx<list.length-1){idx++;render()}else finish()};render();}
+function render(){const q=list[idx];$('topic').textContent=q.t;$('counter').textContent=(idx+1)+' / '+list.length;$('question').textContent=q.q;$('choices').innerHTML='';q.c.forEach((v,i)=>{const b=document.createElement('button');b.className='choice';b.textContent=' '+String.fromCharCode(65+i)+'. '+v;b.disabled=answers[idx]!==undefined;if(answers[idx]!==undefined){if(i===q.a)b.classList.add('correct');else if(i===answers[idx])b.classList.add('wrong')}b.onclick=()=>{answers[idx]=i;render()};$('choices').appendChild(b)});$('explain').classList.toggle('hidden',answers[idx]===undefined);$('explain').textContent=answers[idx]===undefined?'':(answers[idx]===q.a?'正解！ ':'不正解。 ')+q.e;$('prev').disabled=idx===0;$('next').textContent=idx===list.length-1?'結果を見る':'次の問題 →';$('done').textContent=Object.keys(answers).length;const correct=Object.keys(answers).filter(k=>answers[k]===list[+k]?.a).length;$('rate').textContent=Object.keys(answers).length?Math.round(correct/Object.keys(answers).length*100)+'%':'—';}
+function finish(){const n=Object.keys(answers).length,correct=Object.keys(answers).filter(k=>answers[k]===list[+k]?.a).length;$('quiz').classList.add('hidden');$('finish').classList.remove('hidden');$('score').textContent=correct+' / '+list.length;$('message').textContent='正答率 '+Math.round(correct/list.length*100)+'%。解説を見直して、もう一度挑戦しよう。';}
+</script></body></html>
