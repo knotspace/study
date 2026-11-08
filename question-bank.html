@@ -40,7 +40,7 @@ footer{margin-top:28px;color:var(--muted);font-size:12px;text-align:center}
 const AUTH="study-private-auth-v1";
 if(localStorage.getItem(AUTH)!=="1"){location.replace("./private.html");return}
 const BASE="https://raw.githubusercontent.com/knotspace/kosen-question-bank/main/data/questions/";
-const files=["math.json","science.json","social.json","expansion-2026-11-05.json","expansion-2026-11-08.json","expansion-2026-11-09.json"];
+const files=["math.json","science.json","social.json","expansion-2026-11-05.json","expansion-2026-11-08.json","expansion-2026-11-09.json","expansion-2026-11-08-b.json"];
 const $=id=>document.getElementById(id);let rows=[];
 const labels={math:"数学",science:"理科",social:"社会"};
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
