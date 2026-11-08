@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow,noarchive"><meta name="theme-color" content="#101114">
+<title>問題バンク｜秘密モード</title>
+<style>
+:root{color-scheme:dark;--bg:#101114;--panel:#191b20;--line:#2b2e36;--text:#f3f4f6;--muted:#9da3af;--accent:#a8b8ff}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:15px/1.7 system-ui,-apple-system,"Noto Sans JP",sans-serif}
+a{color:inherit}.wrap{width:min(980px,100%);margin:auto;padding:22px 18px 56px}
+header{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:26px}
+.back,.refresh{border:1px solid var(--line);border-radius:12px;padding:9px 13px;text-decoration:none;background:#1a1c22;color:var(--text);font:inherit}
+.eyebrow{font-size:11px;letter-spacing:.14em;color:var(--muted)}h1{font-size:clamp(27px,5vw,40px);line-height:1.2;margin:8px 0}
+.lead{color:var(--muted);margin:8px 0 20px}.notice{border:1px solid #65552e;background:#282315;color:#f1d99b;border-radius:14px;padding:13px 15px;font-size:13px;margin:18px 0}
+.toolbar{display:grid;grid-template-columns:1fr 180px 150px;gap:10px;margin:18px 0}
+input,select{width:100%;min-height:46px;border:1px solid var(--line);border-radius:12px;background:#191b20;color:var(--text);padding:10px 12px;font:inherit}
+.summary{display:flex;justify-content:space-between;gap:10px;color:var(--muted);font-size:13px;margin:10px 2px}
+.list{display:grid;gap:12px}.item{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:17px}
+.meta{display:flex;flex-wrap:wrap;gap:7px;align-items:center;margin-bottom:10px}.tag{font-size:11px;color:#c7cbd4;background:#252832;padding:3px 9px;border-radius:20px}.tag.review{color:#f1d99b;background:#3a301c}
+.item h2{font-size:17px;line-height:1.55;margin:0 0 12px}.choices{display:grid;gap:7px;margin:12px 0}.choice{border:1px solid var(--line);border-radius:11px;padding:9px 11px;color:#d9dce3;font-size:14px}
+.answer-btn{margin-top:8px;border:0;border-radius:11px;background:#e7eaff;color:#151827;padding:10px 15px;font-weight:700;font-size:14px}
+.answer{display:none;border-left:3px solid var(--accent);padding:10px 13px;margin-top:13px;background:#20232c;border-radius:0 10px 10px 0}.answer.open{display:block}.answer strong{display:block;margin-bottom:5px}.explain{color:#d1d5df;font-size:14px;white-space:pre-wrap}
+.empty{padding:28px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:14px}
+footer{margin-top:28px;color:var(--muted);font-size:12px;text-align:center}
+@media(max-width:650px){.toolbar{grid-template-columns:1fr 1fr}.toolbar input{grid-column:1/-1}.wrap{padding:17px 13px 42px}.item{padding:14px}}
+</style>
+</head>
+<body><main class="wrap">
+<header><a class="back" href="./private.html">← 秘密モード</a><button class="refresh" id="refresh">再読み込み ↻</button></header>
+<span class="eyebrow">PRIVATE STUDY / QUESTION BANK</span><h1>問題バンク</h1>
+<p class="lead">別リポジトリで管理しているオリジナル問題を読み込みます。</p>
+<div class="notice">問題データは現在すべて「確認中（review）」です。解答の独立確認記録がある問題も含みますが、正式な公開確定問題ではありません。学習・検証用として扱ってください。</div>
+<div class="toolbar"><input id="search" type="search" placeholder="問題文・単元で検索"><select id="subject"><option value="all">全教科</option><option value="math">数学</option><option value="science">理科</option><option value="social">社会</option></select><select id="difficulty"><option value="all">全難易度</option><option value="1">難易度 1</option><option value="2">難易度 2</option><option value="3">難易度 3</option><option value="4">難易度 4</option><option value="5">難易度 5</option></select></div>
+<div class="summary"><span id="status">データを読み込み中…</span><span id="count"></span></div>
+<section class="list" id="list"></section>
+<footer>Data source: knotspace/kosen-question-bank · <a href="https://github.com/knotspace/kosen-question-bank" target="_blank" rel="noreferrer">GitHubでデータを見る</a></footer>
+</main>
+<script>
+(()=>{"use strict";
+const AUTH="study-private-auth-v1";
+if(localStorage.getItem(AUTH)!=="1"){location.replace("./private.html");return}
+const BASE="https://raw.githubusercontent.com/knotspace/kosen-question-bank/main/data/questions/";
+const files=["math.json","science.json","social.json","expansion-2026-11-05.json"];
+const $=id=>document.getElementById(id);let rows=[];
+const labels={math:"数学",science:"理科",social:"社会"};
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+function render(){
+ const term=$("search").value.trim().toLowerCase(),sub=$("subject").value,diff=$("difficulty").value;
+ const found=rows.filter(q=>(sub==="all"||q.subject===sub)&&(diff==="all"||String(q.difficulty??"")===diff)&&(!term||(q.prompt+" "+q.unit+" "+q.answer).toLowerCase().includes(term)));
+ $("count").textContent=found.length+" / "+rows.length+"問";
+ $("list").innerHTML=found.length?found.map((q,i)=>'<article class="item"><div class="meta"><span class="tag">'+esc(labels[q.subject]||q.subject)+'</span><span class="tag">'+esc(q.unit)+'</span><span class="tag">'+esc(q.grade||"学年未設定")+'</span><span class="tag">難易度 '+esc(q.difficulty??"—")+'</span><span class="tag review">確認中</span></div><h2>'+esc(q.prompt)+'</h2>'+(Array.isArray(q.choices)&&q.choices.length?'<div class="choices">'+q.choices.map(c=>'<div class="choice"><b>'+esc(c.id)+'</b>　'+esc(c.text)+'</div>').join("")+'</div>':'')+'<button class="answer-btn" type="button" data-answer="'+i+'">解答・解説を見る</button><div class="answer" id="answer-'+i+'"><strong>解答：'+esc(q.answer)+'</strong><div class="explain">'+esc(q.explanation)+'</div>'+(q.verification?.answer_status?'<p class="explain">解答確認：'+esc(q.verification.answer_status==="independently_verified"?"独立計算で確認済み":q.verification.answer_status)+'</p>':'')+'</div></article>').join(""):'<div class="empty">条件に一致する問題がありません。</div>';
+ $("list").querySelectorAll("[data-answer]").forEach(b=>b.addEventListener("click",()=>{const box=$("answer-"+b.dataset.answer);box.classList.toggle("open");b.textContent=box.classList.contains("open")?"解答・解説を閉じる":"解答・解説を見る"}));
+}
+async function load(){
+ $("status").textContent="データを読み込み中…";$("list").innerHTML="";
+ try{
+  const parts=await Promise.all(files.map(async f=>{const r=await fetch(BASE+f,{cache:"no-cache"});if(!r.ok)throw Error(f+" の取得に失敗");return r.json()}));
+  const map=new Map();parts.flat().forEach(q=>{if(q&&q.id&&!map.has(q.id))map.set(q.id,q)});
+  rows=[...map.values()].filter(q=>["math","science","social"].includes(q.subject)).sort((a,b)=>({math:0,science:1,social:2}[a.subject]-({math:0,science:1,social:2}[b.subject])||String(a.unit).localeCompare(String(b.unit),"ja")));
+  $("status").textContent="読み込み完了 · "+files.length+"ファイル";
+  render();
+ }catch(e){$("status").textContent="読み込みエラー";$("list").innerHTML='<div class="empty">'+esc(e.message)+'。通信環境を確認して再読み込みしてください。</div>';console.error(e)}
+}
+["search","subject","difficulty"].forEach(id=>$(id).addEventListener(id==="search"?"input":"change",render));
+$("refresh").addEventListener("click",load);load();
+})();
+</script></body></html>
