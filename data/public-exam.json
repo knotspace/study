@@ -5209,386 +5209,6 @@
       "sourceStatus": "original"
     },
     {
-      "id": "pe-noon-bank-001",
-      "subject": "science",
-      "topic": "一次関数・値の計算",
-      "level": "公立入試標準",
-      "prompt": "一次関数 y=2x+1 で、x=3のときのyを求めなさい。",
-      "options": [
-        "7",
-        "6",
-        "8",
-        "14"
-      ],
-      "correct": 0,
-      "explanation": "y=2×(3)+1=7。",
-      "takeaway": "正答を単位・途中式または根拠とともに示す。",
-      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
-      "sourceLabel": "オリジナル類題",
-      "sourceStatus": "original"
-    },
-    {
-      "id": "pe-noon-bank-002",
-      "subject": "science",
-      "topic": "一次関数・値の計算",
-      "level": "公立入試標準",
-      "prompt": "一次関数 y=3x-2 で、x=-2のときのyを求めなさい。",
-      "options": [
-        "-9",
-        "-7",
-        "-16",
-        "-8"
-      ],
-      "correct": 3,
-      "explanation": "y=3×(-2)-2=-8。",
-      "takeaway": "正答を単位・途中式または根拠とともに示す。",
-      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
-      "sourceLabel": "オリジナル類題",
-      "sourceStatus": "original"
-    },
-    {
-      "id": "pe-noon-bank-003",
-      "subject": "science",
-      "topic": "一次関数・値の計算",
-      "level": "公立入試標準",
-      "prompt": "一次関数 y=4x+3 で、x=4のときのyを求めなさい。",
-      "options": [
-        "20",
-        "38",
-        "19",
-        "18"
-      ],
-      "correct": 2,
-      "explanation": "y=4×(4)+3=19。",
-      "takeaway": "正答を単位・途中式または根拠とともに示す。",
-      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
-      "sourceLabel": "オリジナル類題",
-      "sourceStatus": "original"
-    },
-    {
-      "id": "pe-noon-bank-004",
-      "subject": "science",
-      "topic": "一次関数・値の計算",
-      "level": "公立入試標準",
-      "prompt": "一次関数 y=5x-4 で、x=1のときのyを求めなさい。",
-      "options": [
-        "0.5",
-        "1",
-        "0",
-        "2"
-      ],
-      "correct": 1,
-      "explanation": "y=5×(1)-4=1。",
-      "takeaway": "正答を単位・途中式または根拠とともに示す。",
-      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
-      "sourceLabel": "オリジナル類題",
-      "sourceStatus": "original"
-    },
-    {
-      "id": "pe-noon-bank-005",
-      "subject": "science",
-      "topic": "一次方程式",
-      "level": "公立入試標準",
-      "prompt": "2x+3=11を解きなさい。",
-      "options": [
-        "x=4",
-        "x=5",
-        "x=3",
-        "x=6"
-      ],
-      "correct": 0,
-      "explanation": "2x=8よりx=4。",
-      "takeaway": "正答を単位・途中式または根拠とともに示す。",
-      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
-      "sourceLabel": "オリジナル類題",
-      "sourceStatus": "original"
-    },
-    {
-      "id": "pe-noon-bank-006",
-      "subject": "science",
-      "topic": "一次方程式",
-      "level": "公立入試標準",
-      "prompt": "3x-1=14を解きなさい。",
-      "options": [
-        "x=6",
-        "x=4",
-        "x=7",
-        "x=5"
-      ],
-      "correct": 3,
-      "explanation": "3x=15よりx=5。",
-      "takeaway": "正答を単位・途中式または根拠とともに示す。",
-      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
-      "sourceLabel": "オリジナル類題",
-      "sourceStatus": "original"
-    },
-    {
-      "id": "pe-noon-bank-007",
-      "subject": "science",
-      "topic": "一次方程式",
-      "level": "公立入試標準",
-      "prompt": "4x+2=14を解きなさい。",
-      "options": [
-        "x=2",
-        "x=5",
-        "x=3",
-        "x=4"
-      ],
-      "correct": 2,
-      "explanation": "4x=12よりx=3。",
-      "takeaway": "正答を単位・途中式または根拠とともに示す。",
-      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
-      "sourceLabel": "オリジナル類題",
-      "sourceStatus": "original"
-    },
-    {
-      "id": "pe-noon-bank-008",
-      "subject": "science",
-      "topic": "一次方程式",
-      "level": "公立入試標準",
-      "prompt": "5x-4=26を解きなさい。",
-      "options": [
-        "x=8",
-        "x=6",
-        "x=7",
-        "x=5"
-      ],
-      "correct": 1,
-      "explanation": "5x=30よりx=6。",
-      "takeaway": "正答を単位・途中式または根拠とともに示す。",
-      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
-      "sourceLabel": "オリジナル類題",
-      "sourceStatus": "original"
-    },
-    {
-      "id": "pe-noon-bank-009",
-      "subject": "science",
-      "topic": "確率",
-      "level": "公立入試標準",
-      "prompt": "赤玉2個、白玉6個が入った袋から1個取り出す。赤玉が出る確率を求めなさい。",
-      "options": [
-        "2/8",
-        "2/9",
-        "3/8",
-        "2/7"
-      ],
-      "correct": 0,
-      "explanation": "赤玉は2個、全体は8個なので2/8。",
-      "takeaway": "正答を単位・途中式または根拠とともに示す。",
-      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
-      "sourceLabel": "オリジナル類題",
-      "sourceStatus": "original"
-    },
-    {
-      "id": "pe-noon-bank-010",
-      "subject": "science",
-      "topic": "確率",
-      "level": "公立入試標準",
-      "prompt": "赤玉3個、白玉5個が入った袋から1個取り出す。赤玉が出る確率を求めなさい。",
-      "options": [
-        "3/9",
-        "4/8",
-        "3/7",
-        "3/8"
-      ],
-      "correct": 3,
-      "explanation": "赤玉は3個、全体は8個なので3/8。",
-      "takeaway": "正答を単位・途中式または根拠とともに示す。",
-      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
-      "sourceLabel": "オリジナル類題",
-      "sourceStatus": "original"
-    },
-    {
-      "id": "pe-noon-bank-011",
-      "subject": "science",
-      "topic": "確率",
-      "level": "公立入試標準",
-      "prompt": "赤玉4個、白玉4個が入った袋から1個取り出す。赤玉が出る確率を求めなさい。",
-      "options": [
-        "5/8",
-        "4/7",
-        "4/8",
-        "4/9"
-      ],
-      "correct": 2,
-      "explanation": "赤玉は4個、全体は8個なので4/8。",
-      "takeaway": "正答を単位・途中式または根拠とともに示す。",
-      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
-      "sourceLabel": "オリジナル類題",
-      "sourceStatus": "original"
-    },
-    {
-      "id": "pe-noon-bank-012",
-      "subject": "science",
-      "topic": "確率",
-      "level": "公立入試標準",
-      "prompt": "赤玉5個、白玉3個が入った袋から1個取り出す。赤玉が出る確率を求めなさい。",
-      "options": [
-        "5/7",
-        "5/8",
-        "5/9",
-        "6/8"
-      ],
-      "correct": 1,
-      "explanation": "赤玉は5個、全体は8個なので5/8。",
-      "takeaway": "正答を単位・途中式または根拠とともに示す。",
-      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
-      "sourceLabel": "オリジナル類題",
-      "sourceStatus": "original"
-    },
-    {
-      "id": "pe-noon-bank-013",
-      "subject": "science",
-      "topic": "割合・百分率",
-      "level": "公立入試標準",
-      "prompt": "80の10%はいくつか。",
-      "options": [
-        "8",
-        "7",
-        "9",
-        "16"
-      ],
-      "correct": 0,
-      "explanation": "80×10/100=8。",
-      "takeaway": "正答を単位・途中式または根拠とともに示す。",
-      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
-      "sourceLabel": "オリジナル類題",
-      "sourceStatus": "original"
-    },
-    {
-      "id": "pe-noon-bank-014",
-      "subject": "science",
-      "topic": "割合・百分率",
-      "level": "公立入試標準",
-      "prompt": "120の15%はいくつか。",
-      "options": [
-        "17",
-        "19",
-        "36",
-        "18"
-      ],
-      "correct": 3,
-      "explanation": "120×15/100=18。",
-      "takeaway": "正答を単位・途中式または根拠とともに示す。",
-      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
-      "sourceLabel": "オリジナル類題",
-      "sourceStatus": "original"
-    },
-    {
-      "id": "pe-noon-bank-015",
-      "subject": "science",
-      "topic": "割合・百分率",
-      "level": "公立入試標準",
-      "prompt": "150の20%はいくつか。",
-      "options": [
-        "31",
-        "60",
-        "30",
-        "29"
-      ],
-      "correct": 2,
-      "explanation": "150×20/100=30。",
-      "takeaway": "正答を単位・途中式または根拠とともに示す。",
-      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
-      "sourceLabel": "オリジナル類題",
-      "sourceStatus": "original"
-    },
-    {
-      "id": "pe-noon-bank-016",
-      "subject": "science",
-      "topic": "割合・百分率",
-      "level": "公立入試標準",
-      "prompt": "240の25%はいくつか。",
-      "options": [
-        "120",
-        "60",
-        "59",
-        "61"
-      ],
-      "correct": 1,
-      "explanation": "240×25/100=60。",
-      "takeaway": "正答を単位・途中式または根拠とともに示す。",
-      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
-      "sourceLabel": "オリジナル類題",
-      "sourceStatus": "original"
-    },
-    {
-      "id": "pe-noon-bank-017",
-      "subject": "science",
-      "topic": "平面図形・面積",
-      "level": "公立入試標準",
-      "prompt": "縦5cm、横8cmの長方形の面積を求めなさい。",
-      "options": [
-        "40cm²",
-        "39cm²",
-        "41cm²",
-        "80cm²"
-      ],
-      "correct": 0,
-      "explanation": "8×5=40cm²。",
-      "takeaway": "正答を単位・途中式または根拠とともに示す。",
-      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
-      "sourceLabel": "オリジナル類題",
-      "sourceStatus": "original"
-    },
-    {
-      "id": "pe-noon-bank-018",
-      "subject": "science",
-      "topic": "平面図形・面積",
-      "level": "公立入試標準",
-      "prompt": "縦4cm、横9cmの長方形の面積を求めなさい。",
-      "options": [
-        "35cm²",
-        "37cm²",
-        "72cm²",
-        "36cm²"
-      ],
-      "correct": 3,
-      "explanation": "9×4=36cm²。",
-      "takeaway": "正答を単位・途中式または根拠とともに示す。",
-      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
-      "sourceLabel": "オリジナル類題",
-      "sourceStatus": "original"
-    },
-    {
-      "id": "pe-noon-bank-019",
-      "subject": "science",
-      "topic": "平面図形・面積",
-      "level": "公立入試標準",
-      "prompt": "縦7cm、横12cmの長方形の面積を求めなさい。",
-      "options": [
-        "85cm²",
-        "168cm²",
-        "84cm²",
-        "83cm²"
-      ],
-      "correct": 2,
-      "explanation": "12×7=84cm²。",
-      "takeaway": "正答を単位・途中式または根拠とともに示す。",
-      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
-      "sourceLabel": "オリジナル類題",
-      "sourceStatus": "original"
-    },
-    {
-      "id": "pe-noon-bank-020",
-      "subject": "science",
-      "topic": "平面図形・面積",
-      "level": "公立入試標準",
-      "prompt": "縦6cm、横15cmの長方形の面積を求めなさい。",
-      "options": [
-        "180cm²",
-        "90cm²",
-        "89cm²",
-        "91cm²"
-      ],
-      "correct": 1,
-      "explanation": "15×6=90cm²。",
-      "takeaway": "正答を単位・途中式または根拠とともに示す。",
-      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
-      "sourceLabel": "オリジナル類題",
-      "sourceStatus": "original"
-    },
-    {
       "id": "pe-noon-bank-021",
       "subject": "science",
       "topic": "運動・速さ",
@@ -6155,6 +5775,386 @@
       "explanation": "国際連合は1945年10月に発足した。",
       "takeaway": "正答を単位・途中式または根拠とともに示す。",
       "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-science-001",
+      "subject": "science",
+      "topic": "物理・電流",
+      "level": "公立入試標準",
+      "prompt": "回路全体に21Vを加え、7Ωの抵抗に流れる電流は何Aか。",
+      "options": [
+        "2A",
+        "3A",
+        "7A",
+        "14A"
+      ],
+      "correct": 1,
+      "explanation": "I=V/R=21/7=3A。",
+      "takeaway": "オームの法則。",
+      "sourceNote": "栃木県立高校入試を意識して独自に作成した練習問題です。特定年度・大問の原文ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-science-002",
+      "subject": "science",
+      "topic": "物理・運動",
+      "level": "公立入試標準",
+      "prompt": "質量4kgの物体に20Nの合力がはたらく。加速度は何m/s²か。",
+      "options": [
+        "5m/s²",
+        "16m/s²",
+        "80m/s²",
+        "4m/s²"
+      ],
+      "correct": 0,
+      "explanation": "a=F/m=20/4=5m/s²。",
+      "takeaway": "力÷質量。",
+      "sourceNote": "栃木県立高校入試を意識して独自に作成した練習問題です。特定年度・大問の原文ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-science-003",
+      "subject": "science",
+      "topic": "物理・電力量",
+      "level": "公立入試標準",
+      "prompt": "2kWの器具を3時間使った。電力量は何kWhか。",
+      "options": [
+        "5kWh",
+        "6kWh",
+        "2kWh",
+        "3kWh"
+      ],
+      "correct": 1,
+      "explanation": "電力量=2×3=6kWh。",
+      "takeaway": "電力×時間。",
+      "sourceNote": "栃木県立高校入試を意識して独自に作成した練習問題です。特定年度・大問の原文ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-science-004",
+      "subject": "science",
+      "topic": "物理・圧力",
+      "level": "公立入試標準",
+      "prompt": "90Nの力が0.03m²の面にはたらく。圧力は何Paか。",
+      "options": [
+        "9000Pa",
+        "300Pa",
+        "900Pa",
+        "3000Pa"
+      ],
+      "correct": 3,
+      "explanation": "90÷0.03=3000Pa。",
+      "takeaway": "力÷面積。",
+      "sourceNote": "栃木県立高校入試を意識して独自に作成した練習問題です。特定年度・大問の原文ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-science-005",
+      "subject": "science",
+      "topic": "物理・仕事",
+      "level": "公立入試標準",
+      "prompt": "12Nの力で物体を力の向きに5m動かした。仕事は何Jか。",
+      "options": [
+        "17J",
+        "30J",
+        "60J",
+        "120J"
+      ],
+      "correct": 2,
+      "explanation": "仕事=12×5=60J。",
+      "takeaway": "力×距離。",
+      "sourceNote": "栃木県立高校入試を意識して独自に作成した練習問題です。特定年度・大問の原文ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-science-006",
+      "subject": "science",
+      "topic": "物理・速さ",
+      "level": "公立入試標準",
+      "prompt": "180mを30秒で進んだ物体の平均の速さは何m/sか。",
+      "options": [
+        "5m/s",
+        "6m/s",
+        "9m/s",
+        "3m/s"
+      ],
+      "correct": 1,
+      "explanation": "180÷30=6m/s。",
+      "takeaway": "道のり÷時間。",
+      "sourceNote": "栃木県立高校入試を意識して独自に作成した練習問題です。特定年度・大問の原文ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-science-007",
+      "subject": "science",
+      "topic": "化学・密度",
+      "level": "公立入試標準",
+      "prompt": "質量120g、体積40cm³の物質の密度は何g/cm³か。",
+      "options": [
+        "4g/cm³",
+        "6g/cm³",
+        "2g/cm³",
+        "3g/cm³"
+      ],
+      "correct": 3,
+      "explanation": "密度=120÷40=3g/cm³。",
+      "takeaway": "質量÷体積。",
+      "sourceNote": "栃木県立高校入試を意識して独自に作成した練習問題です。特定年度・大問の原文ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-science-008",
+      "subject": "science",
+      "topic": "化学・濃度",
+      "level": "公立入試標準",
+      "prompt": "水160gに食塩40gを溶かした。質量パーセント濃度は何%か。",
+      "options": [
+        "25%",
+        "10%",
+        "15%",
+        "20%"
+      ],
+      "correct": 3,
+      "explanation": "溶液200g中に食塩40g。40÷200×100=20%。",
+      "takeaway": "溶液全体の質量。",
+      "sourceNote": "栃木県立高校入試を意識して独自に作成した練習問題です。特定年度・大問の原文ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-science-009",
+      "subject": "science",
+      "topic": "化学・気体",
+      "level": "公立入試標準",
+      "prompt": "酸素の性質として正しいものはどれか。",
+      "options": [
+        "火のついた線香を激しく燃やす",
+        "石灰水を白くにごらせる",
+        "刺激臭がある",
+        "空気より非常に軽い"
+      ],
+      "correct": 0,
+      "explanation": "酸素にはものを燃やすはたらきがある。",
+      "takeaway": "気体の性質を実験と結び付ける。",
+      "sourceNote": "栃木県立高校入試を意識して独自に作成した練習問題です。特定年度・大問の原文ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-science-010",
+      "subject": "science",
+      "topic": "化学・気体",
+      "level": "公立入試標準",
+      "prompt": "水素に火を近づけたときに聞こえる特徴的な音はどれか。",
+      "options": [
+        "シューという音だけ",
+        "何も起こらない",
+        "鐘のような音",
+        "ポンという音"
+      ],
+      "correct": 3,
+      "explanation": "水素は空気中で点火するとポンという音を立てて燃える。",
+      "takeaway": "水素の確認方法。",
+      "sourceNote": "栃木県立高校入試を意識して独自に作成した練習問題です。特定年度・大問の原文ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-science-011",
+      "subject": "science",
+      "topic": "化学・空気",
+      "level": "公立入試標準",
+      "prompt": "乾燥した空気の体積で最も多く含まれる気体はどれか。",
+      "options": [
+        "二酸化炭素",
+        "水素",
+        "窒素",
+        "酸素"
+      ],
+      "correct": 2,
+      "explanation": "空気の約78%は窒素、約21%は酸素。",
+      "takeaway": "空気の主成分。",
+      "sourceNote": "栃木県立高校入試を意識して独自に作成した練習問題です。特定年度・大問の原文ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-science-012",
+      "subject": "science",
+      "topic": "化学・中和",
+      "level": "公立入試標準",
+      "prompt": "酸性の水溶液に青色リトマス紙を入れるとどうなるか。",
+      "options": [
+        "黄色に変わる",
+        "赤色に変わる",
+        "青色のまま",
+        "白色になる"
+      ],
+      "correct": 1,
+      "explanation": "酸性の水溶液は青色リトマス紙を赤色に変える。",
+      "takeaway": "指示薬の色の変化。",
+      "sourceNote": "栃木県立高校入試を意識して独自に作成した練習問題です。特定年度・大問の原文ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-science-013",
+      "subject": "science",
+      "topic": "生物・光合成",
+      "level": "公立入試標準",
+      "prompt": "葉にデンプンができたか調べるときに使う液体はどれか。",
+      "options": [
+        "ヨウ素液",
+        "BTB溶液",
+        "石灰水",
+        "塩酸"
+      ],
+      "correct": 0,
+      "explanation": "デンプンがある部分はヨウ素液で青紫色になる。",
+      "takeaway": "デンプンの検出方法。",
+      "sourceNote": "栃木県立高校入試を意識して独自に作成した練習問題です。特定年度・大問の原文ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-science-014",
+      "subject": "science",
+      "topic": "生物・植物",
+      "level": "公立入試標準",
+      "prompt": "植物の蒸散が主に行われる場所はどこか。",
+      "options": [
+        "根毛",
+        "道管の内側",
+        "花粉",
+        "気孔"
+      ],
+      "correct": 3,
+      "explanation": "蒸散は主に葉の気孔から水蒸気が出る現象。",
+      "takeaway": "気孔と蒸散。",
+      "sourceNote": "栃木県立高校入試を意識して独自に作成した練習問題です。特定年度・大問の原文ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-science-015",
+      "subject": "science",
+      "topic": "生物・消化",
+      "level": "公立入試標準",
+      "prompt": "小腸の内側にある柔毛の主な役割は何か。",
+      "options": [
+        "酸素を取り込む",
+        "尿をつくる",
+        "養分を吸収する表面積を広げる",
+        "胃液をつくる"
+      ],
+      "correct": 2,
+      "explanation": "柔毛によって表面積が大きくなり、養分を効率よく吸収できる。",
+      "takeaway": "小腸と養分吸収。",
+      "sourceNote": "栃木県立高校入試を意識して独自に作成した練習問題です。特定年度・大問の原文ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-science-016",
+      "subject": "science",
+      "topic": "生物・排出",
+      "level": "公立入試標準",
+      "prompt": "血液から不要な物質をこし取り、尿をつくる器官はどれか。",
+      "options": [
+        "すい臓",
+        "腎臓",
+        "肝臓",
+        "肺"
+      ],
+      "correct": 1,
+      "explanation": "腎臓は血液をろ過して尿をつくる。",
+      "takeaway": "腎臓のはたらき。",
+      "sourceNote": "栃木県立高校入試を意識して独自に作成した練習問題です。特定年度・大問の原文ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-science-017",
+      "subject": "science",
+      "topic": "生物・血液",
+      "level": "公立入試標準",
+      "prompt": "血液を固めて出血を止めるはたらきに関係する成分はどれか。",
+      "options": [
+        "血小板",
+        "赤血球",
+        "白血球",
+        "血しょう"
+      ],
+      "correct": 0,
+      "explanation": "血小板は血液凝固に関わる。",
+      "takeaway": "血液成分の役割。",
+      "sourceNote": "栃木県立高校入試を意識して独自に作成した練習問題です。特定年度・大問の原文ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-science-018",
+      "subject": "science",
+      "topic": "地学・地震",
+      "level": "公立入試標準",
+      "prompt": "地震計で、最初に到着する地震波を何というか。",
+      "options": [
+        "S波",
+        "表面波",
+        "津波",
+        "P波"
+      ],
+      "correct": 3,
+      "explanation": "P波はS波より速く伝わり、先に到着する。",
+      "takeaway": "P波とS波の到着順。",
+      "sourceNote": "栃木県立高校入試を意識して独自に作成した練習問題です。特定年度・大問の原文ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-science-019",
+      "subject": "science",
+      "topic": "地学・天気",
+      "level": "公立入試標準",
+      "prompt": "温暖前線が近づくときに見られやすい天気の変化はどれか。",
+      "options": [
+        "必ず晴天になる",
+        "気温が急に大きく下がる",
+        "広い範囲で弱い雨が長く続く",
+        "短時間の激しい雷雨だけが起こる"
+      ],
+      "correct": 2,
+      "explanation": "温暖前線では層状の雲が広がり、弱い雨が長く続きやすい。",
+      "takeaway": "温暖前線と寒冷前線を比較。",
+      "sourceNote": "栃木県立高校入試を意識して独自に作成した練習問題です。特定年度・大問の原文ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-science-020",
+      "subject": "science",
+      "topic": "地学・天体",
+      "level": "公立入試標準",
+      "prompt": "月の形が日によって変わって見えるのはなぜか。",
+      "options": [
+        "月の大きさが変化するから",
+        "太陽に照らされた月を地球から見る角度が変わるから",
+        "月自身が光る量を変えるから",
+        "地球の影が毎日月を隠すから"
+      ],
+      "correct": 1,
+      "explanation": "月の公転に伴い、明るい半分の見え方が変わる。",
+      "takeaway": "太陽・地球・月の位置関係。",
+      "sourceNote": "栃木県立高校入試を意識して独自に作成した練習問題です。特定年度・大問の原文ではありません。",
       "sourceLabel": "オリジナル類題",
       "sourceStatus": "original"
     }
