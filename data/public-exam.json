@@ -4,9 +4,9 @@
   "title": "公立高校入試問題精講",
   "notice": "各設問は栃木県立高校入試の原資料との照合を進めています。年度・教科・大問を確認できた設問のみ、出典情報を明記します。照合未完了の設問は「出典照合中」と表示し、未確認の年度を付けません。",
   "counts": {
-    "science": 139,
-    "social": 134,
-    "total": 273
+    "science": 179,
+    "social": 144,
+    "total": 323
   },
   "questions": [
     {
@@ -5205,6 +5205,956 @@
       "explanation": "常任理事国は重要事項の決議に対して拒否権を持つ。",
       "takeaway": "常任理事国と非常任理事国の違いを押さえる。",
       "sourceNote": "栃木県立高校入試を意識して独自に作成した練習問題です。特定年度・大問の原文ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-bank-001",
+      "subject": "science",
+      "topic": "一次関数・値の計算",
+      "level": "公立入試標準",
+      "prompt": "一次関数 y=2x+1 で、x=3のときのyを求めなさい。",
+      "options": [
+        "7",
+        "6",
+        "8",
+        "14"
+      ],
+      "correct": 0,
+      "explanation": "y=2×(3)+1=7。",
+      "takeaway": "正答を単位・途中式または根拠とともに示す。",
+      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-bank-002",
+      "subject": "science",
+      "topic": "一次関数・値の計算",
+      "level": "公立入試標準",
+      "prompt": "一次関数 y=3x-2 で、x=-2のときのyを求めなさい。",
+      "options": [
+        "-9",
+        "-7",
+        "-16",
+        "-8"
+      ],
+      "correct": 3,
+      "explanation": "y=3×(-2)-2=-8。",
+      "takeaway": "正答を単位・途中式または根拠とともに示す。",
+      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-bank-003",
+      "subject": "science",
+      "topic": "一次関数・値の計算",
+      "level": "公立入試標準",
+      "prompt": "一次関数 y=4x+3 で、x=4のときのyを求めなさい。",
+      "options": [
+        "20",
+        "38",
+        "19",
+        "18"
+      ],
+      "correct": 2,
+      "explanation": "y=4×(4)+3=19。",
+      "takeaway": "正答を単位・途中式または根拠とともに示す。",
+      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-bank-004",
+      "subject": "science",
+      "topic": "一次関数・値の計算",
+      "level": "公立入試標準",
+      "prompt": "一次関数 y=5x-4 で、x=1のときのyを求めなさい。",
+      "options": [
+        "0.5",
+        "1",
+        "0",
+        "2"
+      ],
+      "correct": 1,
+      "explanation": "y=5×(1)-4=1。",
+      "takeaway": "正答を単位・途中式または根拠とともに示す。",
+      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-bank-005",
+      "subject": "science",
+      "topic": "一次方程式",
+      "level": "公立入試標準",
+      "prompt": "2x+3=11を解きなさい。",
+      "options": [
+        "x=4",
+        "x=5",
+        "x=3",
+        "x=6"
+      ],
+      "correct": 0,
+      "explanation": "2x=8よりx=4。",
+      "takeaway": "正答を単位・途中式または根拠とともに示す。",
+      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-bank-006",
+      "subject": "science",
+      "topic": "一次方程式",
+      "level": "公立入試標準",
+      "prompt": "3x-1=14を解きなさい。",
+      "options": [
+        "x=6",
+        "x=4",
+        "x=7",
+        "x=5"
+      ],
+      "correct": 3,
+      "explanation": "3x=15よりx=5。",
+      "takeaway": "正答を単位・途中式または根拠とともに示す。",
+      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-bank-007",
+      "subject": "science",
+      "topic": "一次方程式",
+      "level": "公立入試標準",
+      "prompt": "4x+2=14を解きなさい。",
+      "options": [
+        "x=2",
+        "x=5",
+        "x=3",
+        "x=4"
+      ],
+      "correct": 2,
+      "explanation": "4x=12よりx=3。",
+      "takeaway": "正答を単位・途中式または根拠とともに示す。",
+      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-bank-008",
+      "subject": "science",
+      "topic": "一次方程式",
+      "level": "公立入試標準",
+      "prompt": "5x-4=26を解きなさい。",
+      "options": [
+        "x=8",
+        "x=6",
+        "x=7",
+        "x=5"
+      ],
+      "correct": 1,
+      "explanation": "5x=30よりx=6。",
+      "takeaway": "正答を単位・途中式または根拠とともに示す。",
+      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-bank-009",
+      "subject": "science",
+      "topic": "確率",
+      "level": "公立入試標準",
+      "prompt": "赤玉2個、白玉6個が入った袋から1個取り出す。赤玉が出る確率を求めなさい。",
+      "options": [
+        "2/8",
+        "2/9",
+        "3/8",
+        "2/7"
+      ],
+      "correct": 0,
+      "explanation": "赤玉は2個、全体は8個なので2/8。",
+      "takeaway": "正答を単位・途中式または根拠とともに示す。",
+      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-bank-010",
+      "subject": "science",
+      "topic": "確率",
+      "level": "公立入試標準",
+      "prompt": "赤玉3個、白玉5個が入った袋から1個取り出す。赤玉が出る確率を求めなさい。",
+      "options": [
+        "3/9",
+        "4/8",
+        "3/7",
+        "3/8"
+      ],
+      "correct": 3,
+      "explanation": "赤玉は3個、全体は8個なので3/8。",
+      "takeaway": "正答を単位・途中式または根拠とともに示す。",
+      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-bank-011",
+      "subject": "science",
+      "topic": "確率",
+      "level": "公立入試標準",
+      "prompt": "赤玉4個、白玉4個が入った袋から1個取り出す。赤玉が出る確率を求めなさい。",
+      "options": [
+        "5/8",
+        "4/7",
+        "4/8",
+        "4/9"
+      ],
+      "correct": 2,
+      "explanation": "赤玉は4個、全体は8個なので4/8。",
+      "takeaway": "正答を単位・途中式または根拠とともに示す。",
+      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-bank-012",
+      "subject": "science",
+      "topic": "確率",
+      "level": "公立入試標準",
+      "prompt": "赤玉5個、白玉3個が入った袋から1個取り出す。赤玉が出る確率を求めなさい。",
+      "options": [
+        "5/7",
+        "5/8",
+        "5/9",
+        "6/8"
+      ],
+      "correct": 1,
+      "explanation": "赤玉は5個、全体は8個なので5/8。",
+      "takeaway": "正答を単位・途中式または根拠とともに示す。",
+      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-bank-013",
+      "subject": "science",
+      "topic": "割合・百分率",
+      "level": "公立入試標準",
+      "prompt": "80の10%はいくつか。",
+      "options": [
+        "8",
+        "7",
+        "9",
+        "16"
+      ],
+      "correct": 0,
+      "explanation": "80×10/100=8。",
+      "takeaway": "正答を単位・途中式または根拠とともに示す。",
+      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-bank-014",
+      "subject": "science",
+      "topic": "割合・百分率",
+      "level": "公立入試標準",
+      "prompt": "120の15%はいくつか。",
+      "options": [
+        "17",
+        "19",
+        "36",
+        "18"
+      ],
+      "correct": 3,
+      "explanation": "120×15/100=18。",
+      "takeaway": "正答を単位・途中式または根拠とともに示す。",
+      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-bank-015",
+      "subject": "science",
+      "topic": "割合・百分率",
+      "level": "公立入試標準",
+      "prompt": "150の20%はいくつか。",
+      "options": [
+        "31",
+        "60",
+        "30",
+        "29"
+      ],
+      "correct": 2,
+      "explanation": "150×20/100=30。",
+      "takeaway": "正答を単位・途中式または根拠とともに示す。",
+      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-bank-016",
+      "subject": "science",
+      "topic": "割合・百分率",
+      "level": "公立入試標準",
+      "prompt": "240の25%はいくつか。",
+      "options": [
+        "120",
+        "60",
+        "59",
+        "61"
+      ],
+      "correct": 1,
+      "explanation": "240×25/100=60。",
+      "takeaway": "正答を単位・途中式または根拠とともに示す。",
+      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-bank-017",
+      "subject": "science",
+      "topic": "平面図形・面積",
+      "level": "公立入試標準",
+      "prompt": "縦5cm、横8cmの長方形の面積を求めなさい。",
+      "options": [
+        "40cm²",
+        "39cm²",
+        "41cm²",
+        "80cm²"
+      ],
+      "correct": 0,
+      "explanation": "8×5=40cm²。",
+      "takeaway": "正答を単位・途中式または根拠とともに示す。",
+      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-bank-018",
+      "subject": "science",
+      "topic": "平面図形・面積",
+      "level": "公立入試標準",
+      "prompt": "縦4cm、横9cmの長方形の面積を求めなさい。",
+      "options": [
+        "35cm²",
+        "37cm²",
+        "72cm²",
+        "36cm²"
+      ],
+      "correct": 3,
+      "explanation": "9×4=36cm²。",
+      "takeaway": "正答を単位・途中式または根拠とともに示す。",
+      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-bank-019",
+      "subject": "science",
+      "topic": "平面図形・面積",
+      "level": "公立入試標準",
+      "prompt": "縦7cm、横12cmの長方形の面積を求めなさい。",
+      "options": [
+        "85cm²",
+        "168cm²",
+        "84cm²",
+        "83cm²"
+      ],
+      "correct": 2,
+      "explanation": "12×7=84cm²。",
+      "takeaway": "正答を単位・途中式または根拠とともに示す。",
+      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-bank-020",
+      "subject": "science",
+      "topic": "平面図形・面積",
+      "level": "公立入試標準",
+      "prompt": "縦6cm、横15cmの長方形の面積を求めなさい。",
+      "options": [
+        "180cm²",
+        "90cm²",
+        "89cm²",
+        "91cm²"
+      ],
+      "correct": 1,
+      "explanation": "15×6=90cm²。",
+      "takeaway": "正答を単位・途中式または根拠とともに示す。",
+      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-bank-021",
+      "subject": "science",
+      "topic": "運動・速さ",
+      "level": "公立入試標準",
+      "prompt": "物体が150mを30秒で進んだ。平均の速さを求めなさい。",
+      "options": [
+        "5m/s",
+        "4m/s",
+        "6m/s",
+        "10m/s"
+      ],
+      "correct": 0,
+      "explanation": "150÷30=5m/s。",
+      "takeaway": "正答を単位・途中式または根拠とともに示す。",
+      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-bank-022",
+      "subject": "science",
+      "topic": "運動・速さ",
+      "level": "公立入試標準",
+      "prompt": "物体が240mを40秒で進んだ。平均の速さを求めなさい。",
+      "options": [
+        "5m/s",
+        "7m/s",
+        "12m/s",
+        "6m/s"
+      ],
+      "correct": 3,
+      "explanation": "240÷40=6m/s。",
+      "takeaway": "正答を単位・途中式または根拠とともに示す。",
+      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-bank-023",
+      "subject": "science",
+      "topic": "運動・速さ",
+      "level": "公立入試標準",
+      "prompt": "物体が360mを60秒で進んだ。平均の速さを求めなさい。",
+      "options": [
+        "7m/s",
+        "12m/s",
+        "6m/s",
+        "5m/s"
+      ],
+      "correct": 2,
+      "explanation": "360÷60=6m/s。",
+      "takeaway": "正答を単位・途中式または根拠とともに示す。",
+      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-bank-024",
+      "subject": "science",
+      "topic": "運動・速さ",
+      "level": "公立入試標準",
+      "prompt": "物体が420mを70秒で進んだ。平均の速さを求めなさい。",
+      "options": [
+        "12m/s",
+        "6m/s",
+        "5m/s",
+        "7m/s"
+      ],
+      "correct": 1,
+      "explanation": "420÷70=6m/s。",
+      "takeaway": "正答を単位・途中式または根拠とともに示す。",
+      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-bank-025",
+      "subject": "science",
+      "topic": "電流・オームの法則",
+      "level": "公立入試標準",
+      "prompt": "抵抗3Ωに6Vの電圧を加えた。電流を求めなさい。",
+      "options": [
+        "2A",
+        "1A",
+        "3A",
+        "4A"
+      ],
+      "correct": 0,
+      "explanation": "I=V/R=6/3=2A。",
+      "takeaway": "正答を単位・途中式または根拠とともに示す。",
+      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-bank-026",
+      "subject": "science",
+      "topic": "電流・オームの法則",
+      "level": "公立入試標準",
+      "prompt": "抵抗3Ωに9Vの電圧を加えた。電流を求めなさい。",
+      "options": [
+        "2A",
+        "4A",
+        "6A",
+        "3A"
+      ],
+      "correct": 3,
+      "explanation": "I=V/R=9/3=3A。",
+      "takeaway": "正答を単位・途中式または根拠とともに示す。",
+      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-bank-027",
+      "subject": "science",
+      "topic": "電流・オームの法則",
+      "level": "公立入試標準",
+      "prompt": "抵抗4Ωに12Vの電圧を加えた。電流を求めなさい。",
+      "options": [
+        "4A",
+        "6A",
+        "3A",
+        "2A"
+      ],
+      "correct": 2,
+      "explanation": "I=V/R=12/4=3A。",
+      "takeaway": "正答を単位・途中式または根拠とともに示す。",
+      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-bank-028",
+      "subject": "science",
+      "topic": "電流・オームの法則",
+      "level": "公立入試標準",
+      "prompt": "抵抗5Ωに15Vの電圧を加えた。電流を求めなさい。",
+      "options": [
+        "6A",
+        "3A",
+        "2A",
+        "4A"
+      ],
+      "correct": 1,
+      "explanation": "I=V/R=15/5=3A。",
+      "takeaway": "正答を単位・途中式または根拠とともに示す。",
+      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-bank-029",
+      "subject": "science",
+      "topic": "電力",
+      "level": "公立入試標準",
+      "prompt": "100Vで1Aの電流が流れる器具の電力を求めなさい。",
+      "options": [
+        "100W",
+        "99W",
+        "101W",
+        "200W"
+      ],
+      "correct": 0,
+      "explanation": "P=VI=100×1=100W。",
+      "takeaway": "正答を単位・途中式または根拠とともに示す。",
+      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-bank-030",
+      "subject": "science",
+      "topic": "電力",
+      "level": "公立入試標準",
+      "prompt": "200Vで0.5Aの電流が流れる器具の電力を求めなさい。",
+      "options": [
+        "99W",
+        "101W",
+        "200W",
+        "100W"
+      ],
+      "correct": 3,
+      "explanation": "P=VI=200×0.5=100W。",
+      "takeaway": "正答を単位・途中式または根拠とともに示す。",
+      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-bank-031",
+      "subject": "science",
+      "topic": "電力",
+      "level": "公立入試標準",
+      "prompt": "100Vで2Aの電流が流れる器具の電力を求めなさい。",
+      "options": [
+        "201W",
+        "400W",
+        "200W",
+        "199W"
+      ],
+      "correct": 2,
+      "explanation": "P=VI=100×2=200W。",
+      "takeaway": "正答を単位・途中式または根拠とともに示す。",
+      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-bank-032",
+      "subject": "science",
+      "topic": "電力",
+      "level": "公立入試標準",
+      "prompt": "120Vで1.5Aの電流が流れる器具の電力を求めなさい。",
+      "options": [
+        "360W",
+        "180W",
+        "179W",
+        "181W"
+      ],
+      "correct": 1,
+      "explanation": "P=VI=120×1.5=180W。",
+      "takeaway": "正答を単位・途中式または根拠とともに示す。",
+      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-bank-033",
+      "subject": "science",
+      "topic": "密度",
+      "level": "公立入試標準",
+      "prompt": "質量60g、体積20cm³の物質の密度を求めなさい。",
+      "options": [
+        "3g/cm³",
+        "2g/cm³",
+        "4g/cm³",
+        "6g/cm³"
+      ],
+      "correct": 0,
+      "explanation": "密度=質量÷体積=60÷20=3g/cm³。",
+      "takeaway": "正答を単位・途中式または根拠とともに示す。",
+      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-bank-034",
+      "subject": "science",
+      "topic": "密度",
+      "level": "公立入試標準",
+      "prompt": "質量90g、体積30cm³の物質の密度を求めなさい。",
+      "options": [
+        "2g/cm³",
+        "4g/cm³",
+        "6g/cm³",
+        "3g/cm³"
+      ],
+      "correct": 3,
+      "explanation": "密度=質量÷体積=90÷30=3g/cm³。",
+      "takeaway": "正答を単位・途中式または根拠とともに示す。",
+      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-bank-035",
+      "subject": "science",
+      "topic": "密度",
+      "level": "公立入試標準",
+      "prompt": "質量120g、体積40cm³の物質の密度を求めなさい。",
+      "options": [
+        "4g/cm³",
+        "6g/cm³",
+        "3g/cm³",
+        "2g/cm³"
+      ],
+      "correct": 2,
+      "explanation": "密度=質量÷体積=120÷40=3g/cm³。",
+      "takeaway": "正答を単位・途中式または根拠とともに示す。",
+      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-bank-036",
+      "subject": "science",
+      "topic": "密度",
+      "level": "公立入試標準",
+      "prompt": "質量150g、体積50cm³の物質の密度を求めなさい。",
+      "options": [
+        "6g/cm³",
+        "3g/cm³",
+        "2g/cm³",
+        "4g/cm³"
+      ],
+      "correct": 1,
+      "explanation": "密度=質量÷体積=150÷50=3g/cm³。",
+      "takeaway": "正答を単位・途中式または根拠とともに示す。",
+      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-bank-037",
+      "subject": "science",
+      "topic": "水溶液・濃度",
+      "level": "公立入試標準",
+      "prompt": "水90gに食塩10gを溶かした。質量パーセント濃度を求めなさい。",
+      "options": [
+        "10%",
+        "9%",
+        "11%",
+        "20%"
+      ],
+      "correct": 0,
+      "explanation": "溶液は100g。10÷100×100=10%。",
+      "takeaway": "正答を単位・途中式または根拠とともに示す。",
+      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-bank-038",
+      "subject": "science",
+      "topic": "水溶液・濃度",
+      "level": "公立入試標準",
+      "prompt": "水85gに食塩15gを溶かした。質量パーセント濃度を求めなさい。",
+      "options": [
+        "14%",
+        "16%",
+        "30%",
+        "15%"
+      ],
+      "correct": 3,
+      "explanation": "溶液は100g。15÷100×100=15%。",
+      "takeaway": "正答を単位・途中式または根拠とともに示す。",
+      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-bank-039",
+      "subject": "science",
+      "topic": "水溶液・濃度",
+      "level": "公立入試標準",
+      "prompt": "水80gに食塩20gを溶かした。質量パーセント濃度を求めなさい。",
+      "options": [
+        "21%",
+        "40%",
+        "20%",
+        "19%"
+      ],
+      "correct": 2,
+      "explanation": "溶液は100g。20÷100×100=20%。",
+      "takeaway": "正答を単位・途中式または根拠とともに示す。",
+      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-bank-040",
+      "subject": "science",
+      "topic": "水溶液・濃度",
+      "level": "公立入試標準",
+      "prompt": "水75gに食塩25gを溶かした。質量パーセント濃度を求めなさい。",
+      "options": [
+        "50%",
+        "25%",
+        "24%",
+        "26%"
+      ],
+      "correct": 1,
+      "explanation": "溶液は100g。25÷100×100=25%。",
+      "takeaway": "正答を単位・途中式または根拠とともに示す。",
+      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-bank-041",
+      "subject": "social",
+      "topic": "歴史・近代",
+      "level": "公立入試標準",
+      "prompt": "明治政府が藩を廃止して府県を置いた改革を何というか。",
+      "options": [
+        "廃藩置県",
+        "乙巳の変",
+        "壬申の乱",
+        "承久の乱"
+      ],
+      "correct": 0,
+      "explanation": "1871年に藩を廃止し、府県を置いて中央集権化を進めた。",
+      "takeaway": "正答を単位・途中式または根拠とともに示す。",
+      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-bank-042",
+      "subject": "social",
+      "topic": "歴史・古代",
+      "level": "公立入試標準",
+      "prompt": "大化の改新のきっかけとなった645年の政変を何というか。",
+      "options": [
+        "壬申の乱",
+        "承久の乱",
+        "応仁の乱",
+        "乙巳の変"
+      ],
+      "correct": 3,
+      "explanation": "645年に中大兄皇子らが蘇我入鹿を倒した政変。",
+      "takeaway": "正答を単位・途中式または根拠とともに示す。",
+      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-bank-043",
+      "subject": "social",
+      "topic": "歴史・古代",
+      "level": "公立入試標準",
+      "prompt": "平安京に都が移された年を西暦で答えなさい。",
+      "options": [
+        "795年",
+        "1588年",
+        "794年",
+        "793年"
+      ],
+      "correct": 2,
+      "explanation": "桓武天皇が794年に平安京へ遷都した。",
+      "takeaway": "正答を単位・途中式または根拠とともに示す。",
+      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-bank-044",
+      "subject": "social",
+      "topic": "歴史・近世",
+      "level": "公立入試標準",
+      "prompt": "江戸幕府を開いた人物は誰か。",
+      "options": [
+        "承久の乱",
+        "徳川家康",
+        "乙巳の変",
+        "壬申の乱"
+      ],
+      "correct": 1,
+      "explanation": "1603年に徳川家康が征夷大将軍となり江戸幕府を開いた。",
+      "takeaway": "正答を単位・途中式または根拠とともに示す。",
+      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-bank-045",
+      "subject": "social",
+      "topic": "歴史・近代",
+      "level": "公立入試標準",
+      "prompt": "ペリーが浦賀に来航した年を西暦で答えなさい。",
+      "options": [
+        "1853年",
+        "1852年",
+        "1854年",
+        "3706年"
+      ],
+      "correct": 0,
+      "explanation": "1853年にペリーが艦隊を率いて浦賀に来航した。",
+      "takeaway": "正答を単位・途中式または根拠とともに示す。",
+      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-bank-046",
+      "subject": "social",
+      "topic": "歴史・近代",
+      "level": "公立入試標準",
+      "prompt": "大日本帝国憲法が発布された年を西暦で答えなさい。",
+      "options": [
+        "1888年",
+        "1890年",
+        "3778年",
+        "1889年"
+      ],
+      "correct": 3,
+      "explanation": "大日本帝国憲法は1889年2月11日に発布された。",
+      "takeaway": "正答を単位・途中式または根拠とともに示す。",
+      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-bank-047",
+      "subject": "social",
+      "topic": "歴史・現代",
+      "level": "公立入試標準",
+      "prompt": "第一次世界大戦が始まった年を西暦で答えなさい。",
+      "options": [
+        "1915年",
+        "3828年",
+        "1914年",
+        "1913年"
+      ],
+      "correct": 2,
+      "explanation": "第一次世界大戦は1914年に始まった。",
+      "takeaway": "正答を単位・途中式または根拠とともに示す。",
+      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-bank-048",
+      "subject": "social",
+      "topic": "歴史・現代",
+      "level": "公立入試標準",
+      "prompt": "第二次世界大戦が終結した年を西暦で答えなさい。",
+      "options": [
+        "3890年",
+        "1945年",
+        "1944年",
+        "1946年"
+      ],
+      "correct": 1,
+      "explanation": "日本の降伏などにより第二次世界大戦は1945年に終結した。",
+      "takeaway": "正答を単位・途中式または根拠とともに示す。",
+      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-bank-049",
+      "subject": "social",
+      "topic": "公民・憲法",
+      "level": "公立入試標準",
+      "prompt": "日本国憲法が施行された日を答えなさい。",
+      "options": [
+        "1947年5月3日",
+        "1946年5月3日",
+        "1948年5月3日",
+        "3894年5月3日"
+      ],
+      "correct": 0,
+      "explanation": "日本国憲法は1946年11月3日に公布され、1947年5月3日に施行された。",
+      "takeaway": "正答を単位・途中式または根拠とともに示す。",
+      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
+      "sourceLabel": "オリジナル類題",
+      "sourceStatus": "original"
+    },
+    {
+      "id": "pe-noon-bank-050",
+      "subject": "social",
+      "topic": "公民・国際",
+      "level": "公立入試標準",
+      "prompt": "国際連合が発足した年を西暦で答えなさい。",
+      "options": [
+        "1944年",
+        "1946年",
+        "3890年",
+        "1945年"
+      ],
+      "correct": 3,
+      "explanation": "国際連合は1945年10月に発足した。",
+      "takeaway": "正答を単位・途中式または根拠とともに示す。",
+      "sourceNote": "kosen-question-bankで新規作成したオリジナル問題を、4択形式に再構成した練習問題です。過去問本文の転載ではありません。",
       "sourceLabel": "オリジナル類題",
       "sourceStatus": "original"
     }
