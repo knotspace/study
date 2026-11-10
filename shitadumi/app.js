@@ -25,7 +25,7 @@ $("start").addEventListener("click",start);$("next").addEventListener("click",ne
 $("opinionForm").addEventListener("submit",e=>{e.preventDefault();const draft={type:$("opType").value,text:$("opText").value,updatedAt:new Date().toISOString()};localStorage.setItem(DRAFT_KEY,JSON.stringify(draft));$("opStatus").textContent="この端末に下書き保存しました。サーバー共有・運営側への送信はまだ行われていません。"});
 try{const d=JSON.parse(localStorage.getItem(DRAFT_KEY)||"null");if(d){$("opType").value=d.type;$("opText").value=d.text}}catch{}
 $("today").textContent=new Intl.DateTimeFormat("ja-JP",{dateStyle:"medium"}).format(new Date());
-let installEvent=null;window.addEventListener("beforeinstallprompt",e=>{e.preventDefault();installEvent=e;$("installBtn").hidden=false});$("installBtn").addEventListener("click",async()=>{if(!installEvent)return;installEvent.prompt();await installEvent.userChoice;installEvent=null;$("installBtn").hidden=true});
+let installEvent=null;window.addEventListener("beforeinstallprompt",e=>{e.preventDefault();installEvent=e;$("installBtn").hidden=false});$("installBtn").addEventListener("click",async()=>{if(!installEvent){alert("iPhoneの場合はSafariの共有ボタンから「ホーム画面に追加」を選んでください。Android/PCではブラウザーのインストールメニューから追加できます。");return}installEvent.prompt();await installEvent.userChoice;installEvent=null;$("installBtn").hidden=false});
 if("serviceWorker"in navigator)window.addEventListener("load",()=>navigator.serviceWorker.register("./sw.js").catch(()=>{}));
 init();
 })();
