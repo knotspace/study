@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "updatedAt": "2026-11-09",
+  "version": 2,
+  "updatedAt": "2026-11-10",
   "questions": [
     {
       "id": "sci-001",
@@ -20033,6 +20033,159 @@
         "answer_status": "independent_check_pending",
         "notes": "オリジナル問題。正答・解説の独立監査待ち。"
       }
+    },
+    {
+      "id": "jpn-001",
+      "subject": "japanese",
+      "topic": "漢字・語句",
+      "level": "基礎",
+      "prompt": "「慎重」の読み方として正しいものはどれか。",
+      "options": [
+        "しんじゅう",
+        "しんちょう",
+        "じんちょう",
+        "しんじょう"
+      ],
+      "correct": 1,
+      "explanation": "「慎重」は「しんちょう」と読む。軽はずみに行動せず、注意深く物事を進めること。",
+      "sourceNote": "下積みモード基礎確認問題",
+      "sourceRef": ""
+    },
+    {
+      "id": "jpn-002",
+      "subject": "japanese",
+      "topic": "文法",
+      "level": "基礎",
+      "prompt": "「美しい花が咲く。」の文で、形容詞はどれか。",
+      "options": [
+        "花",
+        "咲く",
+        "美しい",
+        "が"
+      ],
+      "correct": 2,
+      "explanation": "「美しい」は物事の性質や状態を表す形容詞。",
+      "sourceNote": "下積みモード基礎確認問題",
+      "sourceRef": ""
+    },
+    {
+      "id": "jpn-003",
+      "subject": "japanese",
+      "topic": "読解の基礎",
+      "level": "基礎",
+      "prompt": "説明文で「しかし」という接続語の後に続きやすい内容はどれか。",
+      "options": [
+        "前の内容と反対・対比する内容",
+        "具体例だけ",
+        "結論の繰り返しだけ",
+        "時間の順序だけ"
+      ],
+      "correct": 0,
+      "explanation": "「しかし」は逆接を表し、前の内容と反対・対比する内容につながることが多い。",
+      "sourceNote": "下積みモード基礎確認問題",
+      "sourceRef": ""
+    },
+    {
+      "id": "math-001",
+      "subject": "math",
+      "topic": "正負の数",
+      "level": "基礎",
+      "prompt": "−7＋12 の値はいくつか。",
+      "options": [
+        "−19",
+        "−5",
+        "5",
+        "19"
+      ],
+      "correct": 2,
+      "explanation": "異符号の和は絶対値の差を求め、大きい方の符号をつける。12−7＝5。",
+      "sourceNote": "下積みモード基礎確認問題",
+      "sourceRef": ""
+    },
+    {
+      "id": "math-002",
+      "subject": "math",
+      "topic": "一次方程式",
+      "level": "基礎",
+      "prompt": "3x＋5＝20 を解くと x はいくつか。",
+      "options": [
+        "3",
+        "5",
+        "7",
+        "15"
+      ],
+      "correct": 1,
+      "explanation": "両辺から5を引くと3x＝15。両辺を3で割ってx＝5。",
+      "sourceNote": "下積みモード基礎確認問題",
+      "sourceRef": ""
+    },
+    {
+      "id": "math-003",
+      "subject": "math",
+      "topic": "比例",
+      "level": "基礎",
+      "prompt": "y＝−2x のとき、x＝3 に対応する y の値はどれか。",
+      "options": [
+        "−6",
+        "−1",
+        "1",
+        "6"
+      ],
+      "correct": 0,
+      "explanation": "y＝−2×3＝−6。xの値を式に代入する。",
+      "sourceNote": "下積みモード基礎確認問題",
+      "sourceRef": ""
+    },
+    {
+      "id": "eng-001",
+      "subject": "english",
+      "topic": "基本単語",
+      "level": "基礎",
+      "prompt": "「borrow」の意味として正しいものはどれか。",
+      "options": [
+        "貸す",
+        "借りる",
+        "買う",
+        "返す"
+      ],
+      "correct": 1,
+      "explanation": "borrowは「借りる」。lendは「貸す」と対で覚える。",
+      "sourceNote": "下積みモード基礎確認問題",
+      "sourceRef": ""
+    },
+    {
+      "id": "eng-002",
+      "subject": "english",
+      "topic": "be動詞",
+      "level": "基礎",
+      "prompt": "次の空欄に入る語はどれか。 She (   ) a student.",
+      "options": [
+        "am",
+        "are",
+        "is",
+        "be"
+      ],
+      "correct": 2,
+      "explanation": "主語が三人称単数のSheなのでbe動詞はis。",
+      "sourceNote": "下積みモード基礎確認問題",
+      "sourceRef": ""
+    },
+    {
+      "id": "eng-003",
+      "subject": "english",
+      "topic": "一般動詞",
+      "level": "基礎",
+      "prompt": "「彼は毎日テニスをします。」として正しい英文はどれか。",
+      "options": [
+        "He play tennis every day.",
+        "He plays tennis every day.",
+        "He playing tennis every day.",
+        "He is play tennis every day."
+      ],
+      "correct": 1,
+      "explanation": "主語が三人称単数の現在形なので、一般動詞playにsをつけてplays。",
+      "sourceNote": "下積みモード基礎確認問題",
+      "sourceRef": ""
     }
   ]
 }
