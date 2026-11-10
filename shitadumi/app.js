@@ -9,7 +9,7 @@ function subjectName(s){return ({science:"理科",social:"社会",japanese:"国�
 function showInstallGuide(){ $("installGuideModal").hidden=false }
 function maybeInstallGuide(){if(localStorage.getItem("shitadumi-install-guide-seen"))return;if($("opinionModal").hidden)setTimeout(()=>{if($("opinionModal").hidden&&!localStorage.getItem("shitadumi-install-guide-seen"))showInstallGuide()},500)}
 function closeInstallGuide(){ $("installGuideModal").hidden=true;localStorage.setItem("shitadumi-install-guide-seen","1") }
-function maybePopup(){if(localStorage.getItem(POP_KEY)===today())return;setTimeout(()=>{$("opinionModal").hidden=false},850)}
+function maybePopup(){/* 意見フォームの保存方式を再設計するため、ポップアップ表示を一時停止 */}
 function closePopup(){ $("opinionModal").hidden=true;localStorage.setItem(POP_KEY,today());maybeInstallGuide()}
 function unlock(){localStorage.setItem(AUTH_KEY,"1");$("lockScreen").hidden=true;$("app").hidden=false;renderStats();maybePopup();setTimeout(maybeInstallGuide,1800)}
 function lock(){localStorage.removeItem(AUTH_KEY);$("app").hidden=true;$("lockScreen").hidden=false;$("password").value="";$("error").textContent=""}
