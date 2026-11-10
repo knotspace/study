@@ -1,14 +1,1 @@
-{
-  "id": "./",
-  "name": "下積みモード — Study Workspace",
-  "short_name": "下積み",
-  "description": "目標偏差値55へ、毎日の学習を積み上げる専用ワークスペース",
-  "start_url": "./",
-  "scope": "./",
-  "display": "standalone",
-  "orientation": "portrait",
-  "background_color": "#0c111b",
-  "theme_color": "#0c111b",
-  "lang": "ja",
-  "icons": [{"src":"./icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
-}
+{"id":"./","name":"下積みモード — NEXO Learning Workspace","short_name":"下積み","description":"布川さん専用の学習ワークスペース","start_url":"./","scope":"./","display":"standalone","orientation":"portrait","background_color":"#0c111b","theme_color":"#0c111b","lang":"ja","icons":[{"src":"./icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]}
