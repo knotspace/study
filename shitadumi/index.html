@@ -10,7 +10,7 @@
 <body>
 <section class="lock-screen" id="lockScreen"><form class="lock-card" id="unlockForm">
 <a class="brand lock-brand" href="./"><span class="brand-mark">S</span><span><strong>SHITADUMI</strong><small>LEARNING WORKSPACE</small></span></a>
-<span class="eyebrow">PRIVATE WORKSPACE / FOR NUNOKAWA</span><h1>下積みモード</h1><p>布川さん専用の学習ワークスペースです。</p>
+<span class="eyebrow">PERSONAL LEARNING WORKSPACE</span><h1>下積みモード</h1><p>自分のペースで学習を積み上げるワークスペースです。</p>
 <label for="password">アクセスパスコード</label><input id="password" type="password" autocomplete="current-password" required>
 <button class="btn lock-submit" type="submit">ワークスペースに入る <span>→</span></button><p class="error" id="error" aria-live="polite"></p>
 <a class="back-link" href="../">Studyに戻る</a></form></section>
@@ -20,9 +20,9 @@
 <a class="nav-item active" href="#overview"><span class="nav-icon">⌂</span> Overview</a>
 <a class="nav-item" href="#practice"><span class="nav-icon">▤</span> 問題演習</a>
 <a class="nav-item" href="#progress"><span class="nav-icon">◷</span> 学習記録</a>
-<a class="nav-item" href="/study/shitadumi/opinion/"><span class="nav-icon">✎</span> 意見を送る</a>
+<span class="nav-item" aria-disabled="true"><span class="nav-icon">✎</span> 意見受付停止中</span>
 <a class="nav-item" href="./articles/"><span class="nav-icon">▧</span> 入試アドバイス</a>
-</nav><div class="sidebar-bottom"><div class="privacy-pill"><span></span> FOR NUNOKAWA</div><p>Small steps. Real progress.</p><button class="btn secondary small" id="lockButton">ロックする</button></div></aside>
+</nav><div class="sidebar-bottom"><div class="privacy-pill"><span></span> PERSONAL SPACE</div><p>Small steps. Real progress.</p><button class="btn secondary small" id="lockButton">ロックする</button></div></aside>
 <main class="main"><header class="topbar"><button class="mobile-menu" id="menuToggle" aria-label="メニュー">☰</button><div class="breadcrumb">MY SPACE <span>/</span> <b>OVERVIEW</b></div><div class="top-actions"><span class="today-label" id="today"></span><button class="btn secondary small" id="mobileLock">ロック</button></div></header>
 <div class="page-wrap">
 <section class="welcome-panel" id="overview"><span class="eyebrow">YOUR ROAD TO 55 / FOUNDATION FIRST</span><h2>ようこそ、下積みさん。</h2><p>今日の一問を、明日の自信に。基礎から着実に積み上げよう。</p><div class="welcome-meta"><span class="target-number">55<small>TARGET DEVIHENCHI</small></span><button class="btn" id="installBtn">ホーム画面に追加 ↗</button></div></section>
@@ -36,9 +36,9 @@
 <div class="start-row"><p class="muted" id="available">問題データを読み込んでいます。</p><button class="btn" id="start">演習を始める →</button></div></section>
 <section class="card quiz-card" id="quiz" hidden><div class="quiz-top"><span id="qMeta"></span><button class="btn secondary small" id="quit">演習を終了</button></div><div class="progress-track"><i id="bar"></i></div><div class="quiz-count" id="counter"></div><h2 id="prompt"></h2><div id="options" class="options"></div><div id="explain" class="explain" hidden></div><div class="quiz-actions"><button class="btn" id="next" disabled>次の問題 →</button></div></section>
 <section class="card section-card" id="progress"><div class="card-head"><div><span class="eyebrow">YOUR PROGRESS</span><h2 class="card-title large">学習の記録</h2></div></div><p class="muted">この端末に保存された演習記録です。</p><div id="history" class="history"></div></section>
-<section class="feedback-banner"><div><span class="eyebrow">YOUR VOICE MATTERS</span><h2>意見をください！</h2><p>使いにくいところ、バグ、追加してほしい機能を教えてください。確認して、対応できるものは即日反映します。</p></div><a class="btn" href="/study/shitadumi/opinion/">意見を送る →</a></section>
+<section class="feedback-banner"><div><span class="eyebrow">FEEDBACK PAUSED</span><h2>意見受付は一時停止中です。</h2><p>安全な保存方法を整えるまで、意見の受付を停止しています。再開時は更新履歴でお知らせします。</p></div><span class="muted">現在は送信できません</span></section>
 <section class="install-footer"><div><span class="eyebrow">SHITADUMI APP</span><strong>下積みモードをアプリとして使う</strong><p>ホーム画面に追加すれば、次からアイコンひとつで起動できます。</p></div><a class="btn" href="./pwa/">導入方法を見る →</a></section>
-</div><footer class="footer"><span>SHITADUMI / PRIVATE STUDY</span><span><a href="./releases/">更新履歴</a> · Built for steady progress.</span></footer></main></div>
+</div><footer class="footer"><span>SHITADUMI / STUDY WORKSPACE</span><span><a href="./releases/">更新履歴</a> · Built for steady progress.</span></footer></main></div>
 <div class="opinion-modal" id="installGuideModal" hidden><div class="opinion-modal-backdrop" id="installGuideBackdrop"></div><section class="opinion-modal-card" role="dialog" aria-modal="true" aria-labelledby="installGuideTitle"><button class="modal-close" id="closeInstallGuide" aria-label="閉じる">×</button><span class="eyebrow">INSTALL SHITADUMI</span><h2 id="installGuideTitle">下積みモードをアプリにしよう。</h2><p>ホーム画面に追加すると、ブラウザーを開かずに専用アイコンから起動できます。端末ごとの手順を確認できます。</p><a class="btn" href="./pwa/">導入方法を確認する →</a><button class="modal-later" id="laterInstallGuide">あとで</button></section></div>
 <div class="opinion-modal" id="opinionModal" hidden><div class="opinion-modal-backdrop" data-close-modal></div><section class="opinion-modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><button class="modal-close" id="closeModal" aria-label="閉じる">×</button><span class="eyebrow">DAILY FEEDBACK</span><h2 id="modalTitle">今日の意見を書いてください！</h2><p>気づいたことをひとつでOK。下積みモードを毎日よくしていきます。</p><a class="btn" href="/study/shitadumi/opinion/">今日の意見を送る →</a><button class="modal-later" id="laterModal">今日はあとで</button></section></div>
 <script src="./app.js" defer></script></body></html>
