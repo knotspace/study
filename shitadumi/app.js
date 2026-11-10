@@ -7,10 +7,11 @@ async function checkPass(value){const hash=await crypto.subtle.digest("SHA-256",
 function today(){return new Date().toLocaleDateString("sv-SE")}
 function subjectName(s){return ({science:"理科",social:"社会",japanese:"国語",math:"数学",english:"英語"})[s]||s}
 function showInstallGuide(){ $("installGuideModal").hidden=false }
+function maybeInstallGuide(){if(localStorage.getItem("shitadumi-install-guide-seen"))return;if($("opinionModal").hidden)setTimeout(()=>{if($("opinionModal").hidden&&!localStorage.getItem("shitadumi-install-guide-seen"))showInstallGuide()},500)}
 function closeInstallGuide(){ $("installGuideModal").hidden=true;localStorage.setItem("shitadumi-install-guide-seen","1") }
 function maybePopup(){if(localStorage.getItem(POP_KEY)===today())return;setTimeout(()=>{$("opinionModal").hidden=false},850)}
-function closePopup(){ $("opinionModal").hidden=true;localStorage.setItem(POP_KEY,today())}
-function unlock(){localStorage.setItem(AUTH_KEY,"1");$("lockScreen").hidden=true;$("app").hidden=false;renderStats();maybePopup();if(!localStorage.getItem("shitadumi-install-guide-seen"))setTimeout(showInstallGuide,1500)}
+function closePopup(){ $("opinionModal").hidden=true;localStorage.setItem(POP_KEY,today());maybeInstallGuide()}
+function unlock(){localStorage.setItem(AUTH_KEY,"1");$("lockScreen").hidden=true;$("app").hidden=false;renderStats();maybePopup();setTimeout(maybeInstallGuide,1800)}
 function lock(){localStorage.removeItem(AUTH_KEY);$("app").hidden=true;$("lockScreen").hidden=false;$("password").value="";$("error").textContent=""}
 $("unlockForm").addEventListener("submit",async e=>{e.preventDefault();const b=e.submitter;b.disabled=true;try{if(await checkPass($("password").value))unlock();else $("error").textContent="パスコードが違います。"}catch{$("error").textContent="HTTPS対応ブラウザーで開いてください。"}finally{b.disabled=false}});
 $("lockButton").addEventListener("click",lock);$("mobileLock").addEventListener("click",lock);$("menuToggle").addEventListener("click",()=>{$("sidebar").classList.toggle("menu-open");const nav=$("sidebar").querySelector(".nav");nav.hidden=!nav.hidden});$("sidebar").querySelectorAll(".nav-item").forEach(a=>a.addEventListener("click",()=>{$("sidebar").querySelector(".nav").hidden=false;$("sidebar").classList.remove("menu-open")}));
