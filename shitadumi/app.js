@@ -1,9 +1,9 @@
 (()=>{"use strict";
-const $=id=>document.getElementById(id),PASS_HASH="ec75fe4dffda898804f2008985146cb372314d5293fa848216d188745920cba5",AUTH_KEY="shitadumi-private-session-v2",PROGRESS_KEY="shitadumi-progress-v2",POP_KEY="shitadumi-opinion-popup-date";
+const $=id=>document.getElementById(id),PASS_HASH="b9f633dc43572056c554fd73e0906140b698fab76315cdc90e5319255f0008b1",AUTH_KEY="shitadumi-private-session-v2",PROGRESS_KEY="shitadumi-progress-v2",POP_KEY="shitadumi-opinion-popup-date";
 const state={bank:[],pool:[],index:0,answers:{},progress:loadProgress(),install:null};
 function loadProgress(){try{return Object.assign({solved:0,correct:0,history:[],lastDay:"",streak:0},JSON.parse(localStorage.getItem(PROGRESS_KEY)||"{}"))}catch{return{solved:0,correct:0,history:[],lastDay:"",streak:0}}}
 function saveProgress(){localStorage.setItem(PROGRESS_KEY,JSON.stringify(state.progress))}
-async function checkPass(value){const hash=await crypto.subtle.digest("SHA-256",new TextEncoder().encode(value));return [...new Uint8Array(hash)].map(x=>x.toString(16).padStart(2,"0")).join("")===PASS_HASH}
+async function checkPass(value){const hash=await crypto.subtle.digest("SHA-256",new TextEncoder().encode(value.toLowerCase()));return [...new Uint8Array(hash)].map(x=>x.toString(16).padStart(2,"0")).join("")===PASS_HASH}
 function today(){return new Date().toLocaleDateString("sv-SE")}
 function maybePopup(){if(localStorage.getItem(POP_KEY)===today())return;setTimeout(()=>{$("opinionModal").hidden=false},850)}
 function closePopup(){ $("opinionModal").hidden=true;localStorage.setItem(POP_KEY,today())}
