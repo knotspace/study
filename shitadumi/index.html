@@ -5,8 +5,8 @@
 <meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="下積み">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <link rel="icon" href="./icon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="./icon.svg">
-<link rel="manifest" href="./manifest.webmanifest"><link rel="stylesheet" href="/NEXO/styles.css"><link rel="stylesheet" href="./styles.css">
-<title>下積みモード | NEXO Learning Workspace</title></head>
+<link rel="manifest" href="./manifest.webmanifest"><link rel="stylesheet" href="./styles.css">
+<meta name="description" content="基礎から偏差値55突破を目指す、独立した学習ワークスペース。"><title>下積みモード | SHITADUMI</title></head>
 <body>
 <section class="lock-screen" id="lockScreen"><form class="lock-card" id="unlockForm">
 <a class="brand lock-brand" href="./"><span class="brand-mark">S</span><span><strong>SHITADUMI</strong><small>LEARNING WORKSPACE</small></span></a>
@@ -21,7 +21,7 @@
 <a class="nav-item" href="#practice"><span class="nav-icon">▤</span> 問題演習</a>
 <a class="nav-item" href="#progress"><span class="nav-icon">◷</span> 学習記録</a>
 <a class="nav-item" href="/study/shitadumi/opinion/"><span class="nav-icon">✎</span> 意見を送る</a>
-<a class="nav-item" href="/NEXO/articles/"><span class="nav-icon">▧</span> NEXO 読みもの</a>
+<a class="nav-item" href="./articles/"><span class="nav-icon">▧</span> 入試アドバイス</a>
 </nav><div class="sidebar-bottom"><div class="privacy-pill"><span></span> FOR NUNOKAWA</div><p>Small steps. Real progress.</p><button class="btn secondary small" id="lockButton">ロックする</button></div></aside>
 <main class="main"><header class="topbar"><button class="mobile-menu" id="menuToggle" aria-label="メニュー">☰</button><div class="breadcrumb">MY SPACE <span>/</span> <b>OVERVIEW</b></div><div class="top-actions"><span class="today-label" id="today"></span><button class="btn secondary small" id="mobileLock">ロック</button></div></header>
 <div class="page-wrap">
@@ -37,6 +37,6 @@
 <section class="card quiz-card" id="quiz" hidden><div class="quiz-top"><span id="qMeta"></span><button class="btn secondary small" id="quit">演習を終了</button></div><div class="progress-track"><i id="bar"></i></div><div class="quiz-count" id="counter"></div><h2 id="prompt"></h2><div id="options" class="options"></div><div id="explain" class="explain" hidden></div><div class="quiz-actions"><button class="btn" id="next" disabled>次の問題 →</button></div></section>
 <section class="card section-card" id="progress"><div class="card-head"><div><span class="eyebrow">YOUR PROGRESS</span><h2 class="card-title large">学習の記録</h2></div></div><p class="muted">この端末に保存された演習記録です。</p><div id="history" class="history"></div></section>
 <section class="feedback-banner"><div><span class="eyebrow">YOUR VOICE MATTERS</span><h2>意見をください！</h2><p>使いにくいところ、バグ、追加してほしい機能を教えてください。確認して、対応できるものは即日反映します。</p></div><a class="btn" href="/study/shitadumi/opinion/">意見を送る →</a></section>
-</div><footer class="footer"><span>SHITADUMI / NEXO WORKSPACE</span><span>Built for steady progress.</span></footer></main></div>
+</div><footer class="footer"><span>SHITADUMI / PRIVATE STUDY</span><span>Built for steady progress.</span></footer></main></div>
 <div class="opinion-modal" id="opinionModal" hidden><div class="opinion-modal-backdrop" data-close-modal></div><section class="opinion-modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><button class="modal-close" id="closeModal" aria-label="閉じる">×</button><span class="eyebrow">DAILY FEEDBACK</span><h2 id="modalTitle">今日の意見を書いてください！</h2><p>気づいたことをひとつでOK。下積みモードを毎日よくしていきます。</p><a class="btn" href="/study/shitadumi/opinion/">今日の意見を送る →</a><button class="modal-later" id="laterModal">今日はあとで</button></section></div>
 <script src="./app.js" defer></script></body></html>
