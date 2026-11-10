@@ -1,57 +1,42 @@
 <!doctype html>
-<html lang="ja">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="robots" content="noindex,nofollow,noarchive">
-<meta name="theme-color" content="#0c111b">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-title" content="SHITADUMI">
+<html lang="ja"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#111827"><meta name="robots" content="noindex,nofollow,noarchive">
+<meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="下積み">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<link rel="manifest" href="./manifest.webmanifest">
-<link rel="icon" href="./icon.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="./icon.svg">
-<link rel="stylesheet" href="./styles.css">
-<title>下積みモード — NEXO Study</title>
-</head>
+<link rel="icon" href="./icon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="./icon.svg">
+<link rel="manifest" href="./manifest.webmanifest"><link rel="stylesheet" href="/NEXO/styles.css"><link rel="stylesheet" href="./styles.css">
+<title>下積みモード | NEXO Learning Workspace</title></head>
 <body>
-<section class="lock-screen" id="lockScreen">
-<form class="lock-card" id="unlockForm">
-<div class="brand-mark">S</div><span class="eyebrow">PRIVATE LEARNING SPACE / INVITED USERS</span>
-<h1>下積みモード</h1><p>君と招待した友達だけで使う学習ワークスペースです。パスコードは2人の間だけで共有してください。</p>
+<section class="lock-screen" id="lockScreen"><form class="lock-card" id="unlockForm">
+<a class="brand lock-brand" href="./"><span class="brand-mark">S</span><span><strong>SHITADUMI</strong><small>LEARNING WORKSPACE</small></span></a>
+<span class="eyebrow">PRIVATE WORKSPACE / FOR NUNOKAWA</span><h1>下積みモード</h1><p>布川さん専用の学習ワークスペースです。</p>
 <label for="password">アクセスパスコード</label><input id="password" type="password" autocomplete="current-password" required>
-<button class="primary" type="submit">ワークスペースに入る <span>→</span></button>
-<p class="error" id="error" aria-live="polite"></p><a href="../">Studyに戻る</a>
-</form></section>
+<button class="btn lock-submit" type="submit">ワークスペースに入る <span>→</span></button><p class="error" id="error" aria-live="polite"></p>
+<a class="back-link" href="../">Studyに戻る</a></form></section>
 <div class="app-shell" id="app" hidden>
-<aside class="sidebar">
-<a class="brand" href="./"><span class="brand-mark">S</span><span><b>SHITADUMI</b><small>LEARNING WORKSPACE</small></span></a>
-<div class="nav-label">WORKSPACE</div>
-<nav class="nav">
-<a class="nav-item active" href="#overview"><span>⌂</span> Overview</a>
-<a class="nav-item" href="#practice"><span>▤</span> 問題演習</a>
-<a class="nav-item" href="#progress"><span>◷</span> 学習記録</a>
-<a class="nav-item" href="#opinion"><span>✎</span> 意見モード</a>
-</nav>
-<div class="sidebar-bottom"><div class="privacy-pill"><i></i> PRIVATE SPACE</div><p>Small steps. Real progress.</p><button class="quiet" id="lockButton">ロックする</button></div>
-</aside>
-<main class="main">
-<header class="topbar"><div class="breadcrumb">MY SPACE <span>/</span> <b>OVERVIEW</b></div><div class="top-actions"><span id="today"></span><button class="quiet mobile-lock" id="mobileLock">ロック</button></div></header>
+<aside class="sidebar" id="sidebar"><a class="brand" href="./"><span class="brand-mark">S</span><span><strong>SHITADUMI</strong><small>LEARNING WORKSPACE</small></span></a>
+<div class="nav-label">WORKSPACE</div><nav class="nav">
+<a class="nav-item active" href="#overview"><span class="nav-icon">⌂</span> Overview</a>
+<a class="nav-item" href="#practice"><span class="nav-icon">▤</span> 問題演習</a>
+<a class="nav-item" href="#progress"><span class="nav-icon">◷</span> 学習記録</a>
+<a class="nav-item" href="/study/shitadumi/opinion/"><span class="nav-icon">✎</span> 意見を送る</a>
+<a class="nav-item" href="/NEXO/articles/"><span class="nav-icon">▧</span> NEXO 読みもの</a>
+</nav><div class="sidebar-bottom"><div class="privacy-pill"><span></span> FOR NUNOKAWA</div><p>Small steps. Real progress.</p><button class="btn secondary small" id="lockButton">ロックする</button></div></aside>
+<main class="main"><header class="topbar"><button class="mobile-menu" id="menuToggle" aria-label="メニュー">☰</button><div class="breadcrumb">MY SPACE <span>/</span> <b>OVERVIEW</b></div><div class="top-actions"><span class="today-label" id="today"></span><button class="btn secondary small" id="mobileLock">ロック</button></div></header>
 <div class="page-wrap">
-<section class="welcome-panel" id="overview"><span class="eyebrow">YOUR ROAD TO 55 / FOUNDATION FIRST</span><h1>ようこそ、下積みさん。</h1><p>今日の一問を、明日の自信に。基礎から積み上げよう。</p><div class="hero-bottom"><div><strong>55</strong><small>TARGET DEVIHENCHI</small></div><button class="install-btn" id="installBtn">ホーム画面に追加 ↗</button></div></section>
+<section class="welcome-panel" id="overview"><span class="eyebrow">YOUR ROAD TO 55 / FOUNDATION FIRST</span><h2>ようこそ、下積みさん。</h2><p>今日の一問を、明日の自信に。基礎から着実に積み上げよう。</p><div class="welcome-meta"><span class="target-number">55<small>TARGET DEVIHENCHI</small></span><button class="btn" id="installBtn">ホーム画面に追加 ↗</button></div></section>
 <div class="grid stats-grid">
-<article class="card"><span class="card-kicker">TOTAL SOLVED</span><div class="stat-number" id="solved">0<small> 問</small></div><div class="stat-note">これまでに解いた問題</div></article>
-<article class="card"><span class="card-kicker">ACCURACY</span><div class="stat-number" id="accuracy">—</div><div class="stat-note">累計正答率</div></article>
-<article class="card"><span class="card-kicker">STREAK</span><div class="stat-number" id="streak">0<small> 日</small></div><div class="stat-note">連続学習日数</div></article>
+<article class="card span-4"><div class="card-head"><span class="card-kicker">TOTAL SOLVED</span><span class="stat-icon">▤</span></div><div class="stat-number" id="solved">0<small> 問</small></div><div class="stat-note">これまでに解いた問題</div></article>
+<article class="card span-4"><div class="card-head"><span class="card-kicker">ACCURACY</span><span class="stat-icon">◎</span></div><div class="stat-number" id="accuracy">—</div><div class="stat-note">累計正答率</div></article>
+<article class="card span-4"><div class="card-head"><span class="card-kicker">STREAK</span><span class="stat-icon">↗</span></div><div class="stat-number" id="streak">0<small> 日</small></div><div class="stat-note">連続学習日数</div></article>
 </div>
-<section class="card section-card" id="practice"><div class="card-head"><div><span class="eyebrow">DAILY PRACTICE</span><h2>今日の下積み</h2><p>教科と難易度を選んで演習を始めよう。</p></div><span class="card-icon">01</span></div>
-<div class="field-grid"><label>教科<select id="subject"><option value="all">理科・社会</option><option value="science">理科</option><option value="social">社会</option></select></label><label>難易度<select id="level"><option>基礎</option><option>標準</option><option>応用</option></select></label><label>問題数<select id="amount"><option value="10">10問</option><option value="20">20問</option><option value="30">30問</option><option value="all">全問</option></select></label></div>
-<div class="start-row"><p id="available">問題データを読み込んでいます。</p><button class="primary" id="start">演習を始める →</button></div>
-</section>
-<section class="card quiz-card" id="quiz" hidden><div class="quiz-top"><span id="qMeta">理科 · 基礎</span><button class="quiet" id="quit">演習を終了</button></div><div class="progress-track"><i id="bar"></i></div><div class="quiz-count" id="counter">01 / 10</div><h2 id="prompt"></h2><div id="options" class="options"></div><div id="explain" class="explain" hidden></div><div class="quiz-actions"><button class="quiet" id="next" disabled>次の問題 →</button></div></section>
-<section class="card section-card" id="progress"><div class="card-head"><div><span class="eyebrow">YOUR PROGRESS</span><h2>学習の記録</h2></div></div><p class="muted">この端末に保存された実際の演習記録を表示します。</p><div id="history" class="history"></div></section>
-<section class="card section-card" id="opinion"><div class="card-head"><div><span class="eyebrow">FEEDBACK LOOP</span><h2>意見モード</h2><p>バグや追加してほしい機能を送ってください。</p></div></div><div class="opinion-note">意見送信の共有先サーバーはまだ接続されていません。入力内容はこの端末に下書き保存されます。</div><form id="opinionForm" class="opinion-form"><label>種類<select id="opType"><option>バグ報告</option><option>追加してほしい機能</option><option>使いにくい点</option><option>問題・解説の誤り</option><option>その他</option></select></label><label>内容<textarea id="opText" maxlength="2000" required placeholder="どこで何が起きたか、どうしてほしいかを書いてね。"></textarea></label><button class="primary" type="submit">下書きを保存</button><p class="muted" id="opStatus" aria-live="polite"></p></form></section>
-</div><footer class="footer"><span>SHITADUMI / STUDY WORKSPACE</span><span>Built for steady progress.</span></footer>
-</main></div>
-<script src="./app.js" defer></script>
-</body></html>
+<section class="card section-card" id="practice"><div class="card-head"><div><span class="eyebrow">DAILY PRACTICE</span><h2 class="card-title large">今日の下積み</h2><p class="muted">教科・難易度・問題数を選んで演習を始めよう。</p></div><span class="stat-icon">01</span></div>
+<div class="field-grid"><label class="field">教科<select id="subject"><option value="all">理科・社会</option><option value="science">理科</option><option value="social">社会</option></select></label><label class="field">難易度<select id="level"><option>基礎</option><option>標準</option><option>応用</option></select></label><label class="field">問題数<select id="amount"><option value="10">10問</option><option value="20">20問</option><option value="30">30問</option><option value="all">全問</option></select></label></div>
+<div class="start-row"><p class="muted" id="available">問題データを読み込んでいます。</p><button class="btn" id="start">演習を始める →</button></div></section>
+<section class="card quiz-card" id="quiz" hidden><div class="quiz-top"><span id="qMeta"></span><button class="btn secondary small" id="quit">演習を終了</button></div><div class="progress-track"><i id="bar"></i></div><div class="quiz-count" id="counter"></div><h2 id="prompt"></h2><div id="options" class="options"></div><div id="explain" class="explain" hidden></div><div class="quiz-actions"><button class="btn" id="next" disabled>次の問題 →</button></div></section>
+<section class="card section-card" id="progress"><div class="card-head"><div><span class="eyebrow">YOUR PROGRESS</span><h2 class="card-title large">学習の記録</h2></div></div><p class="muted">この端末に保存された演習記録です。</p><div id="history" class="history"></div></section>
+<section class="feedback-banner"><div><span class="eyebrow">YOUR VOICE MATTERS</span><h2>意見をください！</h2><p>使いにくいところ、バグ、追加してほしい機能を教えてください。確認して、対応できるものは即日反映します。</p></div><a class="btn" href="/study/shitadumi/opinion/">意見を送る →</a></section>
+</div><footer class="footer"><span>SHITADUMI / NEXO WORKSPACE</span><span>Built for steady progress.</span></footer></main></div>
+<div class="opinion-modal" id="opinionModal" hidden><div class="opinion-modal-backdrop" data-close-modal></div><section class="opinion-modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><button class="modal-close" id="closeModal" aria-label="閉じる">×</button><span class="eyebrow">DAILY FEEDBACK</span><h2 id="modalTitle">今日の意見を書いてください！</h2><p>気づいたことをひとつでOK。下積みモードを毎日よくしていきます。</p><a class="btn" href="/study/shitadumi/opinion/">今日の意見を送る →</a><button class="modal-later" id="laterModal">今日はあとで</button></section></div>
+<script src="./app.js" defer></script></body></html>
