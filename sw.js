@@ -1,4 +1,4 @@
-const CACHE="study-shell-v26-nov13-questionbank-sync";
+const CACHE="study-shell-v27-nov13-private-label-privacy";
 const FILES=["./","./index.html","./styles.css","./app.js","./questions.json","./manifest.webmanifest","./assets/study-icon.svg","./s-exclusive.html","./s-exclusive.css","./s-exclusive.js","./s-exclusive.webmanifest","./data/s-exclusive-beta.json","./public-exam.html","./public-exam.css","./public-exam.js","./data/public-exam.json","./release-notes.html"];
 self.addEventListener("install",event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(FILES)).then(()=>self.skipWaiting())));
 self.addEventListener("activate",event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim())));
