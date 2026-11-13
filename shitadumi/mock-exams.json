@@ -1,0 +1,1907 @@
+{
+  "version": 1,
+  "updatedAt": "2026-11-13",
+  "description": "下積みモード専用のオリジナル予想問題。学校・県の公式問題ではありません。",
+  "questions": [
+    {
+      "id": "seiran-japanese-01",
+      "exam": "seiran",
+      "examTitle": "青藍泰斗高校予想問題",
+      "subject": "japanese",
+      "topic": "漢字",
+      "level": "標準",
+      "prompt": "「責任」の読み方として正しいものはどれか。",
+      "options": [
+        "せきにん",
+        "せきじん",
+        "せっにん",
+        "せきねん"
+      ],
+      "correct": 0,
+      "explanation": "「責任」は「せきにん」と読む。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "seiran-japanese-02",
+      "exam": "seiran",
+      "examTitle": "青藍泰斗高校予想問題",
+      "subject": "japanese",
+      "topic": "語句",
+      "level": "標準",
+      "prompt": "「簡潔」の意味として最も適切なものはどれか。",
+      "options": [
+        "内容が複雑であること",
+        "短く要点がまとまっていること",
+        "感情を強く表すこと",
+        "順序が決まっていないこと"
+      ],
+      "correct": 1,
+      "explanation": "簡潔は、余分なものがなく短くまとまっていること。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "seiran-japanese-03",
+      "exam": "seiran",
+      "examTitle": "青藍泰斗高校予想問題",
+      "subject": "japanese",
+      "topic": "文法",
+      "level": "標準",
+      "prompt": "「静かな町」の「静かな」の品詞はどれか。",
+      "options": [
+        "動詞",
+        "形容詞",
+        "形容動詞",
+        "副詞"
+      ],
+      "correct": 2,
+      "explanation": "「静かだ」と活用する語なので形容動詞。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "seiran-japanese-04",
+      "exam": "seiran",
+      "examTitle": "青藍泰斗高校予想問題",
+      "subject": "japanese",
+      "topic": "文法",
+      "level": "標準",
+      "prompt": "「雨が降ったので、試合は中止になった。」の接続関係はどれか。",
+      "options": [
+        "順接",
+        "逆接",
+        "並立",
+        "添加"
+      ],
+      "correct": 0,
+      "explanation": "前の事柄が後の事柄の原因・理由になっている順接。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "seiran-japanese-05",
+      "exam": "seiran",
+      "examTitle": "青藍泰斗高校予想問題",
+      "subject": "japanese",
+      "topic": "敬語",
+      "level": "標準",
+      "prompt": "「先生がおっしゃる」の敬語の種類はどれか。",
+      "options": [
+        "謙譲語",
+        "尊敬語",
+        "丁寧語",
+        "美化語"
+      ],
+      "correct": 1,
+      "explanation": "相手である先生の動作を高める尊敬語。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "seiran-japanese-06",
+      "exam": "seiran",
+      "examTitle": "青藍泰斗高校予想問題",
+      "subject": "japanese",
+      "topic": "読解",
+      "level": "標準",
+      "prompt": "説明文で筆者の主張を探すとき、特に注目するとよい表現はどれか。",
+      "options": [
+        "たとえば",
+        "しかし",
+        "つまり・したがって",
+        "ところで"
+      ],
+      "correct": 2,
+      "explanation": "「つまり」「したがって」などは要点や結論を示すことが多い。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "seiran-japanese-07",
+      "exam": "seiran",
+      "examTitle": "青藍泰斗高校予想問題",
+      "subject": "japanese",
+      "topic": "古文",
+      "level": "標準",
+      "prompt": "「いと」の意味として最も適切なものはどれか。",
+      "options": [
+        "少し",
+        "とても",
+        "いつも",
+        "すぐに"
+      ],
+      "correct": 1,
+      "explanation": "古語の「いと」は「とても・たいそう」の意味。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "seiran-japanese-08",
+      "exam": "seiran",
+      "examTitle": "青藍泰斗高校予想問題",
+      "subject": "japanese",
+      "topic": "漢字",
+      "level": "標準",
+      "prompt": "「キョウリョクして作業する」のカタカナ部分を漢字にするとどれか。",
+      "options": [
+        "協力",
+        "強力",
+        "競力",
+        "共力"
+      ],
+      "correct": 0,
+      "explanation": "力を合わせる意味の「協力」。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "seiran-japanese-09",
+      "exam": "seiran",
+      "examTitle": "青藍泰斗高校予想問題",
+      "subject": "japanese",
+      "topic": "文法",
+      "level": "標準",
+      "prompt": "「本を読む」の「読む」の活用の種類はどれか。",
+      "options": [
+        "五段活用",
+        "上一段活用",
+        "下一段活用",
+        "カ行変格活用"
+      ],
+      "correct": 0,
+      "explanation": "「読ま・読み・読む・読む・読め・読もう」と活用する五段活用。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "seiran-japanese-10",
+      "exam": "seiran",
+      "examTitle": "青藍泰斗高校予想問題",
+      "subject": "japanese",
+      "topic": "作文",
+      "level": "標準",
+      "prompt": "意見文の構成として最も適切なものはどれか。",
+      "options": [
+        "結論だけを書く",
+        "理由を示さず感想を並べる",
+        "主張・理由や具体例・まとめの順に組み立てる",
+        "反対意見を必ず否定する"
+      ],
+      "correct": 2,
+      "explanation": "主張を明確にし、理由や具体例で支え、最後にまとめる。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "seiran-math-01",
+      "exam": "seiran",
+      "examTitle": "青藍泰斗高校予想問題",
+      "subject": "math",
+      "topic": "計算",
+      "level": "標準",
+      "prompt": "3(2x−1)−2(x+4) を簡単にするとどれか。",
+      "options": [
+        "4x−11",
+        "4x+5",
+        "8x−11",
+        "8x+5"
+      ],
+      "correct": 0,
+      "explanation": "6x−3−2x−8＝4x−11。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "seiran-math-02",
+      "exam": "seiran",
+      "examTitle": "青藍泰斗高校予想問題",
+      "subject": "math",
+      "topic": "方程式",
+      "level": "標準",
+      "prompt": "5x−7＝2x＋8 の解はどれか。",
+      "options": [
+        "x＝3",
+        "x＝5",
+        "x＝−5",
+        "x＝−3"
+      ],
+      "correct": 1,
+      "explanation": "3x＝15よりx＝5。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "seiran-math-03",
+      "exam": "seiran",
+      "examTitle": "青藍泰斗高校予想問題",
+      "subject": "math",
+      "topic": "比例",
+      "level": "標準",
+      "prompt": "yはxに比例し、x＝4のときy＝−12である。比例定数はどれか。",
+      "options": [
+        "−48",
+        "−3",
+        "3",
+        "48"
+      ],
+      "correct": 1,
+      "explanation": "y＝axに代入して−12＝4a、a＝−3。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "seiran-math-04",
+      "exam": "seiran",
+      "examTitle": "青藍泰斗高校予想問題",
+      "subject": "math",
+      "topic": "一次関数",
+      "level": "標準",
+      "prompt": "直線 y＝2x−5 の傾きはどれか。",
+      "options": [
+        "−5",
+        "−2",
+        "2",
+        "5"
+      ],
+      "correct": 2,
+      "explanation": "y＝ax＋bのaが傾きなので2。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "seiran-math-05",
+      "exam": "seiran",
+      "examTitle": "青藍泰斗高校予想問題",
+      "subject": "math",
+      "topic": "図形",
+      "level": "標準",
+      "prompt": "三角形の内角のうち2つが48°、67°である。残りの角は何度か。",
+      "options": [
+        "55°",
+        "65°",
+        "75°",
+        "85°"
+      ],
+      "correct": 1,
+      "explanation": "180−48−67＝65°。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "seiran-math-06",
+      "exam": "seiran",
+      "examTitle": "青藍泰斗高校予想問題",
+      "subject": "math",
+      "topic": "確率",
+      "level": "標準",
+      "prompt": "赤玉3個、白玉2個から1個を無作為に取り出す。白玉を引く確率はどれか。",
+      "options": [
+        "1/5",
+        "2/5",
+        "3/5",
+        "1/2"
+      ],
+      "correct": 1,
+      "explanation": "全5個のうち白玉は2個なので2/5。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "seiran-math-07",
+      "exam": "seiran",
+      "examTitle": "青藍泰斗高校予想問題",
+      "subject": "math",
+      "topic": "平方根",
+      "level": "標準",
+      "prompt": "√72 を簡単にするとどれか。",
+      "options": [
+        "2√18",
+        "3√8",
+        "6√2",
+        "8√2"
+      ],
+      "correct": 2,
+      "explanation": "√72＝√(36×2)＝6√2。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "seiran-math-08",
+      "exam": "seiran",
+      "examTitle": "青藍泰斗高校予想問題",
+      "subject": "math",
+      "topic": "二次方程式",
+      "level": "標準",
+      "prompt": "x²−5x＋6＝0 の解の組はどれか。",
+      "options": [
+        "1,6",
+        "−2,−3",
+        "2,3",
+        "−2,3"
+      ],
+      "correct": 2,
+      "explanation": "(x−2)(x−3)＝0よりx＝2,3。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "seiran-math-09",
+      "exam": "seiran",
+      "examTitle": "青藍泰斗高校予想問題",
+      "subject": "math",
+      "topic": "相似",
+      "level": "標準",
+      "prompt": "相似な2つの三角形の対応する辺の比が2：3である。小さい三角形の面積が20cm²のとき、大きい三角形の面積は何cm²か。",
+      "options": [
+        "30",
+        "40",
+        "45",
+        "60"
+      ],
+      "correct": 2,
+      "explanation": "面積比は4：9。20×9/4＝45。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "seiran-math-10",
+      "exam": "seiran",
+      "examTitle": "青藍泰斗高校予想問題",
+      "subject": "math",
+      "topic": "資料",
+      "level": "標準",
+      "prompt": "5人の得点が60,70,70,80,90点である。中央値は何点か。",
+      "options": [
+        "60",
+        "70",
+        "75",
+        "80"
+      ],
+      "correct": 1,
+      "explanation": "小さい順に並べた中央の3番目は70点。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "seiran-english-01",
+      "exam": "seiran",
+      "examTitle": "青藍泰斗高校予想問題",
+      "subject": "english",
+      "topic": "語彙",
+      "level": "標準",
+      "prompt": "次の空欄に入る語として最も適切なものはどれか。 I have lived here (　) 2022.",
+      "options": [
+        "for",
+        "since",
+        "during",
+        "from"
+      ],
+      "correct": 1,
+      "explanation": "2022のような開始時点にはsinceを使う。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "seiran-english-02",
+      "exam": "seiran",
+      "examTitle": "青藍泰斗高校予想問題",
+      "subject": "english",
+      "topic": "文法",
+      "level": "標準",
+      "prompt": "「彼女は昨日、図書館へ行きました。」の英文はどれか。",
+      "options": [
+        "She goes to the library yesterday.",
+        "She went to the library yesterday.",
+        "She has go to the library yesterday.",
+        "She going to the library yesterday."
+      ],
+      "correct": 1,
+      "explanation": "yesterdayがあるので過去形went。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "seiran-english-03",
+      "exam": "seiran",
+      "examTitle": "青藍泰斗高校予想問題",
+      "subject": "english",
+      "topic": "文法",
+      "level": "標準",
+      "prompt": "次の空欄に入る語はどれか。 This is the book (　) I bought yesterday.",
+      "options": [
+        "who",
+        "where",
+        "which",
+        "when"
+      ],
+      "correct": 2,
+      "explanation": "先行詞が物なので関係代名詞which。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "seiran-english-04",
+      "exam": "seiran",
+      "examTitle": "青藍泰斗高校予想問題",
+      "subject": "english",
+      "topic": "文法",
+      "level": "標準",
+      "prompt": "「私は彼に窓を開けてもらいました。」に最も近い英文はどれか。",
+      "options": [
+        "I had him open the window.",
+        "I made the window opened him.",
+        "I had open him the window.",
+        "I him had to open the window."
+      ],
+      "correct": 0,
+      "explanation": "have＋人＋動詞の原形で「人に～してもらう」。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "seiran-english-05",
+      "exam": "seiran",
+      "examTitle": "青藍泰斗高校予想問題",
+      "subject": "english",
+      "topic": "語彙",
+      "level": "標準",
+      "prompt": "「環境」を表す英単語はどれか。",
+      "options": [
+        "environment",
+        "appointment",
+        "equipment",
+        "government"
+      ],
+      "correct": 0,
+      "explanation": "environmentは環境。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "seiran-english-06",
+      "exam": "seiran",
+      "examTitle": "青藍泰斗高校予想問題",
+      "subject": "english",
+      "topic": "会話",
+      "level": "標準",
+      "prompt": "A: Would you like some tea? B: (　)",
+      "options": [
+        "Yes, please.",
+        "I like tea yesterday.",
+        "No, I wouldn't like.",
+        "You are welcome."
+      ],
+      "correct": 0,
+      "explanation": "勧めに対する自然な返答はYes, please.。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "seiran-english-07",
+      "exam": "seiran",
+      "examTitle": "青藍泰斗高校予想問題",
+      "subject": "english",
+      "topic": "文法",
+      "level": "標準",
+      "prompt": "次の空欄に入る語はどれか。 If it (　) tomorrow, we will stay home.",
+      "options": [
+        "rain",
+        "rains",
+        "will rain",
+        "rained"
+      ],
+      "correct": 1,
+      "explanation": "if節で未来のことを表す場合、現在形rainsを使う。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "seiran-english-08",
+      "exam": "seiran",
+      "examTitle": "青藍泰斗高校予想問題",
+      "subject": "english",
+      "topic": "読解",
+      "level": "標準",
+      "prompt": "英文の要旨をつかむために最も適切な読み方はどれか。",
+      "options": [
+        "知らない単語だけを数える",
+        "各段落の中心文と繰り返される話題を確認する",
+        "最後の一文だけ読む",
+        "すべての単語を辞書で調べてから読む"
+      ],
+      "correct": 1,
+      "explanation": "段落の中心文や繰り返される話題から全体の要旨を捉える。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "seiran-english-09",
+      "exam": "seiran",
+      "examTitle": "青藍泰斗高校予想問題",
+      "subject": "english",
+      "topic": "文法",
+      "level": "標準",
+      "prompt": "「この問題はあの問題より難しい。」の英文はどれか。",
+      "options": [
+        "This question is difficult than that one.",
+        "This question is more difficult than that one.",
+        "This question is most difficult than that one.",
+        "This question is as difficult that one."
+      ],
+      "correct": 1,
+      "explanation": "長い形容詞の比較級はmore＋形容詞＋than。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "seiran-english-10",
+      "exam": "seiran",
+      "examTitle": "青藍泰斗高校予想問題",
+      "subject": "english",
+      "topic": "語彙",
+      "level": "標準",
+      "prompt": "「成功する」に最も近い意味の動詞はどれか。",
+      "options": [
+        "succeed",
+        "invite",
+        "prepare",
+        "borrow"
+      ],
+      "correct": 0,
+      "explanation": "succeedは成功する。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "seiran-science-01",
+      "exam": "seiran",
+      "examTitle": "青藍泰斗高校予想問題",
+      "subject": "science",
+      "topic": "物理",
+      "level": "標準",
+      "prompt": "質量2kgの物体にはたらく重力の大きさを、1kgあたり10Nとする。重力は何Nか。",
+      "options": [
+        "5N",
+        "10N",
+        "20N",
+        "40N"
+      ],
+      "correct": 2,
+      "explanation": "2×10＝20N。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "seiran-science-02",
+      "exam": "seiran",
+      "examTitle": "青藍泰斗高校予想問題",
+      "subject": "science",
+      "topic": "物理",
+      "level": "標準",
+      "prompt": "電圧6V、抵抗3Ωの電熱線に流れる電流は何Aか。",
+      "options": [
+        "0.5A",
+        "2A",
+        "3A",
+        "18A"
+      ],
+      "correct": 1,
+      "explanation": "オームの法則よりI＝V/R＝6/3＝2A。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "seiran-science-03",
+      "exam": "seiran",
+      "examTitle": "青藍泰斗高校予想問題",
+      "subject": "science",
+      "topic": "化学",
+      "level": "標準",
+      "prompt": "水を電気分解したとき、陰極に発生する気体はどれか。",
+      "options": [
+        "酸素",
+        "水素",
+        "窒素",
+        "二酸化炭素"
+      ],
+      "correct": 1,
+      "explanation": "陰極では水素が発生する。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "seiran-science-04",
+      "exam": "seiran",
+      "examTitle": "青藍泰斗高校予想問題",
+      "subject": "science",
+      "topic": "化学",
+      "level": "標準",
+      "prompt": "酸性の水溶液に青色リトマス紙を入れるとどうなるか。",
+      "options": [
+        "赤色になる",
+        "青色のまま",
+        "白色になる",
+        "無色になる"
+      ],
+      "correct": 0,
+      "explanation": "酸性の水溶液は青色リトマス紙を赤色に変える。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "seiran-science-05",
+      "exam": "seiran",
+      "examTitle": "青藍泰斗高校予想問題",
+      "subject": "science",
+      "topic": "生物",
+      "level": "標準",
+      "prompt": "植物が光合成を行うとき、主に取り入れる気体はどれか。",
+      "options": [
+        "酸素",
+        "水素",
+        "二酸化炭素",
+        "窒素"
+      ],
+      "correct": 2,
+      "explanation": "光合成では二酸化炭素と水を材料に養分をつくる。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "seiran-science-06",
+      "exam": "seiran",
+      "examTitle": "青藍泰斗高校予想問題",
+      "subject": "science",
+      "topic": "生物",
+      "level": "標準",
+      "prompt": "ヒトの血液で酸素を運ぶはたらきをする成分はどれか。",
+      "options": [
+        "血小板",
+        "赤血球",
+        "白血球",
+        "血しょう"
+      ],
+      "correct": 1,
+      "explanation": "赤血球に含まれるヘモグロビンが酸素を運ぶ。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "seiran-science-07",
+      "exam": "seiran",
+      "examTitle": "青藍泰斗高校予想問題",
+      "subject": "science",
+      "topic": "地学",
+      "level": "標準",
+      "prompt": "前線が通過するとき、短時間に強い雨が降りやすいのはどれか。",
+      "options": [
+        "温暖前線",
+        "寒冷前線",
+        "停滞前線の全域",
+        "閉塞前線の後面のみ"
+      ],
+      "correct": 1,
+      "explanation": "寒冷前線では積乱雲が発達し、短時間の強い雨になりやすい。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "seiran-science-08",
+      "exam": "seiran",
+      "examTitle": "青藍泰斗高校予想問題",
+      "subject": "science",
+      "topic": "地学",
+      "level": "標準",
+      "prompt": "地震の規模そのものを表す尺度はどれか。",
+      "options": [
+        "震度",
+        "マグニチュード",
+        "気圧",
+        "風力"
+      ],
+      "correct": 1,
+      "explanation": "マグニチュードは地震の規模、震度は各地点の揺れの強さ。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "seiran-science-09",
+      "exam": "seiran",
+      "examTitle": "青藍泰斗高校予想問題",
+      "subject": "science",
+      "topic": "物理",
+      "level": "標準",
+      "prompt": "凸レンズで物体を焦点距離の2倍より外側に置いた。できる像はどれか。",
+      "options": [
+        "正立で拡大",
+        "倒立で縮小",
+        "正立で縮小",
+        "像はできない"
+      ],
+      "correct": 1,
+      "explanation": "2fより外側では倒立・縮小の実像ができる。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "seiran-science-10",
+      "exam": "seiran",
+      "examTitle": "青藍泰斗高校予想問題",
+      "subject": "science",
+      "topic": "化学",
+      "level": "標準",
+      "prompt": "質量保存の法則の説明として正しいものはどれか。",
+      "options": [
+        "化学変化で必ず質量が増える",
+        "密閉した容器内では反応前後の全体の質量は等しい",
+        "気体が発生すると全体の質量は必ず減る",
+        "温度が上がると原子の質量が変わる"
+      ],
+      "correct": 1,
+      "explanation": "密閉系では反応前後の全体の質量が保存される。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "seiran-social-01",
+      "exam": "seiran",
+      "examTitle": "青藍泰斗高校予想問題",
+      "subject": "social",
+      "topic": "地理",
+      "level": "標準",
+      "prompt": "日本の標準時子午線が通る兵庫県の都市はどれか。",
+      "options": [
+        "神戸市",
+        "姫路市",
+        "明石市",
+        "西宮市"
+      ],
+      "correct": 2,
+      "explanation": "東経135度の標準時子午線は兵庫県明石市付近を通る。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "seiran-social-02",
+      "exam": "seiran",
+      "examTitle": "青藍泰斗高校予想問題",
+      "subject": "social",
+      "topic": "地理",
+      "level": "標準",
+      "prompt": "日本で最も面積が大きい都道府県はどれか。",
+      "options": [
+        "岩手県",
+        "北海道",
+        "長野県",
+        "福島県"
+      ],
+      "correct": 1,
+      "explanation": "北海道が最も面積の大きい都道府県。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "seiran-social-03",
+      "exam": "seiran",
+      "examTitle": "青藍泰斗高校予想問題",
+      "subject": "social",
+      "topic": "歴史",
+      "level": "標準",
+      "prompt": "鎌倉幕府を開いた人物は誰か。",
+      "options": [
+        "平清盛",
+        "源頼朝",
+        "足利尊氏",
+        "北条時宗"
+      ],
+      "correct": 1,
+      "explanation": "源頼朝が鎌倉に幕府を開いた。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "seiran-social-04",
+      "exam": "seiran",
+      "examTitle": "青藍泰斗高校予想問題",
+      "subject": "social",
+      "topic": "歴史",
+      "level": "標準",
+      "prompt": "大化の改新が始まった年はどれか。",
+      "options": [
+        "645年",
+        "710年",
+        "794年",
+        "1192年"
+      ],
+      "correct": 0,
+      "explanation": "645年に中大兄皇子・中臣鎌足らが政治改革を始めた。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "seiran-social-05",
+      "exam": "seiran",
+      "examTitle": "青藍泰斗高校予想問題",
+      "subject": "social",
+      "topic": "歴史",
+      "level": "標準",
+      "prompt": "明治政府が身分制度を改め、四民平等を進めた時期に行われた政策はどれか。",
+      "options": [
+        "廃藩置県",
+        "版籍奉還",
+        "解放令",
+        "地租改正"
+      ],
+      "correct": 2,
+      "explanation": "1871年の解放令でえた・ひにんの身分呼称を廃止した。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "seiran-social-06",
+      "exam": "seiran",
+      "examTitle": "青藍泰斗高校予想問題",
+      "subject": "social",
+      "topic": "公民",
+      "level": "標準",
+      "prompt": "日本国憲法の三大原則に含まれないものはどれか。",
+      "options": [
+        "国民主権",
+        "基本的人権の尊重",
+        "平和主義",
+        "議院内閣制"
+      ],
+      "correct": 3,
+      "explanation": "三大原則は国民主権・基本的人権の尊重・平和主義。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "seiran-social-07",
+      "exam": "seiran",
+      "examTitle": "青藍泰斗高校予想問題",
+      "subject": "social",
+      "topic": "公民",
+      "level": "標準",
+      "prompt": "国会の仕事として正しいものはどれか。",
+      "options": [
+        "法律を制定する",
+        "違憲審査を最終的に行う",
+        "条約を締結する",
+        "都道府県知事を任命する"
+      ],
+      "correct": 0,
+      "explanation": "国会は国権の最高機関であり、唯一の立法機関。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "seiran-social-08",
+      "exam": "seiran",
+      "examTitle": "青藍泰斗高校予想問題",
+      "subject": "social",
+      "topic": "地理",
+      "level": "標準",
+      "prompt": "日本の太平洋側で冬に晴天が多く、乾燥しやすい主な理由はどれか。",
+      "options": [
+        "季節風が日本海で雪を降らせた後に吹き込むため",
+        "太平洋から常に寒気が流れ込むため",
+        "梅雨前線が停滞するため",
+        "台風が毎日通過するため"
+      ],
+      "correct": 0,
+      "explanation": "冬の季節風は日本海側に雪を降らせ、山を越えた太平洋側では乾燥した風となる。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "seiran-social-09",
+      "exam": "seiran",
+      "examTitle": "青藍泰斗高校予想問題",
+      "subject": "social",
+      "topic": "公民",
+      "level": "標準",
+      "prompt": "需要が増え、供給量が変わらないとき、一般に価格はどうなるか。",
+      "options": [
+        "下がる",
+        "上がる",
+        "必ず一定になる",
+        "0円になる"
+      ],
+      "correct": 1,
+      "explanation": "需要が増えると価格は上がる方向に動く。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "seiran-social-10",
+      "exam": "seiran",
+      "examTitle": "青藍泰斗高校予想問題",
+      "subject": "social",
+      "topic": "歴史",
+      "level": "標準",
+      "prompt": "第二次世界大戦後、日本で新しい憲法が施行された年はどれか。",
+      "options": [
+        "1945年",
+        "1946年",
+        "1947年",
+        "1951年"
+      ],
+      "correct": 2,
+      "explanation": "日本国憲法は1946年公布、1947年施行。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "tochigi-japanese-01",
+      "exam": "tochigi",
+      "examTitle": "栃木県立高校入試予想問題",
+      "subject": "japanese",
+      "topic": "漢字",
+      "level": "標準",
+      "prompt": "「著しい」の読み方として正しいものはどれか。",
+      "options": [
+        "いちじるしい",
+        "いちるしい",
+        "ちょしい",
+        "あらわしい"
+      ],
+      "correct": 0,
+      "explanation": "「著しい」は「いちじるしい」と読む。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "tochigi-japanese-02",
+      "exam": "tochigi",
+      "examTitle": "栃木県立高校入試予想問題",
+      "subject": "japanese",
+      "topic": "語句",
+      "level": "標準",
+      "prompt": "「具体的」の反対に近い語はどれか。",
+      "options": [
+        "明確",
+        "抽象的",
+        "現実的",
+        "直接的"
+      ],
+      "correct": 1,
+      "explanation": "具体的の反対は抽象的。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "tochigi-japanese-03",
+      "exam": "tochigi",
+      "examTitle": "栃木県立高校入試予想問題",
+      "subject": "japanese",
+      "topic": "文法",
+      "level": "標準",
+      "prompt": "「花が美しく咲く」の「美しく」の品詞はどれか。",
+      "options": [
+        "名詞",
+        "形容詞",
+        "形容動詞",
+        "助動詞"
+      ],
+      "correct": 1,
+      "explanation": "形容詞「美しい」の連用形。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "tochigi-japanese-04",
+      "exam": "tochigi",
+      "examTitle": "栃木県立高校入試予想問題",
+      "subject": "japanese",
+      "topic": "文法",
+      "level": "標準",
+      "prompt": "「走っている」の「て」は何を表すか。",
+      "options": [
+        "原因・理由",
+        "動作の継続",
+        "逆接",
+        "並立"
+      ],
+      "correct": 1,
+      "explanation": "「走っている」は動作が続いていることを表す。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "tochigi-japanese-05",
+      "exam": "tochigi",
+      "examTitle": "栃木県立高校入試予想問題",
+      "subject": "japanese",
+      "topic": "読解",
+      "level": "標準",
+      "prompt": "物語文で登場人物の心情を読み取る手がかりとして最も適切なものはどれか。",
+      "options": [
+        "会話や行動、情景描写の変化",
+        "段落の文字数だけ",
+        "漢字の画数",
+        "作者の生年月日"
+      ],
+      "correct": 0,
+      "explanation": "会話・行動・情景描写を前後と比べて心情を考える。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "tochigi-japanese-06",
+      "exam": "tochigi",
+      "examTitle": "栃木県立高校入試予想問題",
+      "subject": "japanese",
+      "topic": "古文",
+      "level": "標準",
+      "prompt": "「あはれなり」の意味として適切なものはどれか。",
+      "options": [
+        "趣深い・しみじみと感じられる",
+        "腹立たしい",
+        "忙しい",
+        "珍しくない"
+      ],
+      "correct": 0,
+      "explanation": "古語「あはれなり」は心に深く感じる趣を表す。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "tochigi-japanese-07",
+      "exam": "tochigi",
+      "examTitle": "栃木県立高校入試予想問題",
+      "subject": "japanese",
+      "topic": "漢字",
+      "level": "標準",
+      "prompt": "「キソ」を固める、の「キソ」を漢字にするとどれか。",
+      "options": [
+        "基礎",
+        "起訴",
+        "規則",
+        "寄贈"
+      ],
+      "correct": 0,
+      "explanation": "土台となる基本は「基礎」。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "tochigi-japanese-08",
+      "exam": "tochigi",
+      "examTitle": "栃木県立高校入試予想問題",
+      "subject": "japanese",
+      "topic": "敬語",
+      "level": "標準",
+      "prompt": "「私が資料を拝見します」の「拝見します」は何語か。",
+      "options": [
+        "尊敬語",
+        "謙譲語",
+        "丁寧語のみ",
+        "美化語"
+      ],
+      "correct": 1,
+      "explanation": "自分の動作をへりくだる謙譲語。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "tochigi-japanese-09",
+      "exam": "tochigi",
+      "examTitle": "栃木県立高校入試予想問題",
+      "subject": "japanese",
+      "topic": "作文",
+      "level": "標準",
+      "prompt": "資料を用いた意見文で大切なことはどれか。",
+      "options": [
+        "資料の数値を正確に読み取り、主張と結びつける",
+        "資料を見ずに印象だけを書く",
+        "都合のよい数値だけを改変する",
+        "結論を最後まで示さない"
+      ],
+      "correct": 0,
+      "explanation": "資料の事実を正確に扱い、根拠として主張を支える。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "tochigi-japanese-10",
+      "exam": "tochigi",
+      "examTitle": "栃木県立高校入試予想問題",
+      "subject": "japanese",
+      "topic": "文法",
+      "level": "標準",
+      "prompt": "「弟は毎朝早く起きる。」の主語として適切なものはどれか。",
+      "options": [
+        "毎朝",
+        "早く",
+        "起きる",
+        "弟は"
+      ],
+      "correct": 3,
+      "explanation": "「誰が」に当たる主語は「弟は」。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "tochigi-math-01",
+      "exam": "tochigi",
+      "examTitle": "栃木県立高校入試予想問題",
+      "subject": "math",
+      "topic": "計算",
+      "level": "標準",
+      "prompt": "−8＋3×4 の値はどれか。",
+      "options": [
+        "−20",
+        "4",
+        "20",
+        "−5"
+      ],
+      "correct": 1,
+      "explanation": "乗法を先に計算し、−8＋12＝4。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "tochigi-math-02",
+      "exam": "tochigi",
+      "examTitle": "栃木県立高校入試予想問題",
+      "subject": "math",
+      "topic": "方程式",
+      "level": "標準",
+      "prompt": "3(x−2)＝2x＋5 の解はどれか。",
+      "options": [
+        "x＝1",
+        "x＝7",
+        "x＝11",
+        "x＝−11"
+      ],
+      "correct": 2,
+      "explanation": "3x−6＝2x＋5よりx＝11。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "tochigi-math-03",
+      "exam": "tochigi",
+      "examTitle": "栃木県立高校入試予想問題",
+      "subject": "math",
+      "topic": "割合",
+      "level": "標準",
+      "prompt": "定価2400円の商品を15％引きで買う。代金は何円か。",
+      "options": [
+        "2040円",
+        "2100円",
+        "2160円",
+        "2250円"
+      ],
+      "correct": 0,
+      "explanation": "2400×0.85＝2040円。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "tochigi-math-04",
+      "exam": "tochigi",
+      "examTitle": "栃木県立高校入試予想問題",
+      "subject": "math",
+      "topic": "一次関数",
+      "level": "標準",
+      "prompt": "y＝−3x＋4で、xが2増えるとyはどれだけ変化するか。",
+      "options": [
+        "6増える",
+        "6減る",
+        "3増える",
+        "3減る"
+      ],
+      "correct": 1,
+      "explanation": "変化の割合−3なので−3×2＝−6。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "tochigi-math-05",
+      "exam": "tochigi",
+      "examTitle": "栃木県立高校入試予想問題",
+      "subject": "math",
+      "topic": "図形",
+      "level": "標準",
+      "prompt": "半径3cmの円の面積はどれか。円周率はπとする。",
+      "options": [
+        "3πcm²",
+        "6πcm²",
+        "9πcm²",
+        "12πcm²"
+      ],
+      "correct": 2,
+      "explanation": "面積はπr²＝9πcm²。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "tochigi-math-06",
+      "exam": "tochigi",
+      "examTitle": "栃木県立高校入試予想問題",
+      "subject": "math",
+      "topic": "確率",
+      "level": "標準",
+      "prompt": "1から5までの数字が1つずつ書かれたカードから1枚引く。偶数を引く確率はどれか。",
+      "options": [
+        "1/5",
+        "2/5",
+        "3/5",
+        "4/5"
+      ],
+      "correct": 1,
+      "explanation": "偶数は2と4の2枚、全5枚なので2/5。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "tochigi-math-07",
+      "exam": "tochigi",
+      "examTitle": "栃木県立高校入試予想問題",
+      "subject": "math",
+      "topic": "平方根",
+      "level": "標準",
+      "prompt": "√50−√8 を簡単にするとどれか。",
+      "options": [
+        "√42",
+        "2√2",
+        "3√2",
+        "7√2"
+      ],
+      "correct": 2,
+      "explanation": "5√2−2√2＝3√2。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "tochigi-math-08",
+      "exam": "tochigi",
+      "examTitle": "栃木県立高校入試予想問題",
+      "subject": "math",
+      "topic": "二次方程式",
+      "level": "標準",
+      "prompt": "x²＝49 の解はどれか。",
+      "options": [
+        "x＝7のみ",
+        "x＝−7のみ",
+        "x＝±7",
+        "x＝49"
+      ],
+      "correct": 2,
+      "explanation": "平方して49になる数は7と−7。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "tochigi-math-09",
+      "exam": "tochigi",
+      "examTitle": "栃木県立高校入試予想問題",
+      "subject": "math",
+      "topic": "相似",
+      "level": "標準",
+      "prompt": "相似比が3：5の図形で、小さい図形の周の長さが18cmのとき、大きい図形の周の長さは何cmか。",
+      "options": [
+        "10.8",
+        "18",
+        "24",
+        "30"
+      ],
+      "correct": 3,
+      "explanation": "周の長さの比も3：5。18×5/3＝30cm。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "tochigi-math-10",
+      "exam": "tochigi",
+      "examTitle": "栃木県立高校入試予想問題",
+      "subject": "math",
+      "topic": "資料",
+      "level": "標準",
+      "prompt": "データ4, 6, 6, 8, 11の平均値はどれか。",
+      "options": [
+        "6",
+        "7",
+        "7.5",
+        "8"
+      ],
+      "correct": 1,
+      "explanation": "合計35を5で割ると7。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "tochigi-english-01",
+      "exam": "tochigi",
+      "examTitle": "栃木県立高校入試予想問題",
+      "subject": "english",
+      "topic": "語彙",
+      "level": "標準",
+      "prompt": "「経験」を表す英単語はどれか。",
+      "options": [
+        "experience",
+        "experiment",
+        "exercise",
+        "example"
+      ],
+      "correct": 0,
+      "explanation": "experienceは経験。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "tochigi-english-02",
+      "exam": "tochigi",
+      "examTitle": "栃木県立高校入試予想問題",
+      "subject": "english",
+      "topic": "文法",
+      "level": "標準",
+      "prompt": "次の空欄に入る語はどれか。 My mother (　) dinner now.",
+      "options": [
+        "cook",
+        "cooks",
+        "is cooking",
+        "cooked"
+      ],
+      "correct": 2,
+      "explanation": "nowがあるので現在進行形is cooking。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "tochigi-english-03",
+      "exam": "tochigi",
+      "examTitle": "栃木県立高校入試予想問題",
+      "subject": "english",
+      "topic": "文法",
+      "level": "標準",
+      "prompt": "「私は以前ここに来たことがあります。」の英文はどれか。",
+      "options": [
+        "I have been here before.",
+        "I was here tomorrow.",
+        "I have go here before.",
+        "I am here yesterday."
+      ],
+      "correct": 0,
+      "explanation": "経験を表す現在完了形have been。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "tochigi-english-04",
+      "exam": "tochigi",
+      "examTitle": "栃木県立高校入試予想問題",
+      "subject": "english",
+      "topic": "文法",
+      "level": "標準",
+      "prompt": "次の空欄に入る語はどれか。 The boy (　) is playing soccer is my brother.",
+      "options": [
+        "which",
+        "who",
+        "where",
+        "when"
+      ],
+      "correct": 1,
+      "explanation": "人を先行詞とする主格の関係代名詞who。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "tochigi-english-05",
+      "exam": "tochigi",
+      "examTitle": "栃木県立高校入試予想問題",
+      "subject": "english",
+      "topic": "比較",
+      "level": "標準",
+      "prompt": "「この川は町で最も長い。」の英文はどれか。",
+      "options": [
+        "This river is longer in the town.",
+        "This river is the longest in the town.",
+        "This river is most long in the town.",
+        "This river is as longest as the town."
+      ],
+      "correct": 1,
+      "explanation": "最上級はthe＋最上級。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "tochigi-english-06",
+      "exam": "tochigi",
+      "examTitle": "栃木県立高校入試予想問題",
+      "subject": "english",
+      "topic": "会話",
+      "level": "標準",
+      "prompt": "A: How was your weekend? B: (　)",
+      "options": [
+        "It was great.",
+        "At seven.",
+        "For two hours.",
+        "I am fine tomorrow."
+      ],
+      "correct": 0,
+      "explanation": "週末の様子を尋ねられたので感想を答える。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "tochigi-english-07",
+      "exam": "tochigi",
+      "examTitle": "栃木県立高校入試予想問題",
+      "subject": "english",
+      "topic": "文法",
+      "level": "標準",
+      "prompt": "次の空欄に入る語はどれか。 I want (　) a doctor in the future.",
+      "options": [
+        "be",
+        "being",
+        "to be",
+        "been"
+      ],
+      "correct": 2,
+      "explanation": "want to＋動詞の原形。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "tochigi-english-08",
+      "exam": "tochigi",
+      "examTitle": "栃木県立高校入試予想問題",
+      "subject": "english",
+      "topic": "読解",
+      "level": "標準",
+      "prompt": "英文中の代名詞itが何を指すか調べるとき、最も適切な方法はどれか。",
+      "options": [
+        "前後の文から内容に合う名詞や事柄を探す",
+        "必ず直前の単語と決める",
+        "文末の単語を選ぶ",
+        "意味を考えず音だけで決める"
+      ],
+      "correct": 0,
+      "explanation": "代名詞は前後の文脈と意味から指示内容を判断する。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "tochigi-english-09",
+      "exam": "tochigi",
+      "examTitle": "栃木県立高校入試予想問題",
+      "subject": "english",
+      "topic": "文法",
+      "level": "標準",
+      "prompt": "次の空欄に入る語はどれか。 This letter was (　) by Ken.",
+      "options": [
+        "write",
+        "wrote",
+        "written",
+        "writing"
+      ],
+      "correct": 2,
+      "explanation": "受け身はbe動詞＋過去分詞。writeの過去分詞はwritten。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "tochigi-english-10",
+      "exam": "tochigi",
+      "examTitle": "栃木県立高校入試予想問題",
+      "subject": "english",
+      "topic": "語彙",
+      "level": "標準",
+      "prompt": "「必要な」を表す英単語はどれか。",
+      "options": [
+        "necessary",
+        "popular",
+        "possible",
+        "different"
+      ],
+      "correct": 0,
+      "explanation": "necessaryは必要な。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "tochigi-science-01",
+      "exam": "tochigi",
+      "examTitle": "栃木県立高校入試予想問題",
+      "subject": "science",
+      "topic": "物理",
+      "level": "標準",
+      "prompt": "100gの物体にはたらく重力を約1Nとする。600gの物体にはたらく重力は約何Nか。",
+      "options": [
+        "0.6N",
+        "3N",
+        "6N",
+        "60N"
+      ],
+      "correct": 2,
+      "explanation": "600gは100gの6倍なので約6N。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "tochigi-science-02",
+      "exam": "tochigi",
+      "examTitle": "栃木県立高校入試予想問題",
+      "subject": "science",
+      "topic": "物理",
+      "level": "標準",
+      "prompt": "直列回路で電流の大きさについて正しいものはどれか。",
+      "options": [
+        "各抵抗で異なる",
+        "回路のどの場所でも等しい",
+        "電池に近いほど大きい",
+        "抵抗がある場所では0になる"
+      ],
+      "correct": 1,
+      "explanation": "直列回路では回路のどの場所でも電流は等しい。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "tochigi-science-03",
+      "exam": "tochigi",
+      "examTitle": "栃木県立高校入試予想問題",
+      "subject": "science",
+      "topic": "化学",
+      "level": "標準",
+      "prompt": "炭酸水素ナトリウムを加熱したときに発生する気体はどれか。",
+      "options": [
+        "酸素",
+        "水素",
+        "二酸化炭素",
+        "窒素"
+      ],
+      "correct": 2,
+      "explanation": "炭酸水素ナトリウムの熱分解で二酸化炭素と水などが生じる。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "tochigi-science-04",
+      "exam": "tochigi",
+      "examTitle": "栃木県立高校入試予想問題",
+      "subject": "science",
+      "topic": "化学",
+      "level": "標準",
+      "prompt": "水溶液から溶質を取り出す方法として、食塩水に適するものはどれか。",
+      "options": [
+        "ろ過",
+        "蒸発させる",
+        "磁石で分ける",
+        "分液ろうとを使う"
+      ],
+      "correct": 1,
+      "explanation": "水を蒸発させると溶けていた食塩が残る。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "tochigi-science-05",
+      "exam": "tochigi",
+      "examTitle": "栃木県立高校入試予想問題",
+      "subject": "science",
+      "topic": "生物",
+      "level": "標準",
+      "prompt": "細胞の核に含まれ、遺伝情報を担う物質はどれか。",
+      "options": [
+        "デンプン",
+        "DNA",
+        "脂肪",
+        "酸素"
+      ],
+      "correct": 1,
+      "explanation": "DNAが遺伝情報を担う。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "tochigi-science-06",
+      "exam": "tochigi",
+      "examTitle": "栃木県立高校入試予想問題",
+      "subject": "science",
+      "topic": "生物",
+      "level": "標準",
+      "prompt": "だ液に含まれ、デンプンを分解する消化酵素はどれか。",
+      "options": [
+        "ペプシン",
+        "アミラーゼ",
+        "リパーゼ",
+        "トリプシン"
+      ],
+      "correct": 1,
+      "explanation": "だ液のアミラーゼがデンプンを分解する。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "tochigi-science-07",
+      "exam": "tochigi",
+      "examTitle": "栃木県立高校入試予想問題",
+      "subject": "science",
+      "topic": "地学",
+      "level": "標準",
+      "prompt": "太陽が東から昇り西に沈むように見える主な原因はどれか。",
+      "options": [
+        "地球の公転",
+        "地球の自転",
+        "月の公転",
+        "太陽の自転"
+      ],
+      "correct": 1,
+      "explanation": "地球が西から東へ自転しているため、太陽は東から西へ動くように見える。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "tochigi-science-08",
+      "exam": "tochigi",
+      "examTitle": "栃木県立高校入試予想問題",
+      "subject": "science",
+      "topic": "地学",
+      "level": "標準",
+      "prompt": "火山灰が堆積してできた岩石はどれか。",
+      "options": [
+        "石灰岩",
+        "凝灰岩",
+        "花こう岩",
+        "砂岩"
+      ],
+      "correct": 1,
+      "explanation": "火山灰などが固まってできた岩石を凝灰岩という。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "tochigi-science-09",
+      "exam": "tochigi",
+      "examTitle": "栃木県立高校入試予想問題",
+      "subject": "science",
+      "topic": "物理",
+      "level": "標準",
+      "prompt": "音の高さを決める主な要素はどれか。",
+      "options": [
+        "振幅",
+        "振動数",
+        "音の伝わる距離",
+        "空気の量"
+      ],
+      "correct": 1,
+      "explanation": "振動数が大きいほど高い音になる。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "tochigi-science-10",
+      "exam": "tochigi",
+      "examTitle": "栃木県立高校入試予想問題",
+      "subject": "science",
+      "topic": "化学",
+      "level": "標準",
+      "prompt": "質量パーセント濃度10％の食塩水200gに含まれる食塩は何gか。",
+      "options": [
+        "10g",
+        "20g",
+        "40g",
+        "100g"
+      ],
+      "correct": 1,
+      "explanation": "200×0.10＝20g。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "tochigi-social-01",
+      "exam": "tochigi",
+      "examTitle": "栃木県立高校入試予想問題",
+      "subject": "social",
+      "topic": "地理",
+      "level": "標準",
+      "prompt": "栃木県に隣接する県として正しいものはどれか。",
+      "options": [
+        "新潟県",
+        "群馬県",
+        "山梨県",
+        "静岡県"
+      ],
+      "correct": 1,
+      "explanation": "栃木県は福島・茨城・群馬・埼玉の各県に接する。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "tochigi-social-02",
+      "exam": "tochigi",
+      "examTitle": "栃木県立高校入試予想問題",
+      "subject": "social",
+      "topic": "地理",
+      "level": "標準",
+      "prompt": "栃木県の県庁所在地はどこか。",
+      "options": [
+        "足利市",
+        "小山市",
+        "宇都宮市",
+        "那須塩原市"
+      ],
+      "correct": 2,
+      "explanation": "栃木県の県庁所在地は宇都宮市。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "tochigi-social-03",
+      "exam": "tochigi",
+      "examTitle": "栃木県立高校入試予想問題",
+      "subject": "social",
+      "topic": "地理",
+      "level": "標準",
+      "prompt": "日本の工業地帯・工業地域で、京浜工業地帯が広がる地域はどこか。",
+      "options": [
+        "東京・神奈川を中心とする地域",
+        "大阪・兵庫を中心とする地域",
+        "愛知・三重を中心とする地域",
+        "福岡・佐賀を中心とする地域"
+      ],
+      "correct": 0,
+      "explanation": "京浜工業地帯は東京・川崎・横浜を中心に広がる。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "tochigi-social-04",
+      "exam": "tochigi",
+      "examTitle": "栃木県立高校入試予想問題",
+      "subject": "social",
+      "topic": "歴史",
+      "level": "標準",
+      "prompt": "江戸幕府が大名を統制するために定めた制度はどれか。",
+      "options": [
+        "班田収授法",
+        "参勤交代",
+        "楽市・楽座",
+        "墾田永年私財法"
+      ],
+      "correct": 1,
+      "explanation": "大名に江戸と領地を往復させる参勤交代。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "tochigi-social-05",
+      "exam": "tochigi",
+      "examTitle": "栃木県立高校入試予想問題",
+      "subject": "social",
+      "topic": "歴史",
+      "level": "標準",
+      "prompt": "日清戦争後に結ばれた条約はどれか。",
+      "options": [
+        "下関条約",
+        "ポーツマス条約",
+        "日米和親条約",
+        "ベルサイユ条約"
+      ],
+      "correct": 0,
+      "explanation": "1895年に下関条約が結ばれた。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "tochigi-social-06",
+      "exam": "tochigi",
+      "examTitle": "栃木県立高校入試予想問題",
+      "subject": "social",
+      "topic": "歴史",
+      "level": "標準",
+      "prompt": "日本で普通選挙法が制定された年はどれか。",
+      "options": [
+        "1889年",
+        "1905年",
+        "1925年",
+        "1947年"
+      ],
+      "correct": 2,
+      "explanation": "1925年に満25歳以上の男子に選挙権を認める普通選挙法が制定された。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "tochigi-social-07",
+      "exam": "tochigi",
+      "examTitle": "栃木県立高校入試予想問題",
+      "subject": "social",
+      "topic": "公民",
+      "level": "標準",
+      "prompt": "地方公共団体の長や議会の議員を住民が直接選ぶ制度はどれか。",
+      "options": [
+        "間接民主制のみ",
+        "直接請求",
+        "直接選挙",
+        "議院内閣制"
+      ],
+      "correct": 2,
+      "explanation": "知事・市町村長や議員は住民の直接選挙で選ばれる。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "tochigi-social-08",
+      "exam": "tochigi",
+      "examTitle": "栃木県立高校入試予想問題",
+      "subject": "social",
+      "topic": "公民",
+      "level": "標準",
+      "prompt": "裁判所が法律や命令などが憲法に違反しないか判断する権限はどれか。",
+      "options": [
+        "立法権",
+        "行政権",
+        "違憲審査権",
+        "条約締結権"
+      ],
+      "correct": 2,
+      "explanation": "裁判所には違憲審査権がある。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "tochigi-social-09",
+      "exam": "tochigi",
+      "examTitle": "栃木県立高校入試予想問題",
+      "subject": "social",
+      "topic": "公民",
+      "level": "標準",
+      "prompt": "需要量が供給量を上回る状態が続くと、一般に市場価格はどうなりやすいか。",
+      "options": [
+        "上昇する",
+        "下落する",
+        "必ずゼロになる",
+        "変化しない"
+      ],
+      "correct": 0,
+      "explanation": "需要超過では価格が上昇する方向に働く。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    },
+    {
+      "id": "tochigi-social-10",
+      "exam": "tochigi",
+      "examTitle": "栃木県立高校入試予想問題",
+      "subject": "social",
+      "topic": "地理",
+      "level": "標準",
+      "prompt": "栃木県北部に広がる那須野が原の開発と関係が深いものはどれか。",
+      "options": [
+        "大規模な開拓と用水路の整備",
+        "大規模な干拓",
+        "石炭の露天掘り",
+        "サンゴ礁の形成"
+      ],
+      "correct": 0,
+      "explanation": "那須野が原では那須疏水などの用水整備により開拓が進んだ。",
+      "sourceNote": "KNOTオリジナル予想問題。公式過去問の転載ではありません。",
+      "sourceRef": ""
+    }
+  ]
+}
