@@ -13,7 +13,20 @@ function maybePopup(){/* 意見フォームの保存方式を再設計するた�
 function closePopup(){ $("opinionModal").hidden=true;localStorage.setItem(POP_KEY,today());maybeInstallGuide()}
 function unlock(){localStorage.setItem(AUTH_KEY,"1");$("lockScreen").hidden=true;$("app").hidden=false;renderStats();maybePopup();setTimeout(maybeInstallGuide,1800)}
 function lock(){localStorage.removeItem(AUTH_KEY);$("app").hidden=true;$("lockScreen").hidden=false;$("password").value="";$("error").textContent=""}
-$("unlockForm").addEventListener("submit",async e=>{e.preventDefault();const b=e.submitter;b.disabled=true;try{if(await checkPass($("password").value))unlock();else $("error").textContent="パスコードが違います。"}catch{$("error").textContent="HTTPS対応ブラウザーで開いてください。"}finally{b.disabled=false}});
+async function attemptUnlock(){
+ const button=$("unlockButton"),input=$("password"),error=$("error");
+ if(button.disabled)return;
+ const value=input.value.trim();
+ if(!value){error.textContent="パスコードを入力してください。";input.focus();return;}
+ button.disabled=true;button.textContent="確認しています…";error.textContent="";
+ try{
+  if(await checkPass(value)){unlock();}
+  else{error.textContent="パスコードが一致しません。入力内容を確認してください。";input.focus();input.select();}
+ }catch(err){error.textContent="認証処理に失敗しました。Safariで開いて再度お試しください。";}
+ finally{button.disabled=false;button.innerHTML='ワークスペースに入る <span>→</span>';}
+}
+$("unlockButton").addEventListener("click",attemptUnlock);
+$("unlockForm").addEventListener("submit",e=>{e.preventDefault();attemptUnlock();});
 $("lockButton").addEventListener("click",lock);$("mobileLock").addEventListener("click",lock);$("menuToggle").addEventListener("click",()=>{$("sidebar").classList.toggle("menu-open");const nav=$("sidebar").querySelector(".nav");nav.hidden=!nav.hidden});$("sidebar").querySelectorAll(".nav-item").forEach(a=>a.addEventListener("click",()=>{$("sidebar").querySelector(".nav").hidden=false;$("sidebar").classList.remove("menu-open")}));
 $("closeInstallGuide").addEventListener("click",closeInstallGuide);$("laterInstallGuide").addEventListener("click",closeInstallGuide);$("installGuideBackdrop").addEventListener("click",closeInstallGuide);
 
