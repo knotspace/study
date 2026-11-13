@@ -32,6 +32,8 @@ function next(){if($("next").disabled)return;if(state.index===state.pool.length-
 $("start").addEventListener("click",start);$("next").addEventListener("click",next);$("quit").addEventListener("click",()=>$("quiz").hidden=true);
 $("today").textContent=new Intl.DateTimeFormat("ja-JP",{dateStyle:"medium"}).format(new Date());
 window.addEventListener("beforeinstallprompt",e=>{e.preventDefault();state.install=e});$("installBtn").addEventListener("click",async()=>{if(state.install){state.install.prompt();await state.install.userChoice;state.install=null}else showInstallGuide()});
-if("serviceWorker"in navigator)window.addEventListener("load",()=>navigator.serviceWorker.register("./sw.js").catch(()=>{}));
+function updateNetworkState(){const el=$("networkState");if(!el)return;const online=navigator.onLine;el.textContent=online?"オンライン":"オフライン：保存済み問題を利用できます";el.classList.toggle("offline",!online)}
+window.addEventListener("online",updateNetworkState);window.addEventListener("offline",updateNetworkState);updateNetworkState();
+if("serviceWorker"in navigator)window.addEventListener("load",()=>navigator.serviceWorker.register("./sw.js").then(reg=>{if(navigator.onLine)reg.update().catch(()=>{})}).catch(()=>{const el=$("networkState");if(el)el.textContent="オフライン保存の準備ができていません"}));
 init();
 })();
