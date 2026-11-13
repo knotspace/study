@@ -9,8 +9,19 @@ self.addEventListener("fetch",event=>{
  event.respondWith((async()=>{
   const isFreshAsset=request.mode==="navigate"||url.pathname.endsWith("/app.js");
   if(!isFreshAsset){const cached=await caches.match(request);if(cached)return cached;}
-  try{const response=await fetch(request,{cache:"no-store"});if(response.ok){const cache=await caches.open(CACHE);cache.put(request,response.clone()).catch(()=>{});}return response;}
-  catch(error){const cached=await caches.match(request);if(cached)return cached;
-  catch(error){if(request.mode==="navigate"){const path=url.pathname;if(path.endsWith("/mock-exams.html"))return (await caches.match("./mock-exams.html"))||(await caches.match("./index.html"));if(path.endsWith("/pwa/"))return (await caches.match("./pwa/index.html"))||(await caches.match("./index.html"));return (await caches.match("./index.html"))||Response.error();}return Response.error();}
+  try{
+   const response=await fetch(request,{cache:"no-store"});
+   if(response.ok){const cache=await caches.open(CACHE);cache.put(request,response.clone()).catch(()=>{});}
+   return response;
+  }catch(error){
+   const cached=await caches.match(request);if(cached)return cached;
+   if(request.mode==="navigate"){
+    const path=url.pathname;
+    if(path.endsWith("/mock-exams.html"))return (await caches.match("./mock-exams.html"))||(await caches.match("./index.html"));
+    if(path.endsWith("/pwa/"))return (await caches.match("./pwa/index.html"))||(await caches.match("./index.html"));
+    return (await caches.match("./index.html"))||Response.error();
+   }
+   return Response.error();
+  }
  })());
 });
