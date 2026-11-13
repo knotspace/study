@@ -1,5 +1,5 @@
 "use strict";
-const CACHE="shitadumi-pwa-v12";
+const CACHE="shitadumi-pwa-v13";
 const SHELL=["./","./index.html","./styles.css","./app.js?v=20261113-1","./mock-exams.html","./mock-exams.json","./manifest.webmanifest","./icon.svg","../questions.json","./pwa/","./pwa/index.html","./opinion/","./opinion/index.html","./opinion/opinion.js","./articles/","./articles/index.html","./articles/sano-shooh/","./articles/seiran-taito/","./articles/tips/study-plan/","./articles/tips/mock-review/","./articles/tips/final-weeks/","./releases/","./releases/index.html"];
 self.addEventListener("install",event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(SHELL)).then(()=>self.skipWaiting())));
 self.addEventListener("activate",event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key.startsWith("shitadumi-pwa-")&&key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim())));
