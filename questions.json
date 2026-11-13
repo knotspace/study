@@ -1,6 +1,6 @@
 {
-  "version": 2,
-  "updatedAt": "2026-11-10",
+  "version": 3,
+  "updatedAt": "2026-11-13",
   "questions": [
     {
       "id": "sci-001",
@@ -20185,6 +20185,856 @@
       "correct": 1,
       "explanation": "主語が三人称単数の現在形なので、一般動詞playにsをつけてplays。",
       "sourceNote": "下積みモード基礎確認問題",
+      "sourceRef": ""
+    },
+    {
+      "id": "sd-20261113-jp-001",
+      "subject": "japanese",
+      "topic": "漢字・読み",
+      "level": "基礎",
+      "prompt": "「促す」の読み方として正しいものはどれか。",
+      "options": [
+        "うながす",
+        "うながせる",
+        "そくす",
+        "うながる"
+      ],
+      "correct": 0,
+      "explanation": "「促す」は「うながす」と読む。相手に行動するよう働きかけるという意味。",
+      "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "sd-20261113-jp-002",
+      "subject": "japanese",
+      "topic": "語句",
+      "level": "基礎",
+      "prompt": "「簡素」の意味として最も適切なものはどれか。",
+      "options": [
+        "非常に複雑なこと",
+        "飾りや無駄が少なく簡単なこと",
+        "大きくて重いこと",
+        "古くて使えないこと"
+      ],
+      "correct": 1,
+      "explanation": "「簡素」は、飾りや無駄が少なく、簡単ですっきりしていること。",
+      "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "sd-20261113-jp-003",
+      "subject": "japanese",
+      "topic": "文の成分",
+      "level": "基礎",
+      "prompt": "「彼は図書館で本を読んだ。」の主語として最も適切な部分はどれか。",
+      "options": [
+        "彼は",
+        "図書館で",
+        "本を",
+        "読んだ"
+      ],
+      "correct": 0,
+      "explanation": "誰が読んだのかを表す「彼は」が主語に当たる。",
+      "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "sd-20261113-jp-004",
+      "subject": "japanese",
+      "topic": "文節",
+      "level": "標準",
+      "prompt": "「花が静かに咲く。」を文節に分けたものとして正しいものはどれか。",
+      "options": [
+        "花／が静かに／咲く",
+        "花が／静かに／咲く",
+        "花が静か／に咲く",
+        "花／が／静か／に／咲く"
+      ],
+      "correct": 1,
+      "explanation": "文節は意味のまとまりを意識し、文節の間に「ね」を入れても不自然にならない位置で区切る。「花が／静かに／咲く」となる。",
+      "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "sd-20261113-jp-005",
+      "subject": "japanese",
+      "topic": "古文",
+      "level": "基礎",
+      "prompt": "古文で使われる「いと」の意味として正しいものはどれか。",
+      "options": [
+        "少し",
+        "まったく",
+        "とても",
+        "いつも"
+      ],
+      "correct": 2,
+      "explanation": "古文の「いと」は「とても」「たいそう」という意味で使われる。",
+      "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "sd-20261113-jp-006",
+      "subject": "japanese",
+      "topic": "慣用句",
+      "level": "基礎",
+      "prompt": "慣用句「頭を冷やす」の意味として最も適切なものはどれか。",
+      "options": [
+        "落ち着いて冷静になる",
+        "勉強を始める",
+        "忘れてしまう",
+        "急いで行動する"
+      ],
+      "correct": 0,
+      "explanation": "「頭を冷やす」は、興奮や怒りをおさえて冷静になるという意味。",
+      "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "sd-20261113-jp-007",
+      "subject": "japanese",
+      "topic": "品詞",
+      "level": "標準",
+      "prompt": "「静かに歩く」の「静かに」の説明として正しいものはどれか。",
+      "options": [
+        "動詞「静かだ」の終止形",
+        "形容詞「静か」の連体形",
+        "形容動詞「静かだ」の連用形",
+        "副詞「静か」の未然形"
+      ],
+      "correct": 2,
+      "explanation": "「静かだ」は形容動詞で、「静かに」はその連用形。後ろの動詞「歩く」を修飾している。",
+      "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "sd-20261113-jp-008",
+      "subject": "japanese",
+      "topic": "動詞の活用",
+      "level": "標準",
+      "prompt": "動詞「走る」の「走れば」の活用形はどれか。",
+      "options": [
+        "未然形",
+        "仮定形",
+        "連用形",
+        "命令形"
+      ],
+      "correct": 1,
+      "explanation": "「走れば」は「ば」を伴う仮定形。五段活用の「走る」は仮定形で「走れ」となる。",
+      "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "sd-20261113-jp-009",
+      "subject": "japanese",
+      "topic": "表現技法",
+      "level": "基礎",
+      "prompt": "「彼の声は雷のように大きかった。」で使われている表現技法はどれか。",
+      "options": [
+        "直喩",
+        "擬人法",
+        "倒置法",
+        "反復法"
+      ],
+      "correct": 0,
+      "explanation": "「〜のように」と別のものにたとえているため、直喩である。",
+      "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "sd-20261113-jp-010",
+      "subject": "japanese",
+      "topic": "接続語",
+      "level": "基礎",
+      "prompt": "文章中の「したがって」が示す関係として最も適切なものはどれか。",
+      "options": [
+        "逆接",
+        "並列",
+        "例示",
+        "順接・結論"
+      ],
+      "correct": 3,
+      "explanation": "「したがって」は前の内容を受けて、結果や結論を導く順接の接続語。",
+      "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "sd-20261113-ma-001",
+      "subject": "math",
+      "topic": "分数の計算",
+      "level": "基礎",
+      "prompt": "3/4 − 1/6 の値として正しいものはどれか。",
+      "options": [
+        "1/2",
+        "7/12",
+        "2/3",
+        "5/12"
+      ],
+      "correct": 1,
+      "explanation": "通分して9/12−2/12＝7/12。",
+      "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "sd-20261113-ma-002",
+      "subject": "math",
+      "topic": "一次方程式",
+      "level": "基礎",
+      "prompt": "2(x−3)＝10 を満たす x の値はどれか。",
+      "options": [
+        "2",
+        "5",
+        "8",
+        "13"
+      ],
+      "correct": 2,
+      "explanation": "両辺を2で割るとx−3＝5。よってx＝8。",
+      "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "sd-20261113-ma-003",
+      "subject": "math",
+      "topic": "一次関数",
+      "level": "基礎",
+      "prompt": "y＝3x−2 のとき、x＝−1 に対応する y の値はどれか。",
+      "options": [
+        "−5",
+        "−1",
+        "1",
+        "5"
+      ],
+      "correct": 0,
+      "explanation": "x＝−1を代入すると、y＝3×(−1)−2＝−5。",
+      "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "sd-20261113-ma-004",
+      "subject": "math",
+      "topic": "割合",
+      "level": "基礎",
+      "prompt": "350円の品物が20％引きになった。値引き後の価格はいくらか。",
+      "options": [
+        "70円",
+        "280円",
+        "300円",
+        "330円"
+      ],
+      "correct": 1,
+      "explanation": "値引き額は350×0.2＝70円。350−70＝280円。",
+      "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "sd-20261113-ma-005",
+      "subject": "math",
+      "topic": "平方根",
+      "level": "標準",
+      "prompt": "√72 を a√b（bはできるだけ小さい自然数）の形にしたものはどれか。",
+      "options": [
+        "2√18",
+        "3√8",
+        "6√2",
+        "8√1"
+      ],
+      "correct": 2,
+      "explanation": "72＝36×2なので、√72＝√36×√2＝6√2。",
+      "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "sd-20261113-ma-006",
+      "subject": "math",
+      "topic": "二次方程式",
+      "level": "標準",
+      "prompt": "x²−5x＋6＝0 の解の組として正しいものはどれか。",
+      "options": [
+        "x＝−2, −3",
+        "x＝1, 6",
+        "x＝−1, −6",
+        "x＝2, 3"
+      ],
+      "correct": 3,
+      "explanation": "x²−5x＋6＝(x−2)(x−3)だから、x＝2または3。",
+      "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "sd-20261113-ma-007",
+      "subject": "math",
+      "topic": "平面図形",
+      "level": "基礎",
+      "prompt": "三角形の2つの角が45°と65°である。残りの角は何度か。",
+      "options": [
+        "60°",
+        "70°",
+        "75°",
+        "80°"
+      ],
+      "correct": 1,
+      "explanation": "三角形の内角の和は180°。180−45−65＝70°。",
+      "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "sd-20261113-ma-008",
+      "subject": "math",
+      "topic": "円",
+      "level": "基礎",
+      "prompt": "半径5cmの円の円周の長さはどれか。",
+      "options": [
+        "5πcm",
+        "10πcm",
+        "15πcm",
+        "25πcm"
+      ],
+      "correct": 1,
+      "explanation": "円周＝直径×π。直径は10cmなので円周は10πcm。",
+      "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "sd-20261113-ma-009",
+      "subject": "math",
+      "topic": "データの活用",
+      "level": "基礎",
+      "prompt": "4、6、8、10、12 の中央値はどれか。",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "10"
+      ],
+      "correct": 2,
+      "explanation": "データは小さい順に並んでおり、中央の3番目の値は8。",
+      "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "sd-20261113-ma-010",
+      "subject": "math",
+      "topic": "確率",
+      "level": "基礎",
+      "prompt": "赤玉3個、青玉2個が入った袋から1個を取り出す。青玉を取り出す確率はどれか。",
+      "options": [
+        "1/5",
+        "2/5",
+        "3/5",
+        "1/2"
+      ],
+      "correct": 1,
+      "explanation": "全部で5個あり、そのうち青玉は2個なので確率は2/5。",
+      "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "sd-20261113-en-001",
+      "subject": "english",
+      "topic": "現在完了",
+      "level": "標準",
+      "prompt": "I have lived here (   ) 2020. に入る語はどれか。",
+      "options": [
+        "for",
+        "since",
+        "during",
+        "by"
+      ],
+      "correct": 1,
+      "explanation": "2020のような開始時点を表す語の前にはsinceを使う。期間を表す語ならfor。",
+      "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "sd-20261113-en-002",
+      "subject": "english",
+      "topic": "受け身",
+      "level": "標準",
+      "prompt": "This book was (   ) by my sister. に入る語はどれか。",
+      "options": [
+        "write",
+        "wrote",
+        "written",
+        "writing"
+      ],
+      "correct": 2,
+      "explanation": "受け身はbe動詞＋過去分詞。writeの過去分詞はwritten。",
+      "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "sd-20261113-en-003",
+      "subject": "english",
+      "topic": "不定詞",
+      "level": "基礎",
+      "prompt": "I want (   ) a doctor. に入る語はどれか。",
+      "options": [
+        "be",
+        "being",
+        "to be",
+        "been"
+      ],
+      "correct": 2,
+      "explanation": "wantの後ろに「〜したい」という内容を続けるときはto不定詞を使う。",
+      "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "sd-20261113-en-004",
+      "subject": "english",
+      "topic": "関係代名詞",
+      "level": "標準",
+      "prompt": "The boy (   ) is running is my brother. に入る語はどれか。",
+      "options": [
+        "who",
+        "where",
+        "when",
+        "what"
+      ],
+      "correct": 0,
+      "explanation": "先行詞が人で、後ろの節で主語の働きをする関係代名詞はwho。",
+      "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "sd-20261113-en-005",
+      "subject": "english",
+      "topic": "比較",
+      "level": "基礎",
+      "prompt": "This bag is (   ) than that one. に入る語はどれか。",
+      "options": [
+        "heavy",
+        "heavier",
+        "heaviest",
+        "more heavy"
+      ],
+      "correct": 1,
+      "explanation": "heavyの比較級はyをiに変えて-erを付けたheavier。",
+      "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "sd-20261113-en-006",
+      "subject": "english",
+      "topic": "助動詞",
+      "level": "基礎",
+      "prompt": "You must (   ) your homework today. に入る語はどれか。",
+      "options": [
+        "finishes",
+        "finished",
+        "finishing",
+        "finish"
+      ],
+      "correct": 3,
+      "explanation": "助動詞mustの後ろには動詞の原形を置く。",
+      "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "sd-20261113-en-007",
+      "subject": "english",
+      "topic": "動名詞",
+      "level": "標準",
+      "prompt": "She enjoys (   ) to music. に入る語はどれか。",
+      "options": [
+        "listen",
+        "to listen",
+        "listening",
+        "listened"
+      ],
+      "correct": 2,
+      "explanation": "enjoyの後ろには動名詞（動詞の-ing形）を置く。",
+      "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "sd-20261113-en-008",
+      "subject": "english",
+      "topic": "条件文",
+      "level": "標準",
+      "prompt": "If it (   ) tomorrow, we will stay home. に入る語はどれか。",
+      "options": [
+        "rain",
+        "rains",
+        "will rain",
+        "rained"
+      ],
+      "correct": 1,
+      "explanation": "未来のことを表す条件をif節で述べる場合、if節の中は現在形にする。主語itは三人称単数なのでrains。",
+      "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "sd-20261113-en-009",
+      "subject": "english",
+      "topic": "接続詞",
+      "level": "基礎",
+      "prompt": "I went to bed early (   ) I was tired. に入る語はどれか。",
+      "options": [
+        "but",
+        "or",
+        "because",
+        "if"
+      ],
+      "correct": 2,
+      "explanation": "疲れていたことが早く寝た理由なので、理由を表すbecauseを使う。",
+      "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "sd-20261113-en-010",
+      "subject": "english",
+      "topic": "疑問文",
+      "level": "基礎",
+      "prompt": "What time (   ) the train leave? に入る語はどれか。",
+      "options": [
+        "do",
+        "does",
+        "is",
+        "has"
+      ],
+      "correct": 1,
+      "explanation": "主語the trainは三人称単数で、一般動詞leaveの疑問文にはdoesを使う。",
+      "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "sd-20261113-sc-001",
+      "subject": "science",
+      "topic": "物理・圧力",
+      "level": "標準",
+      "prompt": "面積0.04m²の面に垂直な力120Nがはたらく。圧力は何Paか。",
+      "options": [
+        "300Pa",
+        "1200Pa",
+        "3000Pa",
+        "4800Pa"
+      ],
+      "correct": 2,
+      "explanation": "圧力＝力÷面積。120÷0.04＝3000Pa。",
+      "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "sd-20261113-sc-002",
+      "subject": "science",
+      "topic": "エネルギー",
+      "level": "基礎",
+      "prompt": "太陽電池が光を受けて発電するとき、主にどのエネルギーが電気エネルギーに変わるか。",
+      "options": [
+        "光エネルギー",
+        "音エネルギー",
+        "化学エネルギー",
+        "核エネルギー"
+      ],
+      "correct": 0,
+      "explanation": "太陽電池は光エネルギーを電気エネルギーに変換する。",
+      "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "sd-20261113-sc-003",
+      "subject": "science",
+      "topic": "化学・化合",
+      "level": "基礎",
+      "prompt": "鉄と硫黄の混合物を十分に加熱してできる物質はどれか。",
+      "options": [
+        "硫酸",
+        "酸化鉄",
+        "硫化鉄",
+        "塩化鉄"
+      ],
+      "correct": 2,
+      "explanation": "鉄と硫黄が化合すると硫化鉄ができる。混合物とは異なる性質を示す。",
+      "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "sd-20261113-sc-004",
+      "subject": "science",
+      "topic": "化学・質量保存",
+      "level": "標準",
+      "prompt": "密閉容器に物質Aを12g、物質Bを8g入れて反応させた。反応後の容器全体の質量は何gか。",
+      "options": [
+        "4g",
+        "12g",
+        "20g",
+        "96g"
+      ],
+      "correct": 2,
+      "explanation": "密閉容器では外へ物質が出入りしないため、化学変化の前後で全体の質量は保存される。12＋8＝20g。",
+      "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "sd-20261113-sc-005",
+      "subject": "science",
+      "topic": "生物・細胞",
+      "level": "基礎",
+      "prompt": "細胞の中で、呼吸によってエネルギーを取り出すはたらきに深く関係するつくりはどれか。",
+      "options": [
+        "細胞壁",
+        "ミトコンドリア",
+        "葉緑体",
+        "液胞"
+      ],
+      "correct": 1,
+      "explanation": "ミトコンドリアは細胞呼吸の場であり、有機物から生命活動に使うエネルギーを取り出す。",
+      "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "sd-20261113-sc-006",
+      "subject": "science",
+      "topic": "生物・排出",
+      "level": "基礎",
+      "prompt": "血液中の不要な物質をこし取り、尿をつくる器官はどれか。",
+      "options": [
+        "肺",
+        "胃",
+        "腎臓",
+        "小腸"
+      ],
+      "correct": 2,
+      "explanation": "腎臓は血液をろ過し、不要な物質や余分な水分を尿として排出する。",
+      "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "sd-20261113-sc-007",
+      "subject": "science",
+      "topic": "生物・植物",
+      "level": "基礎",
+      "prompt": "植物の葉から水蒸気が主に出ていく小さな穴を何というか。",
+      "options": [
+        "気孔",
+        "道管",
+        "師管",
+        "根毛"
+      ],
+      "correct": 0,
+      "explanation": "気孔は主に葉の表皮にあり、開閉して水蒸気の放出や気体交換を調節する。",
+      "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "sd-20261113-sc-008",
+      "subject": "science",
+      "topic": "物理・音",
+      "level": "基礎",
+      "prompt": "音が伝わるために必要なものとして正しい説明はどれか。",
+      "options": [
+        "真空だけで伝わる",
+        "必ず光が必要である",
+        "空気などの物質を振動が伝わる",
+        "物質がなくても同じように伝わる"
+      ],
+      "correct": 2,
+      "explanation": "音は物質の振動として伝わるため、真空中では伝わらない。",
+      "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "sd-20261113-sc-009",
+      "subject": "science",
+      "topic": "物理・光",
+      "level": "標準",
+      "prompt": "光が空気中からガラスに斜めに入るとき、境界面で進む向きが変わる現象はどれか。",
+      "options": [
+        "反射",
+        "屈折",
+        "分散",
+        "回折"
+      ],
+      "correct": 1,
+      "explanation": "光が異なる物質へ進むとき、速さが変わって進行方向が変わる現象を屈折という。",
+      "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "sd-20261113-sc-010",
+      "subject": "science",
+      "topic": "地学・湿度",
+      "level": "標準",
+      "prompt": "空気1m³に水蒸気が8g含まれ、同じ気温での飽和水蒸気量が16g/m³である。この空気の湿度は何％か。",
+      "options": [
+        "25％",
+        "40％",
+        "50％",
+        "80％"
+      ],
+      "correct": 2,
+      "explanation": "湿度＝実際の水蒸気量÷飽和水蒸気量×100。8÷16×100＝50％。",
+      "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "sd-20261113-so-001",
+      "subject": "social",
+      "topic": "地理・日本",
+      "level": "基礎",
+      "prompt": "日本の四つの大きな島のうち、面積が最も広いものはどれか。",
+      "options": [
+        "北海道",
+        "本州",
+        "四国",
+        "九州"
+      ],
+      "correct": 1,
+      "explanation": "日本の四つの大きな島では、本州が最も面積が広い。",
+      "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "sd-20261113-so-002",
+      "subject": "social",
+      "topic": "地理・地図",
+      "level": "標準",
+      "prompt": "縮尺1:50,000の地形図で、地図上の距離が3cmだった。実際の距離は何kmか。",
+      "options": [
+        "0.15km",
+        "0.5km",
+        "1.5km",
+        "15km"
+      ],
+      "correct": 2,
+      "explanation": "実際の距離は3×50,000＝150,000cm。100,000cm＝1kmなので1.5km。",
+      "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "sd-20261113-so-003",
+      "subject": "social",
+      "topic": "歴史・戦後",
+      "level": "基礎",
+      "prompt": "日本国憲法が施行された年はどれか。",
+      "options": [
+        "1945年",
+        "1946年",
+        "1947年",
+        "1951年"
+      ],
+      "correct": 2,
+      "explanation": "日本国憲法は1946年に公布され、1947年5月3日に施行された。",
+      "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "sd-20261113-so-004",
+      "subject": "social",
+      "topic": "歴史・戦後",
+      "level": "標準",
+      "prompt": "サンフランシスコ平和条約が発効し、日本が主権を回復した年はどれか。",
+      "options": [
+        "1945年",
+        "1947年",
+        "1951年",
+        "1952年"
+      ],
+      "correct": 3,
+      "explanation": "条約は1951年に調印され、1952年4月28日に発効した。",
+      "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "sd-20261113-so-005",
+      "subject": "social",
+      "topic": "歴史・近代",
+      "level": "標準",
+      "prompt": "大日本帝国憲法の下で、主権者として位置づけられていたのは誰か。",
+      "options": [
+        "国民",
+        "天皇",
+        "内閣総理大臣",
+        "帝国議会"
+      ],
+      "correct": 1,
+      "explanation": "大日本帝国憲法では天皇主権の体制がとられていた。",
+      "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "sd-20261113-so-006",
+      "subject": "social",
+      "topic": "公民・国会",
+      "level": "基礎",
+      "prompt": "衆議院と参議院の二つの議院から成る国会の制度を何というか。",
+      "options": [
+        "一院制",
+        "連邦制",
+        "二院制",
+        "直接民主制"
+      ],
+      "correct": 2,
+      "explanation": "二つの議院で構成される制度を二院制という。",
+      "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "sd-20261113-so-007",
+      "subject": "social",
+      "topic": "公民・消費者",
+      "level": "標準",
+      "prompt": "訪問販売などで、一定期間内なら理由を問わず契約を解除できる制度はどれか。",
+      "options": [
+        "クーリング・オフ",
+        "独占禁止法",
+        "労働三権",
+        "選挙権"
+      ],
+      "correct": 0,
+      "explanation": "クーリング・オフは、法律で定められた取引について、一定期間内に無条件で契約を解除できる制度。対象や期間には条件がある。",
+      "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "sd-20261113-so-008",
+      "subject": "social",
+      "topic": "公民・経済",
+      "level": "標準",
+      "prompt": "一般に、ある商品の価格が上がったとき、ほかの条件が同じなら需要量はどうなるか。",
+      "options": [
+        "増える",
+        "減る",
+        "必ず変わらない",
+        "供給量と同じになる"
+      ],
+      "correct": 1,
+      "explanation": "一般に価格が上がると、消費者が購入する量（需要量）は減少する。",
+      "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "sd-20261113-so-009",
+      "subject": "social",
+      "topic": "公民・労働",
+      "level": "基礎",
+      "prompt": "労働者が団結して、賃金や労働条件の改善を目指すためにつくる団体はどれか。",
+      "options": [
+        "消費生活センター",
+        "労働組合",
+        "地方議会",
+        "株式会社"
+      ],
+      "correct": 1,
+      "explanation": "労働組合は、労働者が団結して労働条件の維持・改善などを目指す団体。",
+      "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "sd-20261113-so-010",
+      "subject": "social",
+      "topic": "公民・国際",
+      "level": "基礎",
+      "prompt": "国際連合で、国際の平和と安全の維持について主な責任を持つ機関はどれか。",
+      "options": [
+        "国際司法裁判所",
+        "国連安全保障理事会",
+        "国連教育科学文化機関",
+        "世界保健機関"
+      ],
+      "correct": 1,
+      "explanation": "安全保障理事会は、国際の平和と安全の維持について主要な責任を持つ。",
+      "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
       "sourceRef": ""
     }
   ]
