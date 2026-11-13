@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "updatedAt": "2026-11-13",
   "questions": [
     {
@@ -20049,7 +20049,8 @@
       "correct": 1,
       "explanation": "「慎重」は「しんちょう」と読む。軽はずみに行動せず、注意深く物事を進めること。",
       "sourceNote": "下積みモード基礎確認問題",
-      "sourceRef": ""
+      "sourceRef": "",
+      "beta": true
     },
     {
       "id": "jpn-002",
@@ -20066,7 +20067,8 @@
       "correct": 2,
       "explanation": "「美しい」は物事の性質や状態を表す形容詞。",
       "sourceNote": "下積みモード基礎確認問題",
-      "sourceRef": ""
+      "sourceRef": "",
+      "beta": true
     },
     {
       "id": "jpn-003",
@@ -20083,7 +20085,8 @@
       "correct": 0,
       "explanation": "「しかし」は逆接を表し、前の内容と反対・対比する内容につながることが多い。",
       "sourceNote": "下積みモード基礎確認問題",
-      "sourceRef": ""
+      "sourceRef": "",
+      "beta": true
     },
     {
       "id": "math-001",
@@ -20100,7 +20103,8 @@
       "correct": 2,
       "explanation": "異符号の和は絶対値の差を求め、大きい方の符号をつける。12−7＝5。",
       "sourceNote": "下積みモード基礎確認問題",
-      "sourceRef": ""
+      "sourceRef": "",
+      "beta": true
     },
     {
       "id": "math-002",
@@ -20117,7 +20121,8 @@
       "correct": 1,
       "explanation": "両辺から5を引くと3x＝15。両辺を3で割ってx＝5。",
       "sourceNote": "下積みモード基礎確認問題",
-      "sourceRef": ""
+      "sourceRef": "",
+      "beta": true
     },
     {
       "id": "math-003",
@@ -20134,7 +20139,8 @@
       "correct": 0,
       "explanation": "y＝−2×3＝−6。xの値を式に代入する。",
       "sourceNote": "下積みモード基礎確認問題",
-      "sourceRef": ""
+      "sourceRef": "",
+      "beta": true
     },
     {
       "id": "eng-001",
@@ -20151,7 +20157,8 @@
       "correct": 1,
       "explanation": "borrowは「借りる」。lendは「貸す」と対で覚える。",
       "sourceNote": "下積みモード基礎確認問題",
-      "sourceRef": ""
+      "sourceRef": "",
+      "beta": true
     },
     {
       "id": "eng-002",
@@ -20168,7 +20175,8 @@
       "correct": 2,
       "explanation": "主語が三人称単数のSheなのでbe動詞はis。",
       "sourceNote": "下積みモード基礎確認問題",
-      "sourceRef": ""
+      "sourceRef": "",
+      "beta": true
     },
     {
       "id": "eng-003",
@@ -20185,7 +20193,8 @@
       "correct": 1,
       "explanation": "主語が三人称単数の現在形なので、一般動詞playにsをつけてplays。",
       "sourceNote": "下積みモード基礎確認問題",
-      "sourceRef": ""
+      "sourceRef": "",
+      "beta": true
     },
     {
       "id": "sd-20261113-jp-001",
@@ -20202,7 +20211,8 @@
       "correct": 0,
       "explanation": "「促す」は「うながす」と読む。相手に行動するよう働きかけるという意味。",
       "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
-      "sourceRef": ""
+      "sourceRef": "",
+      "beta": true
     },
     {
       "id": "sd-20261113-jp-002",
@@ -20219,7 +20229,8 @@
       "correct": 1,
       "explanation": "「簡素」は、飾りや無駄が少なく、簡単ですっきりしていること。",
       "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
-      "sourceRef": ""
+      "sourceRef": "",
+      "beta": true
     },
     {
       "id": "sd-20261113-jp-003",
@@ -20236,7 +20247,8 @@
       "correct": 0,
       "explanation": "誰が読んだのかを表す「彼は」が主語に当たる。",
       "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
-      "sourceRef": ""
+      "sourceRef": "",
+      "beta": true
     },
     {
       "id": "sd-20261113-jp-004",
@@ -20253,7 +20265,8 @@
       "correct": 1,
       "explanation": "文節は意味のまとまりを意識し、文節の間に「ね」を入れても不自然にならない位置で区切る。「花が／静かに／咲く」となる。",
       "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
-      "sourceRef": ""
+      "sourceRef": "",
+      "beta": true
     },
     {
       "id": "sd-20261113-jp-005",
@@ -20270,7 +20283,8 @@
       "correct": 2,
       "explanation": "古文の「いと」は「とても」「たいそう」という意味で使われる。",
       "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
-      "sourceRef": ""
+      "sourceRef": "",
+      "beta": true
     },
     {
       "id": "sd-20261113-jp-006",
@@ -20287,7 +20301,8 @@
       "correct": 0,
       "explanation": "「頭を冷やす」は、興奮や怒りをおさえて冷静になるという意味。",
       "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
-      "sourceRef": ""
+      "sourceRef": "",
+      "beta": true
     },
     {
       "id": "sd-20261113-jp-007",
@@ -20304,7 +20319,8 @@
       "correct": 2,
       "explanation": "「静かだ」は形容動詞で、「静かに」はその連用形。後ろの動詞「歩く」を修飾している。",
       "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
-      "sourceRef": ""
+      "sourceRef": "",
+      "beta": true
     },
     {
       "id": "sd-20261113-jp-008",
@@ -20321,7 +20337,8 @@
       "correct": 1,
       "explanation": "「走れば」は「ば」を伴う仮定形。五段活用の「走る」は仮定形で「走れ」となる。",
       "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
-      "sourceRef": ""
+      "sourceRef": "",
+      "beta": true
     },
     {
       "id": "sd-20261113-jp-009",
@@ -20338,7 +20355,8 @@
       "correct": 0,
       "explanation": "「〜のように」と別のものにたとえているため、直喩である。",
       "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
-      "sourceRef": ""
+      "sourceRef": "",
+      "beta": true
     },
     {
       "id": "sd-20261113-jp-010",
@@ -20355,7 +20373,8 @@
       "correct": 3,
       "explanation": "「したがって」は前の内容を受けて、結果や結論を導く順接の接続語。",
       "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
-      "sourceRef": ""
+      "sourceRef": "",
+      "beta": true
     },
     {
       "id": "sd-20261113-ma-001",
@@ -20372,7 +20391,8 @@
       "correct": 1,
       "explanation": "通分して9/12−2/12＝7/12。",
       "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
-      "sourceRef": ""
+      "sourceRef": "",
+      "beta": true
     },
     {
       "id": "sd-20261113-ma-002",
@@ -20389,7 +20409,8 @@
       "correct": 2,
       "explanation": "両辺を2で割るとx−3＝5。よってx＝8。",
       "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
-      "sourceRef": ""
+      "sourceRef": "",
+      "beta": true
     },
     {
       "id": "sd-20261113-ma-003",
@@ -20406,7 +20427,8 @@
       "correct": 0,
       "explanation": "x＝−1を代入すると、y＝3×(−1)−2＝−5。",
       "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
-      "sourceRef": ""
+      "sourceRef": "",
+      "beta": true
     },
     {
       "id": "sd-20261113-ma-004",
@@ -20423,7 +20445,8 @@
       "correct": 1,
       "explanation": "値引き額は350×0.2＝70円。350−70＝280円。",
       "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
-      "sourceRef": ""
+      "sourceRef": "",
+      "beta": true
     },
     {
       "id": "sd-20261113-ma-005",
@@ -20440,7 +20463,8 @@
       "correct": 2,
       "explanation": "72＝36×2なので、√72＝√36×√2＝6√2。",
       "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
-      "sourceRef": ""
+      "sourceRef": "",
+      "beta": true
     },
     {
       "id": "sd-20261113-ma-006",
@@ -20457,7 +20481,8 @@
       "correct": 3,
       "explanation": "x²−5x＋6＝(x−2)(x−3)だから、x＝2または3。",
       "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
-      "sourceRef": ""
+      "sourceRef": "",
+      "beta": true
     },
     {
       "id": "sd-20261113-ma-007",
@@ -20474,7 +20499,8 @@
       "correct": 1,
       "explanation": "三角形の内角の和は180°。180−45−65＝70°。",
       "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
-      "sourceRef": ""
+      "sourceRef": "",
+      "beta": true
     },
     {
       "id": "sd-20261113-ma-008",
@@ -20491,7 +20517,8 @@
       "correct": 1,
       "explanation": "円周＝直径×π。直径は10cmなので円周は10πcm。",
       "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
-      "sourceRef": ""
+      "sourceRef": "",
+      "beta": true
     },
     {
       "id": "sd-20261113-ma-009",
@@ -20508,7 +20535,8 @@
       "correct": 2,
       "explanation": "データは小さい順に並んでおり、中央の3番目の値は8。",
       "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
-      "sourceRef": ""
+      "sourceRef": "",
+      "beta": true
     },
     {
       "id": "sd-20261113-ma-010",
@@ -20525,7 +20553,8 @@
       "correct": 1,
       "explanation": "全部で5個あり、そのうち青玉は2個なので確率は2/5。",
       "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
-      "sourceRef": ""
+      "sourceRef": "",
+      "beta": true
     },
     {
       "id": "sd-20261113-en-001",
@@ -20542,7 +20571,8 @@
       "correct": 1,
       "explanation": "2020のような開始時点を表す語の前にはsinceを使う。期間を表す語ならfor。",
       "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
-      "sourceRef": ""
+      "sourceRef": "",
+      "beta": true
     },
     {
       "id": "sd-20261113-en-002",
@@ -20559,7 +20589,8 @@
       "correct": 2,
       "explanation": "受け身はbe動詞＋過去分詞。writeの過去分詞はwritten。",
       "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
-      "sourceRef": ""
+      "sourceRef": "",
+      "beta": true
     },
     {
       "id": "sd-20261113-en-003",
@@ -20576,7 +20607,8 @@
       "correct": 2,
       "explanation": "wantの後ろに「〜したい」という内容を続けるときはto不定詞を使う。",
       "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
-      "sourceRef": ""
+      "sourceRef": "",
+      "beta": true
     },
     {
       "id": "sd-20261113-en-004",
@@ -20593,7 +20625,8 @@
       "correct": 0,
       "explanation": "先行詞が人で、後ろの節で主語の働きをする関係代名詞はwho。",
       "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
-      "sourceRef": ""
+      "sourceRef": "",
+      "beta": true
     },
     {
       "id": "sd-20261113-en-005",
@@ -20610,7 +20643,8 @@
       "correct": 1,
       "explanation": "heavyの比較級はyをiに変えて-erを付けたheavier。",
       "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
-      "sourceRef": ""
+      "sourceRef": "",
+      "beta": true
     },
     {
       "id": "sd-20261113-en-006",
@@ -20627,7 +20661,8 @@
       "correct": 3,
       "explanation": "助動詞mustの後ろには動詞の原形を置く。",
       "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
-      "sourceRef": ""
+      "sourceRef": "",
+      "beta": true
     },
     {
       "id": "sd-20261113-en-007",
@@ -20644,7 +20679,8 @@
       "correct": 2,
       "explanation": "enjoyの後ろには動名詞（動詞の-ing形）を置く。",
       "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
-      "sourceRef": ""
+      "sourceRef": "",
+      "beta": true
     },
     {
       "id": "sd-20261113-en-008",
@@ -20661,7 +20697,8 @@
       "correct": 1,
       "explanation": "未来のことを表す条件をif節で述べる場合、if節の中は現在形にする。主語itは三人称単数なのでrains。",
       "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
-      "sourceRef": ""
+      "sourceRef": "",
+      "beta": true
     },
     {
       "id": "sd-20261113-en-009",
@@ -20678,7 +20715,8 @@
       "correct": 2,
       "explanation": "疲れていたことが早く寝た理由なので、理由を表すbecauseを使う。",
       "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
-      "sourceRef": ""
+      "sourceRef": "",
+      "beta": true
     },
     {
       "id": "sd-20261113-en-010",
@@ -20695,7 +20733,8 @@
       "correct": 1,
       "explanation": "主語the trainは三人称単数で、一般動詞leaveの疑問文にはdoesを使う。",
       "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
-      "sourceRef": ""
+      "sourceRef": "",
+      "beta": true
     },
     {
       "id": "sd-20261113-sc-001",
@@ -21035,6 +21074,276 @@
       "correct": 1,
       "explanation": "安全保障理事会は、国際の平和と安全の維持について主要な責任を持つ。",
       "sourceNote": "下積みモード向けに独自作成した練習問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "s-001",
+      "subject": "japanese",
+      "topic": "文法・品詞",
+      "level": "基礎",
+      "prompt": "「静かな町を歩く。」の「静かな」の品詞はどれか。",
+      "options": [
+        "形容詞",
+        "形容動詞",
+        "副詞",
+        "連体詞"
+      ],
+      "correct": 1,
+      "explanation": "「静かだ」と言い切れる語で、名詞を修飾するとき「静かな」となるため形容動詞。",
+      "beta": true,
+      "sourceNote": "S専用β版から共通DBへ統合したオリジナル問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "s-002",
+      "subject": "japanese",
+      "topic": "文法・活用",
+      "level": "基礎",
+      "prompt": "動詞「走る」の活用の種類はどれか。",
+      "options": [
+        "五段活用",
+        "上一段活用",
+        "下一段活用",
+        "カ行変格活用"
+      ],
+      "correct": 0,
+      "explanation": "「走ら・走り・走る・走る・走れ・走れ」と活用する五段活用。",
+      "beta": true,
+      "sourceNote": "S専用β版から共通DBへ統合したオリジナル問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "s-003",
+      "subject": "japanese",
+      "topic": "文法・助詞",
+      "level": "基礎",
+      "prompt": "「雨が降ったので、試合は中止になった。」の「ので」のはたらきに最も近いものはどれか。",
+      "options": [
+        "逆接",
+        "原因・理由",
+        "並立",
+        "例示"
+      ],
+      "correct": 1,
+      "explanation": "前の内容が後ろの内容の原因・理由を表している。",
+      "beta": true,
+      "sourceNote": "S専用β版から共通DBへ統合したオリジナル問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "s-004",
+      "subject": "japanese",
+      "topic": "文法・敬語",
+      "level": "基礎",
+      "prompt": "先生が「おっしゃった」の敬語の種類はどれか。",
+      "options": [
+        "尊敬語",
+        "謙譲語",
+        "丁寧語",
+        "美化語"
+      ],
+      "correct": 0,
+      "explanation": "相手である先生の動作を高めて表す尊敬語。",
+      "beta": true,
+      "sourceNote": "S専用β版から共通DBへ統合したオリジナル問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "s-005",
+      "subject": "japanese",
+      "topic": "読解・指示語",
+      "level": "基礎",
+      "prompt": "「このような考え」とあるとき、指示内容を正確に捉える方法として最も適切なものはどれか。",
+      "options": [
+        "指示語だけを読む",
+        "直前だけを必ず答えにする",
+        "前後の文脈から具体的な内容を探す",
+        "自分の経験で決める"
+      ],
+      "correct": 2,
+      "explanation": "指示語の前後を読み、何をまとめて指しているかを文脈から確認する。",
+      "beta": true,
+      "sourceNote": "S専用β版から共通DBへ統合したオリジナル問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "s-006",
+      "subject": "math",
+      "topic": "連立方程式",
+      "level": "基礎",
+      "prompt": "x＋y＝7、x－y＝1 の解はどれか。",
+      "options": [
+        "x＝3、y＝4",
+        "x＝4、y＝3",
+        "x＝5、y＝2",
+        "x＝2、y＝5"
+      ],
+      "correct": 1,
+      "explanation": "2つの式を加えると2x＝8よりx＝4。x＋y＝7に代入してy＝3。",
+      "beta": true,
+      "sourceNote": "S専用β版から共通DBへ統合したオリジナル問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "s-007",
+      "subject": "math",
+      "topic": "連立方程式",
+      "level": "基礎",
+      "prompt": "2x＋y＝9、x＋y＝5 の解として正しいものはどれか。",
+      "options": [
+        "x＝4、y＝1",
+        "x＝3、y＝2",
+        "x＝2、y＝3",
+        "x＝1、y＝4"
+      ],
+      "correct": 0,
+      "explanation": "上の式から下の式を引くとx＝4。x＋y＝5よりy＝1。",
+      "beta": true,
+      "sourceNote": "S専用β版から共通DBへ統合したオリジナル問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "s-008",
+      "subject": "math",
+      "topic": "一次関数",
+      "level": "基礎",
+      "prompt": "一次関数 y＝3x－2 の傾きはいくつか。",
+      "options": [
+        "－2",
+        "2",
+        "3",
+        "－3"
+      ],
+      "correct": 2,
+      "explanation": "y＝ax＋b の傾きはxの係数aなので3。",
+      "beta": true,
+      "sourceNote": "S専用β版から共通DBへ統合したオリジナル問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "s-009",
+      "subject": "math",
+      "topic": "一次関数",
+      "level": "基礎",
+      "prompt": "y＝－2x＋5 で、xが1から3まで増加するとき、yの変化量はいくつか。",
+      "options": [
+        "－4",
+        "－2",
+        "2",
+        "4"
+      ],
+      "correct": 0,
+      "explanation": "xの増加量は2。傾き－2なのでyの変化量は－2×2＝－4。",
+      "beta": true,
+      "sourceNote": "S専用β版から共通DBへ統合したオリジナル問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "s-010",
+      "subject": "math",
+      "topic": "図形・角度",
+      "level": "基礎",
+      "prompt": "平行な2直線に1本の直線が交わるとき、錯角の大きさの関係はどれか。",
+      "options": [
+        "和が180°",
+        "等しい",
+        "一方が必ず90°",
+        "差が180°"
+      ],
+      "correct": 1,
+      "explanation": "平行線では錯角は等しい。",
+      "beta": true,
+      "sourceNote": "S専用β版から共通DBへ統合したオリジナル問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "s-021",
+      "subject": "english",
+      "topic": "過去進行形",
+      "level": "基礎",
+      "prompt": "「私はそのとき本を読んでいました。」に合う英文はどれか。",
+      "options": [
+        "I read a book then.",
+        "I am reading a book then.",
+        "I was reading a book then.",
+        "I will read a book then."
+      ],
+      "correct": 2,
+      "explanation": "過去のある時点で進行中だった動作は was/were＋動詞ing で表す。",
+      "beta": true,
+      "sourceNote": "S専用β版から共通DBへ統合したオリジナル問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "s-022",
+      "subject": "english",
+      "topic": "不定詞",
+      "level": "基礎",
+      "prompt": "「私は医者になるために勉強しています。」に合う英文はどれか。",
+      "options": [
+        "I study to become a doctor.",
+        "I study become a doctor.",
+        "I study becoming doctor.",
+        "I to study a doctor."
+      ],
+      "correct": 0,
+      "explanation": "目的「〜するために」は to＋動詞の原形で表す。",
+      "beta": true,
+      "sourceNote": "S専用β版から共通DBへ統合したオリジナル問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "s-023",
+      "subject": "english",
+      "topic": "比較",
+      "level": "基礎",
+      "prompt": "「この本はあの本よりおもしろい。」に合う英文はどれか。",
+      "options": [
+        "This book is interesting than that one.",
+        "This book is more interesting than that one.",
+        "This book is most interesting that one.",
+        "This book more interesting is that one."
+      ],
+      "correct": 1,
+      "explanation": "長めの形容詞の比較級は more＋形容詞＋than。",
+      "beta": true,
+      "sourceNote": "S専用β版から共通DBへ統合したオリジナル問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "s-024",
+      "subject": "english",
+      "topic": "助動詞",
+      "level": "基礎",
+      "prompt": "「あなたはここで走ってはいけません。」に合う英文はどれか。",
+      "options": [
+        "You don't have run here.",
+        "You must not run here.",
+        "You can run here.",
+        "You should running here."
+      ],
+      "correct": 1,
+      "explanation": "must not は「〜してはいけない」という禁止を表す。",
+      "beta": true,
+      "sourceNote": "S専用β版から共通DBへ統合したオリジナル問題（2026-11-13）。",
+      "sourceRef": ""
+    },
+    {
+      "id": "s-025",
+      "subject": "english",
+      "topic": "There is / are",
+      "level": "基礎",
+      "prompt": "「机の上に本が3冊あります。」に合う英文はどれか。",
+      "options": [
+        "There is three books on the desk.",
+        "There are three books on the desk.",
+        "There have three books on the desk.",
+        "Three books is on the desk."
+      ],
+      "correct": 1,
+      "explanation": "複数のものがある場合は There are を使う。",
+      "beta": true,
+      "sourceNote": "S専用β版から共通DBへ統合したオリジナル問題（2026-11-13）。",
       "sourceRef": ""
     }
   ]
