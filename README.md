@@ -1,53 +1,27 @@
-# Study
+# Study — legacy archive
 
-KNOTSPACE の学習サービスを独立して再構築するプロジェクトです。
+> This repository is a historical/legacy copy. It is not the canonical source for the current Study service.
 
-## 開発方針
-- 旧Studyとは独立した設計・UI・データ構造で開発する
-- 旧Studyは新Studyの完成・動作確認まで維持する
-- 理科・社会を中心に問題演習を拡充する
-- 5教科を扱う模試モード、教材ノート、過去問演習を段階的に実装する
-- モバイル・タブレット・PCに対応し、PWAとして利用できるようにする
-- 学習履歴は初期段階では端末内に保存する
-- 意見送信はGitHub Issueへ直接つなぎ、Cloudflareなどの中継サーバーを使用しない
-- 更新時は必ず `shitadumi/CHANGELOG.md` とサイト内リリースノートを同時に更新する
+The current Study service is maintained in **[MANABIXX/MANABIXX.github.io](https://github.com/MANABIXX/MANABIXX.github.io)** and published at **https://manabixx.github.io/**.
 
-## 現在の実装
-- 理科635問・社会556問、国語18問・数学18問・英語18問、計1,245問の共通問題データベース
-- 公立入試形式の理科194問・社会154問、計348問の4択問題データベース
-- 教科・分野・難易度による絞り込み
-- 10 / 20 / 30 / 50問、全問演習
-- 4択解答、即時採点、解説表示
-- 苦手問題の自動記録と再演習
-- 問題のブックマークと再演習
-- 解答数・正答数・正答率・学習日数・連続学習日数の端末内記録
-- 全画面の演習UI、前の問題への移動、解答状態の保持
-- ダークモード、PWA、問題データを含むオフラインキャッシュ
-- PWA導入ガイド、初回案内、ホーム画面からの導線
-- GitHub Issueへの意見送信（GitHubログインが必要。投稿者名はGitHub上に表示）
+## Repository status
 
-## 2026-11-13 更新
-- 下積みモード向けの5教科オリジナル問題を各10問、計50問追加。追加後の共通問題データは1,230問。
-- 国語・数学・英語β版の15問を共通の `questions.json` に統合し、S専用と下積みモードが同じデータを参照する構成へ変更。β版の識別情報と既存IDを維持。
-- Study公開トップの演習データを理科・社会に限定し、国語・数学・英語のβ版問題が公開トップの問題一覧・分野フィルターに混ざらないよう修正。
-- 共通問題データは理科635・社会556・国語18・数学18・英語18の計1,245問。
-- 公立高校入試形式のオリジナル問題を25問（理科15・社会10）追加し、合計348問。
-- PWAキャッシュを更新し、旧β版データファイルへのアプリ依存を解消。
+- Keep this repository available as a historical reference; do not use it for new Study feature development.
+- Do not assume the question counts or implementation notes below reflect the current service.
+- Current application code, question data, PWA behavior, release notes, and issue-feedback flow must be checked in the MANABIXX repository.
+- Do not copy changes back and forth automatically. Any migration must preserve stable question IDs, provenance, validation state, and publication policy.
 
-## 2026-11-10 更新
-- 意見送信をGitHub Issueへの直接リンク方式に変更。Cloudflare Workerの利用を廃止。
-- サイト内リリースノートとCHANGELOGを追加し、更新時の追記を必須化。
-- 国語・数学・英語の基礎問題を各3問追加。合計1,180問。
+## Historical contents
 
-## 2026-11-09 更新
-- 基礎問題1,171問（理科625・社会546）のID・必須項目を再検査。ID重複0件、4択数・正答index・解説の必須項目不備0件。
-- 公立入試形式の問題を50問追加（理科40問・社会10問）。合計323問（理科179・社会144）。追加分は過去問本文の転載ではないオリジナル類題として管理。
+This repository contains an earlier Study implementation and its associated question data. Its files and historical commits are retained for reference only.
 
-## データ品質
-- 問題IDの重複なし
-- 問題文・4択・正答index・解説の必須項目を検査
-- 正答位置を各選択肢にほぼ均等に分散
-- 難易度を「基礎 / 標準 / 応用」に統一
+## Privacy and publication
 
-## 今後の開発
-問題の品質監査・図表付き問題・模試モード・要点ノート・過去問演習を順に拡充します。旧Studyの公開停止は、新Studyの機能と表示を確認してから行います。
+This repository is public. Every committed file can be read or downloaded by anyone, regardless of directory names, UI visibility, or application routing. Do not place passwords, private study notes, personal identifiers, or confidential data here.
+
+## Current development
+
+For current Study work, use:
+- Application: [MANABIXX/MANABIXX.github.io](https://github.com/MANABIXX/MANABIXX.github.io)
+- Content registry: [MANABIXX/content-registry](https://github.com/MANABIXX/content-registry)
+- Public service: https://manabixx.github.io/
